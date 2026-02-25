@@ -3,10 +3,9 @@ import json
 import os
 import requests
 import time
-import random
 from datetime import datetime
 
-# 订阅列表
+# 1. 配置
 FEEDS = [
     "https://www.lesswrong.com/feed",
     "https://astralcodexten.substack.com/feed",
@@ -22,12 +21,14 @@ FEEDS = [
     "https://knowablemagazine.org/feed"
 ]
 
+# 指定模型
+MODEL_NAME = "gemini-3-flash-preview" 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 def get_full_content(url):
-    """通过 Jina 提取正文"""
+    """通过 Jina 获取全文和图片"""
+    headers = {"Accept": "application/json"}
     try:
-        headers = {"Accept": "application/json"}
         response = requests.get(f"https://r.jina.ai/{url}", headers=headers, timeout=30)
         if response.status_code == 200:
             return response.json().get('data', {})
@@ -35,118 +36,124 @@ def get_full_content(url):
         return None
     return None
 
-def get_fallback_image(keyword):
-    """如果没有原图，从 Unsplash 获取一张相关图片"""
-    return f"https://source.unsplash.com/featured/800x450?{keyword}"
-
-def ai_process_wechat_style(content_text, title_en):
-    """调用 Gemini 生成公众号风格文章"""
+def ai_process_wechat_article(content_text, title_en):
+    """调用 Gemini 3 生成公众号爆款文章"""
     if not content_text or not GEMINI_API_KEY:
         return None
 
-    # 截取前 8000 字，防止超出限制
-    text_input = content_text[:8000]
+    # 限制长度防止溢出
+    text_input = content_text[:10000]
 
     prompt = f"""
-    你是一个拥有百万粉丝的中文公众号大主编，擅长编写引人入胜、通俗易懂的科普/深度文章。
-    请阅读以下英文文章内容，完成以下任务：
+    你是一个拥有百万粉丝的中文公众号“硬核主编”，擅长将枯燥的深度长文改写为让人欲罢不能的爆款文章。
+    
+    【任务指令】
+    1. 安全审查：若内容涉及血腥、黄色、敏感政治、极端宗教、暴力或文化歧视，必须仅输出: {{"status": "REJECT"}}。
+    2. 爆款标题：基于原标题 "{title_en}"，创作一个极具吸引力、引发好奇心或共鸣的中文标题（拒绝翻译腔）。
+    3. 内容重构：
+       - 用“通俗易懂”的语言改写，保留原意但降低理解门槛。
+       - 使用模块化排版（分段明确，每段配有形象的 Emoji）。
+       - 包含：【核心观点速览】、富有逻辑的【正文拆解】、以及一段引发互动的【主编点评】。
+       - 适当加入“金句”。
+    4. 视觉描述：提供一个与文章主题高度相关的英文单词作为 image_keyword。
 
-    1. **安全过滤**：如果内容涉及血腥、色情、敏感政治、暴力，输出: {{"status": "REJECT"}}。
-    2. **爆款标题**：将文章标题 "{title_en}" 重新翻译并创作为富有吸引力、让人想点击的中文标题。
-    3. **内容创作**：
-       - 用大众能理解的语言重新解构文章核心观点。
-       - 使用“总-分-总”结构，多使用表情符号（Emoji）增加趣味性。
-       - 适当加入“金句”和“深度思考”。
-       - 字数控制在 500-800 字。
-    4. **关键词提取**：提取 1 个描述文章主题的英文单词（用于配图搜索）。
-
-    输出格式必须是严格的 JSON 对象：
-    {{
-      "status": "APPROVED",
-      "title_cn": "爆款标题",
-      "article_body": "公众号排版风格的正文内容",
-      "summary": "一句话核心摘要",
-      "image_keyword": "theme keyword in english"
-    }}
+    【输出格式】
+    必须输出严格的 JSON 字符串，包含以下字段：
+    - status: "APPROVED" 或 "REJECT"
+    - viral_title: "爆款标题"
+    - article_content: "公众号风格正文内容"
+    - one_sentence_summary: "一句话金句摘要"
+    - image_keyword: "用于配图的英文关键词"
 
     文章原文：
     {text_input}
     """
 
-    api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={GEMINI_API_KEY}"
+    
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "response_mime_type": "application/json",
-            "temperature": 0.7
+            "temperature": 0.8 # 提高随机性，增加文采
         }
     }
 
     try:
-        res = requests.post(api_url, json=payload, timeout=60)
+        res = requests.post(url, json=payload, timeout=90)
         res_data = res.json()
-        raw_json = res_data['candidates'][0]['content']['parts'][0]['text']
-        return json.loads(raw_json)
+        # 提取生成的文本
+        raw_output = res_data['candidates'][0]['content']['parts'][0]['text']
+        return json.loads(raw_output)
     except Exception as e:
         print(f"      [AI Error]: {e}")
         return None
 
 def main():
     if not os.path.exists('data'): os.makedirs('data')
-    results = []
+    final_results = []
 
     for feed_url in FEEDS:
-        print(f"Fetching: {feed_url}")
+        print(f"\nScanning Feed: {feed_url}")
         feed = feedparser.parse(feed_url)
         
-        for entry in feed.entries[:2]: # 限制每个源2篇
+        for entry in feed.entries[:2]: # 每天每个源只取最新的2篇
+            original_title = entry.get('title')
             link = entry.get('link')
-            print(f"  - Article: {entry.get('title')}")
+            print(f"  - Processing: {original_title}")
 
-            # 1. 抓取正文
-            full_data = get_full_content(link)
-            if not full_data or not full_data.get('content'): continue
-
-            # 2. AI 创作
-            ai_res = ai_process_wechat_style(full_data['content'], entry.get('title'))
-            
-            if not ai_res or ai_res.get("status") == "REJECT":
-                print("    >>> Filtered or Failed")
+            # 1. 深度抓取
+            web_data = get_full_content(link)
+            if not web_data or not web_data.get('content'):
+                print("    >>> Jina Fetch Failed")
                 continue
 
-            # 3. 处理配图
-            # 优先从原文中找图，如果没图或图太少，用 Unsplash 补充
-            original_images = full_data.get('images', [])
-            images = []
-            if isinstance(original_images, list) and len(original_images) > 0:
-                images = original_images[:2] # 取前两张原图
+            # 2. AI 创作
+            article_res = ai_process_wechat_article(web_data['content'], original_title)
             
-            if len(images) == 0:
-                # 使用 AI 提供的关键词生成 fallback 图片
-                kw = ai_res.get('image_keyword', 'knowledge')
-                images.append(get_fallback_image(kw))
+            if not article_res or article_res.get("status") == "REJECT":
+                print("    >>> Skipped (Safety Filter or Error)")
+                continue
 
-            # 4. 组装结果
-            results.append({
-                "title": ai_res.get("title_cn"),
-                "original_title": entry.get('title'),
+            # 3. 视觉处理
+            # 优先用原图，没原图用 Unsplash 补位
+            raw_imgs = web_data.get('images', [])
+            final_images = []
+            
+            # 过滤并提取原图链接
+            if isinstance(raw_imgs, list):
+                final_images = [img for img in raw_imgs if isinstance(img, str) and img.startswith('http')][:2]
+            
+            # 如果原图失效，使用关键词从 Unsplash 获取动态图
+            kw = article_res.get('image_keyword', 'abstract')
+            cover_url = final_images[0] if final_images else f"https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800&auto=format&fit=crop&sig={kw}"
+            # 注意：unsplash 的动态搜索接口
+            placeholder_img = f"https://source.unsplash.com/800x450/?{kw}"
+
+            # 4. 封装数据
+            item = {
+                "title": article_res.get("viral_title"),
+                "original_title": original_title,
                 "url": link,
-                "summary": ai_res.get("summary"),
-                "content": ai_res.get("article_body"),
-                "cover_image": images[0] if images else "",
-                "all_images": images,
-                "source": feed_url,
-                "date": datetime.now().strftime("%Y-%m-%d %H:%M")
-            })
-            print("    >>> Success")
-            time.sleep(3) # 减缓频率
+                "summary": article_res.get("one_sentence_summary"),
+                "wechat_content": article_res.get("article_content"),
+                "cover": placeholder_img, # 动态获取的主题图
+                "source_images": final_images,
+                "author_source": feed_url,
+                "publish_date": entry.get('published', datetime.now().strftime("%Y-%m-%d")),
+                "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            }
+            final_results.append(item)
+            print("    >>> Successfully curated")
+            time.sleep(5) # 保护 API 频率限制
 
-    # 5. 保存
-    if results:
-        file_name = f"data/wechat_style_{datetime.now().strftime('%Y%m%d')}.json"
-        with open(file_name, 'w', encoding='utf-8') as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
-        print(f"Saved {len(results)} articles.")
+    # 5. 保存结果
+    if final_results:
+        today_str = datetime.now().strftime('%Y%m%d')
+        output_file = f"data/wechat_ready_{today_str}.json"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(final_results, f, ensure_ascii=False, indent=2)
+        print(f"\nMission Complete: {len(final_results)} articles saved to {output_file}")
 
 if __name__ == "__main__":
     main()
