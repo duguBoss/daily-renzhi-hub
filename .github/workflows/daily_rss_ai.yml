@@ -1,0 +1,34 @@
+name: Daily Gemini RSS Reader
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # 每天北京时间 10:00
+  workflow_dispatch:
+
+jobs:
+  run-task:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install deps
+        run: pip install feedparser requests
+
+      - name: Run Fetcher
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python fetch_and_ai_process.py
+
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update: Daily Gemini Summary"
+          file_pattern: 'data/*.json'
