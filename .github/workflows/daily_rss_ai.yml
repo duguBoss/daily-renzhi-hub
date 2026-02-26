@@ -20,15 +20,19 @@ jobs:
           python-version: '3.10'
 
       - name: Install deps
-        run: pip install feedparser requests
+        # 👇 这里增加了 Pillow
+        run: pip install feedparser requests Pillow
 
       - name: Run Fetcher
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # 确保脚本能识别仓库信息用于拼凑图片链接
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: python fetch_and_ai_process.py
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update: Daily Gemini Summary"
-          file_pattern: 'data/*.json'
+          commit_message: "Update: Daily Gemini Summary and AI Images"
+          # 👇 这里修改了匹配模式，确保同时保存数据 JSON 和生成的图片
+          file_pattern: 'data/*.json images/*.jpg'
