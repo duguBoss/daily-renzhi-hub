@@ -273,7 +273,11 @@ def main():
                     repo = os.getenv("GITHUB_REPOSITORY")
                     branch = os.getenv("GITHUB_REF_NAME", "main")
                     if repo:
-                        cover_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{filepath.replace('\\','/')}"
+                        # ----------------------------------------------------
+                        # ⚠️ 修复部分：必须先将反斜杠替换操作移出 f-string
+                        # ----------------------------------------------------
+                        file_url_path = filepath.replace('\\', '/')
+                        cover_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{file_url_path}"
                     else:
                         cover_url = get_picsum_cover_url() # 本地测试用
                     print("    >>> ✅ 配图生成成功")
