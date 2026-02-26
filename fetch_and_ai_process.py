@@ -45,7 +45,8 @@ FEEDS =[
 MODELS =[
     "gemini-3-flash-preview",    
     "gemini-3.1-pro-preview",    
-    "gemini-3-pro-preview"       
+    "gemini-3-pro-preview",
+    "gemini-2.5-flash"
 ]
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
