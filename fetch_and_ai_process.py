@@ -6,26 +6,38 @@ import time
 import re
 from datetime import datetime
 
-# 1. 配置
+# 1. 配置（已去重整合）
 FEEDS = [
     "https://www.lesswrong.com/feed",
-    "https://astralcodexten.substack.com/feed",
+    "https://nautil.us/feed",
+    "https://aeon.co/feed",
+    "https://aeon.co/essays/feed",
+    "https://aeon.co/ideas/feed",
+    "https://waitbutwhy.com/feed",
+    "https://www.astralcodexten.com/feed",
+    "https://www.quantamagazine.org/feed/",
+    "https://psyche.co/feed",
+    "https://www.themarginalian.org/feed/",
+    "https://worksinprogress.co/feed/",
+    "https://www.noemamag.com/feed/",
+    "https://www.palladiummag.com/feed/",
+    "https://knowablemagazine.org/feed",
     "https://gwern.net/atom.xml",
     "https://dynomight.net/feed.xml",
     "https://putanumonit.com/feed/",
     "https://meltingasphalt.com/feed/",
+    "https://www.ribbonfarm.com/feed/",
     "https://www.experimental-history.com/feed",
     "https://www.clearerthinking.org/feed",
     "https://www.overcomingbias.com/feed",
-    "https://mindlevelup.wordpress.com/feed/",
-    "https://www.quantamagazine.org/feed/",
-    "https://knowablemagazine.org/feed"
+    "https://mindlevelup.wordpress.com/feed/"
 ]
 
 MODEL_NAME = "gemini-3-flash-preview" 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 def get_full_content(url):
+    """通过 Jina 获取全文"""
     headers = {"Accept": "application/json"}
     try:
         response = requests.get(f"https://r.jina.ai/{url}", headers=headers, timeout=30)
@@ -42,6 +54,7 @@ def clean_json_string(raw_text):
     return text.strip()
 
 def minify_html(html_str):
+    """极简压缩，去掉所有边距"""
     if not html_str: return ""
     html_str = html_str.replace('\n', '').replace('\r', '').replace('\t', '')
     html_str = re.sub(r'>\s+<', '><', html_str)
@@ -49,6 +62,7 @@ def minify_html(html_str):
     return html_str.strip()
 
 def get_picsum_cover_url(width=800, height=600):
+    """获取 4:3 静态配图"""
     req_url = f"https://picsum.photos/{width}/{height}"
     try:
         response = requests.get(req_url, allow_redirects=True, stream=True, timeout=10)
@@ -58,53 +72,59 @@ def get_picsum_cover_url(width=800, height=600):
     except: return req_url
 
 def ai_process_wechat_article(content_text, title_en):
+    """调用 Gemini-3 生成长文"""
     if not content_text or not GEMINI_API_KEY: return None
-    text_input = content_text[:15000] # 增加输入长度以获取更多细节
+    # 尽可能多地传入原文，保证 AI 有素材写长
+    text_input = content_text[:16000] 
 
     prompt = f"""
-    你是一个拥有百万粉丝的中文公众号“硬核主编”，也是一名顶级播客博主。你的文字风格极其犀利、充满情绪张力、像老朋友喝酒聊天。
+    你是一个拥有百万粉丝的中文公众号“硬核主编”。你现在的任务是将一篇深度长文改写为极具吸引力、字数充足、逻辑完整的口播风格爆款文案。
     
-    【核心任务】
-    基于提供的文章内容，创作一篇深度、爆款的口播风格长文。
-    1. 字数要求：全文必须在 1000 字以上。严禁三言两语结束，要深入挖掘。
-    2. 结构要求：必须有完整的【Hook引子】、【现象拆解】、【底层逻辑剖析】、【金句升华】、【实操建议】、【开放式结尾】。
-    
-    【内容要求】
-    - viral_title: 极其吸引眼球的中文标题。
-    - script_text: 1000字以上的纯文字口播稿，语气要像在B站做深度视频。
-    - article_html: 微信排版HTML。
-    
-    【HTML 样式规范】
-    - 整体 margin:0; padding:0; 不要留白。
-    - 开篇首字放大效果。
-    - 必须包含提供的顶部/底部 GIF 图。
-    - 正文使用 <section style="font-size:16px;line-height:1.8;margin-bottom:20px;text-align:justify;">，每段文字要饱满，不要太碎。
-    - 在文章中间位置自然地插入一个 <img src="[COVER_IMG_URL]" style="width:100%;display:block;margin:20px 0;">。
-    - 必须包含一个原创的金句模块。
+    【核心要求】
+    1. **长度控制**：全文（script_text 和 article_html）必须达到 1000-1500 字。严禁虎头蛇尾，严禁草草收场。
+    2. **内容结构**：
+       - **黄金开头**：用极具冲突感、扎心的场景切入，不要直接讲道理。
+       - **现象拆解**：描述这种现象在当下的普遍性，拉起读者共鸣。
+       - **硬核硬控**：深入分析背后的底层逻辑/科学机制，这是文章的灵魂。
+       - **警示/反思**：如果不了解这个逻辑，会付出什么代价？
+       - **行动指南**：给出具体、可执行的思维模型或生活建议。
+       - **情感升华/结尾**：用一段充满后劲的话收尾，并抛出一个开放性话题。
+    3. **文风**：口播风，多用“你敢信吗”、“咱说实话”、“深呼吸”、“听好了”等口语，段落要长短结合。
 
-    【JSON输出格式】
+    【HTML 组件库】
+    - 整体外边距清零 (margin:0; padding:0)。
+    - 使用提供的顶部/底部 GIF 图。
+    - 首字放大：<section style="float:left;font-size:48px;line-height:0.9;margin-top:4px;padding-right:8px;font-weight:bold;color:#b77a56;">[首]</section>
+    - 正文段落：<section style="font-size:16px;line-height:1.8;margin-bottom:20px;text-align:justify;color:#333;">[文字]</section>
+    - 犀利标题：<section style="font-size:20px;font-weight:bold;color:#111;margin-bottom:12px;">[核心洞察]</section>
+    - 中间配图：<img src="[COVER_IMG_URL]" style="width:100%;display:block;margin:25px 0;">
+    - 原创金句：<section style="text-align:center;margin:25px 0;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:20px 0;color:#b77a56;font-size:19px;font-weight:bold;">“[金句]”</section>
+
+    【输出 JSON】
     {{
       "status": "APPROVED",
       "viral_title": "爆款标题",
-      "script_text": "此处是1000字以上的详细口播稿...",
-      "article_html": "<section style='margin:0;padding:0;background-color:#fff;'><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif' style='width:100%;display:block;'><section style='padding:20px 0;'><!-- 此处填充正文 --></section><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif' style='width:100%;display:block;'></section>"
+      "script_text": "此处填写 1000 字以上的纯文字口播脚本...",
+      "article_html": "<section style='margin:0;padding:0;background-color:#fff;'><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif' style='width:100%;display:block;'><section style='padding:0;'><!-- 正文 --></section><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif' style='width:100%;display:block;'></section>"
     }}
 
-    原文内容：{text_input}
+    待处理原文：
+    {text_input}
     """
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={GEMINI_API_KEY}"
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"response_mime_type": "application/json", "temperature": 0.85}
+        "generationConfig": {"response_mime_type": "application/json", "temperature": 0.82}
     }
 
     try:
         res = requests.post(url, json=payload, timeout=120)
-        raw_output = res.json()['candidates'][0]['content']['parts'][0]['text']
+        res_json = res.json()
+        raw_output = res_json['candidates'][0]['content']['parts'][0]['text']
         return json.loads(clean_json_string(raw_output))
     except Exception as e:
-        print(f"      [AI Error]: {e}")
+        print(f"      [API Error]: {e}")
         return None
 
 def main():
@@ -115,17 +135,23 @@ def main():
     for feed_url in FEEDS:
         print(f"\nScanning: {feed_url}")
         feed = feedparser.parse(feed_url)
-        for entry in feed.entries[:1]: # 增加深度，减少篇数
+        # 深度策略：每次每个源只选 1 篇最值得写的，保证 AI 算力集中在长文生成上
+        for entry in feed.entries[:1]:
             original_title = entry.get('title')
             print(f"  - Processing: {original_title}")
             
             web_data = get_full_content(entry.get('link'))
-            if not web_data: continue
+            if not web_data or not web_data.get('content'): continue
 
-            article_res = ai_process_wechat_article(web_data.get('content'), original_title)
-            if not article_res or article_res.get("status") == "REJECT": continue
+            article_res = ai_process_wechat_article(web_data['content'], original_title)
+            if not article_res or article_res.get("status") == "REJECT":
+                print("    >>> Failed/Rejected")
+                continue
 
+            # 获取静态 4:3 封面
             cover_url = get_picsum_cover_url(800, 600)
+            
+            # HTML 处理：替换图片占位符并压缩
             raw_html = article_res.get("article_html", "")
             final_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
             compressed_html = minify_html(final_html)
@@ -139,14 +165,16 @@ def main():
                 "wechat_html": compressed_html,
                 "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             })
-            print(f"    >>> Success ({len(article_res.get('script_text', ''))} chars)")
-            time.sleep(5)
+            # 打印字数统计以便监控
+            script_len = len(article_res.get('script_text', ''))
+            print(f"    >>> Success! Script Length: {script_len} chars.")
+            time.sleep(10) # 延长间隔，防止触发 API 速率限制
 
     if final_results:
         output_file = f"data/wechat_ready_{today_str}.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(final_results, f, ensure_ascii=False, indent=2)
-        print(f"\nMission Complete: {len(final_results)} articles saved.")
+        print(f"\nMission Complete: {len(final_results)} articles saved to {output_file}")
 
 if __name__ == "__main__":
     main()
