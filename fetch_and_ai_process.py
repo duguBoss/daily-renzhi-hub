@@ -34,7 +34,7 @@ FEEDS =[
     "https://www.bigthink.com/feed"
 ]
 
-MODEL_NAME = "gemini-3.1-pro-preview" 
+MODEL_NAME = "gemini-2.5-flash" 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 def get_full_content(url):
