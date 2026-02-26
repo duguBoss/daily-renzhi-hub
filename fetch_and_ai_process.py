@@ -4,7 +4,14 @@ import os
 import requests
 import time
 import re
+import base64
+import io
+from PIL import Image
 from datetime import datetime
+
+# ==========================================
+# ⚠️ 必须安装依赖: pip install requests feedparser Pillow
+# ==========================================
 
 # 1. 核心配置：高质量 Feed 矩阵
 FEEDS =[
@@ -34,14 +41,79 @@ FEEDS =[
     "https://www.bigthink.com/feed"
 ]
 
-# 2. 备选模型矩阵 (默认首选 gemini-3-flash-preview，触发限流时自动向下瀑布流切换)
+# 2. 备选模型矩阵 (默认首选 gemini-3-flash-preview)
 MODELS =[
-    "gemini-3-flash-preview",    # 默认首选：速度最快，额度最高
-    "gemini-3.1-pro-preview",    # 备胎 1：3.1 Pro 增强版
-    "gemini-3-pro-preview"       # 备胎 2：3.0 Pro 兜底
+    "gemini-3-flash-preview",    
+    "gemini-3.1-pro-preview",    
+    "gemini-3-pro-preview"       
 ]
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+# =================== 图片处理模块 ===================
+
+def crop_to_wechat_cover(img_data, output_path):
+    """将生成的 16:9 图片智能居中裁剪为微信标准的 2.35:1 比例"""
+    image = Image.open(io.BytesIO(img_data))
+    w, h = image.size
+    
+    target_ratio = 2.35
+    current_ratio = w / h
+    
+    if current_ratio < target_ratio:
+        # 图片太高，上下裁剪
+        new_h = int(w / target_ratio)
+        top = (h - new_h) // 2
+        bottom = top + new_h
+        image = image.crop((0, top, w, bottom))
+    elif current_ratio > target_ratio:
+        # 图片太宽，左右裁剪
+        new_w = int(h * target_ratio)
+        left = (w - new_w) // 2
+        right = left + new_w
+        image = image.crop((left, 0, right, h))
+        
+    image.save(output_path, "JPEG", quality=90)
+
+def generate_ai_cover_image(keyword, title):
+    """召唤最新版 imagen-3.0 生图模型"""
+    prompt = f"A highly aesthetic, cinematic, wide-angle illustration for an article titled '{title}'. Core visual concept: {keyword}. No text, no words, no letters in the image. Highly detailed, masterpiece."
+    
+    # 使用 Imagen 3 模型节点
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key={GEMINI_API_KEY}"
+    payload = {
+        "instances": [{"prompt": prompt}],
+        "parameters": {
+            "sampleCount": 1,
+            "aspectRatio": "16:9" # 原生支持 16:9，由 Python 裁剪为 2.35:1
+        }
+    }
+    
+    try:
+        res = requests.post(url, json=payload, timeout=60)
+        res_json = res.json()
+        
+        # 解析 Base64 数据
+        if 'predictions' in res_json and res_json['predictions']:
+            b64 = res_json['predictions'][0].get('bytesBase64Encoded')
+            if b64: return base64.b64decode(b64)
+            
+    except Exception as e:
+        print(f"      [Image API Error]: {e}")
+        
+    return None
+
+def get_picsum_cover_url(width=800, height=340):
+    """兜底备用：获取 Picsum 近似 2.35:1 (800x340) 的静态高清配图"""
+    req_url = f"https://picsum.photos/{width}/{height}?blur=2" # 稍微加点模糊增加高级感
+    try:
+        response = requests.get(req_url, allow_redirects=True, stream=True, timeout=10)
+        final_url = response.url
+        response.close()
+        return final_url
+    except: return req_url
+
+# =================== 文本处理模块 ===================
 
 def get_full_content(url):
     headers = {"Accept": "application/json"}
@@ -65,55 +137,40 @@ def minify_html(html_str):
     html_str = re.sub(r'\s{2,}', ' ', html_str)
     return html_str.strip()
 
-def get_picsum_cover_url(width=800, height=600):
-    req_url = f"https://picsum.photos/{width}/{height}"
-    try:
-        response = requests.get(req_url, allow_redirects=True, stream=True, timeout=10)
-        final_url = response.url
-        response.close()
-        return final_url
-    except: return req_url
-
 def ai_process_wechat_article(content_text, title_en):
     if not content_text or not GEMINI_API_KEY: return None
     text_input = content_text[:18000] 
 
     prompt = f"""
     【最高指令：内容安全审查】
-    在进行任何处理前，你必须严格审查以下原文内容。如果原文的主题、暗含意思或主要情节涉及以下任何一项：
-    1. 政治（如国际争端、政党、政府批判、敏感历史事件等）；
-    2. 宗教（宣扬、探讨或贬低特定宗教信仰）；
-    3. 残暴暴力、血腥犯罪、自残；
-    4. 色情、低俗、黄色内容；
-    5. 极端思想、性别对立、文化歧视等不符合大众主流价值和极具争议性的内容。
-    如果你判定文章触犯以上任何一条，请直接且仅返回：{{"status": "REJECT", "reason": "涉及[具体敏感类型]"}}，不要生成任何其他内容！
+    审查原文内容。如果涉及：1.政治争端/敏感历史；2.宗教宣扬/贬低；3.残暴血腥；4.色情低俗；5.极端性别或文化对立。
+    直接且仅返回：{{"status": "REJECT", "reason": "涉及[敏感类型]"}}，不要生成其他内容！
 
-    如果你判定文章安全、积极、有深度，请继续执行以下【创作任务】。
+    如果判定文章安全，请执行【创作任务】。
 
     【创作任务】
-    你是一个拥有百万粉丝的“顶流知识播客主理人”和“专栏作家”。你的受众是一群聪明、渴望认知升级但讨厌被生硬说教的人。
-    请根据原文，写一篇既适合口播录音，又完美适配图文阅读的深度爆款文案。
+    你是一个拥有百万粉丝的“顶流知识播客主理人”。请写一篇深度爆款文案。
     
-    【核心写作要求】
-    1. **去AI化与反八股**：绝对禁止使用“总之、综上所述、首先其次最后、这意味着、探索、见证、维度、赋予”等机器味词汇。拒绝123分点式说教。
-    2. **人设与语感**：像一个知识渊博的老朋友在喝咖啡时与读者进行深度对谈。语气要松弛、犀利、有亲和力，多用反问和生活化类比。
-    3. **长尾长青（Evergreen）**：切勿使用“今天”、“最近”、“昨晚”等带有当前时间局限性的词汇，确保文章在任何时候被翻阅都不过时。
-    4. **叙事流**：用“引子（抛出痛点） -> 深度拆解（不仅说是什么，更挖为什么） -> 认知破局（对普通人做事有什么启发） -> 留白思考”的流式结构。
-    5. **字数硬指标**：哪怕是闲聊也要聊透，字数必须达到 1000-1500 字，多加一点你自己的“主观洞察”。
+    1. **去AI化与反八股**：严禁使用“总之、综上所述、首先其次最后”等词。
+    2. **语感**：像老朋友喝咖啡时深度对谈，多用反问和类比。
+    3. **长尾长青**：切勿使用“今天、最近”等带有时间局限性的词汇。
+    4. **结构与配图（硬性要求）**：引子痛点 -> 深度拆解 -> 认知破局。**必须**在正文中间自然过渡的地方，插入图片占位符 `<img src="[COVER_IMG_URL]" ...>`！
+    5. **零边距排版**：所有文字必须零边距，占满屏幕。
 
-    【HTML 样式组件】
-    - 全文 margin:0; padding:0;
-    - 图片：<img src="[COVER_IMG_URL]" style="width:100%;display:block;margin:15px 0;">
-    - 正文段落：<section style="font-size:16px;line-height:1.8;margin-bottom:20px;text-align:justify;color:#333;">[内容]</section>
-    - 强调观点：<section style="font-size:19px;font-weight:bold;color:#111;margin-bottom:12px;letter-spacing:1px;">[别具一格的短句标题]</section>
-    - 扎心金句：<section style="text-align:center;margin:30px 0;padding:20px 0;color:#b77a56;font-size:20px;font-weight:600;line-height:1.5;">“[一句话扎心]”</section>
+    【HTML 样式组件（必须严格复制 style）】
+    - 外部容器：<section style="margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#fff;">
+    - 正文配图（请务必在正文中间插入一次）：<img src="[COVER_IMG_URL]" style="width:100%;display:block;margin:25px 0;padding:0;">
+    - 正文文字（零边距全宽）：<section style="font-size:16px;line-height:1.8;margin:0 0 20px 0;padding:0;text-align:justify;color:#333;width:100%;box-sizing:border-box;">[内容]</section>
+    - 强调标题：<section style="font-size:19px;font-weight:bold;color:#111;margin:0 0 12px 0;padding:0;letter-spacing:1px;width:100%;">[短句标题]</section>
+    - 扎心金句：<section style="text-align:center;margin:30px 0;padding:25px 0;color:#b77a56;font-size:20px;font-weight:600;line-height:1.5;border-top:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;width:100%;box-sizing:border-box;">“[一句话扎心]”</section>
 
-    【输出 JSON 格式（审核通过时）】
+    【输出 JSON 格式（必须严格遵守）】
     {{
       "status": "APPROVED",
-      "viral_title": "极简但极具吸引力的中文标题",
-      "script_text": "此处是1000字以上的纯文字播客/推文脚本...",
-      "article_html": "<section style='margin:0;padding:0;background-color:#fff;'><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif' style='width:100%;display:block;'><section style='padding:0;'><!-- 正文流 -->[CONTENT]</section><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif' style='width:100%;display:block;'></section>"
+      "viral_title": "极简极具吸引力的中文标题",
+      "image_keyword": "用于生成配图的【纯英文】提示词（画面核心元素，无文字描述）",
+      "script_text": "此处是1000字以上的纯文字推文脚本...",
+      "article_html": "<section style='margin:0;padding:0;width:100%;box-sizing:border-box;background-color:#fff;'><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif' style='width:100%;display:block;margin:0;padding:0;'><section style='margin:0;padding:0;width:100%;box-sizing:border-box;'><!-- 正文流，务必在此处插入 [COVER_IMG_URL] 占位符 -->[CONTENT]</section><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif' style='width:100%;display:block;margin:0;padding:0;'></section>"
     }}
 
     待分享原文（原标题: {title_en}）:
@@ -125,75 +182,55 @@ def ai_process_wechat_article(content_text, title_en):
         "generationConfig": {"response_mime_type": "application/json", "temperature": 0.8} 
     }
 
-    # 瀑布流：优先使用默认的 gemini-3-flash-preview，受限则向下切换
     for current_model in MODELS:
-        print(f"      [AI] 正在召唤模型: {current_model} ...")
+        print(f"      [AI] 召唤文本大模型: {current_model} ...")
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{current_model}:generateContent?key={GEMINI_API_KEY}"
         
         try:
             res = requests.post(url, json=payload, timeout=120)
-            
-            # 捕获 HTTP 429 限流
             if res.status_code == 429:
-                print(f"      [Rate Limit 429]: {current_model} 频率超限，正在切换备用模型...")
-                time.sleep(2) # 缓冲避免瞬间并发轰炸
+                print(f"      [Rate Limit 429]: 频率超限，切换备用模型...")
+                time.sleep(2)
                 continue 
                 
             res_json = res.json()
-            
-            # 捕获 Quota 额度耗尽等错误
             if 'error' in res_json:
-                err_msg = res_json['error'].get('message', 'Unknown Error')
-                if 'Quota exceeded' in err_msg or 'exhausted' in err_msg.lower():
-                    print(f"      [Quota Error]: {current_model} 免费额度耗尽！自动切换备用模型...")
-                    time.sleep(2)
-                    continue 
-                elif 'not found' in err_msg.lower() or 'not supported' in err_msg.lower():
-                    print(f"      [Model Invalid]: {current_model} 不可用或无权限，跳过...")
-                    continue
-                else:
-                    print(f"      [API Error]: {err_msg} ({current_model})，尝试切换...")
-                    continue
+                print(f"      [API Error]: {res_json['error'].get('message')}，尝试切换...")
+                continue
                 
-            # 安全拦截是针对内容本身的，不用换模型，直接结束
             if 'candidates' not in res_json:
-                if 'promptFeedback' in res_json:
-                    print(f"      [API Blocked]: 触碰 API 官方安全底线被拦截")
+                if 'promptFeedback' in res_json: print(f"      [API Blocked]: 安全底线被拦截")
                 return None
                 
-            # 提取文本并解析
             raw_output = res_json['candidates'][0]['content']['parts'][0]['text']
             try:
                 return json.loads(clean_json_string(raw_output))
             except json.JSONDecodeError:
-                print(f"      [Parse Error]: {current_model} 吐出的 JSON 损坏，尝试下一个模型救场...")
+                print(f"      [Parse Error]: JSON 解析失败，尝试下一个模型...")
                 continue
                 
-        except requests.exceptions.Timeout:
-            print(f"      [Timeout]: {current_model} 响应超时 (120s)，切换备用模型...")
-            continue
         except Exception as e:
-            print(f"      [Network Exception]: {current_model} 异常 -> {e}，尝试切换...")
+            print(f"      [Exception]: 异常 -> {e}，尝试切换...")
             continue
 
-    print("      ❌ 警告：所有模型均已超限或瘫痪，此篇文章暂时放弃。")
     return None
+
+# =================== 主程序流程 ===================
 
 def main():
     if not os.path.exists('data'): os.makedirs('data')
+    if not os.path.exists('images'): os.makedirs('images')
+    
     final_results =[]
     today_str = datetime.now().strftime('%Y%m%d')
     output_file = f"data/wechat_ready_{today_str}.json"
 
-    print(f"🚀 开始扫描 {len(FEEDS)} 个内容节点，默认模型为 {MODELS[0]} (瀑布流防封控已开启)...\n")
+    print(f"🚀 开始扫描 {len(FEEDS)} 个内容节点 (全屏零边距 + 强制配图模式)...\n")
 
     for feed_url in FEEDS:
         print(f"\n[{feed_url}]")
-        try:
-            feed = feedparser.parse(feed_url)
-        except Exception as e:
-            print(f"  ❌ RSS 解析失败: {e}")
-            continue
+        try: feed = feedparser.parse(feed_url)
+        except: continue
         
         for entry in feed.entries[:3]:
             original_title = entry.get('title', 'Untitled')
@@ -201,27 +238,57 @@ def main():
             print(f"  📝 查阅: {original_title[:50]}...")
             
             web_data = get_full_content(link)
-            if not web_data or not web_data.get('content'): 
-                print("    >>> ⚠️ 识别跳过: 抓取不到正文，可能遭遇反爬。")
-                continue
+            if not web_data or not web_data.get('content'): continue
 
+            # 1. 生成文章内容
             article_res = ai_process_wechat_article(web_data['content'], original_title)
-            
-            if not article_res:
-                print("    >>> ❌ 识别失败: 所有 Gemini 3 模型皆尝试完毕并超限。")
-                continue
-                
-            if article_res.get("status") == "REJECT":
-                print(f"    >>> 🚫 审查过滤: {article_res.get('reason', '触碰内容过滤底线')}")
-                continue
+            if not article_res or article_res.get("status") == "REJECT": continue
 
-            # 处理封面与排版
-            cover_url = get_picsum_cover_url(800, 600)
-            raw_html = article_res.get("article_html", "")
-            final_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
-            compressed_html = minify_html(final_html)
+            # 2. 生成并处理专属 AI 封面/正文配图
+            print("    >>> 🎨 正在召唤 Imagen 3 生成专属配图...")
+            keyword = article_res.get("image_keyword", "abstract minimalist philosophy")
+            img_bytes = generate_ai_cover_image(keyword, article_res.get("viral_title", original_title))
             
-            # 加入结果列表
+            if img_bytes:
+                safe_title = re.sub(r'[\\/*?:"<>|]', "", article_res.get("viral_title", "cover")).strip()
+                filename = f"{today_str}_{safe_title[:15]}_{int(time.time())}.jpg"
+                filepath = os.path.join("images", filename)
+                
+                try:
+                    # 裁剪为微信 2.35:1 比例
+                    crop_to_wechat_cover(img_bytes, filepath)
+                    
+                    # 组装 GitHub Actions 自动化 raw 图床链接
+                    repo = os.getenv("GITHUB_REPOSITORY")
+                    branch = os.getenv("GITHUB_REF_NAME", "main")
+                    if repo:
+                        filepath_url = filepath.replace('\\', '/')
+                        cover_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{filepath_url}"
+                    else:
+                        # 兜底：如果没跑在 Github 里，直接返回公共的 Picsum 链接，确保微信能粘贴显示
+                        cover_url = get_picsum_cover_url(800, 340) 
+                    print("    >>> 🖼️ AI 配图生成与 2.35:1 裁切成功！")
+                except Exception as e:
+                    print(f"      [Image Crop Error]: 裁切失败 -> {e}")
+                    cover_url = get_picsum_cover_url(800, 340)
+            else:
+                print("    >>> ⚠️ AI 生图受限，自动切换至高清备用配图。")
+                cover_url = get_picsum_cover_url(800, 340)
+
+            # 3. HTML 排版：强制插入图片防漏机制 + 变量替换
+            raw_html = article_res.get("article_html", "")
+            
+            # 【双保险防漏机制】：如果大模型忘记放入[COVER_IMG_URL]，我们强行在文章顶部 GIF 后注入配图！
+            if "[COVER_IMG_URL]" not in raw_html:
+                img_tag = f"<img src='{cover_url}' style='width:100%;display:block;margin:20px 0;padding:0;'>"
+                # 寻找第一个正文区的开头并插入
+                raw_html = raw_html.replace("<!-- 正文流 -->", f"<!-- 正文流 -->{img_tag}")
+            else:
+                raw_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
+                
+            compressed_html = minify_html(raw_html)
+            
+            # 4. 数据留存
             final_results.append({
                 "title": article_res.get("viral_title"),
                 "original_title": original_title,
@@ -232,25 +299,15 @@ def main():
                 "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             })
             
-            # 实时覆盖保存，绝不丢数据
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(final_results, f, ensure_ascii=False, indent=2)
             
-            print(f"    >>> ✅ 创作并实时保存成功！(字数: {len(article_res.get('script_text', ''))} 字)")
-            
-            # 保底休眠时间，即便有多模型，也尽量保持风控安全距离
+            print(f"    >>> ✅ 创作并实时保存成功！")
             time.sleep(15) 
 
-    # =============== 运行结束，打印汇总报告 ===============
     print("\n" + "="*50)
     if final_results:
-        print(f"🎉 任务完成！共成功处理并保存了 {len(final_results)} 篇优质内容。")
-        print(f"📂 数据已安全保存至: {output_file}\n")
-        print("👇 成功文章列表：")
-        for idx, res in enumerate(final_results, 1):
-            print(f"[{idx}] 《{res['title']}》")
-    else:
-        print("⚠️ 任务结束，所有内容均被过滤或获取失败。")
+        print(f"🎉 任务完成！共成功处理并保存了 {len(final_results)} 篇全屏排版的优质内容。")
     print("="*50 + "\n")
 
 if __name__ == "__main__":
