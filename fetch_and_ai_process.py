@@ -81,7 +81,7 @@ def generate_ai_cover_image(keyword, title):
     prompt = f"A highly aesthetic, cinematic, wide-angle illustration for an article titled '{title}'. Core visual concept: {keyword}. No text, no words, no letters in the image. Highly detailed, masterpiece."
     
     # 使用 Imagen 3 模型节点
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:predict?key={GEMINI_API_KEY}"
     payload = {
         "instances": [{"prompt": prompt}],
         "parameters": {
