@@ -23,7 +23,7 @@ FEEDS =[
 ]
 
 # 指定模型，推荐使用 gemini-1.5-flash 处理长文本和结构化输出
-MODEL_NAME = "gemini-1.5-flash" 
+MODEL_NAME = "gemini-3-flash-preview" 
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
