@@ -20,19 +20,23 @@ jobs:
           python-version: '3.10'
 
       - name: Install deps
-        # 👇 这里增加了 Pillow
         run: pip install feedparser requests Pillow
 
       - name: Run Fetcher
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # 确保脚本能识别仓库信息用于拼凑图片链接
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python fetch_and_ai_process.py
+        run: |
+          mkdir -p images  # 强制创建 images 文件夹
+          python fetch_and_ai_process.py
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update: Daily Gemini Summary and AI Images"
-          # 👇 这里修改了匹配模式，确保同时保存数据 JSON 和生成的图片
-          file_pattern: 'data/*.json images/*.jpg'
+          commit_message: "Update: Daily Gemini Summary"
+          # 👇 这里的修改是关键：
+          # 1. 删掉具体的 *.jpg 限制，直接指向文件夹
+          # 2. 如果文件夹为空，这个 Action 也不再报错
+          file_pattern: 'data/ images/'
+          # 如果没有任何文件变化，不报错，直接跳过
+          skip_dirty_check: false
