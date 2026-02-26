@@ -7,7 +7,7 @@ import re
 from datetime import datetime
 
 # 1. 配置（23个高质量深度内容源）
-FEEDS = [
+FEEDS =[
     "https://www.lesswrong.com/feed",
     "https://nautil.us/feed",
     "https://aeon.co/feed",
@@ -109,35 +109,68 @@ def ai_process_wechat_article(content_text, title_en):
     try:
         res = requests.post(url, json=payload, timeout=120)
         res_json = res.json()
+        
+        # 1. 深度拦截 API 真实报错原因
+        if 'candidates' not in res_json:
+            if 'error' in res_json:
+                print(f"      [API Error Detail]: {res_json['error'].get('message', 'Unknown API Error')}")
+            elif 'promptFeedback' in res_json:
+                print(f"      [API Blocked]: 触发了安全机制被拦截 -> {res_json['promptFeedback']}")
+            else:
+                print(f"      [API Unknown Response]: {res_json}")
+            return None
+            
+        # 2. 正常提取文本
         raw_output = res_json['candidates'][0]['content']['parts'][0]['text']
-        return json.loads(clean_json_string(raw_output))
+        
+        # 3. 拦截 AI 生成的非法 JSON
+        try:
+            return json.loads(clean_json_string(raw_output))
+        except json.JSONDecodeError as e:
+            print(f"      [JSON Parse Error]: AI 生成了非法的 JSON 格式。")
+            return None
+            
+    except requests.exceptions.Timeout:
+        print("      [Request Timeout]: 请求 Gemini API 超时 (120s)")
+        return None
     except Exception as e:
-        print(f"      [AI Error]: {e}")
+        print(f"      [Request Exception]: {e}")
         return None
 
 def main():
     if not os.path.exists('data'): os.makedirs('data')
-    final_results = []
+    final_results =[]
     today_str = datetime.now().strftime('%Y%m%d')
 
+    print(f"🚀 开始扫描 RSS 节点，当前模型: {MODEL_NAME}...\n")
+
     for feed_url in FEEDS:
-        print(f"\nScanning: {feed_url}")
+        print(f"[{feed_url}]")
         feed = feedparser.parse(feed_url)
         
         for entry in feed.entries[:3]:
             original_title = entry.get('title')
             link = entry.get('link')
-            print(f"  - Reading: {original_title}")
+            print(f"  📝 Reading: {original_title[:50]}...")
             
+            # 获取全文
             web_data = get_full_content(link)
-            if not web_data or not web_data.get('content'): continue
+            if not web_data or not web_data.get('content'): 
+                print("    >>> ⚠️ 跳过 (Jina 抓取不到原文或遭遇反爬)")
+                continue
 
+            # AI 处理
             article_res = ai_process_wechat_article(web_data['content'], original_title)
-            if not article_res or article_res.get("status") == "REJECT": continue
-
-            cover_url = get_picsum_cover_url(800, 600)
             
-            # HTML 处理
+            if not article_res:
+                print("    >>> ❌ 跳过 (AI 接口返回错误或超时，请查看上方报错日志)")
+                continue
+            if article_res.get("status") == "REJECT":
+                print("    >>> ❌ 跳过 (AI 拒绝改写该文章内容，可能触发内置规则)")
+                continue
+
+            # 处理封面与排版
+            cover_url = get_picsum_cover_url(800, 600)
             raw_html = article_res.get("article_html", "")
             final_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
             compressed_html = minify_html(final_html)
@@ -151,14 +184,27 @@ def main():
                 "wechat_html": compressed_html,
                 "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             })
-            print(f"    >>> Done ({len(article_res.get('script_text', ''))} words)")
+            
+            print(f"    >>> ✅ 识别并保存成功！(生成字数: {len(article_res.get('script_text', ''))}字)")
             time.sleep(4)
+            
+        print("-" * 40)
 
+    # =============== 运行结束，打印汇总报告 ===============
+    print("\n" + "="*50)
     if final_results:
         output_file = f"data/wechat_ready_{today_str}.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(final_results, f, ensure_ascii=False, indent=2)
-        print(f"\nSaved {len(final_results)} stories to {output_file}")
+            
+        print(f"🎉 任务完成！共成功处理并保存了 {len(final_results)} 篇文章。")
+        print(f"📂 数据已保存至: {output_file}\n")
+        print("👇 成功文章列表：")
+        for idx, res in enumerate(final_results, 1):
+            print(f"  [{idx}] {res['original_title']}  =>  《{res['title']}》")
+    else:
+        print("⚠️ 任务结束，本次未成功生成任何文章。请检查上述打印的错误原因。")
+    print("="*50 + "\n")
 
 if __name__ == "__main__":
     main()
