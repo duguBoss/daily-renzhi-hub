@@ -136,7 +136,7 @@ def main():
         print(f"\nScanning: {feed_url}")
         feed = feedparser.parse(feed_url)
         # 深度策略：每次每个源只选 1 篇最值得写的，保证 AI 算力集中在长文生成上
-        for entry in feed.entries[:1]:
+        for entry in feed.entries[:3]:
             original_title = entry.get('title')
             print(f"  - Processing: {original_title}")
             
