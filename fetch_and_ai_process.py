@@ -6,16 +6,13 @@ import time
 import re
 from datetime import datetime
 
-# 1. 核心配置：全新的高质量 Feed 矩阵
+# 1. 核心配置：高质量 Feed 矩阵 (涵盖利他、创业、搞钱、深度认知)
 FEEDS =[
-    # 新增：利他 + 创业 + 挣钱思维（5 个）
     "https://80000hours.org/feed/",
     "https://blog.givewell.org/feed/",
     "https://www.ycombinator.com/blog/feed",
     "https://seths.blog/feed/",
     "https://fs.blog/feed/",
-    
-    # 原有保留的高质量源
     "https://nautil.us/feed",
     "https://aeon.co/feed",
     "https://www.astralcodexten.com/feed",
@@ -27,14 +24,12 @@ FEEDS =[
     "https://www.experimental-history.com/feed",
     "https://www.overcomingbias.com/feed",
     "https://www.lesswrong.com/.rss",
-    
-    # 新增推荐（类似风格的高质量源）
     "https://www.scottaaronson.com/blog/?feed=rss2",
     "https://undark.org/feed/",
     "https://www.technologyreview.com/feed/",
     "https://longreads.com/feed/",
     "https://forum.effectivealtruism.org/.rss",
-    "https://theconversation.com/global/feed", # 修正了原先的 www.conversation.com 链接
+    "https://theconversation.com/global/feed",
     "https://daily.jstor.org/feed/",
     "https://www.bigthink.com/feed"
 ]
@@ -43,7 +38,6 @@ MODEL_NAME = "gemini-3-flash-preview"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 def get_full_content(url):
-    """通过 Jina 获取全文"""
     headers = {"Accept": "application/json"}
     try:
         response = requests.get(f"https://r.jina.ai/{url}", headers=headers, timeout=30)
@@ -86,19 +80,21 @@ def ai_process_wechat_article(content_text, title_en):
     3. 残暴暴力、血腥犯罪、自残；
     4. 色情、低俗、黄色内容；
     5. 极端思想、性别对立、文化歧视等不符合大众主流价值和极具争议性的内容。
-    如果你判定文章触犯以上任何一条，请直接且仅返回：{{"status": "REJECT", "reason": "涉及[具体敏感类型，如政治/争议等]"}}，不要生成任何其他内容！
+    如果你判定文章触犯以上任何一条，请直接且仅返回：{{"status": "REJECT", "reason": "涉及[具体敏感类型]"}}，不要生成任何其他内容！
 
-    如果你判定文章安全、积极、有深度（特别是利他、创业、科学、哲学、心理学等），请继续执行以下【创作任务】。
+    如果你判定文章安全、积极、有深度（特别是利他、创业、搞钱思维、科学、哲学等），请继续执行以下【创作任务】。
 
     【创作任务】
-    你是一个深夜电台/播客博主。你的听众是一群聪明但讨厌被说教的人。
-    请根据原文写一个分享稿。
+    你是一个拥有百万粉丝的“顶流知识播客主理人”，同时也是“爆款专栏作家”。你的受众是一群聪明、渴望认知升级但讨厌被生硬说教的人。
+    请根据原文，写一篇既适合口播录音，又完美适配微信图文阅读的深度爆款文案。
     
-    1. **去AI化禁词**：绝对禁止使用“总之、综上所述、首先/其次/最后、这意味着、不仅如此、探索、见证、维度、赋予、深远意义”等充满机器味的词。
-    2. **人设**：你是在和朋友深夜喝酒聊天，语气要松弛、偶尔带点情绪（惊讶、感叹、自嘲）。
-    3. **叙事逻辑**：不要分1、2、3条。要用“引子 -> 奇怪发现 -> 细思极恐的细节 -> 咱们普通人该怎么办 -> 留白思考”这种流式结构。
-    4. **字数硬指标**：字数必须达到 1000-1500 字，多写写你对这件事的“主观感受”和“生活类比”。
-    
+    【核心写作要求】
+    1. **去AI化与反八股**：绝对禁止使用“总之、综上所述、首先其次最后、这意味着、探索、见证、维度、赋予、深远意义”等机器味词汇。拒绝123分点式说教。
+    2. **人设与语感**：像一个知识渊博的老朋友在喝咖啡时与读者进行深度对谈。语气要松弛、犀利、有亲和力，多用反问和生活化类比。既要有口语的流畅感，也要有文字的穿透力。
+    3. **长尾长青（Evergreen）**：切勿使用“今天”、“最近”、“昨晚”等带有强烈当前时间局限性的词汇，确保文章在任何时候被翻阅都不过时、具有长期的适应能力。
+    4. **叙事流**：用“引子（抛出反常识或痛点） -> 深度拆解（不仅说是什么，更挖为什么） -> 认知破局（对咱们普通人搞钱、做事有什么启发） -> 留白思考”的流式结构。
+    5. **字数硬指标**：哪怕是闲聊也要聊透，字数必须达到 1000-1500 字，多加一点你自己的“主观洞察”和“现实生活案例”。
+
     【HTML 样式组件】
     - 全文 margin:0; padding:0;
     - 图片：<img src="[COVER_IMG_URL]" style="width:100%;display:block;margin:15px 0;">
@@ -109,8 +105,8 @@ def ai_process_wechat_article(content_text, title_en):
     【输出 JSON 格式（审核通过时）】
     {{
       "status": "APPROVED",
-      "viral_title": "极简但吸引人的中文标题",
-      "script_text": "此处是1000字以上的纯文字聊天脚本...",
+      "viral_title": "极简但极具吸引力的中文标题（适合公众号和播客）",
+      "script_text": "此处是1000字以上的纯文字播客/推文脚本...",
       "article_html": "<section style='margin:0;padding:0;background-color:#fff;'><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif' style='width:100%;display:block;'><section style='padding:0;'><!-- 正文流 -->[CONTENT]</section><img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif' style='width:100%;display:block;'></section>"
     }}
 
@@ -120,15 +116,15 @@ def ai_process_wechat_article(content_text, title_en):
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={GEMINI_API_KEY}"
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"response_mime_type": "application/json", "temperature": 0.85}
+        "contents":[{"parts": [{"text": prompt}]}],
+        "generationConfig": {"response_mime_type": "application/json", "temperature": 0.82} # 稍微下调一点点温度，保证大逻辑更严密
     }
 
     try:
         res = requests.post(url, json=payload, timeout=120)
         res_json = res.json()
         
-        # 1. API 层面的拦截 (Token耗尽、模型不可用等)
+        # 1. API 层面的拦截
         if 'candidates' not in res_json:
             if 'error' in res_json:
                 print(f"      [API Error]: {res_json['error'].get('message', 'Unknown Error')}")
@@ -155,7 +151,7 @@ def main():
     final_results =[]
     today_str = datetime.now().strftime('%Y%m%d')
 
-    print(f"🚀 开始扫描 {len(FEEDS)} 个内容节点，安全审查模式已开启...\n")
+    print(f"🚀 开始扫描 {len(FEEDS)} 个内容节点，安全审查与 Evergreen 模式已开启...\n")
 
     for feed_url in FEEDS:
         print(f"\n[{feed_url}]")
@@ -202,7 +198,7 @@ def main():
                 "cover": cover_url,
                 "script_text": article_res.get("script_text"),
                 "wechat_html": compressed_html,
-                "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S") # 仅在元数据记录获取时间
             })
             
             print(f"    >>> ✅ 创作成功！(字数: {len(article_res.get('script_text', ''))} 字)")
