@@ -50,8 +50,8 @@ TEXT_MODELS =[
 ]
 
 # 3. 图像模型矩阵 (自动轮询兜底)
-# ⚠️ 修改点：改为列表，优先使用 3.1，失败后自动回退到 2.5
 IMAGE_MODELS =[
+    "gemini-3.1-flash-image-preview",
     "gemini-2.5-flash-image"
 ]
 
@@ -90,7 +90,6 @@ def crop_to_wechat_cover(img_data, output_path):
 def generate_ai_cover_image(keyword, title):
     """
     使用 Gemini API 生成配图 (支持多模型轮询兜底)
-    接口类型: POST :generateContent
     """
     if not GEMINI_API_KEY: return None
 
@@ -101,14 +100,13 @@ def generate_ai_cover_image(keyword, title):
     }
 
     payload = {
-        "contents": [{
+        "contents":[{
             "parts":[
                 {"text": prompt}
             ]
         }]
     }
     
-    # ⚠️ 修改点：遍历 IMAGE_MODELS 列表
     for current_model in IMAGE_MODELS:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{current_model}:generateContent?key={GEMINI_API_KEY}"
         
@@ -120,7 +118,6 @@ def generate_ai_cover_image(keyword, title):
             if "candidates" in res_json and res_json["candidates"]:
                 parts = res_json["candidates"][0].get("content", {}).get("parts",[])
                 for part in parts:
-                    # 兼容不同 API 版本可能存在的 key 命名差异 (驼峰 vs 下划线)
                     inline_data = part.get("inlineData") or part.get("inline_data")
                     if inline_data:
                         b64_data = inline_data.get("data")
@@ -130,16 +127,14 @@ def generate_ai_cover_image(keyword, title):
             print(f"      [Image API Fail]: 模型 {current_model} 未返回合法图片. 响应: {str(res_json)[:150]}")
 
         except Exception as e:
-            print(f"      [Image API Exception]: 模型 {current_model} 发生异常: {e}")
+            print(f"[Image API Exception]: 模型 {current_model} 发生异常: {e}")
             
-        # 若失败，准备在下一次循环尝试备用模型
         if current_model != IMAGE_MODELS[-1]:
-             print(f"      ⚠️ 模型 {current_model} 生成失败，尝试切换下一个备用模型...")
+             print(f"      ⚠️ 尝试切换下一个备用图像模型...")
         
     return None
 
 def get_picsum_cover_url(width=800, height=340):
-    """兜底备用：获取 Picsum 静态高清配图"""
     return f"https://picsum.photos/{width}/{height}?random={int(time.time())}"
 
 # =================== 文本处理模块 ===================
@@ -171,31 +166,32 @@ def ai_process_wechat_article(content_text, title_en):
     text_input = content_text[:20000]
     
     prompt = f"""
-    【角色】你是一个拥有百万读者的知识类公众号主理人。
-    【任务】将以下文章改写为一篇深度的中文推文。
+    【角色】你是一个拥有百万读者的深度知识类公众号主理人及高级排版大师。
+    【任务】将以下文章改写为一篇深度的中文推文，并附带极具视觉冲击力的高级排版。
     
     【核心要求】
-    1. **拒绝AI味**：不要用“综上所述”、“总之”等词。像老朋友聊天一样自然。
+    1. **拒绝AI味**：不要用“综上所述”、“总之”等词。像老朋友聊天一样自然，有洞察力。
     2. **结构**：[引子痛点] -> [核心认知拆解] ->[行动/思维破局]。
-    3. **排版**：必须生成 HTML 代码，且必须在正文中间插入图片占位符 `[COVER_IMG_URL]`。
+    3. **不需要开头标题**：排版中绝对不要生成开头的大标题（因为外层已有标题），开头直接进入引子正文。
+    4. **高级排版（视觉冲击）**：必须使用丰富的 HTML 样式，避免大段枯燥的纯文本。灵活组合以下提供的排版模板。
+    5. **图片占位**：必须在引子之后、核心正文之前，插入且仅插入一次图片占位符 `[COVER_IMG_URL]`。
+    6. **标签提取**：提取 3-5 个用于 SEO 的精准中文关键词。
     
-    【HTML 样式模板】
-    <section style="margin:0;padding:0;width:100%;font-size:16px;line-height:1.8;color:#333;text-align:justify;">
-       <section style="font-weight:bold;font-size:20px;margin-bottom:20px;">[中文吸睛标题]</section>
-       <section>[正文段落...]</section>
-       <!-- 必须插入图片 -->
-       <img src="[COVER_IMG_URL]" style="width:100%;display:block;margin:30px 0;border-radius:6px;">
-       <section>[后续正文...]</section>
-       <section style="border-top:1px solid #eee;margin-top:30px;padding-top:20px;color:#888;text-align:center;">“[一句金句]”</section>
-    </section>
-
-    【输出 JSON】
+    【HTML 排版规范（必须严格组合使用这些组件！）】
+    - **全局容器**：`<section style="padding:15px;line-height:1.8;color:#333;font-size:16px;letter-spacing:1px;text-align:justify;">`
+    - **痛点/金句引用块**：`<section style="padding:16px 20px;margin:20px 0;background-color:#F5F7FA;border-left:4px solid #2C4CE0;border-radius:0 8px 8px 0;color:#555;font-size:15px;">`
+    - **精美小标题**：`<section style="margin:35px 0 20px 0;"><section style="display:inline-block;padding:6px 16px;background:linear-gradient(90deg, #2C4CE0 0%, #506DF0 100%);color:#fff;border-radius:20px;font-weight:bold;font-size:16px;box-shadow:0 4px 10px rgba(44,76,224,0.2);">01 / 小标题内容</section></section>`
+    - **重点文字划线/高亮**：`<span style="color:#2C4CE0;font-weight:bold;">重点文字</span>` 或 `<span style="border-bottom:2px solid #2C4CE0;padding-bottom:2px;">划线文字</span>`
+    - **图片格式（注意带有 peitu 属性）**：`<img peitu="true" src="[COVER_IMG_URL]" style="width:100%;display:block;margin:30px 0;border-radius:8px;box-shadow:0 4px 15px rgba(0,0,0,0.08);">`
+    
+    【输出 JSON 格式】
     {{
       "status": "APPROVED",
-      "viral_title": "中文标题",
-      "image_keyword": "English keywords for image generation (visual description only)",
+      "viral_title": "中文主标题(用于推文标题字段)",
+      "image_keyword": "English keywords for image generation",
       "script_text": "推文纯文本摘要...",
-      "article_html": "包含 [COVER_IMG_URL] 的HTML代码"
+      "seo_tags":["认知", "破局", "AI未来"],
+      "article_html": "不包含主标题、但富含高级排版的完整 HTML 正文"
     }}
 
     原文标题: {title_en}
@@ -209,7 +205,7 @@ def ai_process_wechat_article(content_text, title_en):
     }
 
     for current_model in TEXT_MODELS:
-        print(f"      [Text AI] 正在调用文本模型: {current_model} ...")
+        print(f"[Text AI] 正在调用文本模型: {current_model} ...")
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{current_model}:generateContent?key={GEMINI_API_KEY}"
         
         try:
@@ -223,7 +219,7 @@ def ai_process_wechat_article(content_text, title_en):
                  print(f"      [API Error]: {res_json['error'].get('message')}")
             
         except Exception as e:
-            print(f"      [Text API Exception]: {e}")
+            print(f"[Text API Exception]: {e}")
             continue
 
     return None
@@ -287,19 +283,47 @@ def main():
                 print("    >>> ⚠️ 图像模型矩阵全线失败，使用静态兜底图")
                 cover_url = get_picsum_cover_url()
 
-            # 4. HTML 组装与替换
+            # 4. 组装高级排版 HTML
+            
+            # 4.1 注入主图片 (注意这里的 img 标签也加上了 peitu 属性，做容错处理)
             raw_html = article_res.get("article_html", "")
             if "[COVER_IMG_URL]" in raw_html:
-                final_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
+                content_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
             else:
-                final_html = f"<img src='{cover_url}' style='width:100%;display:block;margin:20px 0;'>{raw_html}"
+                # 容错：如果 AI 没有按格式输出，我们手动在最前插入带有 peitu 属性的图片
+                content_html = f"<img peitu='true' src='{cover_url}' style='width:100%;display:block;margin:20px 0;border-radius:8px;box-shadow:0 4px 15px rgba(0,0,0,0.08);'>{raw_html}"
+            
+            # 4.2 构建底部 SEO 标签区域
+            seo_tags = article_res.get("seo_tags",[])
+            tags_html = ""
+            if seo_tags:
+                tags_spans = "".join([f"<span style='display:inline-block;margin-right:12px;margin-bottom:10px;padding:5px 14px;background-color:#F0F2F5;color:#555;border-radius:20px;font-size:13px;letter-spacing:1px;'>#{tag}</span>" for tag in seo_tags])
+                tags_html = f"""
+                <section style='margin:40px 15px 20px 15px;padding-top:25px;border-top:1px dashed #E4E7ED;'>
+                    <section style='font-size:14px;color:#909399;margin-bottom:15px;font-weight:bold;'>🏷️ 文章标签</section>
+                    <section>{tags_spans}</section>
+                </section>
+                """
+
+            # 4.3 包装固定的顶部/底部动态 GIF 及全文容器
+            # 这里的顶部和底部 img 标签 *没有* peitu 属性，以做区分
+            final_wechat_html = f"""
+            <section style='margin:0;padding:0;background-color:#fff;'>
+                <img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif' style='width:100%;display:block;'>
+                <section style='padding:0;'>
+                    {content_html}
+                    {tags_html}
+                </section>
+                <img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif' style='width:100%;display:block;'>
+            </section>
+            """
             
             # 5. 保存
             final_results.append({
                 "title": article_res.get("viral_title"),
                 "url": link,
                 "cover": cover_url,
-                "wechat_html": minify_html(final_html),
+                "wechat_html": minify_html(final_wechat_html),
                 "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             })
             
