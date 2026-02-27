@@ -14,7 +14,7 @@ from datetime import datetime
 # ==========================================
 
 # 1. 核心配置：高质量 Feed 矩阵
-FEEDS = [
+FEEDS =[
     "https://80000hours.org/feed/",
     "https://blog.givewell.org/feed/",
     "https://www.ycombinator.com/blog/feed",
@@ -41,17 +41,19 @@ FEEDS = [
     "https://www.bigthink.com/feed"
 ]
 
-# 2. 文本模型矩阵 (严格按照指令)
-TEXT_MODELS = [
+# 2. 文本模型矩阵 (自动轮询兜底)
+TEXT_MODELS =[
     "gemini-3-flash-preview",
     "gemini-3.1-pro-preview",
     "gemini-3-pro-preview",
     "gemini-2.5-flash"
 ]
 
-# 3. 图像模型配置 (gemini-2.5-flash-image)
-# 注意：该模型使用 :generateContent 接口
-IMAGE_MODEL_ID = "gemini-2.5-flash-image"
+# 3. 图像模型矩阵 (自动轮询兜底)
+# ⚠️ 修改点：改为列表，优先使用 3.1，失败后自动回退到 2.5
+IMAGE_MODELS =[
+    "gemini-2.5-flash-image"
+]
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
@@ -87,48 +89,52 @@ def crop_to_wechat_cover(img_data, output_path):
 
 def generate_ai_cover_image(keyword, title):
     """
-    使用 gemini-2.5-flash-image 生成配图
+    使用 Gemini API 生成配图 (支持多模型轮询兜底)
     接口类型: POST :generateContent
     """
     if not GEMINI_API_KEY: return None
 
-    # 构造更适合生图的 Prompt
     prompt = f"Generate a high-quality, photorealistic image. Concept: {keyword}. Context: {title}. Style: Cinematic lighting, 8k resolution, highly detailed, aesthetic. No text."
     
-    # ⚠️ 严格按照提供的 curl 示例构造 URL 和 Payload
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{IMAGE_MODEL_ID}:generateContent?key={GEMINI_API_KEY}"
-    
+    headers = {
+        "Content-Type": "application/json"
+    }
+
     payload = {
         "contents": [{
-            "parts": [
+            "parts":[
                 {"text": prompt}
             ]
-        }],
-        # 可选：指定返回 MIME 类型，部分模型支持
-        "generationConfig": {
-            "response_mime_type": "image/jpeg"
-        }
+        }]
     }
     
-    try:
-        print(f"      [Image API] 调用 {IMAGE_MODEL_ID} ...")
-        res = requests.post(url, json=payload, timeout=60)
-        res_json = res.json()
+    # ⚠️ 修改点：遍历 IMAGE_MODELS 列表
+    for current_model in IMAGE_MODELS:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{current_model}:generateContent?key={GEMINI_API_KEY}"
         
-        # 解析 :generateContent 返回的图片数据
-        # 结构通常是: candidates[0].content.parts[0].inline_data.data
-        if "candidates" in res_json and res_json["candidates"]:
-            parts = res_json["candidates"][0].get("content", {}).get("parts", [])
-            for part in parts:
-                if "inline_data" in part:
-                    b64_data = part["inline_data"].get("data")
-                    if b64_data:
-                        return base64.b64decode(b64_data)
-        
-        print(f"      [Image API Fail]: 未找到 inline_data. 响应摘要: {str(res_json)[:100]}")
+        try:
+            print(f"      [Image API] 尝试调用图像模型: {current_model} ...")
+            res = requests.post(url, json=payload, headers=headers, timeout=60)
+            res_json = res.json()
+            
+            if "candidates" in res_json and res_json["candidates"]:
+                parts = res_json["candidates"][0].get("content", {}).get("parts",[])
+                for part in parts:
+                    # 兼容不同 API 版本可能存在的 key 命名差异 (驼峰 vs 下划线)
+                    inline_data = part.get("inlineData") or part.get("inline_data")
+                    if inline_data:
+                        b64_data = inline_data.get("data")
+                        if b64_data:
+                            return base64.b64decode(b64_data)
+            
+            print(f"      [Image API Fail]: 模型 {current_model} 未返回合法图片. 响应: {str(res_json)[:150]}")
 
-    except Exception as e:
-        print(f"      [Image API Exception]: {e}")
+        except Exception as e:
+            print(f"      [Image API Exception]: 模型 {current_model} 发生异常: {e}")
+            
+        # 若失败，准备在下一次循环尝试备用模型
+        if current_model != IMAGE_MODELS[-1]:
+             print(f"      ⚠️ 模型 {current_model} 生成失败，尝试切换下一个备用模型...")
         
     return None
 
@@ -162,7 +168,6 @@ def minify_html(html_str):
 def ai_process_wechat_article(content_text, title_en):
     if not content_text or not GEMINI_API_KEY: return None
     
-    # 截断防止 Token 溢出
     text_input = content_text[:20000]
     
     prompt = f"""
@@ -171,7 +176,7 @@ def ai_process_wechat_article(content_text, title_en):
     
     【核心要求】
     1. **拒绝AI味**：不要用“综上所述”、“总之”等词。像老朋友聊天一样自然。
-    2. **结构**：[引子痛点] -> [核心认知拆解] -> [行动/思维破局]。
+    2. **结构**：[引子痛点] -> [核心认知拆解] ->[行动/思维破局]。
     3. **排版**：必须生成 HTML 代码，且必须在正文中间插入图片占位符 `[COVER_IMG_URL]`。
     
     【HTML 样式模板】
@@ -203,9 +208,8 @@ def ai_process_wechat_article(content_text, title_en):
         "generationConfig": {"response_mime_type": "application/json", "temperature": 0.7}
     }
 
-    # 遍历指定的文本模型列表
     for current_model in TEXT_MODELS:
-        print(f"      [Text AI] 正在调用: {current_model} ...")
+        print(f"      [Text AI] 正在调用文本模型: {current_model} ...")
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{current_model}:generateContent?key={GEMINI_API_KEY}"
         
         try:
@@ -230,11 +234,11 @@ def main():
     if not os.path.exists('data'): os.makedirs('data')
     if not os.path.exists('images'): os.makedirs('images')
     
-    final_results = []
+    final_results =[]
     today_str = datetime.now().strftime('%Y%m%d')
     output_file = f"data/wechat_ready_{today_str}.json"
 
-    print(f"🚀 启动任务 | 文本模型: {TEXT_MODELS} | 图像模型: {IMAGE_MODEL_ID}")
+    print(f"🚀 启动任务 | 文本模型矩阵: {TEXT_MODELS} | 图像模型矩阵: {IMAGE_MODELS}")
 
     for feed_url in FEEDS:
         print(f"\n🔍 扫描源: {feed_url}")
@@ -244,7 +248,7 @@ def main():
             print("   -> 解析失败，跳过")
             continue
             
-        for entry in feed.entries[:2]: # 限制每个源处理篇数
+        for entry in feed.entries[:2]: 
             title = entry.get('title', 'Untitled')
             link = entry.get('link', '')
             print(f"  📝 处理: {title[:40]}...")
@@ -257,7 +261,7 @@ def main():
             article_res = ai_process_wechat_article(web_data['content'], title)
             if not article_res or article_res.get("status") != "APPROVED": continue
             
-            # 3. 图像生成 (调用 gemini-2.5-flash-image)
+            # 3. 图像生成
             print("    >>> 🎨 请求 AI 生成配图...")
             keyword = article_res.get("image_keyword", "abstract art")
             img_bytes = generate_ai_cover_image(keyword, article_res.get("viral_title"))
@@ -269,22 +273,18 @@ def main():
                 filepath = os.path.join("images", filename)
                 
                 if crop_to_wechat_cover(img_bytes, filepath):
-                    # GitHub Actions 环境下生成 Raw 链接
                     repo = os.getenv("GITHUB_REPOSITORY")
                     branch = os.getenv("GITHUB_REF_NAME", "main")
                     if repo:
-                        # ----------------------------------------------------
-                        # ⚠️ 修复部分：必须先将反斜杠替换操作移出 f-string
-                        # ----------------------------------------------------
                         file_url_path = filepath.replace('\\', '/')
                         cover_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{file_url_path}"
                     else:
-                        cover_url = get_picsum_cover_url() # 本地测试用
-                    print("    >>> ✅ 配图生成成功")
+                        cover_url = get_picsum_cover_url()
+                    print("    >>> ✅ 配图生成与裁剪成功")
                 else:
                     cover_url = get_picsum_cover_url()
             else:
-                print("    >>> ⚠️ 配图生成失败，使用兜底图")
+                print("    >>> ⚠️ 图像模型矩阵全线失败，使用静态兜底图")
                 cover_url = get_picsum_cover_url()
 
             # 4. HTML 组装与替换
@@ -292,7 +292,6 @@ def main():
             if "[COVER_IMG_URL]" in raw_html:
                 final_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
             else:
-                # 强制插入
                 final_html = f"<img src='{cover_url}' style='width:100%;display:block;margin:20px 0;'>{raw_html}"
             
             # 5. 保存
@@ -308,7 +307,7 @@ def main():
                 json.dump(final_results, f, ensure_ascii=False, indent=2)
             
             print("    >>> 💾 数据已保存")
-            time.sleep(5) # 避免限流
+            time.sleep(5) 
 
     print(f"\n🎉 所有任务完成，共生成 {len(final_results)} 篇文章。")
 
