@@ -2,7 +2,10 @@ name: Daily Gemini RSS Reader
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天北京时间 10:00
+    # 对应美国东部时间 (ET) 凌晨 04:00
+    # 对应美国太平洋时间 (PT) 凌晨 01:00
+    # 对应北京时间 (CST) 下午 17:00
+    - cron: '0 9 * * *' 
   workflow_dispatch:
 
 jobs:
