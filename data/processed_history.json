@@ -1,10 +1,16 @@
 {
   "https://80000hours.org/feed/": [
     "https://80000hours.org/podcast/episodes/robert-long-eleos-ai-welfare-research/",
-    "https://80000hours.org/podcast/episodes/ajeya-cotra-transformative-ai-crunch-time/"
+    "https://80000hours.org/podcast/episodes/ajeya-cotra-transformative-ai-crunch-time/",
+    "https://80000hours.org/podcast/episodes/max-harms-miri-superintelligence-corrigibility/",
+    "https://80000hours.org/career-reviews/china-related-ai-safety-and-governance-paths/"
   ],
   "https://blog.givewell.org/feed/": [
-    "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage/"
+    "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage/",
+    "https://blog.givewell.org/2026/03/05/podcast-episode-25-following-the-data-on-dispensers-for-safe-water/",
+    "https://blog.givewell.org/2026/03/04/february-2026-updates/",
+    "https://blog.givewell.org/2026/03/02/givewell-launches-rfis-for-targeted-vaccination-outreach-in-three-countries-and-anemia-control-programs-in-africa/",
+    "https://blog.givewell.org/2026/02/26/givewells-2025-grantmaking-record-grants-expanded-reach-crisis-response/"
   ],
   "https://waitbutwhy.com/feed": [
     "https://waitbutwhy.com/2025/11/bhutan.html"
