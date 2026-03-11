@@ -62,6 +62,20 @@
       "https://marginalrevolution.com/marginalrevolution/2026/03/are-the-small-tax-havens-really-all-that-safe.html",
       "https://marginalrevolution.com/marginalrevolution/2026/03/the-trajectories-of-science-and-ai.html",
       "https://marginalrevolution.com/marginalrevolution/2026/03/recent-recordings-of-big-symphonies.html"
+    ],
+    "https://www.bigthink.com/feed": [
+      "https://bigthink.com/business/gretchen-rubins-simple-secrets-for-a-happier-less-cluttered-life",
+      "https://bigthink.com/the-well/is-pain-productive-or-pointless",
+      "https://bigthink.com/starts-with-a-bang/jwst-dying-star-exposed-cranium"
+    ],
+    "https://sideways-view.com/feed/": [
+      "https://sideways-view.com/2023/07/29/self-driving-car-bets",
+      "https://sideways-view.com/2022/12/24/three-reasons-to-cooperate",
+      "https://sideways-view.com/2022/07/03/decision-theory-and-dynamic-inconsistency",
+      "https://sideways-view.com/2022/04/17/what-is-causality-to-an-evidential-decision-theorist",
+      "https://sideways-view.com/2021/10/12/edt-with-updating-double-counts",
+      "https://sideways-view.com/2021/10/10/secure-homes-for-digital-people",
+      "https://sideways-view.com/2021/07/09/improving-capital-gains-taxes"
     ]
   },
   "fingerprints": [
@@ -93,6 +107,16 @@
     "5d071017f367edd1a27c243844093e30ea0d6e63",
     "d998d9cac50469658f2403583b49b44d7b3ebfa1",
     "25af2dd5d8dbf21e227eaafc08f80b867787cbb3",
-    "22a1986895dd6b368fb3601b6611f9db7b85d8e3"
+    "22a1986895dd6b368fb3601b6611f9db7b85d8e3",
+    "7ab75804960f269ed33cca45b0c37e7e07996614",
+    "0f01a2fea4e6f8ecc0a36fac735120f95dc4add7",
+    "fc88f2b02211b2b7c83561f374aa35e32737062e",
+    "a57fa2124ff765654e29968540e85aaabd3e4d4f",
+    "73e802ffcd1e0c4d4b03e5334a15b568c6368485",
+    "3ef156ffa864822bc06a2ef6bdfdd68f8dc4e9f3",
+    "c04e4c478a105b61d24e04b17ef2c2bf21438f15",
+    "8589535a3602c3e96213bdf4783386d0e0dd6da8",
+    "7b5864af8be8c80eef5ed799285bff7d97eb81d1",
+    "12a54017adbfd7902d102e36f032bb7ebc33c9de"
   ]
 }
