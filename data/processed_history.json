@@ -89,6 +89,22 @@
     ],
     "https://www.ribbonfarm.com/feed/": [
       "https://www.ribbonfarm.com/2024/10/10/ribbonfarm-is-retiring"
+    ],
+    "https://www.themarginalian.org/feed/": [
+      "https://www.themarginalian.org/2026/03/09/milan-kundera-unbearable-lightness-of-being",
+      "https://www.themarginalian.org/2026/03/09/dostoyevsky-dream",
+      "https://www.themarginalian.org/2026/03/08/george-saunders-uncertainty"
+    ],
+    "https://www.noemamag.com/feed/": [
+      "https://www.noemamag.com/after-the-ai-revolution",
+      "https://www.noemamag.com/the-quest-for-contributive-justice",
+      "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world",
+      "https://www.noemamag.com/not-yet-game-over-in-iran",
+      "https://www.noemamag.com/saving-the-life-we-cannot-see"
+    ],
+    "https://dynomight.net/feed.xml": [
+      "https://dynomight.net/chicken",
+      "https://dynomight.net/thanks-5"
     ]
   },
   "fingerprints": [
@@ -141,6 +157,16 @@
     "be88eb2f4cfa28737e5e1e03e63b5f11e481e00c",
     "e275717346ab8a886beed1b3aae78128437b207c",
     "919bf59e4d3e779594f1268c22bd177a5dccb87f",
-    "5e4b1915f7a671dca7efd5a0bbc037715302bc4f"
+    "5e4b1915f7a671dca7efd5a0bbc037715302bc4f",
+    "3b4643aaba0b982431debdcaac2a338ba6195ef4",
+    "fd326a1f17acdcee758873f0f99371225ec49395",
+    "509f886f4ccc4653f60d53d398841375916e97e5",
+    "9b7451670990a34b690b15c4ccc542f3abe4ffaf",
+    "9cc58097be1a9ce530ea39c04c04ffb5086a6511",
+    "bdd561a084a497324a93cb29ddf3d207691535db",
+    "4ce092306f97daac80a2204372e2e5b53ecf5f73",
+    "d2c0f9a698792ac3d51d403a0720d3301b57cb6d",
+    "adedf73b725d77d235803d3066639069080afcab",
+    "a8d8e50c912b03276c99b893a9c06216aee8e273"
   ]
 }
