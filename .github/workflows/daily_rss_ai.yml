@@ -28,7 +28,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
-        run: python rss_wechat_scraper.py
+        run: python fetch_and_ai_process.py
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
