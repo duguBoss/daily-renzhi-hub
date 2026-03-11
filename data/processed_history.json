@@ -105,6 +105,22 @@
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
       "https://dynomight.net/thanks-5"
+    ],
+    "https://ourworldindata.org/feed": [
+      "https://ourworldindata.org/biofuel-land-solar-electric-vehicles"
+    ],
+    "https://www.rootsofprogress.org/feed.xml": [
+      "https://rootsofprogress.org/save-the-date-progress-conference-2026",
+      "https://rootsofprogress.org/announcing-progress-in-medicine-a-high-school-summer-career-exploration-program",
+      "https://rootsofprogress.org/reflections-on-pc25",
+      "https://rootsofprogress.org/more-great-speakers-join-progress-conference-2025",
+      "https://rootsofprogress.org/write-about-agriculture-or-health-longevity-and-biotech",
+      "https://rootsofprogress.org/announcing-the-2025-roots-of-progress-blog-building-intensive",
+      "https://rootsofprogress.org/announcing-progress-conference-2025",
+      "https://rootsofprogress.org/save-the-date-progress-conference-2025"
+    ],
+    "https://ifp.org/feed/": [
+      "https://ifp.org/interconnection-for-ai"
     ]
   },
   "fingerprints": [
@@ -167,6 +183,16 @@
     "4ce092306f97daac80a2204372e2e5b53ecf5f73",
     "d2c0f9a698792ac3d51d403a0720d3301b57cb6d",
     "adedf73b725d77d235803d3066639069080afcab",
-    "a8d8e50c912b03276c99b893a9c06216aee8e273"
+    "a8d8e50c912b03276c99b893a9c06216aee8e273",
+    "b2cb2141eb4cefd451674cb4b2c4ca8b7e7787b2",
+    "d942d7ed404b4d510db3957cb2e51fd2d3182d48",
+    "4213ed4515f682f04e4de606879007011e80a9fc",
+    "69166626245a4c2a4c8c932aab5282eba4c79b92",
+    "b09f7de00fbd2ea2f6777bc3c704f92fed798faa",
+    "cebd3262028e538814ffb42d177a11035c69d73d",
+    "80644fddb8ecc5e35602ef4b6b484cb4df2d6a7e",
+    "02777b65ee50d269d67585a3881238fdbfdf5cc7",
+    "e6f43990fb75a3bd8c5c643d9e411e8ac5268616",
+    "2277f092bdbb6ab246568bbe9c0307bf6c7a5385"
   ]
 }
