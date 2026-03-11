@@ -2,10 +2,7 @@ name: Daily Gemini RSS Reader
 
 on:
   schedule:
-    # 对应美国东部时间 (ET) 凌晨 04:00
-    # 对应美国太平洋时间 (PT) 凌晨 01:00
-    # 对应北京时间 (CST) 下午 17:00
-    - cron: '0 9 * * *' 
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
@@ -13,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,23 +21,18 @@ jobs:
           python-version: '3.10'
 
       - name: Install deps
-        run: pip install feedparser requests Pillow
+        run: pip install requests feedparser
 
       - name: Run Fetcher
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: |
-          mkdir -p images  # 强制创建 images 文件夹
-          python fetch_and_ai_process.py
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+        run: python rss_wechat_scraper.py
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update: Daily Gemini Summary"
-          # 👇 这里的修改是关键：
-          # 1. 删掉具体的 *.jpg 限制，直接指向文件夹
-          # 2. 如果文件夹为空，这个 Action 也不再报错
-          file_pattern: 'data/ images/'
-          # 如果没有任何文件变化，不报错，直接跳过
+          file_pattern: 'data/ assets/rss_covers/'
           skip_dirty_check: false
