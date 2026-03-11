@@ -19,7 +19,9 @@ except ImportError:
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 
-MAX_PROCESS_PER_RUN = 5
+MAX_PROCESS_PER_RUN = 4
+CANDIDATE_POOL_TARGET = 10
+MAX_ENTRIES_PER_FEED = 8
 HISTORY_FILE = "data/processed_history.json"
 MAX_HISTORY_PER_FEED = 1000
 MAX_GLOBAL_FINGERPRINTS = 5000
@@ -286,7 +288,11 @@ def get_full_content(url):
     headers = {"Accept": "application/json"}
     target_url = normalize_url(url)
     try:
-        response = requests.get(f"https://r.jina.ai/http://{target_url.split('://', 1)[1]}", headers=headers, timeout=30)
+        response = requests.get(
+            f"https://r.jina.ai/http://{target_url.split('://', 1)[1]}",
+            headers=headers,
+            timeout=30,
+        )
         if response.status_code == 200:
             return response.json().get("data", {})
     except Exception:
@@ -322,7 +328,7 @@ def should_skip_feed(feed_url: str) -> bool:
 def should_filter_article(title: str, content_text: str, source_url: str) -> Tuple[bool, str]:
     combined = " ".join([title or "", content_text or "", source_url or ""])
     if matches_any_pattern(combined, CONTENT_BLOCK_PATTERNS):
-        return True, "内容偏美国创业圈/YC 语境，不适合中文科技日报"
+        return True, "内容偏美国创业圈/YC语境，不适合中文科技日报"
     return False, ""
 
 
@@ -332,8 +338,108 @@ def validate_cn_output(article_res: dict) -> Tuple[bool, str]:
     seo_tags = " ".join(article_res.get("seo_tags", []) or [])
     combined = " ".join([viral_title, article_html, seo_tags])
     if matches_any_pattern(combined, CN_STYLE_BLOCK_PATTERNS):
-        return False, "改写结果仍残留 YC/硅谷创业黑话"
+        return False, "改写结果仍残留YC/硅谷创业黑话"
     return True, ""
+
+
+def call_gemini_json(prompt: str, temperature: float = 0.75):
+    if not GEMINI_API_KEY:
+        return None
+
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "temperature": temperature,
+        },
+    }
+
+    for current_model in TEXT_MODELS:
+        print(f"      [Text AI] 调用模型: {current_model} ...")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{current_model}:generateContent?key={GEMINI_API_KEY}"
+        try:
+            res = requests.post(url, json=payload, timeout=120)
+            res_json = res.json()
+            if "candidates" in res_json:
+                return json.loads(clean_json_string(res_json["candidates"][0]["content"]["parts"][0]["text"]))
+            if "error" in res_json:
+                print(f"      [API Error]: {res_json['error'].get('message')}")
+        except Exception as e:
+            print(f"      [Text API Exception]: {e}")
+    return None
+
+
+def build_selection_candidates(candidates: List[dict]) -> List[dict]:
+    items = []
+    for index, item in enumerate(candidates):
+        items.append(
+            {
+                "id": index,
+                "title": item["title"],
+                "url": item["url"],
+                "feed_url": item["feed_url"],
+                "summary": normalize_text(item["content"])[:600],
+                "content_preview": normalize_text(item["content"])[:2200],
+            }
+        )
+    return items
+
+
+def ai_select_daily_featured(candidates: List[dict]) -> List[dict]:
+    if not candidates:
+        return []
+
+    if not GEMINI_API_KEY:
+        return candidates[:MAX_PROCESS_PER_RUN]
+
+    prompt = f"""
+你是中文科技日报的总编。你的任务不是改写，而是从候选文章里精选出“今日最值得发的4篇”。
+
+筛选原则：
+1. 只看文章本身内容，不看来源名气，不看标题包装。
+2. 优先选择对中文读者有信息增量的内容：科技趋势、商业洞察、社会观察、认知模型、方法论。
+3. 优先选择有细节、有冲突、有对比、有反常识的内容，不要选空泛概念文。
+4. 避免4篇都挤在同一个话题，尽量让题材分散。
+5. 过滤强美国本土语境、硅谷创业圈黑话、私人碎碎念、冷门到无法转译的内容。
+6. 如果两篇很像，只保留信息密度更高的一篇。
+
+判断时参考这些可执行技巧：
+- 开头是否自带一个具体观察、瞬间、场景。
+- 文章是否先抓住情绪，再能落到一个清晰论点。
+- 文中是否存在冲突、反差、代价、误区，而不是抽象正确话。
+- 是否能让中文读者自然代入，而不是只能站在美国创业圈内部自嗨。
+
+只返回JSON：
+{{
+  "selected_ids": [0, 1, 2, 3],
+  "selection_reason": "中文总结，说明这4篇为什么值得发"
+}}
+
+候选文章：
+{json.dumps(build_selection_candidates(candidates), ensure_ascii=False)}
+"""
+
+    result = call_gemini_json(prompt, temperature=0.35)
+    if not isinstance(result, dict):
+        return candidates[:MAX_PROCESS_PER_RUN]
+
+    selected_ids = result.get("selected_ids", [])
+    chosen = []
+    seen = set()
+
+    for item_id in selected_ids:
+        if not isinstance(item_id, int):
+            continue
+        if item_id < 0 or item_id >= len(candidates):
+            continue
+        if item_id in seen:
+            continue
+        seen.add(item_id)
+        chosen.append(candidates[item_id])
+        if len(chosen) >= MAX_PROCESS_PER_RUN:
+            break
+
+    return chosen or candidates[:MAX_PROCESS_PER_RUN]
 
 
 def ai_process_wechat_article(content_text, title_en, source_url=""):
@@ -342,28 +448,40 @@ def ai_process_wechat_article(content_text, title_en, source_url=""):
 
     text_input = normalize_text(content_text)[:25000]
     prompt = f"""
-你是一家顶级中文科技与商业媒体的主编，负责把英文长文改写成适合中国读者在微信公众号阅读的深度文章。
+你是一家中文科技深度媒体的主编，要把英文文章改写成适合微信公众号发布的“每日精选”稿件。
 
-必须遵守以下规则：
-1. 先判断是否值得写。若文章主题过于私人化、过于冷门、强依赖美国本土语境，或主要围绕 YC、Demo Day、硅谷融资八卦、美国创业圈黑话，直接返回 REJECTED。
-2. 只有包含普适认知、科技趋势、商业洞察、社会观察、思维模型的内容，才返回 APPROVED。
-3. APPROVED 时，全文必须“中文化”处理：
+先判断值不值得写：
+1. 如果文章过于私人化、太冷门、强依赖美国本土语境，或主要围绕YC、Demo Day、美国创业圈黑话，直接返回REJECTED。
+2. 只有包含普适认知、科技趋势、商业洞察、社会观察、思维模型的内容，才返回APPROVED。
+
+APPROVED时必须遵守这些改写原则：
+1. 立足原文内容本身，不要硬凹观点，不要为了爆款牺牲准确性。
+2. 做彻底中国化表达：
    - 用简体中文自然表达，不能保留英文写作腔。
-   - 国外机构、人名、概念首次出现时，要给出面向中国读者的简短解释。
-   - 不要把 YC、Demo Day、Paul Graham、硅谷黑话当作默认背景知识。
-   - 如果原文例子太美国化，要主动替换成中国读者能理解的解释方式；无法替换时，弱化细节，保留核心观点。
-4. 不要输出“YC”“Y Combinator”“Demo Day”“Startup School”等词；如果文章离不开这些词，应该直接 REJECTED。
-5. 标题必须是中文新媒体标题，但不能低质夸张。
-6. 开头第一段要有钩子，然后插入一次 [COVER_IMG_URL]。
-7. 只允许输出 JSON，不要输出解释。
+   - 国外机构、人名、概念首次出现时，要给出中国读者能秒懂的短解释。
+   - 如果原文例子太美国化，要改写成中国读者能理解的解释方式；不能硬替换时，就弱化细节、保留核心道理。
+3. 吸收这些写作技巧：
+   - 开头优先“观察型开场”，直接写具体场景、反差或扎心瞬间，不要空话起手。
+   - 先抓情绪核心，再点出智识论点；让读者先有画面，再明白道理。
+   - 多用冲突、对比、反常识、细节，少用抽象总结。
+   - 镜头朝向读者，让读者感觉“这事和我有关”。
+   - 结尾要锋利，点破代价、误区或真正值得记住的一句话。
+4. 去AI味：
+   - 禁用这些词和表达：此外、至关重要、格局、关键、充满活力、深入探讨、值得注意的是。
+   - 尽量避免这些句式：不仅...而且、不仅仅是...而是、与其说...不如说、三段排比。
+   - 语言要像真人编辑聊天，口语化，但不要油腻。
+5. 不要输出“YC”“Y Combinator”“Demo Day”“Startup School”等词；如果离不开这些词，应该直接REJECTED。
+6. 标题必须是高点击中文标题，但不能标题党。
+7. 开头钩子段落后插入一次[COVER_IMG_URL]。
+8. 生成初稿后，先自检：开头是否具体，正文是否有冲突和细节，结尾是否锋利，全文是否有明显AI腔；任一不满足，就在内部重写后再输出。
 
-HTML 组件库：
+HTML组件库：
 - 正文段落：<p style="margin:0 0 24px 0; line-height:2; color:#2c3e50; font-size:16px; letter-spacing:0.8px; text-align:justify;">...</p>
 - 金句/引用：<section style="margin:35px 0; padding:15px 0 15px 20px; border-left:3px solid #111; background-color:#FAFAFA; color:#555; font-size:15px; line-height:1.9;">...</section>
 - 小标题：<section style="margin:50px 0 25px 0; border-bottom:1px solid #E5E5E5; padding-bottom:12px; display:flex; align-items:center;"><span style="display:inline-block; width:5px; height:18px; background-color:#111; margin-right:12px;"></span><strong style="font-size:19px; color:#111; letter-spacing:1.5px;">...</strong></section>
 - 强调：<strong style="color:#000; font-weight:bold;">...</strong>
 
-输出 JSON 格式：
+只返回JSON：
 {{
   "status": "APPROVED 或 REJECTED",
   "reject_reason": "中文理由",
@@ -377,29 +495,7 @@ HTML 组件库：
 原文内容:
 {text_input}
 """
-
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "responseMimeType": "application/json",
-            "temperature": 0.75,
-        },
-    }
-
-    for current_model in TEXT_MODELS:
-        print(f"      [Text AI] 调用模型: {current_model} ...")
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{current_model}:generateContent?key={GEMINI_API_KEY}"
-        try:
-            res = requests.post(url, json=payload, timeout=120)
-            res_json = res.json()
-            if "candidates" in res_json:
-                data = json.loads(clean_json_string(res_json["candidates"][0]["content"]["parts"][0]["text"]))
-                return data
-            if "error" in res_json:
-                print(f"      [API Error]: {res_json['error'].get('message')}")
-        except Exception as e:
-            print(f"      [Text API Exception]: {e}")
-    return None
+    return call_gemini_json(prompt, temperature=0.75)
 
 
 def append_output(output_file: str, article: dict):
@@ -416,22 +512,68 @@ def append_output(output_file: str, article: dict):
         json.dump(existing_data, f, ensure_ascii=False, indent=2)
 
 
+def build_final_article(article_res: dict, original_url: str) -> dict:
+    cover_url = get_picsum_cover_url()
+    raw_html = article_res.get("article_html", "")
+
+    if "[COVER_IMG_URL]" in raw_html:
+        content_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
+    else:
+        content_html = f"<img peitu='true' src='{cover_url}' style='width:100%;display:block;margin:30px 0;'>{raw_html}"
+
+    tags_html = ""
+    seo_tags = article_res.get("seo_tags") or []
+    if seo_tags:
+        tags_spans = "".join(
+            [
+                f"<span style='display:inline-block;margin:0 10px 10px 0;padding:4px 12px;border:1px solid #DCDFE6;color:#606266;font-size:12px;'>{tag}</span>"
+                for tag in seo_tags
+            ]
+        )
+        tags_html = (
+            "<section style='margin:45px 0 20px 0;padding-top:20px;border-top:1px solid #E5E5E5;'>"
+            "<section style='font-size:13px;color:#999;margin-bottom:12px;text-transform:uppercase;'>TAGS</section>"
+            f"<section>{tags_spans}</section>"
+            "</section>"
+        )
+
+    final_wechat_html = f"""
+    <section style='margin:0;padding:0;background-color:#fff;'>
+        <img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif' style='width:100%;display:block;'>
+        <section style='padding:0;'>{content_html}{tags_html}</section>
+        <img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif' style='width:100%;display:block;'>
+    </section>
+    """
+
+    return {
+        "title": article_res.get("viral_title"),
+        "url": original_url,
+        "cover": cover_url,
+        "wechat_html": minify_html(final_wechat_html),
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "is_daily_featured": True,
+    }
+
+
 def main():
     ensure_data_dir()
     history = load_history()
-    success_count = 0
     today_str = datetime.now().strftime("%Y%m%d")
     output_file = f"data/wechat_ready_{today_str}.json"
+    candidate_pool = []
+    generated_count = 0
 
-    print(f"🚀 启动任务 | 限制生成数: {MAX_PROCESS_PER_RUN} | 历史记录: URL规范化 + 内容指纹去重")
+    print(
+        f"🚀 启动任务 | 候选池目标: {CANDIDATE_POOL_TARGET} | 每日精选: {MAX_PROCESS_PER_RUN} | 历史记录: URL规范化 + 内容指纹去重"
+    )
 
     for feed_url in FEEDS:
-        if success_count >= MAX_PROCESS_PER_RUN:
-            print(f"\n🛑 已达到单次运行上限 ({MAX_PROCESS_PER_RUN} 篇)，结束抓取。")
+        if len(candidate_pool) >= CANDIDATE_POOL_TARGET:
+            print(f"\n🛑 候选池已足够 ({len(candidate_pool)} 篇)，停止继续抓取。")
             break
 
         if should_skip_feed(feed_url):
-            print(f"\n⛔ 跳过源: {feed_url} | 原因: 源本身偏 YC/美国创业圈")
+            print(f"\n⛔ 跳过源: {feed_url} | 原因: 源本身偏YC/美国创业圈")
             continue
 
         print(f"\n🔍 扫描源: {feed_url}")
@@ -441,8 +583,8 @@ def main():
             print("   -> 解析失败，跳过")
             continue
 
-        for entry in feed.entries[:6]:
-            if success_count >= MAX_PROCESS_PER_RUN:
+        for entry in feed.entries[:MAX_ENTRIES_PER_FEED]:
+            if len(candidate_pool) >= CANDIDATE_POOL_TARGET:
                 break
 
             title = entry.get("title", "Untitled")
@@ -469,72 +611,53 @@ def main():
                 save_history(history)
                 continue
 
-            print(f"  📝 [处理] 新发现: {title[:30]}...")
-            article_res = ai_process_wechat_article(content_text, title, link)
-            if not article_res:
-                continue
+            candidate_pool.append(
+                {
+                    "feed_url": feed_url,
+                    "title": title,
+                    "url": link,
+                    "content": content_text,
+                    "fingerprint": fingerprint,
+                }
+            )
+            print(f"  📥 [入池] 候选文章: {title[:30]}...")
 
-            add_to_history(feed_url, link, fingerprint, history)
+    if not candidate_pool:
+        print("\n🫥 没有可用候选文章，本轮结束。")
+        return
 
-            if article_res.get("status") == "REJECTED":
-                print(f"    >>> 🚫 拒稿: {article_res.get('reject_reason')}")
-                save_history(history)
-                continue
+    print(f"\n🧠 开始从 {len(candidate_pool)} 篇候选中筛选每日精选 {MAX_PROCESS_PER_RUN} 篇...")
+    selected_candidates = ai_select_daily_featured(candidate_pool)
 
-            is_valid_output, output_reason = validate_cn_output(article_res)
-            if not is_valid_output:
-                print(f"    >>> 🚫 放弃: {output_reason}")
-                save_history(history)
-                continue
+    for candidate in candidate_pool:
+        add_to_history(candidate["feed_url"], candidate["url"], candidate["fingerprint"], history)
+    save_history(history)
 
-            print(f"    >>> ✨ 标题: {article_res.get('viral_title')}")
-            cover_url = get_picsum_cover_url()
+    for candidate in selected_candidates:
+        print(f"\n📝 [生成] 精选文章: {candidate['title'][:36]}...")
+        article_res = ai_process_wechat_article(candidate["content"], candidate["title"], candidate["url"])
+        if not article_res:
+            continue
 
-            raw_html = article_res.get("article_html", "")
-            if "[COVER_IMG_URL]" in raw_html:
-                content_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
-            else:
-                content_html = f"<img peitu='true' src='{cover_url}' style='width:100%;display:block;margin:30px 0;'>{raw_html}"
+        if article_res.get("status") == "REJECTED":
+            print(f"    >>> 🚫 拒稿: {article_res.get('reject_reason')}")
+            continue
 
-            tags_html = ""
-            seo_tags = article_res.get("seo_tags") or []
-            if seo_tags:
-                tags_spans = "".join(
-                    [
-                        f"<span style='display:inline-block;margin:0 10px 10px 0;padding:4px 12px;border:1px solid #DCDFE6;color:#606266;font-size:12px;'>{tag}</span>"
-                        for tag in seo_tags
-                    ]
-                )
-                tags_html = (
-                    "<section style='margin:45px 0 20px 0;padding-top:20px;border-top:1px solid #E5E5E5;'>"
-                    "<section style='font-size:13px;color:#999;margin-bottom:12px;text-transform:uppercase;'>TAGS</section>"
-                    f"<section>{tags_spans}</section>"
-                    "</section>"
-                )
+        is_valid_output, output_reason = validate_cn_output(article_res)
+        if not is_valid_output:
+            print(f"    >>> 🚫 放弃: {output_reason}")
+            continue
 
-            final_wechat_html = f"""
-            <section style='margin:0;padding:0;background-color:#fff;'>
-                <img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif' style='width:100%;display:block;'>
-                <section style='padding:0;'>{content_html}{tags_html}</section>
-                <img src='https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif' style='width:100%;display:block;'>
-            </section>
-            """
+        article = build_final_article(article_res, candidate["url"])
+        append_output(output_file, article)
+        generated_count += 1
+        print(f"    >>> ✨ 标题: {article_res.get('viral_title')}")
+        print("    >>> 💾 已保存")
+        time.sleep(2)
 
-            article = {
-                "title": article_res.get("viral_title"),
-                "url": link,
-                "cover": cover_url,
-                "wechat_html": minify_html(final_wechat_html),
-                "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            }
-
-            append_output(output_file, article)
-            save_history(history)
-            success_count += 1
-            print("    >>> 💾 已保存")
-            time.sleep(2)
-
-    print(f"\n🎉 任务完成，本轮生成 {success_count} 篇。")
+    print(
+        f"\n🎉 任务完成 | 候选入池 {len(candidate_pool)} 篇 | AI精选四篇候选 {len(selected_candidates)} 篇 | 实际生成 {generated_count} 篇。"
+    )
 
 
 if __name__ == "__main__":
