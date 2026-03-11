@@ -512,6 +512,11 @@ def append_output(output_file: str, article: dict):
         json.dump(existing_data, f, ensure_ascii=False, indent=2)
 
 
+def write_output(output_file: str, articles: List[dict]):
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(articles, f, ensure_ascii=False, indent=2)
+
+
 def build_final_article(article_res: dict, original_url: str) -> dict:
     cover_url = get_picsum_cover_url()
     raw_html = article_res.get("article_html", "")
@@ -560,8 +565,10 @@ def main():
     history = load_history()
     today_str = datetime.now().strftime("%Y%m%d")
     output_file = f"data/wechat_ready_{today_str}.json"
+    daily_featured_file = "data/daily-news.json"
     candidate_pool = []
     generated_count = 0
+    daily_featured_articles = []
 
     print(
         f"🚀 启动任务 | 候选池目标: {CANDIDATE_POOL_TARGET} | 每日精选: {MAX_PROCESS_PER_RUN} | 历史记录: URL规范化 + 内容指纹去重"
@@ -650,10 +657,14 @@ def main():
 
         article = build_final_article(article_res, candidate["url"])
         append_output(output_file, article)
+        daily_featured_articles.append(article)
         generated_count += 1
         print(f"    >>> ✨ 标题: {article_res.get('viral_title')}")
         print("    >>> 💾 已保存")
         time.sleep(2)
+
+    write_output(daily_featured_file, daily_featured_articles)
+    print(f"\n📦 今日精选文件已更新: {daily_featured_file}")
 
     print(
         f"\n🎉 任务完成 | 候选入池 {len(candidate_pool)} 篇 | AI精选四篇候选 {len(selected_candidates)} 篇 | 实际生成 {generated_count} 篇。"
