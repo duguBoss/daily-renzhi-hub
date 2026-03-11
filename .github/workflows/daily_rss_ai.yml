@@ -34,5 +34,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update: Daily Gemini Summary"
-          file_pattern: 'data/ assets/'
+          # <--- 直接删掉 file_pattern 这一行
           skip_dirty_check: false
