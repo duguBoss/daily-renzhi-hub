@@ -121,6 +121,17 @@ CN_STYLE_BLOCK_PATTERNS = [
     r"\bstartup school\b",
 ]
 
+AI_BANNED_PATTERNS = [
+    r"在这个快节奏的时代",
+    r"社会大环境",
+    r"总而言之",
+    r"让我们一起",
+    r"不可否认",
+    r"众所周知",
+    r"美好的明天",
+    r"坚持就是胜利",
+]
+
 
 class SimpleFeedResult:
     def __init__(self, entries=None):
@@ -337,8 +348,13 @@ def validate_cn_output(article_res: dict) -> Tuple[bool, str]:
     article_html = article_res.get("article_html", "")
     seo_tags = " ".join(article_res.get("seo_tags", []) or [])
     combined = " ".join([viral_title, article_html, seo_tags])
+
     if matches_any_pattern(combined, CN_STYLE_BLOCK_PATTERNS):
         return False, "改写结果仍残留YC/硅谷创业黑话"
+    if matches_any_pattern(combined, AI_BANNED_PATTERNS):
+        return False, "改写结果仍有明显AI套话"
+    if "https://picsum.photos/" in article_html and "<img" not in article_html.lower():
+        return False, "封面图仍是裸链接，没有转成img标签"
     return True, ""
 
 
@@ -388,7 +404,6 @@ def build_selection_candidates(candidates: List[dict]) -> List[dict]:
 def ai_select_daily_featured(candidates: List[dict]) -> List[dict]:
     if not candidates:
         return []
-
     if not GEMINI_API_KEY:
         return candidates[:MAX_PROCESS_PER_RUN]
 
@@ -403,9 +418,9 @@ def ai_select_daily_featured(candidates: List[dict]) -> List[dict]:
 5. 过滤强美国本土语境、硅谷创业圈黑话、私人碎碎念、冷门到无法转译的内容。
 6. 如果两篇很像，只保留信息密度更高的一篇。
 
-判断时参考这些可执行技巧：
+判断时参考这些技巧：
 - 开头是否自带一个具体观察、瞬间、场景。
-- 文章是否先抓住情绪，再能落到一个清晰论点。
+- 文章是否先抓住情绪，再落到一个清晰论点。
 - 文中是否存在冲突、反差、代价、误区，而不是抽象正确话。
 - 是否能让中文读者自然代入，而不是只能站在美国创业圈内部自嗨。
 
@@ -448,32 +463,41 @@ def ai_process_wechat_article(content_text, title_en, source_url=""):
 
     text_input = normalize_text(content_text)[:25000]
     prompt = f"""
-你是一家中文科技深度媒体的主编，要把英文文章改写成适合微信公众号发布的“每日精选”稿件。
+你现在同时扮演两种角色：
+1. 中文科技深度媒体主编。
+2. 顶尖爆款自媒体操盘手 / 深度心理学文案黑客。
+
+你的任务是把英文文章改写成适合微信公众号发布的“每日精选”稿件。
 
 先判断值不值得写：
 1. 如果文章过于私人化、太冷门、强依赖美国本土语境，或主要围绕YC、Demo Day、美国创业圈黑话，直接返回REJECTED。
 2. 只有包含普适认知、科技趋势、商业洞察、社会观察、思维模型的内容，才返回APPROVED。
 
 APPROVED时必须遵守这些改写原则：
-1. 立足原文内容本身，不要硬凹观点，不要为了爆款牺牲准确性。
+1. 保留原文核心事实与观点，不要硬凹立场，不要为了爆款牺牲准确性。
 2. 做彻底中国化表达：
    - 用简体中文自然表达，不能保留英文写作腔。
    - 国外机构、人名、概念首次出现时，要给出中国读者能秒懂的短解释。
    - 如果原文例子太美国化，要改写成中国读者能理解的解释方式；不能硬替换时，就弱化细节、保留核心道理。
-3. 吸收这些写作技巧：
-   - 开头优先“观察型开场”，直接写具体场景、反差或扎心瞬间，不要空话起手。
-   - 先抓情绪核心，再点出智识论点；让读者先有画面，再明白道理。
-   - 多用冲突、对比、反常识、细节，少用抽象总结。
-   - 镜头朝向读者，让读者感觉“这事和我有关”。
-   - 结尾要锋利，点破代价、误区或真正值得记住的一句话。
+3. 执行下面这组润色纪律：
+   - 平均句长控制在11到15字。超过25字的句子必须拆开。
+   - 开头前三句必须完成钩子。优先使用反常识、残酷真相、具象刺痛场景。
+   - 全文尽量高频使用“你”，形成一对一对话感。
+   - 每300字内至少出现一组硬对比，例如“不是X，而是Y”“比A更可怕的，是B”。
+   - 把抽象词换成具象细节。少写“焦虑、努力、困难”，多写动作、处境、画面。
+   - 全文绝对不要感叹号。
+   - 结尾必须给出一个最小行动指令。最后两句控制在8到14字，像刀片一样利落。
 4. 去AI味：
-   - 禁用这些词和表达：此外、至关重要、格局、关键、充满活力、深入探讨、值得注意的是。
+   - 禁用这些词和表达：此外、至关重要、格局、关键、充满活力、深入探讨、值得注意的是、在这个快节奏的时代、社会大环境、总而言之、让我们一起、不可否认、众所周知、美好的明天、坚持就是胜利。
    - 尽量避免这些句式：不仅...而且、不仅仅是...而是、与其说...不如说、三段排比。
-   - 语言要像真人编辑聊天，口语化，但不要油腻。
+   - 语言要像真人编辑聊天，冷静、克制、有锋利感，但不要油腻。
 5. 不要输出“YC”“Y Combinator”“Demo Day”“Startup School”等词；如果离不开这些词，应该直接REJECTED。
 6. 标题必须是高点击中文标题，但不能标题党。
-7. 开头钩子段落后插入一次[COVER_IMG_URL]。
-8. 生成初稿后，先自检：开头是否具体，正文是否有冲突和细节，结尾是否锋利，全文是否有明显AI腔；任一不满足，就在内部重写后再输出。
+7. 必须额外生成一个100字以内的中文SEO摘要，适合列表页展示，能自然带出主题、看点和价值，不能写成空洞口号。
+8. 开头钩子段落后插入一次[COVER_IMG_URL]，并且必须输出成真正的图片标签：
+   <img peitu='true' src='[COVER_IMG_URL]' style='width:100%;display:block;margin:30px 0;'>
+9. 不要输出“爆款重构版”“劫持逻辑拆解”这类栏目。只把这些规则体现在正文里。
+10. 生成初稿后，先自检：开头是否具体，正文是否有冲突和细节，结尾是否锋利，全文是否有明显AI腔，封面图是否为img标签；任一不满足，就在内部重写后再输出。
 
 HTML组件库：
 - 正文段落：<p style="margin:0 0 24px 0; line-height:2; color:#2c3e50; font-size:16px; letter-spacing:0.8px; text-align:justify;">...</p>
@@ -486,6 +510,7 @@ HTML组件库：
   "status": "APPROVED 或 REJECTED",
   "reject_reason": "中文理由",
   "viral_title": "中文标题",
+  "seo_summary": "100字以内的中文SEO摘要",
   "seo_tags": ["标签1", "标签2"],
   "article_html": "HTML内容"
 }}
@@ -520,11 +545,26 @@ def write_output(output_file: str, articles: List[dict]):
 def build_final_article(article_res: dict, original_url: str) -> dict:
     cover_url = get_picsum_cover_url()
     raw_html = article_res.get("article_html", "")
+    seo_summary = normalize_text(article_res.get("seo_summary", ""))[:100]
+    cover_img_tag = f"<img peitu='true' src='{cover_url}' style='width:100%;display:block;margin:30px 0;'>"
 
     if "[COVER_IMG_URL]" in raw_html:
-        content_html = raw_html.replace("[COVER_IMG_URL]", cover_url)
+        content_html = raw_html.replace("[COVER_IMG_URL]", cover_img_tag)
     else:
-        content_html = f"<img peitu='true' src='{cover_url}' style='width:100%;display:block;margin:30px 0;'>{raw_html}"
+        content_html = f"{cover_img_tag}{raw_html}"
+
+    content_html = re.sub(
+        r"<p[^>]*>\s*https://picsum\.photos/[^<]+</p>",
+        cover_img_tag,
+        content_html,
+        flags=re.I,
+    )
+    content_html = re.sub(
+        r"(?<![\"'=])https://picsum\.photos/\d+/\d+\?random=\d+",
+        cover_img_tag,
+        content_html,
+        flags=re.I,
+    )
 
     tags_html = ""
     seo_tags = article_res.get("seo_tags") or []
@@ -552,6 +592,7 @@ def build_final_article(article_res: dict, original_url: str) -> dict:
 
     return {
         "title": article_res.get("viral_title"),
+        "seo_summary": seo_summary,
         "url": original_url,
         "cover": cover_url,
         "wechat_html": minify_html(final_wechat_html),
@@ -665,7 +706,6 @@ def main():
 
     write_output(daily_featured_file, daily_featured_articles)
     print(f"\n📦 今日精选文件已更新: {daily_featured_file}")
-
     print(
         f"\n🎉 任务完成 | 候选入池 {len(candidate_pool)} 篇 | AI精选四篇候选 {len(selected_candidates)} 篇 | 实际生成 {generated_count} 篇。"
     )
