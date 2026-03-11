@@ -23,7 +23,13 @@
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
-      "https://waitbutwhy.com/2025/10/toddler.html"
+      "https://waitbutwhy.com/2025/10/toddler.html",
+      "https://waitbutwhy.com/2021/04/mailbag-2.html",
+      "https://waitbutwhy.com/2024/02/vision-pro.html",
+      "https://waitbutwhy.com/2023/05/baby.html",
+      "https://waitbutwhy.com/2023/02/last-six-years.html",
+      "https://waitbutwhy.com/2020/09/debate2020.html",
+      "https://waitbutwhy.com/2020/09/universe.html"
     ],
     "https://www.ycombinator.com/blog/feed": [
       "https://www.ycombinator.com/blog/adding-canada-back",
@@ -55,13 +61,17 @@
       "https://nav.al/curate-people",
       "https://nav.al/get",
       "https://nav.al/density",
-      "https://nav.al/fool"
+      "https://nav.al/fool",
+      "https://nav.al/simplest",
+      "https://nav.al/good-products"
     ],
     "https://marginalrevolution.com/feed": [
       "https://marginalrevolution.com/marginalrevolution/2026/03/advantageous-selection.html",
       "https://marginalrevolution.com/marginalrevolution/2026/03/are-the-small-tax-havens-really-all-that-safe.html",
       "https://marginalrevolution.com/marginalrevolution/2026/03/the-trajectories-of-science-and-ai.html",
-      "https://marginalrevolution.com/marginalrevolution/2026/03/recent-recordings-of-big-symphonies.html"
+      "https://marginalrevolution.com/marginalrevolution/2026/03/recent-recordings-of-big-symphonies.html",
+      "https://marginalrevolution.com/marginalrevolution/2026/03/how-frequent-are-price-bubbles.html",
+      "https://marginalrevolution.com/marginalrevolution/2026/03/tuesday-assorted-links-559.html"
     ],
     "https://www.bigthink.com/feed": [
       "https://bigthink.com/business/gretchen-rubins-simple-secrets-for-a-happier-less-cluttered-life",
@@ -76,6 +86,9 @@
       "https://sideways-view.com/2021/10/12/edt-with-updating-double-counts",
       "https://sideways-view.com/2021/10/10/secure-homes-for-digital-people",
       "https://sideways-view.com/2021/07/09/improving-capital-gains-taxes"
+    ],
+    "https://www.ribbonfarm.com/feed/": [
+      "https://www.ribbonfarm.com/2024/10/10/ribbonfarm-is-retiring"
     ]
   },
   "fingerprints": [
@@ -117,6 +130,17 @@
     "c04e4c478a105b61d24e04b17ef2c2bf21438f15",
     "8589535a3602c3e96213bdf4783386d0e0dd6da8",
     "7b5864af8be8c80eef5ed799285bff7d97eb81d1",
-    "12a54017adbfd7902d102e36f032bb7ebc33c9de"
+    "12a54017adbfd7902d102e36f032bb7ebc33c9de",
+    "ebc444ab67a4206ce7a69d92e8ebc9fa760b968b",
+    "f4154c251b94b9ee1e70b0b49cfa18503d1943ec",
+    "3e237fdc0c1536a1774f340171b3f6ffe480a950",
+    "8004ea04e97c60d86a6d241e6d1f8695e8324c02",
+    "58c56111ea80075a1158eb1e6289e318704cc757",
+    "982753b8edaa13c5f31a38bcc0b8bc8f3e335e12",
+    "4b0213e2c54f9fd8a46e962946c6b521fa67fe0f",
+    "be88eb2f4cfa28737e5e1e03e63b5f11e481e00c",
+    "e275717346ab8a886beed1b3aae78128437b207c",
+    "919bf59e4d3e779594f1268c22bd177a5dccb87f",
+    "5e4b1915f7a671dca7efd5a0bbc037715302bc4f"
   ]
 }
