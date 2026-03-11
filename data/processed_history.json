@@ -22,7 +22,8 @@
       "https://blog.givewell.org/2026/01/22/podcast-episode-22-evolving-our-research-approach-for-greater-impact"
     ],
     "https://waitbutwhy.com/feed": [
-      "https://waitbutwhy.com/2025/11/bhutan.html"
+      "https://waitbutwhy.com/2025/11/bhutan.html",
+      "https://waitbutwhy.com/2025/10/toddler.html"
     ],
     "https://www.ycombinator.com/blog/feed": [
       "https://www.ycombinator.com/blog/adding-canada-back",
@@ -47,6 +48,20 @@
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749"
+    ],
+    "https://nav.al/rss": [
+      "https://nav.al/in-the-arena",
+      "https://nav.al/ai",
+      "https://nav.al/curate-people",
+      "https://nav.al/get",
+      "https://nav.al/density",
+      "https://nav.al/fool"
+    ],
+    "https://marginalrevolution.com/feed": [
+      "https://marginalrevolution.com/marginalrevolution/2026/03/advantageous-selection.html",
+      "https://marginalrevolution.com/marginalrevolution/2026/03/are-the-small-tax-havens-really-all-that-safe.html",
+      "https://marginalrevolution.com/marginalrevolution/2026/03/the-trajectories-of-science-and-ai.html",
+      "https://marginalrevolution.com/marginalrevolution/2026/03/recent-recordings-of-big-symphonies.html"
     ]
   },
   "fingerprints": [
@@ -67,6 +82,17 @@
     "cdc24de33ba4653e67b53e5e6aea75c45b5de0dc",
     "37228f937d60ff69ca1abf32ddafd418f16acece",
     "4a73f9dac2b07cf22e79e6f132d910f71eb3e039",
-    "de94f377822b80c3a4e832e982c0fc99fa1e43a7"
+    "de94f377822b80c3a4e832e982c0fc99fa1e43a7",
+    "85fd073a361c463cf64414390d8918ef67806b11",
+    "cadcc3e370af9cf16405a8c7d28bccf79c775d36",
+    "91cf8f8eb55bcc715f1a11cc8b719b41e06dc274",
+    "557b7a53b7f75b9109b28349a5638113acb06698",
+    "609c11d0971cdd052c28d060068ae52e50a2d1eb",
+    "0064e10803024dc58a0de086b42d31aff60221b2",
+    "80762c4578d8b5a02f710820984970eb64e16dbc",
+    "5d071017f367edd1a27c243844093e30ea0d6e63",
+    "d998d9cac50469658f2403583b49b44d7b3ebfa1",
+    "25af2dd5d8dbf21e227eaafc08f80b867787cbb3",
+    "22a1986895dd6b368fb3601b6611f9db7b85d8e3"
   ]
 }
