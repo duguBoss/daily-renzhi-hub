@@ -28,11 +28,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
-        run: python fetch_and_ai_process.py
+        run: python rss_wechat_scraper.py
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update: Daily Gemini Summary"
-          file_pattern: 'data/ assets/rss_covers/'
+          file_pattern: 'data/ assets/'
           skip_dirty_check: false
