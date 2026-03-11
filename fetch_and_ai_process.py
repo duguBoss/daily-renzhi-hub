@@ -84,10 +84,10 @@ FEEDS = [
 ]
 
 TEXT_MODELS = [
+    "gemini-2.5-flash",
+    "gemini-3-flash-preview",
     "gemini-3.1-pro-preview",
     "gemini-3-pro-preview",
-    "gemini-3-flash-preview",
-    "gemini-2.5-flash",
 ]
 
 URL_TRACKING_PARAMS = {
@@ -510,6 +510,17 @@ def clean_json_string(raw_text):
     return text.strip()
 
 
+def normalize_gemini_result(value):
+    if isinstance(value, dict):
+        return value
+    if isinstance(value, list):
+        for item in value:
+            if isinstance(item, dict):
+                return item
+        return None
+    return None
+
+
 def minify_html(html_str):
     if not html_str:
         return ""
@@ -569,7 +580,11 @@ def call_gemini_json(prompt: str, temperature: float = 0.75):
             res = requests.post(url, json=payload, timeout=120)
             res_json = res.json()
             if "candidates" in res_json:
-                return json.loads(clean_json_string(res_json["candidates"][0]["content"]["parts"][0]["text"]))
+                parsed = json.loads(clean_json_string(res_json["candidates"][0]["content"]["parts"][0]["text"]))
+                normalized = normalize_gemini_result(parsed)
+                if normalized is not None:
+                    return normalized
+                print("      [API Error]: JSON response is not an object")
             if "error" in res_json:
                 print(f"      [API Error]: {res_json['error'].get('message')}")
         except Exception as e:
@@ -712,7 +727,8 @@ HTML组件库：
 原文内容:
 {text_input}
 """
-    return call_gemini_json(prompt, temperature=0.75)
+    result = call_gemini_json(prompt, temperature=0.75)
+    return result if isinstance(result, dict) else None
 
 
 def append_output(output_file: str, article: dict):
@@ -735,6 +751,8 @@ def write_output(output_file: str, articles: List[dict]):
 
 
 def build_final_article(article_res: dict, original_url: str) -> dict:
+    if not isinstance(article_res, dict):
+        return {}
     cover_url = download_cover_to_repo(original_url) or get_picsum_cover_url()
     raw_html = article_res.get("article_html", "")
     seo_summary = normalize_text(article_res.get("seo_summary", ""))[:100]
@@ -904,6 +922,9 @@ def main():
             continue
 
         article = build_final_article(article_res, candidate["url"])
+        if not article:
+            print("    >>> 🚫 放弃: 生成结果结构异常")
+            continue
         append_output(output_file, article)
         daily_featured_articles.append(article)
         generated_count += 1
