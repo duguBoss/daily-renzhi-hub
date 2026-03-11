@@ -750,6 +750,55 @@ def write_output(output_file: str, articles: List[dict]):
         json.dump(articles, f, ensure_ascii=False, indent=2)
 
 
+def read_json_file(file_path: str, default):
+    if not os.path.exists(file_path):
+        return default
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return default
+
+
+def load_cached_candidates(file_path: str) -> List[dict]:
+    data = read_json_file(file_path, [])
+    if not isinstance(data, list):
+        return []
+
+    candidates = []
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        if not item.get("url") or not item.get("content"):
+            continue
+        candidates.append(
+            {
+                "feed_url": item.get("feed_url", ""),
+                "title": item.get("title", "Untitled"),
+                "url": normalize_url(item.get("url", "")),
+                "content": item.get("content", ""),
+                "fingerprint": item.get("fingerprint") or article_fingerprint(item.get("title", ""), item.get("content", "")),
+            }
+        )
+    return candidates
+
+
+def save_cached_candidates(file_path: str, candidates: List[dict]):
+    serializable = []
+    for item in candidates:
+        serializable.append(
+            {
+                "feed_url": item.get("feed_url", ""),
+                "title": item.get("title", ""),
+                "url": item.get("url", ""),
+                "content": item.get("content", ""),
+                "fingerprint": item.get("fingerprint", ""),
+                "cached_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            }
+        )
+    write_output(file_path, serializable)
+
+
 def build_final_article(article_res: dict, original_url: str) -> dict:
     if not isinstance(article_res, dict):
         return {}
@@ -770,8 +819,14 @@ def build_final_article(article_res: dict, original_url: str) -> dict:
         flags=re.I,
     )
     content_html = re.sub(
-        r"(?<![\"'=])https://picsum\.photos/\d+/\d+\?random=\d+",
+        r"(?<!src=['\"])(?<!href=['\"])(?<![A-Za-z0-9_./:-])https://picsum\.photos/\d+/\d+\?random=\d+(?![^<]*['\"])",
         cover_img_tag,
+        content_html,
+        flags=re.I,
+    )
+    content_html = re.sub(
+        r"""<img[^>]+src=['"]\s*<img[^>]+src=['"]([^'"]+)['"][^>]*>\s*['"][^>]*>""",
+        r"""<img peitu='true' src='\1' style='width:100%;display:block;margin:30px 0;'>""",
         content_html,
         flags=re.I,
     )
@@ -832,7 +887,8 @@ def main():
     today_str = datetime.now().strftime("%Y%m%d")
     output_file = f"data/wechat_ready_{today_str}.json"
     daily_featured_file = "data/daily-news.json"
-    candidate_pool = []
+    candidate_cache_file = f"data/candidates_{today_str}.json"
+    candidate_pool = load_cached_candidates(candidate_cache_file)
     generated_count = 0
     daily_featured_articles = []
 
@@ -840,60 +896,67 @@ def main():
         f"🚀 启动任务 | 候选池目标: {CANDIDATE_POOL_TARGET} | 每日精选: {MAX_PROCESS_PER_RUN} | 历史记录: URL规范化 + 内容指纹去重"
     )
 
-    for feed_url in FEEDS:
-        if len(candidate_pool) >= CANDIDATE_POOL_TARGET:
-            print(f"\n🛑 候选池已足够 ({len(candidate_pool)} 篇)，停止继续抓取。")
-            break
-
-        if should_skip_feed(feed_url):
-            print(f"\n⛔ 跳过源: {feed_url} | 原因: 源本身偏YC/美国创业圈")
-            continue
-
-        print(f"\n🔍 扫描源: {feed_url}")
-        try:
-            feed = parse_feed(feed_url)
-        except Exception:
-            print("   -> 解析失败，跳过")
-            continue
-
-        for entry in feed.entries[:MAX_ENTRIES_PER_FEED]:
+    if candidate_pool:
+        print(f"\n♻️ 发现当天候选缓存，直接复用 {len(candidate_pool)} 篇进入精选环节。")
+    else:
+        for feed_url in FEEDS:
             if len(candidate_pool) >= CANDIDATE_POOL_TARGET:
+                print(f"\n🛑 候选池已足够 ({len(candidate_pool)} 篇)，停止继续抓取。")
                 break
 
-            title = entry.get("title", "Untitled")
-            raw_link = entry.get("link", "")
-            link = normalize_url(raw_link)
-            if not link:
+            if should_skip_feed(feed_url):
+                print(f"\n⛔ 跳过源: {feed_url} | 原因: 源本身偏YC/美国创业圈")
                 continue
 
-            web_data = get_full_content(link)
-            if not web_data or not web_data.get("content"):
+            print(f"\n🔍 扫描源: {feed_url}")
+            try:
+                feed = parse_feed(feed_url)
+            except Exception:
+                print("   -> 解析失败，跳过")
                 continue
 
-            content_text = web_data.get("content", "")
-            fingerprint = article_fingerprint(title, content_text)
+            for entry in feed.entries[:MAX_ENTRIES_PER_FEED]:
+                if len(candidate_pool) >= CANDIDATE_POOL_TARGET:
+                    break
 
-            if is_processed(feed_url, link, fingerprint, history):
-                print(f"  ⏭️ [跳过] URL或内容已处理: {title[:24]}...")
-                continue
+                title = entry.get("title", "Untitled")
+                raw_link = entry.get("link", "")
+                link = normalize_url(raw_link)
+                if not link:
+                    continue
 
-            should_filter, reason = should_filter_article(title, content_text, link)
-            if should_filter:
-                print(f"  🚫 [过滤] {title[:24]}... | {reason}")
-                add_to_history(feed_url, link, fingerprint, history)
-                save_history(history)
-                continue
+                web_data = get_full_content(link)
+                if not web_data or not web_data.get("content"):
+                    continue
 
-            candidate_pool.append(
-                {
-                    "feed_url": feed_url,
-                    "title": title,
-                    "url": link,
-                    "content": content_text,
-                    "fingerprint": fingerprint,
-                }
-            )
-            print(f"  📥 [入池] 候选文章: {title[:30]}...")
+                content_text = web_data.get("content", "")
+                fingerprint = article_fingerprint(title, content_text)
+
+                if is_processed(feed_url, link, fingerprint, history):
+                    print(f"  ⏭️ [跳过] URL或内容已处理: {title[:24]}...")
+                    continue
+
+                should_filter, reason = should_filter_article(title, content_text, link)
+                if should_filter:
+                    print(f"  🚫 [过滤] {title[:24]}... | {reason}")
+                    add_to_history(feed_url, link, fingerprint, history)
+                    save_history(history)
+                    continue
+
+                candidate_pool.append(
+                    {
+                        "feed_url": feed_url,
+                        "title": title,
+                        "url": link,
+                        "content": content_text,
+                        "fingerprint": fingerprint,
+                    }
+                )
+                print(f"  📥 [入池] 候选文章: {title[:30]}...")
+
+        if candidate_pool:
+            save_cached_candidates(candidate_cache_file, candidate_pool)
+            print(f"\n💾 已缓存当天候选池: {candidate_cache_file}")
 
     if not candidate_pool:
         print("\n🫥 没有可用候选文章，本轮结束。")
