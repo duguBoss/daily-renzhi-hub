@@ -31,8 +31,9 @@ jobs:
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           else
-            pip install requests feedparser playwright
+            pip install requests feedparser
           fi
+          pip install playwright
           python -m playwright install chromium
 
       - name: Run RSS Script
@@ -40,7 +41,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
-        run: python rss_wechat_scraper.py
+        run: python fetch_and_ai_process.py
 
       - name: Commit and Push changes
         run: |
