@@ -2,37 +2,60 @@ name: Daily Gemini RSS Reader
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 jobs:
-  run-task:
+  build_and_run:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
-      - name: Install deps
-        run: pip install requests feedparser
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-      - name: Run Fetcher
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install requests feedparser playwright
+          fi
+          python -m playwright install chromium
+
+      - name: Run RSS Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
-        run: python fetch_and_ai_process.py
+        run: python rss_wechat_scraper.py
 
-      - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update: Daily Gemini Summary"
-          # <--- 直接删掉 file_pattern 这一行
-          skip_dirty_check: false
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          mkdir -p data
+          mkdir -p assets/rss_covers
+
+          git add data
+          git add assets
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Daily Gemini RSS: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
