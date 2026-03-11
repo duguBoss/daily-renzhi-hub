@@ -1,12 +1,14 @@
 import hashlib
 import json
+import mimetypes
 import os
 import re
 import time
 from datetime import datetime
 from html import unescape
+from pathlib import Path
 from typing import List, Tuple
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 from xml.etree import ElementTree as ET
 
 import requests
@@ -16,8 +18,15 @@ try:
 except ImportError:
     feedparser = None
 
+try:
+    from playwright.sync_api import sync_playwright
+except ImportError:
+    sync_playwright = None
+
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+GITHUB_REPOSITORY = os.getenv("GITHUB_REPOSITORY", "").strip()
+GITHUB_REF_NAME = os.getenv("GITHUB_REF_NAME", "").strip()
 
 MAX_PROCESS_PER_RUN = 4
 CANDIDATE_POOL_TARGET = 10
@@ -25,6 +34,7 @@ MAX_ENTRIES_PER_FEED = 8
 HISTORY_FILE = "data/processed_history.json"
 MAX_HISTORY_PER_FEED = 1000
 MAX_GLOBAL_FINGERPRINTS = 5000
+ASSET_DIR = Path("assets") / "rss_covers"
 
 FEEDS = [
     "https://80000hours.org/feed/",
@@ -141,6 +151,7 @@ class SimpleFeedResult:
 def ensure_data_dir():
     if not os.path.exists("data"):
         os.makedirs("data")
+    ASSET_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def parse_feed(feed_url: str):
@@ -293,6 +304,187 @@ def add_to_history(feed_url: str, article_url: str, fingerprint: str, history: d
 
 def get_picsum_cover_url(width=800, height=340):
     return f"https://picsum.photos/{width}/{height}?random={int(time.time())}"
+
+
+def fetch_html(url: str) -> str:
+    try:
+        response = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        response.raise_for_status()
+        return response.text
+    except Exception:
+        return ""
+
+
+def score_image_candidate(candidate: dict) -> int:
+    src = (candidate.get("src") or "").lower()
+    alt = (candidate.get("alt") or "").lower()
+    width = int(candidate.get("width") or 0)
+    height = int(candidate.get("height") or 0)
+    area = width * height
+    in_article = bool(candidate.get("in_article"))
+    above_fold = bool(candidate.get("above_fold"))
+    order = int(candidate.get("order") or 0)
+    score = 0
+
+    if not src or src.startswith("data:") or src.endswith(".svg"):
+        return -999
+    if any(flag in src for flag in ["logo", "avatar", "icon", "favicon", "sprite", "emoji"]):
+        score -= 120
+    if any(flag in alt for flag in ["logo", "avatar", "icon"]):
+        score -= 60
+    if width >= 600:
+        score += 40
+    if height >= 300:
+        score += 35
+    if area >= 250000:
+        score += 40
+    if in_article:
+        score += 80
+    if above_fold:
+        score += 20
+    if order <= 3:
+        score += 18
+    if "cover" in src or "hero" in src or "featured" in src:
+        score += 25
+    return score
+
+
+def extract_article_image_url_with_playwright(article_url: str) -> str:
+    if sync_playwright is None:
+        return ""
+
+    try:
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
+            page = browser.new_page(viewport={"width": 1440, "height": 2200})
+            page.goto(article_url, wait_until="domcontentloaded", timeout=90000)
+            page.wait_for_timeout(2500)
+            candidates = page.evaluate(
+                """() => {
+                    const toAbs = (value) => {
+                      try { return new URL(value, location.href).toString(); } catch { return ""; }
+                    };
+                    const selectors = [
+                      "article img",
+                      "main img",
+                      "[role='main'] img",
+                      ".post img",
+                      ".entry-content img",
+                      ".article-content img",
+                      ".post-content img",
+                      ".content img",
+                      "img"
+                    ];
+                    const seen = new Set();
+                    const rows = [];
+                    let order = 0;
+                    for (const selector of selectors) {
+                      for (const img of document.querySelectorAll(selector)) {
+                        const rect = img.getBoundingClientRect();
+                        const src = toAbs(
+                          img.getAttribute("src") ||
+                          img.getAttribute("data-src") ||
+                          img.getAttribute("data-original") ||
+                          img.currentSrc ||
+                          ""
+                        );
+                        if (!src || seen.has(src)) continue;
+                        seen.add(src);
+                        const parentArticle = img.closest("article, main, [role='main'], .post, .entry-content, .article-content, .post-content, .content");
+                        rows.push({
+                          src,
+                          alt: img.getAttribute("alt") || "",
+                          width: Math.round(rect.width || img.naturalWidth || 0),
+                          height: Math.round(rect.height || img.naturalHeight || 0),
+                          top: Math.round(rect.top || 0),
+                          in_article: !!parentArticle,
+                          above_fold: rect.top < window.innerHeight * 1.3,
+                          order: order++
+                        });
+                      }
+                    }
+                    return rows;
+                }"""
+            )
+            browser.close()
+    except Exception:
+        return ""
+
+    if not candidates:
+        return ""
+
+    best = max(candidates, key=score_image_candidate)
+    if score_image_candidate(best) < 40:
+        return ""
+    return best.get("src", "")
+
+
+def extract_cover_image_url(article_url: str) -> str:
+    browser_image = extract_article_image_url_with_playwright(article_url)
+    if browser_image:
+        return browser_image
+
+    html_text = fetch_html(article_url)
+    if not html_text:
+        return ""
+
+    patterns = [
+        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+property=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<img[^>]+src=["\']([^"\']+)["\']',
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, html_text, flags=re.I | re.S)
+        if match:
+            return urljoin(article_url, match.group(1).strip())
+    return ""
+
+
+def guess_extension(image_url: str, content_type: str) -> str:
+    path = urlsplit(image_url).path.lower()
+    ext = os.path.splitext(path)[1]
+    if ext in {".jpg", ".jpeg", ".png", ".webp", ".gif"}:
+        return ext
+    if content_type:
+        guessed = mimetypes.guess_extension(content_type.split(";")[0].strip())
+        if guessed:
+            return ".jpg" if guessed == ".jpe" else guessed
+    return ".jpg"
+
+
+def build_github_asset_url(relative_path: str) -> str:
+    if not GITHUB_REPOSITORY:
+        return ""
+    ref = GITHUB_REF_NAME or "main"
+    return f"https://raw.githubusercontent.com/{GITHUB_REPOSITORY}/{ref}/{relative_path.replace(os.sep, '/')}"
+
+
+def download_cover_to_repo(article_url: str) -> str:
+    source_image_url = extract_cover_image_url(article_url)
+    if not source_image_url:
+        return ""
+
+    try:
+        response = requests.get(source_image_url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        response.raise_for_status()
+    except Exception:
+        return ""
+
+    content_type = response.headers.get("Content-Type", "")
+    extension = guess_extension(source_image_url, content_type)
+    file_hash = hashlib.sha1(source_image_url.encode("utf-8")).hexdigest()[:16]
+    filename = f"{file_hash}{extension}"
+    file_path = ASSET_DIR / filename
+
+    try:
+        file_path.write_bytes(response.content)
+    except Exception:
+        return ""
+
+    relative_path = str(file_path).replace("\\", "/")
+    return build_github_asset_url(relative_path)
 
 
 def get_full_content(url):
@@ -543,7 +735,7 @@ def write_output(output_file: str, articles: List[dict]):
 
 
 def build_final_article(article_res: dict, original_url: str) -> dict:
-    cover_url = get_picsum_cover_url()
+    cover_url = download_cover_to_repo(original_url) or get_picsum_cover_url()
     raw_html = article_res.get("article_html", "")
     seo_summary = normalize_text(article_res.get("seo_summary", ""))[:100]
     cover_img_tag = f"<img peitu='true' src='{cover_url}' style='width:100%;display:block;margin:30px 0;'>"
@@ -564,6 +756,21 @@ def build_final_article(article_res: dict, original_url: str) -> dict:
         cover_img_tag,
         content_html,
         flags=re.I,
+    )
+    # Keep only one large hero image at the top.
+    content_html = re.sub(
+        r"(<img[^>]+peitu=['\"]true['\"][^>]*>)(.*?)(<img[^>]+peitu=['\"]true['\"][^>]*>)",
+        r"\1\2",
+        content_html,
+        count=1,
+        flags=re.I | re.S,
+    )
+    content_html = re.sub(
+        r"(<img[^>]+src=['\"][^'\"]+['\"][^>]*>)(.*?)(<img[^>]+src=['\"][^'\"]+['\"][^>]*>)",
+        lambda m: m.group(1) + re.sub(r"<img[^>]+src=['\"][^'\"]+['\"][^>]*>", "", m.group(2), flags=re.I | re.S),
+        content_html,
+        count=1,
+        flags=re.I | re.S,
     )
 
     tags_html = ""
