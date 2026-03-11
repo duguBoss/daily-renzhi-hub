@@ -5,7 +5,11 @@
       "https://80000hours.org/podcast/episodes/robert-long-eleos-ai-welfare-research",
       "https://80000hours.org/podcast/episodes/ajeya-cotra-transformative-ai-crunch-time",
       "https://80000hours.org/podcast/episodes/max-harms-miri-superintelligence-corrigibility",
-      "https://80000hours.org/career-reviews/china-related-ai-safety-and-governance-paths"
+      "https://80000hours.org/career-reviews/china-related-ai-safety-and-governance-paths",
+      "https://80000hours.org/videos/iabied",
+      "https://80000hours.org/2026/03/half-year-update-q3-q4-2025",
+      "https://80000hours.org/2026/02/expression-of-interest-contract-video-editor-for-the-podcast-team",
+      "https://80000hours.org/podcast/episodes/sam-winter-levy-nikita-lalwani-ai-nuclear-deterrence"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -13,7 +17,9 @@
       "https://blog.givewell.org/2026/03/04/february-2026-updates",
       "https://blog.givewell.org/2026/03/02/givewell-launches-rfis-for-targeted-vaccination-outreach-in-three-countries-and-anemia-control-programs-in-africa",
       "https://blog.givewell.org/2026/02/26/givewells-2025-grantmaking-record-grants-expanded-reach-crisis-response",
-      "https://blog.givewell.org/2026/02/05/podcast-episode-23-generating-evidence-for-the-future-of-malaria-prevention"
+      "https://blog.givewell.org/2026/02/05/podcast-episode-23-generating-evidence-for-the-future-of-malaria-prevention",
+      "https://blog.givewell.org/2026/01/30/january-2026-updates",
+      "https://blog.givewell.org/2026/01/22/podcast-episode-22-evolving-our-research-approach-for-greater-impact"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html"
@@ -29,7 +35,18 @@
       "https://seths.blog/2026/03/considering-infinity",
       "https://seths.blog/2026/03/confused-about-donations",
       "https://seths.blog/2026/03/if-they-knew",
-      "https://seths.blog/2026/03/tight-rope-standing"
+      "https://seths.blog/2026/03/tight-rope-standing",
+      "https://seths.blog/2026/03/thats-what-studies-are-for",
+      "https://seths.blog/2026/03/imagination-is-work",
+      "https://seths.blog/2026/03/the-uncanny-valley"
+    ],
+    "https://fs.blog/feed/": [
+      "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
+      "https://fs.blog/knowledge-project-podcast/vlad-tenev",
+      "https://fs.blog/knowledge-project-podcast/outliers-phil-knight"
+    ],
+    "https://nautil.us/feed": [
+      "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749"
     ]
   },
   "fingerprints": [
@@ -37,6 +54,19 @@
     "422cd6a67e24d237477f7e5267cd0aae801a0fa1",
     "8803ce9c69969b50fdb799b26863ff07fbd4c2b9",
     "ab346bac1fc4c6fbf40b7b119e4c7b897fa1eb7c",
-    "c44e4bdeb608e948ae69cfd53d555fcb520967fa"
+    "c44e4bdeb608e948ae69cfd53d555fcb520967fa",
+    "b47bb430f45c7dec532a59d1a4c407345aaefc65",
+    "ebcf82b0afa462ae8da9dd4009c0d71bf4326249",
+    "56da9ce852f11f886d4d534e9fb11ebeea5c7024",
+    "46e408dfa6bf19cf5bee2fd0cf618d174cef9cb4",
+    "fcb66aff04236c1383552f34a778762254b66653",
+    "bf4c830021f09173b8e81c7cd3441d16b6f24e02",
+    "ea2778a56cc3972591b72c89363900bdc442f777",
+    "0b2b9677fb46d404fc05d719e2112e2ec77afac4",
+    "9a963fbb4408a3781181ab74e2fe3216a755a9c1",
+    "cdc24de33ba4653e67b53e5e6aea75c45b5de0dc",
+    "37228f937d60ff69ca1abf32ddafd418f16acece",
+    "4a73f9dac2b07cf22e79e6f132d910f71eb3e039",
+    "de94f377822b80c3a4e832e982c0fc99fa1e43a7"
   ]
 }
