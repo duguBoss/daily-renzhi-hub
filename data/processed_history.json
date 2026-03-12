@@ -45,12 +45,15 @@
       "https://seths.blog/2026/03/tight-rope-standing",
       "https://seths.blog/2026/03/thats-what-studies-are-for",
       "https://seths.blog/2026/03/imagination-is-work",
-      "https://seths.blog/2026/03/the-uncanny-valley"
+      "https://seths.blog/2026/03/the-uncanny-valley",
+      "https://seths.blog/2026/03/henry-ford-knew-how-to-drive",
+      "https://seths.blog/2026/03/the-knot-my-upcoming-new-book-and-a-course-thats-already-here"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
       "https://fs.blog/knowledge-project-podcast/vlad-tenev",
-      "https://fs.blog/knowledge-project-podcast/outliers-phil-knight"
+      "https://fs.blog/knowledge-project-podcast/outliers-phil-knight",
+      "https://fs.blog/knowledge-project-podcast/connor-teskey"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749"
@@ -121,6 +124,17 @@
     ],
     "https://ifp.org/feed/": [
       "https://ifp.org/interconnection-for-ai"
+    ],
+    "https://longreads.com/feed/": [
+      "https://longreads.com/2026/03/11/questionnaire-julian-brave-noisecat",
+      "https://longreads.com/2026/03/10/walking-dallas-photo-essay",
+      "https://longreads.com/2026/03/10/this-sixties-musician-died-mysteriously-was-he-the-victim-of-a-serial-killer"
+    ],
+    "https://forum.effectivealtruism.org/.rss": [
+      "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
+      "https://forum.effectivealtruism.org/posts/PsLMxhKAZc9wBsD4o/the-vatican-ai-legal-personhood-and-claude-s-constitution",
+      "https://forum.effectivealtruism.org/posts/sruWKjiNrypj4brnL/givewell-s-2025-grantmaking-record-grants-expanded-reach-1",
+      "https://forum.effectivealtruism.org/posts/AWzcocxYTRBtxWA8b/we-do-not-live-by-course-alone"
     ]
   },
   "fingerprints": [
@@ -193,6 +207,16 @@
     "80644fddb8ecc5e35602ef4b6b484cb4df2d6a7e",
     "02777b65ee50d269d67585a3881238fdbfdf5cc7",
     "e6f43990fb75a3bd8c5c643d9e411e8ac5268616",
-    "2277f092bdbb6ab246568bbe9c0307bf6c7a5385"
+    "2277f092bdbb6ab246568bbe9c0307bf6c7a5385",
+    "f659f8f7d56888ad851c62e3c83364eaf93f8bec",
+    "80b0940616e823a9497be63aa06affbc008061f3",
+    "7c9eb7cac0a4612febeb7a41e543cfcbe28f8964",
+    "38d90e0cae3453ae4105944b40c2aea3ae20ad09",
+    "41a5f1a07ca5a80a8f087dc9863757994a564711",
+    "88e6b77e1d6d684825d641e4482689feb245cc6f",
+    "e4b33f1e0284f87032e25ce4d4aef1f5c59ea773",
+    "a57d8a298fd79d044c8b6aadbfbe58b4920f8ebc",
+    "68455304ae0b5ba4025a257e31e95e8609b62094",
+    "422a08cbb36b70be4c19b498b000cc23c5fea45a"
   ]
 }
