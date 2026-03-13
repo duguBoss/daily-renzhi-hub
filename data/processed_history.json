@@ -19,7 +19,8 @@
       "https://blog.givewell.org/2026/02/26/givewells-2025-grantmaking-record-grants-expanded-reach-crisis-response",
       "https://blog.givewell.org/2026/02/05/podcast-episode-23-generating-evidence-for-the-future-of-malaria-prevention",
       "https://blog.givewell.org/2026/01/30/january-2026-updates",
-      "https://blog.givewell.org/2026/01/22/podcast-episode-22-evolving-our-research-approach-for-greater-impact"
+      "https://blog.givewell.org/2026/01/22/podcast-episode-22-evolving-our-research-approach-for-greater-impact",
+      "https://blog.givewell.org/2026/03/12/givewells-2025-grant-investigation-survey-results"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -47,7 +48,9 @@
       "https://seths.blog/2026/03/imagination-is-work",
       "https://seths.blog/2026/03/the-uncanny-valley",
       "https://seths.blog/2026/03/henry-ford-knew-how-to-drive",
-      "https://seths.blog/2026/03/the-knot-my-upcoming-new-book-and-a-course-thats-already-here"
+      "https://seths.blog/2026/03/the-knot-my-upcoming-new-book-and-a-course-thats-already-here",
+      "https://seths.blog/2026/03/its-faster-to-just-do-it-myself",
+      "https://seths.blog/2026/03/over-the-top-2"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -107,7 +110,8 @@
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
-      "https://dynomight.net/thanks-5"
+      "https://dynomight.net/thanks-5",
+      "https://dynomight.net/novels"
     ],
     "https://ourworldindata.org/feed": [
       "https://ourworldindata.org/biofuel-land-solar-electric-vehicles"
@@ -135,6 +139,14 @@
       "https://forum.effectivealtruism.org/posts/PsLMxhKAZc9wBsD4o/the-vatican-ai-legal-personhood-and-claude-s-constitution",
       "https://forum.effectivealtruism.org/posts/sruWKjiNrypj4brnL/givewell-s-2025-grantmaking-record-grants-expanded-reach-1",
       "https://forum.effectivealtruism.org/posts/AWzcocxYTRBtxWA8b/we-do-not-live-by-course-alone"
+    ],
+    "https://www.noahpinion.blog/feed": [
+      "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
+      "https://www.noahpinion.blog/p/are-we-in-the-foothills-of-world",
+      "https://www.noahpinion.blog/p/something-feels-weird-about-this",
+      "https://www.noahpinion.blog/p/if-ai-is-a-weapon-why-dont-we-regulate",
+      "https://www.noahpinion.blog/p/japan-can-be-americas-arsenal",
+      "https://www.noahpinion.blog/p/superintelligence-is-already-here"
     ]
   },
   "fingerprints": [
@@ -217,6 +229,16 @@
     "e4b33f1e0284f87032e25ce4d4aef1f5c59ea773",
     "a57d8a298fd79d044c8b6aadbfbe58b4920f8ebc",
     "68455304ae0b5ba4025a257e31e95e8609b62094",
-    "422a08cbb36b70be4c19b498b000cc23c5fea45a"
+    "422a08cbb36b70be4c19b498b000cc23c5fea45a",
+    "0ea923112e98ab97c76b211ec47ef9ae53546f88",
+    "282e1aeb41bc84140cc2f93faa2828fd18859f0e",
+    "61cf257d28fa1d5edf4e3e736817a2fc0b11feab",
+    "f9d6dd57377336ebbde801da9541bad705f2f256",
+    "5a1d6ba9e42a1e880f21a3166cf1c10e55cb73ab",
+    "64a4f1f291d8eea86035e48c3468e6fda0bb0e88",
+    "e58eeb1a1ed390e812a69ab49e83ce919400779c",
+    "128512d588afc741100f0f7d7d34af62372964dd",
+    "32a475411aed351962adb2fdff67da74549586e4",
+    "03e2fc70a3423636ffcf387b60cab77483828437"
   ]
 }
