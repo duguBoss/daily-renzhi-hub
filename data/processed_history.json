@@ -51,7 +51,8 @@
       "https://seths.blog/2026/03/the-knot-my-upcoming-new-book-and-a-course-thats-already-here",
       "https://seths.blog/2026/03/its-faster-to-just-do-it-myself",
       "https://seths.blog/2026/03/over-the-top-2",
-      "https://seths.blog/2026/03/visible-measures"
+      "https://seths.blog/2026/03/visible-measures",
+      "https://seths.blog/2026/03/sitting-in-zimbo"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -109,7 +110,8 @@
     "https://www.themarginalian.org/feed/": [
       "https://www.themarginalian.org/2026/03/09/milan-kundera-unbearable-lightness-of-being",
       "https://www.themarginalian.org/2026/03/09/dostoyevsky-dream",
-      "https://www.themarginalian.org/2026/03/08/george-saunders-uncertainty"
+      "https://www.themarginalian.org/2026/03/08/george-saunders-uncertainty",
+      "https://www.themarginalian.org/2026/03/12/astronaut-aurora-despair"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -157,6 +159,16 @@
       "https://www.noahpinion.blog/p/if-ai-is-a-weapon-why-dont-we-regulate",
       "https://www.noahpinion.blog/p/japan-can-be-americas-arsenal",
       "https://www.noahpinion.blog/p/superintelligence-is-already-here"
+    ],
+    "https://www.benkuhn.net/index.xml": [
+      "https://www.benkuhn.net/impact",
+      "https://www.benkuhn.net/tmgr",
+      "https://www.benkuhn.net/pjm",
+      "https://www.benkuhn.net/leadcats",
+      "https://www.benkuhn.net/trust",
+      "https://www.benkuhn.net/behavioral",
+      "https://www.benkuhn.net/newmgr",
+      "https://www.benkuhn.net/leaving"
     ]
   },
   "fingerprints": [
@@ -259,6 +271,16 @@
     "7a3a33972911174c681b5da95a5f3130d4850e7f",
     "afcc38574ae414e3742f5300af8fc02ddf64b182",
     "74830283bbfd11f75c71c5c2de0ab17efa61db34",
-    "7c708cccd8a29d3b32632c47d2ff9dadbe60fcb9"
+    "7c708cccd8a29d3b32632c47d2ff9dadbe60fcb9",
+    "1a9bc390065a1884a629e79fd4de3bbb1277bc6d",
+    "8c7dcaec3c70c45863ad2e693cd3d6ae218ae3e3",
+    "d39857b24e8ce1a39adc0a0e053bd8a145c59091",
+    "c74cbc84a8f7054ec830d48a955be82a559de4c5",
+    "54fbd3f9c588c26c7f8b729abb97438a17a336cd",
+    "13cacb715319959ab3d52f5f99d2e74d39218c87",
+    "d7bce376dadf9cdff98ee86a0c2e2fbfac459369",
+    "8d3a4bbbb974ff61c70b591d988ab5e149fe96e2",
+    "af629d0819519b38f00948c073d39a3267b6903a",
+    "aec3e980283df12765b8a9f96ad0a496e0d50dc1"
   ]
 }
