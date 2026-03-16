@@ -52,7 +52,8 @@
       "https://seths.blog/2026/03/its-faster-to-just-do-it-myself",
       "https://seths.blog/2026/03/over-the-top-2",
       "https://seths.blog/2026/03/visible-measures",
-      "https://seths.blog/2026/03/sitting-in-zimbo"
+      "https://seths.blog/2026/03/sitting-in-zimbo",
+      "https://seths.blog/2026/03/a-kitchen-metaphor"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -150,7 +151,15 @@
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
       "https://forum.effectivealtruism.org/posts/PsLMxhKAZc9wBsD4o/the-vatican-ai-legal-personhood-and-claude-s-constitution",
       "https://forum.effectivealtruism.org/posts/sruWKjiNrypj4brnL/givewell-s-2025-grantmaking-record-grants-expanded-reach-1",
-      "https://forum.effectivealtruism.org/posts/AWzcocxYTRBtxWA8b/we-do-not-live-by-course-alone"
+      "https://forum.effectivealtruism.org/posts/AWzcocxYTRBtxWA8b/we-do-not-live-by-course-alone",
+      "https://forum.effectivealtruism.org/posts/QQMPkjJ5jaqkXBhur/i-may-be-doomed-on-making-ea-impact-if-i-decide-not-to-study",
+      "https://forum.effectivealtruism.org/posts/j5DoCeiedvNgYmgM2/brain-farming-is-no-longer-hypothetical",
+      "https://forum.effectivealtruism.org/posts/YsLqZL3izdQnWmCu5/rct-results-3-hours-of-procrastination-coaching-produced-68",
+      "https://forum.effectivealtruism.org/posts/9uk9Lue6f2fbgMxEw/poll-will-ai-make-cs-a-worse-earning-path-before-hl-agi",
+      "https://forum.effectivealtruism.org/posts/9QmLYGgMT56hf5Mvm/why-i-think-humanity-is-worth-saving",
+      "https://forum.effectivealtruism.org/posts/4jbbjTTJ87baMrkY4/ghd-discussion-here-is-slowly-dying",
+      "https://forum.effectivealtruism.org/posts/XeT5FxxaReXfsou9E/on-the-purity-of-animals",
+      "https://forum.effectivealtruism.org/posts/MZt49RMfehW5Acbop/addressing-a-grant-evaluation-bottleneck-in-ea-with-an-ai"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -169,6 +178,9 @@
       "https://www.benkuhn.net/behavioral",
       "https://www.benkuhn.net/newmgr",
       "https://www.benkuhn.net/leaving"
+    ],
+    "https://undark.org/feed/": [
+      "https://undark.org/2026/03/11/state-sound-science-bills"
     ]
   },
   "fingerprints": [
@@ -281,6 +293,16 @@
     "d7bce376dadf9cdff98ee86a0c2e2fbfac459369",
     "8d3a4bbbb974ff61c70b591d988ab5e149fe96e2",
     "af629d0819519b38f00948c073d39a3267b6903a",
-    "aec3e980283df12765b8a9f96ad0a496e0d50dc1"
+    "aec3e980283df12765b8a9f96ad0a496e0d50dc1",
+    "13c8ff9bbe22ef3271d77d422d82cf06f84fb1a1",
+    "1bcf5fc82be2b8bdebc364ce3e395abbb009cd7e",
+    "4ce8a087bd524a03f59d858bb284af035b2bf47a",
+    "36cacf7539894a2494e28a5cce1d3b95111fc7e7",
+    "8796c3664ebf75b6600bbb23af0627d5f30263f7",
+    "98f12cdcb019d8817e91e49f439358a0e7054949",
+    "0721f832e8b2df8593486f498c1fa19768d66947",
+    "f87d7e582e20576c276eb59939b7f07b8b41d840",
+    "7b7dff7bdc9630630b8f2de3bf02adbef2489b5f",
+    "85fae15563729cbc893aedb7bef2c27164f9b10f"
   ]
 }
