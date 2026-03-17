@@ -53,7 +53,8 @@
       "https://seths.blog/2026/03/over-the-top-2",
       "https://seths.blog/2026/03/visible-measures",
       "https://seths.blog/2026/03/sitting-in-zimbo",
-      "https://seths.blog/2026/03/a-kitchen-metaphor"
+      "https://seths.blog/2026/03/a-kitchen-metaphor",
+      "https://seths.blog/2026/03/green-flags"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -127,7 +128,8 @@
       "https://dynomight.net/novels"
     ],
     "https://ourworldindata.org/feed": [
-      "https://ourworldindata.org/biofuel-land-solar-electric-vehicles"
+      "https://ourworldindata.org/biofuel-land-solar-electric-vehicles",
+      "https://ourworldindata.org/why-cheap-waste-management-is-key-to-stopping-plastic-pollution"
     ],
     "https://www.rootsofprogress.org/feed.xml": [
       "https://rootsofprogress.org/save-the-date-progress-conference-2026",
@@ -181,6 +183,18 @@
     ],
     "https://undark.org/feed/": [
       "https://undark.org/2026/03/11/state-sound-science-bills"
+    ],
+    "https://daily.jstor.org/feed/": [
+      "https://daily.jstor.org/building-brasilia"
+    ],
+    "https://www.slowboring.com/feed": [
+      "https://www.slowboring.com/p/upscale-liberals-are-developing-class",
+      "https://www.slowboring.com/p/sunday-thread-mailbag-377",
+      "https://www.slowboring.com/p/saturday-discussion-post-5f4",
+      "https://www.slowboring.com/p/could-the-second-mexican-empire-have",
+      "https://www.slowboring.com/p/i-dont-buy-your-dating-recession",
+      "https://www.slowboring.com/p/the-demonic-policy-strangling-the",
+      "https://www.slowboring.com/p/thursday-discussion-post-2b7"
     ]
   },
   "fingerprints": [
@@ -303,6 +317,16 @@
     "0721f832e8b2df8593486f498c1fa19768d66947",
     "f87d7e582e20576c276eb59939b7f07b8b41d840",
     "7b7dff7bdc9630630b8f2de3bf02adbef2489b5f",
-    "85fae15563729cbc893aedb7bef2c27164f9b10f"
+    "85fae15563729cbc893aedb7bef2c27164f9b10f",
+    "a394bc3046d0f64e9a154192b913bb5f13a94263",
+    "18bc34b42bf495b239581548983b7268980dbb37",
+    "47b9d188ec183a8dce38d601847b5e039ff055c9",
+    "199d65808246bc744d9fadd652227840accb79e7",
+    "95c119b4915218b39fd8a4a38135202a850bc686",
+    "c3f2809ed91585dad38989cbc3635ba5027dd0e4",
+    "c6d03c1ab6d966a438a1cd061d78598f600e7c87",
+    "526968bbd11f9b8d8b2bf3f727e7c8fea021d8e2",
+    "7af30b28897b1787f5493f5c41d2a29eba483fa1",
+    "dba2db2e616f1d73d32ab303155aeb3530c440ee"
   ]
 }
