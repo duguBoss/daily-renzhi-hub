@@ -9,7 +9,8 @@
       "https://80000hours.org/videos/iabied",
       "https://80000hours.org/2026/03/half-year-update-q3-q4-2025",
       "https://80000hours.org/2026/02/expression-of-interest-contract-video-editor-for-the-podcast-team",
-      "https://80000hours.org/podcast/episodes/sam-winter-levy-nikita-lalwani-ai-nuclear-deterrence"
+      "https://80000hours.org/podcast/episodes/sam-winter-levy-nikita-lalwani-ai-nuclear-deterrence",
+      "https://80000hours.org/2026/03/if-anyone-builds-it-everyone-dies"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -54,7 +55,8 @@
       "https://seths.blog/2026/03/visible-measures",
       "https://seths.blog/2026/03/sitting-in-zimbo",
       "https://seths.blog/2026/03/a-kitchen-metaphor",
-      "https://seths.blog/2026/03/green-flags"
+      "https://seths.blog/2026/03/green-flags",
+      "https://seths.blog/2026/03/the-hollow-orange"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -113,19 +115,28 @@
       "https://www.themarginalian.org/2026/03/09/milan-kundera-unbearable-lightness-of-being",
       "https://www.themarginalian.org/2026/03/09/dostoyevsky-dream",
       "https://www.themarginalian.org/2026/03/08/george-saunders-uncertainty",
-      "https://www.themarginalian.org/2026/03/12/astronaut-aurora-despair"
+      "https://www.themarginalian.org/2026/03/12/astronaut-aurora-despair",
+      "https://www.themarginalian.org/2026/03/17/love-chekhov-the-darling-saunders",
+      "https://www.themarginalian.org/2026/03/15/antoine-de-saint-exupery-letter-to-a-hostage-smile",
+      "https://www.themarginalian.org/2026/03/14/universe-in-verse-pi"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
       "https://www.noemamag.com/the-quest-for-contributive-justice",
       "https://www.noemamag.com/ai-agents-are-recruiting-humans-to-observe-the-offline-world",
       "https://www.noemamag.com/not-yet-game-over-in-iran",
-      "https://www.noemamag.com/saving-the-life-we-cannot-see"
+      "https://www.noemamag.com/saving-the-life-we-cannot-see",
+      "https://www.noemamag.com/what-are-psychedelic-entities",
+      "https://www.noemamag.com/why-ai-doesnt-need-a-mind-to-matter",
+      "https://www.noemamag.com/the-climate-wont-bend-to-trumps-will-to-power"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
       "https://dynomight.net/thanks-5",
-      "https://dynomight.net/novels"
+      "https://dynomight.net/novels",
+      "https://dynomight.net/formatting",
+      "https://dynomight.net/pattern",
+      "https://dynomight.net/lifespan"
     ],
     "https://ourworldindata.org/feed": [
       "https://ourworldindata.org/biofuel-land-solar-electric-vehicles",
@@ -327,6 +338,17 @@
     "c6d03c1ab6d966a438a1cd061d78598f600e7c87",
     "526968bbd11f9b8d8b2bf3f727e7c8fea021d8e2",
     "7af30b28897b1787f5493f5c41d2a29eba483fa1",
-    "dba2db2e616f1d73d32ab303155aeb3530c440ee"
+    "dba2db2e616f1d73d32ab303155aeb3530c440ee",
+    "511a17402cbad625041ad396aeb7cb500a5fd2c5",
+    "b443b10e3eb5094fb7381d2a431168e5facb00f5",
+    "4e90c18eb1ce713b3dcbadc66ae04c608167a815",
+    "7e6d49c0fcfca986ebeb01c48e89d46bf30deba3",
+    "638ec60890ba2540b60cd3ab7b425c595280a6b7",
+    "b3fe16f0ce0bab2b0320c7c88a0b38ad28937737",
+    "4f61316f230edaff05c8e49274ec2ecafdde1704",
+    "7556bf4b8f6a0c319352c48581ac6b4e853f393f",
+    "0b43e963186eff4746511206d9155146de18426a",
+    "bbb4a513b1e79b93d35c3b3439554f2310ddb09b",
+    "7de71742e6da26e4f3433999a518f843fd083b31"
   ]
 }
