@@ -10,7 +10,8 @@
       "https://80000hours.org/2026/03/half-year-update-q3-q4-2025",
       "https://80000hours.org/2026/02/expression-of-interest-contract-video-editor-for-the-podcast-team",
       "https://80000hours.org/podcast/episodes/sam-winter-levy-nikita-lalwani-ai-nuclear-deterrence",
-      "https://80000hours.org/2026/03/if-anyone-builds-it-everyone-dies"
+      "https://80000hours.org/2026/03/if-anyone-builds-it-everyone-dies",
+      "https://80000hours.org/podcast/episodes/rose-hadshar-ai-extreme-power-concentration"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -56,7 +57,8 @@
       "https://seths.blog/2026/03/sitting-in-zimbo",
       "https://seths.blog/2026/03/a-kitchen-metaphor",
       "https://seths.blog/2026/03/green-flags",
-      "https://seths.blog/2026/03/the-hollow-orange"
+      "https://seths.blog/2026/03/the-hollow-orange",
+      "https://seths.blog/2026/03/freedom-of-focus"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -66,7 +68,8 @@
       "https://fs.blog/knowledge-project-podcast/nicolai-tangen",
       "https://fs.blog/knowledge-project-podcast/michael-ovitz",
       "https://fs.blog/knowledge-project-podcast/outliers-ray-kroc",
-      "https://fs.blog/knowledge-project-podcast/morgan-housel-3"
+      "https://fs.blog/knowledge-project-podcast/morgan-housel-3",
+      "https://fs.blog/knowledge-project-podcast/outliers-harrison-mccain"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -118,7 +121,8 @@
       "https://www.themarginalian.org/2026/03/12/astronaut-aurora-despair",
       "https://www.themarginalian.org/2026/03/17/love-chekhov-the-darling-saunders",
       "https://www.themarginalian.org/2026/03/15/antoine-de-saint-exupery-letter-to-a-hostage-smile",
-      "https://www.themarginalian.org/2026/03/14/universe-in-verse-pi"
+      "https://www.themarginalian.org/2026/03/14/universe-in-verse-pi",
+      "https://www.themarginalian.org/2026/03/17/marcus-aurelius-luck"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -158,7 +162,8 @@
     "https://longreads.com/feed/": [
       "https://longreads.com/2026/03/11/questionnaire-julian-brave-noisecat",
       "https://longreads.com/2026/03/10/walking-dallas-photo-essay",
-      "https://longreads.com/2026/03/10/this-sixties-musician-died-mysteriously-was-he-the-victim-of-a-serial-killer"
+      "https://longreads.com/2026/03/10/this-sixties-musician-died-mysteriously-was-he-the-victim-of-a-serial-killer",
+      "https://longreads.com/2026/03/18/thinking-in-the-margins"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -196,7 +201,11 @@
       "https://undark.org/2026/03/11/state-sound-science-bills"
     ],
     "https://daily.jstor.org/feed/": [
-      "https://daily.jstor.org/building-brasilia"
+      "https://daily.jstor.org/building-brasilia",
+      "https://daily.jstor.org/gender-play-in-nineteenth-century-theater",
+      "https://daily.jstor.org/returning-to-steinbecks-sea-of-cortez",
+      "https://daily.jstor.org/why-lacan-loved-harpo-marx",
+      "https://daily.jstor.org/equine-assisted-therapy-but-what-do-the-horses-think"
     ],
     "https://www.slowboring.com/feed": [
       "https://www.slowboring.com/p/upscale-liberals-are-developing-class",
@@ -206,6 +215,9 @@
       "https://www.slowboring.com/p/i-dont-buy-your-dating-recession",
       "https://www.slowboring.com/p/the-demonic-policy-strangling-the",
       "https://www.slowboring.com/p/thursday-discussion-post-2b7"
+    ],
+    "https://www.experimental-history.com/feed": [
+      "https://www.experimental-history.com/p/the-one-science-reform-we-can-all"
     ]
   },
   "fingerprints": [
@@ -349,6 +361,16 @@
     "7556bf4b8f6a0c319352c48581ac6b4e853f393f",
     "0b43e963186eff4746511206d9155146de18426a",
     "bbb4a513b1e79b93d35c3b3439554f2310ddb09b",
-    "7de71742e6da26e4f3433999a518f843fd083b31"
+    "7de71742e6da26e4f3433999a518f843fd083b31",
+    "c38ceaeeb6a75ee1dab3625dec4ff775d153a4fd",
+    "962bda7ffb4f54e174a8d2a600b1ab4614bf5e93",
+    "ceeaf6869eb6d4fefe10fefacb880463fed6e7d3",
+    "67430e91f67ccf7221327e241a4aec7b41820122",
+    "4cb19bbb16741df6c63f10eb103f32bc2065cbd8",
+    "ddb82c9dd077ff95fa267a4d73cb02b2f55979d8",
+    "6725b3021708f9d7478396c74a76f46b7e0f307f",
+    "d14ba3ad5b062265d53533c9a084ae05eef47426",
+    "7f88b710b43c429f01a17cb63a06258598d767e1",
+    "a47862959d4003446b8500ebc3f064d670c8bd7b"
   ]
 }
