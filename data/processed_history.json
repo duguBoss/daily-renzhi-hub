@@ -11,7 +11,9 @@
       "https://80000hours.org/2026/02/expression-of-interest-contract-video-editor-for-the-podcast-team",
       "https://80000hours.org/podcast/episodes/sam-winter-levy-nikita-lalwani-ai-nuclear-deterrence",
       "https://80000hours.org/2026/03/if-anyone-builds-it-everyone-dies",
-      "https://80000hours.org/podcast/episodes/rose-hadshar-ai-extreme-power-concentration"
+      "https://80000hours.org/podcast/episodes/rose-hadshar-ai-extreme-power-concentration",
+      "https://80000hours.org/videos/the-sable-scenario-in-if-anyone-builds-it-everyone-dies-vs-the-ai-in-context-retelling",
+      "https://80000hours.org/2026/03/robs-meta-leaked-documents-scams"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -22,7 +24,8 @@
       "https://blog.givewell.org/2026/02/05/podcast-episode-23-generating-evidence-for-the-future-of-malaria-prevention",
       "https://blog.givewell.org/2026/01/30/january-2026-updates",
       "https://blog.givewell.org/2026/01/22/podcast-episode-22-evolving-our-research-approach-for-greater-impact",
-      "https://blog.givewell.org/2026/03/12/givewells-2025-grant-investigation-survey-results"
+      "https://blog.givewell.org/2026/03/12/givewells-2025-grant-investigation-survey-results",
+      "https://blog.givewell.org/2026/03/19/podcast-episode-26-investing-in-information-for-greater-future-impact"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -58,7 +61,8 @@
       "https://seths.blog/2026/03/a-kitchen-metaphor",
       "https://seths.blog/2026/03/green-flags",
       "https://seths.blog/2026/03/the-hollow-orange",
-      "https://seths.blog/2026/03/freedom-of-focus"
+      "https://seths.blog/2026/03/freedom-of-focus",
+      "https://seths.blog/2026/03/can-you-make-it-worse"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -77,7 +81,13 @@
       "https://nautil.us/why-cats-always-land-on-their-feet-1278922",
       "https://nautil.us/what-doomsday-prophecies-say-about-us-1278918",
       "https://nautil.us/the-travels-of-straight-tusked-elephants-in-europe-written-in-their-teeth-1278909",
-      "https://nautil.us/money-cant-buy-you-youth-1278888"
+      "https://nautil.us/money-cant-buy-you-youth-1278888",
+      "https://nautil.us/is-this-where-morality-lives-in-the-brain-1279083",
+      "https://nautil.us/what-the-us-could-learn-from-asias-robot-revolution-1279062",
+      "https://nautil.us/is-this-metabolic-molecule-from-pythons-the-next-big-weight-loss-drug-1279047",
+      "https://nautil.us/the-science-is-in-no-one-likes-your-cockapoo-1279042",
+      "https://nautil.us/platypus-anatomy-just-got-weirder-1279056",
+      "https://nautil.us/the-comedy-of-errors-that-was-the-first-ever-space-walk-1279052"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -218,6 +228,9 @@
     ],
     "https://www.experimental-history.com/feed": [
       "https://www.experimental-history.com/p/the-one-science-reform-we-can-all"
+    ],
+    "https://www.astralcodexten.com/feed": [
+      "https://www.astralcodexten.com/p/being-john-rawls"
     ]
   },
   "fingerprints": [
@@ -371,6 +384,17 @@
     "6725b3021708f9d7478396c74a76f46b7e0f307f",
     "d14ba3ad5b062265d53533c9a084ae05eef47426",
     "7f88b710b43c429f01a17cb63a06258598d767e1",
-    "a47862959d4003446b8500ebc3f064d670c8bd7b"
+    "a47862959d4003446b8500ebc3f064d670c8bd7b",
+    "9a16f4181a1ec7d9e49664fede5718cb183103f2",
+    "0dae90cfb42bb3a237acc748a6b64b7893660d9f",
+    "14c2cbb0915d0e794ee691a727748f304d96f439",
+    "c8951e6ea3c19fc0a340641021f0e71fc8e0fe7c",
+    "8702e82ea0a7d83daea83a074cdf661745663b6e",
+    "6b5b668b251332ac4c06f23eed4bcabfe7e938d9",
+    "2f9eb0ae41749200794e014730c0b4a29ce3f3a0",
+    "43dc6a644ed69f4cec47d3d1265a95709c8a388f",
+    "8538e6f3b3f1418c029240e435bbae1962465118",
+    "6af4a87d1c5170dd2414a31bfcf09da2e8d763a3",
+    "a0bfd4c678d200f6d7e691f00427ead35e28a385"
   ]
 }
