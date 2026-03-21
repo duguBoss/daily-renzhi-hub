@@ -13,7 +13,8 @@
       "https://80000hours.org/2026/03/if-anyone-builds-it-everyone-dies",
       "https://80000hours.org/podcast/episodes/rose-hadshar-ai-extreme-power-concentration",
       "https://80000hours.org/videos/the-sable-scenario-in-if-anyone-builds-it-everyone-dies-vs-the-ai-in-context-retelling",
-      "https://80000hours.org/2026/03/robs-meta-leaked-documents-scams"
+      "https://80000hours.org/2026/03/robs-meta-leaked-documents-scams",
+      "https://80000hours.org/career-reviews/us-electoral-politics"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -62,7 +63,8 @@
       "https://seths.blog/2026/03/green-flags",
       "https://seths.blog/2026/03/the-hollow-orange",
       "https://seths.blog/2026/03/freedom-of-focus",
-      "https://seths.blog/2026/03/can-you-make-it-worse"
+      "https://seths.blog/2026/03/can-you-make-it-worse",
+      "https://seths.blog/2026/03/the-hats"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -230,7 +232,20 @@
       "https://www.experimental-history.com/p/the-one-science-reform-we-can-all"
     ],
     "https://www.astralcodexten.com/feed": [
-      "https://www.astralcodexten.com/p/being-john-rawls"
+      "https://www.astralcodexten.com/p/being-john-rawls",
+      "https://www.astralcodexten.com/p/hidden-open-thread-4245"
+    ],
+    "https://www.scottaaronson.com/blog/?feed=rss2": [
+      "https://scottaaronson.blog/?p=9615",
+      "https://scottaaronson.blog/?p=9642",
+      "https://scottaaronson.blog/?p=9630",
+      "https://scottaaronson.blog/?p=9627",
+      "https://scottaaronson.blog/?p=9606",
+      "https://scottaaronson.blog/?p=9591"
+    ],
+    "https://www.lesswrong.com/feed.xml?view=curated-rss": [
+      "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
+      "https://www.lesswrong.com/posts/hiiguxJ2EtfSzAevj/are-there-lessons-from-high-reliability-engineering-for-agi"
     ]
   },
   "fingerprints": [
@@ -395,6 +410,17 @@
     "43dc6a644ed69f4cec47d3d1265a95709c8a388f",
     "8538e6f3b3f1418c029240e435bbae1962465118",
     "6af4a87d1c5170dd2414a31bfcf09da2e8d763a3",
-    "a0bfd4c678d200f6d7e691f00427ead35e28a385"
+    "a0bfd4c678d200f6d7e691f00427ead35e28a385",
+    "3a83199b41418b4a4479080623a6766632461e9b",
+    "ad3ddb53db5374c40f781d8f1553174e089b7041",
+    "381f373794230a3a898133c536badf2d21b678c6",
+    "9398b489ae289705e0673183b69b20219a9dc835",
+    "dc32ba0f0e67f99f1e5d6c1773803c9f6d834452",
+    "f51d4b2ed2b44a54a45d9909037c14e96ec9c9fe",
+    "51a24e528a180a8c6fff1cf57acc729e0a09d810",
+    "1c888168cdd4447f9f3f87c591464d93c0db2a58",
+    "7fafac4a6bbc27386c882eb364727cf7125f9fac",
+    "f9171e85bb0ff74f479afb275059246b86cb1736",
+    "f5c0e1055d8c1e7a9a086b7d8fc2a790f5e3cac1"
   ]
 }
