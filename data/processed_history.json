@@ -64,7 +64,8 @@
       "https://seths.blog/2026/03/the-hollow-orange",
       "https://seths.blog/2026/03/freedom-of-focus",
       "https://seths.blog/2026/03/can-you-make-it-worse",
-      "https://seths.blog/2026/03/the-hats"
+      "https://seths.blog/2026/03/the-hats",
+      "https://seths.blog/2026/03/cheaper-not-to-care"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -233,7 +234,12 @@
     ],
     "https://www.astralcodexten.com/feed": [
       "https://www.astralcodexten.com/p/being-john-rawls",
-      "https://www.astralcodexten.com/p/hidden-open-thread-4245"
+      "https://www.astralcodexten.com/p/hidden-open-thread-4245",
+      "https://www.astralcodexten.com/p/support-your-local-collaborator",
+      "https://www.astralcodexten.com/p/shameless-guesses-not-hallucinations",
+      "https://www.astralcodexten.com/p/open-thread-425",
+      "https://www.astralcodexten.com/p/spring-meetups-everywhere-2026-call",
+      "https://www.astralcodexten.com/p/lines-composed-in-a-fake-sequoia"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -246,6 +252,12 @@
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
       "https://www.lesswrong.com/posts/hiiguxJ2EtfSzAevj/are-there-lessons-from-high-reliability-engineering-for-agi"
+    ],
+    "https://www.quantamagazine.org/feed/": [
+      "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
+      "https://www.quantamagazine.org/quantum-cryptography-pioneers-win-turing-award-20260318",
+      "https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316",
+      "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313"
     ]
   },
   "fingerprints": [
@@ -421,6 +433,16 @@
     "1c888168cdd4447f9f3f87c591464d93c0db2a58",
     "7fafac4a6bbc27386c882eb364727cf7125f9fac",
     "f9171e85bb0ff74f479afb275059246b86cb1736",
-    "f5c0e1055d8c1e7a9a086b7d8fc2a790f5e3cac1"
+    "f5c0e1055d8c1e7a9a086b7d8fc2a790f5e3cac1",
+    "1a359c0a377e2b8c36671d643814ae40d72b7203",
+    "47268ee2dac90cdec05ebc410f5f9ab00f736d82",
+    "7f27437c68be16780f0294376d4bb429b643c7fc",
+    "a5cfc66671b845f24d47607f42171650af5cfec9",
+    "bdebf717688d13b7770ddb58f9d7707c3636f839",
+    "f372a2f340ba44e9084f0eb2ae8df6f7931f69d8",
+    "357593f2f48fee6541bcd6a885c5ba88b8b2d12b",
+    "dda8afdfe9151ebab0edca2b3db0d14c6486bd6c",
+    "5c995dd0c90f50f6998d0083925e959829c5cff2",
+    "9f2be7326f93ab7410b2c127dadb77a5370084ff"
   ]
 }
