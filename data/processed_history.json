@@ -65,7 +65,8 @@
       "https://seths.blog/2026/03/freedom-of-focus",
       "https://seths.blog/2026/03/can-you-make-it-worse",
       "https://seths.blog/2026/03/the-hats",
-      "https://seths.blog/2026/03/cheaper-not-to-care"
+      "https://seths.blog/2026/03/cheaper-not-to-care",
+      "https://seths.blog/2026/03/follow-through-2"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -135,7 +136,8 @@
       "https://www.themarginalian.org/2026/03/17/love-chekhov-the-darling-saunders",
       "https://www.themarginalian.org/2026/03/15/antoine-de-saint-exupery-letter-to-a-hostage-smile",
       "https://www.themarginalian.org/2026/03/14/universe-in-verse-pi",
-      "https://www.themarginalian.org/2026/03/17/marcus-aurelius-luck"
+      "https://www.themarginalian.org/2026/03/17/marcus-aurelius-luck",
+      "https://www.themarginalian.org/2026/03/20/traversal-love"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -258,6 +260,21 @@
       "https://www.quantamagazine.org/quantum-cryptography-pioneers-win-turing-award-20260318",
       "https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316",
       "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313"
+    ],
+    "https://www.worksinprogress.news/feed": [
+      "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
+      "https://www.worksinprogress.news/p/how-to-redraw-a-city-out-loud",
+      "https://www.worksinprogress.news/p/longevity",
+      "https://www.worksinprogress.news/p/many-of-the-tastiest-vegetables-are",
+      "https://www.worksinprogress.news/p/introducing-works-in-progress-out",
+      "https://www.worksinprogress.news/p/how-hyman-rickover-built-the-first",
+      "https://www.worksinprogress.news/p/how-inflation-destroyed-communism"
+    ],
+    "https://www.overcomingbias.com/feed": [
+      "https://www.overcomingbias.com/p/we-submit-by-banning-blackmail"
+    ],
+    "https://www.technologyreview.com/feed/": [
+      "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors"
     ]
   },
   "fingerprints": [
@@ -443,6 +460,17 @@
     "357593f2f48fee6541bcd6a885c5ba88b8b2d12b",
     "dda8afdfe9151ebab0edca2b3db0d14c6486bd6c",
     "5c995dd0c90f50f6998d0083925e959829c5cff2",
-    "9f2be7326f93ab7410b2c127dadb77a5370084ff"
+    "9f2be7326f93ab7410b2c127dadb77a5370084ff",
+    "7ac59560934dedff81c988be52fc5369d93a4b23",
+    "3f3ed68e7b4b554b3961ce9bf2761a9f2bb7cf7e",
+    "09353964451d5c3a208599afafe46b765aebed93",
+    "7fd22b4258c2eb501b7f2b4f605086c643e6d136",
+    "423f7e22e317e85b33c079f5a5d9e07ecf3b44ca",
+    "262a51d8c9749268d338b9dae499cf7d7cf76340",
+    "d8099194425e99dc26de208ec658689c4e3bddac",
+    "a9fbf00e86e67895e5ef1c6516ee06c70745e1c6",
+    "600b727ce8b2bde874408c983bb4dddc92c2af50",
+    "ab233d3f9534f567bb0476a741a82498f50bc7cc",
+    "e6c6b9512bbe1f292c473972e0e6849bd5ceaaba"
   ]
 }
