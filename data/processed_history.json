@@ -14,7 +14,8 @@
       "https://80000hours.org/podcast/episodes/rose-hadshar-ai-extreme-power-concentration",
       "https://80000hours.org/videos/the-sable-scenario-in-if-anyone-builds-it-everyone-dies-vs-the-ai-in-context-retelling",
       "https://80000hours.org/2026/03/robs-meta-leaked-documents-scams",
-      "https://80000hours.org/career-reviews/us-electoral-politics"
+      "https://80000hours.org/career-reviews/us-electoral-politics",
+      "https://80000hours.org/podcast/episodes/samuel-charap-realistic-ceasefire-ukraine-russia"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -67,7 +68,8 @@
       "https://seths.blog/2026/03/the-hats",
       "https://seths.blog/2026/03/cheaper-not-to-care",
       "https://seths.blog/2026/03/follow-through-2",
-      "https://seths.blog/2026/03/numbers-and-the-human-computer-interface"
+      "https://seths.blog/2026/03/numbers-and-the-human-computer-interface",
+      "https://seths.blog/2026/03/too-complicated-for-people-to-understand"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -92,7 +94,8 @@
       "https://nautil.us/is-this-metabolic-molecule-from-pythons-the-next-big-weight-loss-drug-1279047",
       "https://nautil.us/the-science-is-in-no-one-likes-your-cockapoo-1279042",
       "https://nautil.us/platypus-anatomy-just-got-weirder-1279056",
-      "https://nautil.us/the-comedy-of-errors-that-was-the-first-ever-space-walk-1279052"
+      "https://nautil.us/the-comedy-of-errors-that-was-the-first-ever-space-walk-1279052",
+      "https://nautil.us/the-search-for-alien-life-just-identified-45-new-targets-1279143"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -138,7 +141,8 @@
       "https://www.themarginalian.org/2026/03/15/antoine-de-saint-exupery-letter-to-a-hostage-smile",
       "https://www.themarginalian.org/2026/03/14/universe-in-verse-pi",
       "https://www.themarginalian.org/2026/03/17/marcus-aurelius-luck",
-      "https://www.themarginalian.org/2026/03/20/traversal-love"
+      "https://www.themarginalian.org/2026/03/20/traversal-love",
+      "https://www.themarginalian.org/2026/03/24/albert-camus-create-dangerously"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -263,7 +267,12 @@
     ],
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
-      "https://www.lesswrong.com/posts/hiiguxJ2EtfSzAevj/are-there-lessons-from-high-reliability-engineering-for-agi"
+      "https://www.lesswrong.com/posts/hiiguxJ2EtfSzAevj/are-there-lessons-from-high-reliability-engineering-for-agi",
+      "https://www.lesswrong.com/posts/87XoatpFkdmCZpvQK/is-fever-a-symptom-of-glycine-deficiency",
+      "https://www.lesswrong.com/posts/K2Ae2vmAKwhiwKEo5/terrified-comments-on-corrigibility-in-claude-s-constitution",
+      "https://www.lesswrong.com/posts/fGpQ4cmWsXo2WWeyn/personality-self-replicators",
+      "https://www.lesswrong.com/posts/MsjWPWjAerDtiQ3Do/on-the-independence-axiom",
+      "https://www.lesswrong.com/posts/ghq9EwiXbRbWSnDzF/solar-storms"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -281,7 +290,8 @@
       "https://www.worksinprogress.news/p/how-inflation-destroyed-communism"
     ],
     "https://www.overcomingbias.com/feed": [
-      "https://www.overcomingbias.com/p/we-submit-by-banning-blackmail"
+      "https://www.overcomingbias.com/p/we-submit-by-banning-blackmail",
+      "https://www.overcomingbias.com/p/macro-cultural-debt"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors"
@@ -491,6 +501,16 @@
     "72ad07ed3746eea2a9e315e3811a1659ecc4d324",
     "bd90ce8a3e215cc105cfbd418b3376f620661b31",
     "ff291a6818df4435a4b14c21a61e16bbfd794ca8",
-    "26c854952c29b2cbb2d5c8c927e43536a28cb6a0"
+    "26c854952c29b2cbb2d5c8c927e43536a28cb6a0",
+    "773036fb69e98797cf49638c623d88ecab0a2a63",
+    "180027af07407c5bfa230d1c1eed446e0a5d6ba8",
+    "1dcdcd93e63caead4559225711be5d1b6c77fc87",
+    "0d8c6371f5340fad6499ebe8981e07ec1ed79514",
+    "24d0ef5b7268e88a458f896d82060a14c994c6f3",
+    "40b6bc9b1a9798be8c3d4f9fc8065481b4a50197",
+    "95aa5814c0427b531561df2eb98b1473a6e335e0",
+    "cc5311a9ce3dfe4303f1aaaf0739199ed40aaaac",
+    "c0801760dd4d906a7ff9e419ef6c76eda7d76afa",
+    "ca0777dd1841a5a06155b3d5576ff4825ea4f03c"
   ]
 }
