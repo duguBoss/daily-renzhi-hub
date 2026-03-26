@@ -69,7 +69,8 @@
       "https://seths.blog/2026/03/cheaper-not-to-care",
       "https://seths.blog/2026/03/follow-through-2",
       "https://seths.blog/2026/03/numbers-and-the-human-computer-interface",
-      "https://seths.blog/2026/03/too-complicated-for-people-to-understand"
+      "https://seths.blog/2026/03/too-complicated-for-people-to-understand",
+      "https://seths.blog/2026/03/the-end-of-the-content-shortage"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -80,7 +81,8 @@
       "https://fs.blog/knowledge-project-podcast/michael-ovitz",
       "https://fs.blog/knowledge-project-podcast/outliers-ray-kroc",
       "https://fs.blog/knowledge-project-podcast/morgan-housel-3",
-      "https://fs.blog/knowledge-project-podcast/outliers-harrison-mccain"
+      "https://fs.blog/knowledge-project-podcast/outliers-harrison-mccain",
+      "https://fs.blog/knowledge-project-podcast/joe-liemandt"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -272,7 +274,8 @@
       "https://www.lesswrong.com/posts/K2Ae2vmAKwhiwKEo5/terrified-comments-on-corrigibility-in-claude-s-constitution",
       "https://www.lesswrong.com/posts/fGpQ4cmWsXo2WWeyn/personality-self-replicators",
       "https://www.lesswrong.com/posts/MsjWPWjAerDtiQ3Do/on-the-independence-axiom",
-      "https://www.lesswrong.com/posts/ghq9EwiXbRbWSnDzF/solar-storms"
+      "https://www.lesswrong.com/posts/ghq9EwiXbRbWSnDzF/solar-storms",
+      "https://www.lesswrong.com/posts/HQTueNS4mLaGy3BBL/here-s-to-the-polypropylene-makers"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -291,7 +294,14 @@
     ],
     "https://www.overcomingbias.com/feed": [
       "https://www.overcomingbias.com/p/we-submit-by-banning-blackmail",
-      "https://www.overcomingbias.com/p/macro-cultural-debt"
+      "https://www.overcomingbias.com/p/macro-cultural-debt",
+      "https://www.overcomingbias.com/p/authenticity-as-grace",
+      "https://www.overcomingbias.com/p/finish-the-industrial-revolution",
+      "https://www.overcomingbias.com/p/many-culture-causes",
+      "https://www.overcomingbias.com/p/how-meaning-makes-suffering",
+      "https://www.overcomingbias.com/p/whose-mistake-us-slavery",
+      "https://www.overcomingbias.com/p/insider-journalism",
+      "https://www.overcomingbias.com/p/are-humans-egalitarian"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors"
@@ -511,6 +521,16 @@
     "95aa5814c0427b531561df2eb98b1473a6e335e0",
     "cc5311a9ce3dfe4303f1aaaf0739199ed40aaaac",
     "c0801760dd4d906a7ff9e419ef6c76eda7d76afa",
-    "ca0777dd1841a5a06155b3d5576ff4825ea4f03c"
+    "ca0777dd1841a5a06155b3d5576ff4825ea4f03c",
+    "bb16fcacf034e68e51f7425b0c249a03ebcfd35a",
+    "7efae5ff2af0e14f7f13ff5c9e29573bc61b947d",
+    "daaed5a46f51ff157f2121deb8393b9470cfbfe8",
+    "a421d5dbf1daafe5f660ce6798d4682366ad9ef9",
+    "45dfe981e9aaf68582d00fbc1d5ae21e630926b0",
+    "0c630f2060a3dba3ca31d9e930cfe63cb0f0a3bc",
+    "f1aa0e3f77e72b2a977cbeda6d0276b3b20c15b0",
+    "5ab87bb7995979bda6b061bd025da2c45ee1693d",
+    "acecdf43879f3b84a831a839572cd8b1d25f6d6d",
+    "c615206e0a1977544a10bee3d34d845b91428e56"
   ]
 }
