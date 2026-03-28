@@ -72,7 +72,8 @@
       "https://seths.blog/2026/03/numbers-and-the-human-computer-interface",
       "https://seths.blog/2026/03/too-complicated-for-people-to-understand",
       "https://seths.blog/2026/03/the-end-of-the-content-shortage",
-      "https://seths.blog/2026/03/whats-in-the-status-bottle"
+      "https://seths.blog/2026/03/whats-in-the-status-bottle",
+      "https://seths.blog/2026/03/systems-and-the-default-to-yes"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -198,7 +199,8 @@
       "https://longreads.com/2026/03/25/women-are-being-abandoned-by-their-partners-on-hiking-trails-whats-behind-alpine-divorce",
       "https://longreads.com/2026/03/25/field-notes-from-a-body",
       "https://longreads.com/2026/03/25/the-body-i-couldnt-abstract",
-      "https://longreads.com/2026/03/25/harvey-prager-marijuana-smuggling"
+      "https://longreads.com/2026/03/25/harvey-prager-marijuana-smuggling",
+      "https://longreads.com/2026/03/27/longreads-top-5-603"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -212,7 +214,11 @@
       "https://forum.effectivealtruism.org/posts/9QmLYGgMT56hf5Mvm/why-i-think-humanity-is-worth-saving",
       "https://forum.effectivealtruism.org/posts/4jbbjTTJ87baMrkY4/ghd-discussion-here-is-slowly-dying",
       "https://forum.effectivealtruism.org/posts/XeT5FxxaReXfsou9E/on-the-purity-of-animals",
-      "https://forum.effectivealtruism.org/posts/MZt49RMfehW5Acbop/addressing-a-grant-evaluation-bottleneck-in-ea-with-an-ai"
+      "https://forum.effectivealtruism.org/posts/MZt49RMfehW5Acbop/addressing-a-grant-evaluation-bottleneck-in-ea-with-an-ai",
+      "https://forum.effectivealtruism.org/posts/tCcKvBnWChnPQsRoE/controlling-the-fertility-of-rodents-may-impact-soil-ants",
+      "https://forum.effectivealtruism.org/posts/65zvnBySZBGZqugps/why-should-i-have-opinions-about-ai-timelines",
+      "https://forum.effectivealtruism.org/posts/bnwybpzShzDkGD8vD/planning-80000-hours-before-the-plausible-end-of-the-world",
+      "https://forum.effectivealtruism.org/posts/jM9Xfg4GjPjkgcPke/fit-testing-technical-animal-welfare-careers"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -292,7 +298,8 @@
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
       "https://www.quantamagazine.org/quantum-cryptography-pioneers-win-turing-award-20260318",
       "https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316",
-      "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313"
+      "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313",
+      "https://www.quantamagazine.org/when-coupled-volcanoes-talk-these-researchers-listen-20260327"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -315,7 +322,11 @@
       "https://www.overcomingbias.com/p/are-humans-egalitarian"
     ],
     "https://www.technologyreview.com/feed/": [
-      "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors"
+      "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
+      "https://www.technologyreview.com/2026/03/26/1134470/the-snow-gods-how-a-couple-of-ski-bums-built-the-internets-best-weather-app",
+      "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles",
+      "https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration",
+      "https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses"
     ]
   },
   "fingerprints": [
@@ -553,6 +564,17 @@
     "3abf46ed86d3e4d01359f72ee4c6ff832bd18d06",
     "f0f9d12861b0ceda56f3237ed5475ac48952a761",
     "a4a25a8266674b2963990d60bf48907cbacf4f12",
-    "59a5ff94cfcdbf75736d0e727b59cc7fd801a256"
+    "59a5ff94cfcdbf75736d0e727b59cc7fd801a256",
+    "80e733f21272e732c4f7761acab47b194029610c",
+    "f16812c910e87988ffa5180d606071dbf0249910",
+    "7da791ab8dccb6878e11702b4bb22f829687fbe5",
+    "973c401d7445b2cf4f72495822545ff1f48cbf06",
+    "650f1f05dbc568c7239c9462c98182e342eded88",
+    "86ea26b5edf76a60b69a12a8135a0d44000e9e28",
+    "0e8d9d5ecadd5034f3ab9f640dd247d0e4ad9ce1",
+    "abeece9c0007bccfb02aabe17a8c06110b135194",
+    "da8a6ae3549c7f7b937644652f4678cba9d6b072",
+    "ce72c55cd3cf69fa1b02dc110fb4ecbc455b014f",
+    "1ef5bcb28ea66e9c29c882493046b4dc600d8b2c"
   ]
 }
