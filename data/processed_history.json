@@ -74,7 +74,8 @@
       "https://seths.blog/2026/03/the-end-of-the-content-shortage",
       "https://seths.blog/2026/03/whats-in-the-status-bottle",
       "https://seths.blog/2026/03/systems-and-the-default-to-yes",
-      "https://seths.blog/2026/03/long-odds"
+      "https://seths.blog/2026/03/long-odds",
+      "https://seths.blog/2026/03/redundancy-and-resilience"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -148,7 +149,8 @@
       "https://www.themarginalian.org/2026/03/14/universe-in-verse-pi",
       "https://www.themarginalian.org/2026/03/17/marcus-aurelius-luck",
       "https://www.themarginalian.org/2026/03/20/traversal-love",
-      "https://www.themarginalian.org/2026/03/24/albert-camus-create-dangerously"
+      "https://www.themarginalian.org/2026/03/24/albert-camus-create-dangerously",
+      "https://www.themarginalian.org/2026/03/29/ursula-k-le-guin-the-dispossessed-suffering"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -233,7 +235,13 @@
       "https://www.noahpinion.blog/p/something-feels-weird-about-this",
       "https://www.noahpinion.blog/p/if-ai-is-a-weapon-why-dont-we-regulate",
       "https://www.noahpinion.blog/p/japan-can-be-americas-arsenal",
-      "https://www.noahpinion.blog/p/superintelligence-is-already-here"
+      "https://www.noahpinion.blog/p/superintelligence-is-already-here",
+      "https://www.noahpinion.blog/p/maybe-you-should-have-bought-an-electric",
+      "https://www.noahpinion.blog/p/plentiful-high-paying-jobs-in-the-ff9",
+      "https://www.noahpinion.blog/p/ai-has-the-worst-sales-pitch-ive",
+      "https://www.noahpinion.blog/p/the-economic-consequences-of-the",
+      "https://www.noahpinion.blog/p/there-isnt-always-a-long-arc-of-morality",
+      "https://www.noahpinion.blog/p/a-conversation-with-claude"
     ],
     "https://www.benkuhn.net/index.xml": [
       "https://www.benkuhn.net/impact",
@@ -246,7 +254,8 @@
       "https://www.benkuhn.net/leaving"
     ],
     "https://undark.org/feed/": [
-      "https://undark.org/2026/03/11/state-sound-science-bills"
+      "https://undark.org/2026/03/11/state-sound-science-bills",
+      "https://undark.org/2026/03/24/border-buoy-experiment"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -318,7 +327,8 @@
       "https://www.worksinprogress.news/p/many-of-the-tastiest-vegetables-are",
       "https://www.worksinprogress.news/p/introducing-works-in-progress-out",
       "https://www.worksinprogress.news/p/how-hyman-rickover-built-the-first",
-      "https://www.worksinprogress.news/p/how-inflation-destroyed-communism"
+      "https://www.worksinprogress.news/p/how-inflation-destroyed-communism",
+      "https://www.worksinprogress.news/p/did-status-signaling-ruin-architecture"
     ],
     "https://www.overcomingbias.com/feed": [
       "https://www.overcomingbias.com/p/we-submit-by-banning-blackmail",
@@ -595,6 +605,16 @@
     "7ea17041f95f14f8035b83840000c95aa6f90e8b",
     "71c6fc81eb965f459738d4761f6d51faaa428070",
     "a8b3ccf3db1dda820dab0179ddcbf7504f3b3d6a",
-    "bfb08268c5b0be10aa3e574802101ce5015c6c68"
+    "bfb08268c5b0be10aa3e574802101ce5015c6c68",
+    "be47d86b496d4d9b2d65c287d55f828d78b00d41",
+    "bdb2f1711951f3e51c4d2be4629bc551f6e9bb7a",
+    "8835a505b3e2c72ceffefa014912b68dfb71b499",
+    "b4f84eade202e6f737c0348ff5ad31f2f30d199d",
+    "afddda21169b5a14dd8ffbbab11836fcf3b115e2",
+    "ac51f7785f936fd6dc47af44139cab74636b64dd",
+    "e95dc98ba0d666f9f974ff91618e66d3f077061a",
+    "fc3c60bae4f314437c574ae38725738addd538e5",
+    "0be1a46cf83f0272808801c5e0460792081971d3",
+    "84b6cb0d2198de41bf36c5d99adc3eab887c4908"
   ]
 }
