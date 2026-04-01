@@ -16,7 +16,8 @@
       "https://80000hours.org/2026/03/robs-meta-leaked-documents-scams",
       "https://80000hours.org/career-reviews/us-electoral-politics",
       "https://80000hours.org/podcast/episodes/samuel-charap-realistic-ceasefire-ukraine-russia",
-      "https://80000hours.org/2026/03/the-sable-scenario-in-if-anyone-builds-it-everyone-dies-vs-the-ai-in-context-retelling"
+      "https://80000hours.org/2026/03/the-sable-scenario-in-if-anyone-builds-it-everyone-dies-vs-the-ai-in-context-retelling",
+      "https://80000hours.org/podcast/episodes/richard-moulange-ai-bioweapons-biorisk"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -28,7 +29,8 @@
       "https://blog.givewell.org/2026/01/30/january-2026-updates",
       "https://blog.givewell.org/2026/01/22/podcast-episode-22-evolving-our-research-approach-for-greater-impact",
       "https://blog.givewell.org/2026/03/12/givewells-2025-grant-investigation-survey-results",
-      "https://blog.givewell.org/2026/03/19/podcast-episode-26-investing-in-information-for-greater-future-impact"
+      "https://blog.givewell.org/2026/03/19/podcast-episode-26-investing-in-information-for-greater-future-impact",
+      "https://blog.givewell.org/2026/03/31/march-2026-updates"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -76,7 +78,8 @@
       "https://seths.blog/2026/03/systems-and-the-default-to-yes",
       "https://seths.blog/2026/03/long-odds",
       "https://seths.blog/2026/03/redundancy-and-resilience",
-      "https://seths.blog/2026/03/rehearsing-possibility"
+      "https://seths.blog/2026/03/rehearsing-possibility",
+      "https://seths.blog/2026/04/a-persistent-sense-of-being-correctly-located-in-time"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -127,7 +130,14 @@
     "https://www.bigthink.com/feed": [
       "https://bigthink.com/business/gretchen-rubins-simple-secrets-for-a-happier-less-cluttered-life",
       "https://bigthink.com/the-well/is-pain-productive-or-pointless",
-      "https://bigthink.com/starts-with-a-bang/jwst-dying-star-exposed-cranium"
+      "https://bigthink.com/starts-with-a-bang/jwst-dying-star-exposed-cranium",
+      "https://bigthink.com/starts-with-a-bang/flimsy-case-evolving-dark-energy",
+      "https://bigthink.com/collections/the-roots-of-resilience",
+      "https://bigthink.com/strange-maps/ozone-hole",
+      "https://bigthink.com/the-long-game/what-1000-year-old-companies-know-about-resilience",
+      "https://bigthink.com/science-tech/how-rats-conquered-earth",
+      "https://bigthink.com/mini-philosophy/the-daffodils-guide-to-outliving-the-winter",
+      "https://bigthink.com/mind-behavior/kidnapped-by-terrorists-lost-a-finger-still-became-a-rock-climbing-legend"
     ],
     "https://sideways-view.com/feed/": [
       "https://sideways-view.com/2023/07/29/self-driving-car-bets",
@@ -635,6 +645,16 @@
     "72fd7b497a8986620bb8d8c282f3c6053ed16b78",
     "b652e04e99a6baa948c02f15e6699b103e492b09",
     "ab0c411df4e84c5a17280e50fb56921bcdbb823e",
-    "fbf592c61be145a4988e3b09301a91bd2a274cbe"
+    "fbf592c61be145a4988e3b09301a91bd2a274cbe",
+    "303dc6b592e971f5824ae151092cf1e414b6578a",
+    "3251487f0bc0d74e17488ef132545656aed9c906",
+    "daaa2f8447fc616c9b4c88afab29e0bae0a71cc6",
+    "3cdd8c6f3cc5082612cd79f79e09e7611e9fbf7e",
+    "7ca4398112a4a7da40c451bce699e4c9072fa5b5",
+    "1e3551d8729a2e923559c76e9fe2f67c856b00a5",
+    "bcc5ddd19ed1ad4f83dab1e2313a7a793416ccc0",
+    "57b8541b5c95122f18c0fabbcb1b14ecaed99497",
+    "58f33fb493564dfdd63fc47ca3b9c4eab1acb315",
+    "f81d82dd464b2059be0344fa44a6edd6e7e4dcd8"
   ]
 }
