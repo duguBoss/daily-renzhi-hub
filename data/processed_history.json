@@ -17,7 +17,8 @@
       "https://80000hours.org/career-reviews/us-electoral-politics",
       "https://80000hours.org/podcast/episodes/samuel-charap-realistic-ceasefire-ukraine-russia",
       "https://80000hours.org/2026/03/the-sable-scenario-in-if-anyone-builds-it-everyone-dies-vs-the-ai-in-context-retelling",
-      "https://80000hours.org/podcast/episodes/richard-moulange-ai-bioweapons-biorisk"
+      "https://80000hours.org/podcast/episodes/richard-moulange-ai-bioweapons-biorisk",
+      "https://80000hours.org/2026/04/anthropic-dow-conflict-three-bad-arguments"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -30,7 +31,8 @@
       "https://blog.givewell.org/2026/01/22/podcast-episode-22-evolving-our-research-approach-for-greater-impact",
       "https://blog.givewell.org/2026/03/12/givewells-2025-grant-investigation-survey-results",
       "https://blog.givewell.org/2026/03/19/podcast-episode-26-investing-in-information-for-greater-future-impact",
-      "https://blog.givewell.org/2026/03/31/march-2026-updates"
+      "https://blog.givewell.org/2026/03/31/march-2026-updates",
+      "https://blog.givewell.org/2026/04/02/podcast-episode-27-scrutinizing-one-of-our-longest-funded-programs"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -80,7 +82,8 @@
       "https://seths.blog/2026/03/redundancy-and-resilience",
       "https://seths.blog/2026/03/rehearsing-possibility",
       "https://seths.blog/2026/04/a-persistent-sense-of-being-correctly-located-in-time",
-      "https://seths.blog/2026/04/who-sets-your-agenda"
+      "https://seths.blog/2026/04/who-sets-your-agenda",
+      "https://seths.blog/2026/04/there-is-no-alternative"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -108,7 +111,14 @@
       "https://nautil.us/platypus-anatomy-just-got-weirder-1279056",
       "https://nautil.us/the-comedy-of-errors-that-was-the-first-ever-space-walk-1279052",
       "https://nautil.us/the-search-for-alien-life-just-identified-45-new-targets-1279143",
-      "https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386"
+      "https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386",
+      "https://nautil.us/whats-the-oldest-living-animal-on-earth-1279472",
+      "https://nautil.us/how-to-track-the-artemis-ii-mission-1279458",
+      "https://nautil.us/are-gossiping-mushrooms-sharing-your-public-urination-secrets-1279454",
+      "https://nautil.us/when-dogs-first-became-mans-best-friend-1279449",
+      "https://nautil.us/meet-the-arthropod-that-originated-fangs-1279445",
+      "https://nautil.us/how-sleep-cleans-the-brain-1279438",
+      "https://nautil.us/can-plants-count-1279432"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -675,6 +685,16 @@
     "dc14f428c3c18714e880f846952dad5f94bb31a2",
     "f48f3023d6f203f1f5d814cb9bbe186ad17db7d2",
     "e415e3f5addb1036a8b2e96910db22cf938a7da4",
-    "3125000aa7cde337d10485ceecfd0f0a3e1b60fc"
+    "3125000aa7cde337d10485ceecfd0f0a3e1b60fc",
+    "5eae4312ac7f80324a58471c7c9705d5ffb9d87d",
+    "0c6943691add2e1710436064e24cf48d613b0751",
+    "08c0631283fca544de202795abe3dcecb29bc983",
+    "e964507437186fc09db67a1dc418844f1f98d1ec",
+    "dbcd4665e735cc64198699bdf40ba71973c01252",
+    "a09be93f017cc97c58b252e695ace10bf0a95ef5",
+    "f2391b25df0fd12e6a4875980c738e0ee6f3fe30",
+    "1f090e749a3032be7641eeb4a26959062c9cb154",
+    "1541a04772440a5d47a40d48ca694b35ad6789e1",
+    "536799acb556f12d1e20bbd0bd495bffb406d8cd"
   ]
 }
