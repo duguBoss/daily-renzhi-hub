@@ -85,7 +85,8 @@
       "https://seths.blog/2026/04/who-sets-your-agenda",
       "https://seths.blog/2026/04/there-is-no-alternative",
       "https://seths.blog/2026/04/where-do-bad-choices-come-from",
-      "https://seths.blog/2026/04/plumbed"
+      "https://seths.blog/2026/04/plumbed",
+      "https://seths.blog/2026/04/kinder-than-necessary"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -176,7 +177,8 @@
       "https://www.themarginalian.org/2026/03/17/marcus-aurelius-luck",
       "https://www.themarginalian.org/2026/03/20/traversal-love",
       "https://www.themarginalian.org/2026/03/24/albert-camus-create-dangerously",
-      "https://www.themarginalian.org/2026/03/29/ursula-k-le-guin-the-dispossessed-suffering"
+      "https://www.themarginalian.org/2026/03/29/ursula-k-le-guin-the-dispossessed-suffering",
+      "https://www.themarginalian.org/2026/04/05/gibran-war"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -287,7 +289,8 @@
       "https://www.noahpinion.blog/p/a-conversation-with-claude",
       "https://www.noahpinion.blog/p/if-youre-in-tokyo-this-friday-come",
       "https://www.noahpinion.blog/p/salarymen-specialists-and-small-businesses",
-      "https://www.noahpinion.blog/p/how-japan-has-changed-in-the-last"
+      "https://www.noahpinion.blog/p/how-japan-has-changed-in-the-last",
+      "https://www.noahpinion.blog/p/roundup-80-all-ai-all-the-time"
     ],
     "https://www.benkuhn.net/index.xml": [
       "https://www.benkuhn.net/impact",
@@ -407,6 +410,15 @@
       "https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration",
       "https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses",
       "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead"
+    ],
+    "https://newsletter.safe.ai/feed": [
+      "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
+      "https://newsletter.safe.ai/p/ai-safety-newsletter-69-department",
+      "https://newsletter.safe.ai/p/ai-safety-newsletter-68-moltbook",
+      "https://newsletter.safe.ai/p/ai-safety-newsletter-67-trumps-preemption",
+      "https://newsletter.safe.ai/p/ai-safety-newsletter-66-aisn-66-evaluating",
+      "https://newsletter.safe.ai/p/ai-safety-newsletter-65-measuring",
+      "https://newsletter.safe.ai/p/ai-safety-newsletter-63-new-agi-definition"
     ]
   },
   "fingerprints": [
@@ -735,6 +747,16 @@
     "98a33b34820a1f5ffb306701975389cd0c85dc01",
     "410aa70bbf54bb7d69694c638ebf0d27bd903f00",
     "f31165ba5cda46e63b36380e5e4162c282c4b0e1",
-    "bc30c182e5643c5154dd656733fda372795c25dd"
+    "bc30c182e5643c5154dd656733fda372795c25dd",
+    "b14ba62c754e6f24ffdfec71ba5d71122b52ea13",
+    "84f4faa3267f7bdaa54e3cbff6cf55ed4f866602",
+    "e6d6b5d972c5539ca0267b89aad936c8c484bb63",
+    "006e3bb4fbf31a9f680ea3f7cadb64415cfbff76",
+    "825b946f3f6c239bb1714b2c48f404f32c84f239",
+    "1324a6eb128dbdc00db160b95739466fed65581a",
+    "09a66c9f275fe06615a76af65aa090399c6fd1f3",
+    "de06a8ecd6da7603f5be9127988a08a41fa372da",
+    "07080729338926103db138f61e6f4feb7b7b8286",
+    "89cd8a3ccdfc202a4e60b5e036dccbb1294c40c9"
   ]
 }
