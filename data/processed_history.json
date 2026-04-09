@@ -89,7 +89,9 @@
       "https://seths.blog/2026/04/plumbed",
       "https://seths.blog/2026/04/kinder-than-necessary",
       "https://seths.blog/2026/04/all-the-letters",
-      "https://seths.blog/2026/04/the-right-answer-2"
+      "https://seths.blog/2026/04/the-right-answer-2",
+      "https://seths.blog/2026/04/attention-and-effort",
+      "https://seths.blog/2026/04/the-ecard-virus"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -101,7 +103,8 @@
       "https://fs.blog/knowledge-project-podcast/outliers-ray-kroc",
       "https://fs.blog/knowledge-project-podcast/morgan-housel-3",
       "https://fs.blog/knowledge-project-podcast/outliers-harrison-mccain",
-      "https://fs.blog/knowledge-project-podcast/joe-liemandt"
+      "https://fs.blog/knowledge-project-podcast/joe-liemandt",
+      "https://fs.blog/knowledge-project-podcast/mario-harik"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -318,7 +321,13 @@
     "https://undark.org/feed/": [
       "https://undark.org/2026/03/11/state-sound-science-bills",
       "https://undark.org/2026/03/24/border-buoy-experiment",
-      "https://undark.org/2026/03/31/federal-nuclear-safety-protections"
+      "https://undark.org/2026/03/31/federal-nuclear-safety-protections",
+      "https://undark.org/2026/04/08/genetics-artificial-inheritance",
+      "https://undark.org/2026/04/07/missing-migrants-dna-database",
+      "https://undark.org/2026/04/06/as-rocket-launches-increase-they-may-be-polluting-the-skies",
+      "https://undark.org/2026/04/03/measles-genomes-sequence",
+      "https://undark.org/2026/04/01/sweden-schools-books",
+      "https://undark.org/2026/03/30/sex-biological-variable"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -429,7 +438,8 @@
       "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects",
       "https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks",
       "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology",
-      "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative"
+      "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative",
+      "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -797,6 +807,16 @@
     "62e2e166d84e9d5eb8351ce03680f0bc6c0d572a",
     "69a8a8a1cea69117d12328a6efd3ed5ae84ddc92",
     "dd06f89dc6e46cb83337a40aa9f9bbe10074b12e",
-    "58a7ef779b8edf5aed9dcc48f2ba3bad07e4054a"
+    "58a7ef779b8edf5aed9dcc48f2ba3bad07e4054a",
+    "7b57cc7950927a6c85021de33bc6aeaf983195e2",
+    "65461ccf225c2cace376b16e555363128437432d",
+    "c784bfbaa7ae57d78490ba8757659b0416c1220b",
+    "d444140664f9ce94079f8356a295a25e964bd04b",
+    "742a0d264d60b3bec3fc8216486735a5eaf41da6",
+    "8221a30be57e2704974f77860792ae310010fc0b",
+    "05d04945b85aa8dd28b6e048710a6cc17686e51e",
+    "40fa5c65ba2d3a3033eb3a16725d01f7a7dd5ee3",
+    "a51c31bf55281f9cc40c88c9d54c67b9f4b32b3f",
+    "6edbb638d6f930aec0b9df45d5951bf1635ca806"
   ]
 }
