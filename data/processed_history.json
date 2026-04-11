@@ -19,7 +19,8 @@
       "https://80000hours.org/2026/03/the-sable-scenario-in-if-anyone-builds-it-everyone-dies-vs-the-ai-in-context-retelling",
       "https://80000hours.org/podcast/episodes/richard-moulange-ai-bioweapons-biorisk",
       "https://80000hours.org/2026/04/anthropic-dow-conflict-three-bad-arguments",
-      "https://80000hours.org/podcast/episodes/global-health-development-compilation"
+      "https://80000hours.org/podcast/episodes/global-health-development-compilation",
+      "https://80000hours.org/2026/04/claude-mythos-hacking-alignment"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -92,7 +93,8 @@
       "https://seths.blog/2026/04/the-right-answer-2",
       "https://seths.blog/2026/04/attention-and-effort",
       "https://seths.blog/2026/04/the-ecard-virus",
-      "https://seths.blog/2026/04/creating-the-conditions-for-magic"
+      "https://seths.blog/2026/04/creating-the-conditions-for-magic",
+      "https://seths.blog/2026/04/even"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -130,7 +132,9 @@
       "https://nautil.us/how-sleep-cleans-the-brain-1279438",
       "https://nautil.us/can-plants-count-1279432",
       "https://nautil.us/the-creator-of-the-sat-was-an-infamous-eugenicist-1279568",
-      "https://nautil.us/cosmic-mysteries-swirl-around-forbidden-planet-1279538"
+      "https://nautil.us/cosmic-mysteries-swirl-around-forbidden-planet-1279538",
+      "https://nautil.us/how-nicotine-disrupts-the-lung-brain-axis-and-could-lead-to-dementia-1279711",
+      "https://nautil.us/the-deep-secrets-of-the-nautilus-1279692"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -382,7 +386,14 @@
       "https://www.astralcodexten.com/p/shameless-guesses-not-hallucinations",
       "https://www.astralcodexten.com/p/open-thread-425",
       "https://www.astralcodexten.com/p/spring-meetups-everywhere-2026-call",
-      "https://www.astralcodexten.com/p/lines-composed-in-a-fake-sequoia"
+      "https://www.astralcodexten.com/p/lines-composed-in-a-fake-sequoia",
+      "https://www.astralcodexten.com/p/open-thread-428",
+      "https://www.astralcodexten.com/p/open-thread-4285-zagreb-update",
+      "https://www.astralcodexten.com/p/zagreb-meetup-this-friday",
+      "https://www.astralcodexten.com/p/the-pauseai-protest-a-photo-essay",
+      "https://www.astralcodexten.com/p/hidden-open-thread-4275",
+      "https://www.astralcodexten.com/p/meetups-everywhere-spring-2026-times",
+      "https://www.astralcodexten.com/p/against-the-concept-of-telescopic"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -837,6 +848,17 @@
     "ebe94ef9748bf48108922237e8bd543f10e5b482",
     "8c34971b232f95e5c108d48bcab9f02a3f916c2f",
     "a0ff7c0d71cc09cbb12a4737e0f73a02a555b327",
-    "c5eb014252b86ccaa959cd8ffb6648f9035038ef"
+    "c5eb014252b86ccaa959cd8ffb6648f9035038ef",
+    "fb79bc1085f17728038722d98546a93fe95d284b",
+    "8b1ae71d236e3eaea7984af59b875dce0e4f60ac",
+    "2112dbe6a5e6ab2ca9a843d8892dd53480057719",
+    "e1f5c45a1d673bab1bbe7e0f8494c2a5fa061f1d",
+    "015c0a4345cd3fa6c7fa830dd8bada7b41b38a35",
+    "c7ce800b6040abf531e45e28eb248534b3487b43",
+    "eb304223872cadc27962872275f207a01b8c9930",
+    "2a46a2dd82f4a074066ee70d265455302991914b",
+    "132b4e63d581cd3ad1375b97389934f66cb8584c",
+    "14b8326af2c48b1be431a179cb591ff3ce1fd2e7",
+    "f7c440ccd99258e3316248334d1d95d55ac9d90a"
   ]
 }
