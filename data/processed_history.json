@@ -95,7 +95,8 @@
       "https://seths.blog/2026/04/the-ecard-virus",
       "https://seths.blog/2026/04/creating-the-conditions-for-magic",
       "https://seths.blog/2026/04/even",
-      "https://seths.blog/2026/04/settling"
+      "https://seths.blog/2026/04/settling",
+      "https://seths.blog/2026/04/avoiding-the-purity-loop"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -165,7 +166,15 @@
       "https://bigthink.com/the-long-game/what-1000-year-old-companies-know-about-resilience",
       "https://bigthink.com/science-tech/how-rats-conquered-earth",
       "https://bigthink.com/mini-philosophy/the-daffodils-guide-to-outliving-the-winter",
-      "https://bigthink.com/mind-behavior/kidnapped-by-terrorists-lost-a-finger-still-became-a-rock-climbing-legend"
+      "https://bigthink.com/mind-behavior/kidnapped-by-terrorists-lost-a-finger-still-became-a-rock-climbing-legend",
+      "https://bigthink.com/starts-with-a-bang/bad-measurement-hubble-tension-explanation",
+      "https://bigthink.com/starts-with-a-bang/starts-with-a-bang-128-planet-formation-and-proto-protoplanets",
+      "https://bigthink.com/books/the-future-of-free-speech",
+      "https://bigthink.com/starts-with-a-bang/how-artemis-ii-break-apollo-distance-record",
+      "https://bigthink.com/series/full-interview/mdma-therapy-yehuda",
+      "https://bigthink.com/series/full-interview/excellence-stulberg",
+      "https://bigthink.com/science-tech/if-life-exists-on-mars-its-likely-hiding-or-maybe-sleeping",
+      "https://bigthink.com/books/ignorance-better-societies"
     ],
     "https://sideways-view.com/feed/": [
       "https://sideways-view.com/2023/07/29/self-driving-car-bets",
@@ -450,7 +459,8 @@
       "https://www.overcomingbias.com/p/whose-mistake-us-slavery",
       "https://www.overcomingbias.com/p/insider-journalism",
       "https://www.overcomingbias.com/p/are-humans-egalitarian",
-      "https://www.overcomingbias.com/p/project-hail-mary"
+      "https://www.overcomingbias.com/p/project-hail-mary",
+      "https://www.overcomingbias.com/p/our-uphill-battle"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -879,6 +889,16 @@
     "ef4fa1f7e30588bdf2a0fff2f69ca8f60ef82953",
     "ace1ee317d6d4216d798784f2c97ca01a14bc9df",
     "ab87a04521b0a836fa212ce21456f51e93d849c0",
-    "fa7e26f2d3487b8040cbc9e1323bd665e6c5da14"
+    "fa7e26f2d3487b8040cbc9e1323bd665e6c5da14",
+    "80e745305f81de862f603647edd86fee6ef85546",
+    "42852c726fbf8e08c56fa69729880d252abcab2b",
+    "f513a55fecf693d43345bbc217e9ba6201422ab7",
+    "a9aef3807772220ef9ac4b47584e128d9d9a5c59",
+    "f5015869c80103903f5a419a9c9b0d88bd2c01ce",
+    "92a0da8ae6b2daaf5a29b20f4bf4fe9da3bcbb1e",
+    "2f695f47ff0eba1f275425307d5e69da88f84300",
+    "6c601a896a5724b3f96e5c980698b2d76349cb4a",
+    "acac23e2fb46e81ec414cd0fb7ae910d7a587f3c",
+    "fe2117031040d5d20352d337dde65d9d5e5c1f41"
   ]
 }
