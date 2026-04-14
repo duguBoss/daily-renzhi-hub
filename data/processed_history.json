@@ -96,7 +96,8 @@
       "https://seths.blog/2026/04/creating-the-conditions-for-magic",
       "https://seths.blog/2026/04/even",
       "https://seths.blog/2026/04/settling",
-      "https://seths.blog/2026/04/avoiding-the-purity-loop"
+      "https://seths.blog/2026/04/avoiding-the-purity-loop",
+      "https://seths.blog/2026/04/on-pricing"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -174,7 +175,9 @@
       "https://bigthink.com/series/full-interview/mdma-therapy-yehuda",
       "https://bigthink.com/series/full-interview/excellence-stulberg",
       "https://bigthink.com/science-tech/if-life-exists-on-mars-its-likely-hiding-or-maybe-sleeping",
-      "https://bigthink.com/books/ignorance-better-societies"
+      "https://bigthink.com/books/ignorance-better-societies",
+      "https://bigthink.com/starts-with-a-bang/everything-changes-adding-mass",
+      "https://bigthink.com/books/4-classics-propaganda"
     ],
     "https://sideways-view.com/feed/": [
       "https://sideways-view.com/2023/07/29/self-driving-car-bets",
@@ -304,7 +307,9 @@
       "https://forum.effectivealtruism.org/posts/AsxgoXZsuEEX6br6f/what-it-s-like-to-be-an-ai-safety-grantmaker-and-why-we-need",
       "https://forum.effectivealtruism.org/posts/EALt4uYBpjop5fcsk/chicken-free-egg-whites",
       "https://forum.effectivealtruism.org/posts/yYkgGH9kbbQQp5iCp/you-should-write-about-your-giving",
-      "https://forum.effectivealtruism.org/events/N4H5KRyt4TSKj2BKS/ea-community-summer-camp-2026"
+      "https://forum.effectivealtruism.org/events/N4H5KRyt4TSKj2BKS/ea-community-summer-camp-2026",
+      "https://forum.effectivealtruism.org/posts/c4ATxQSoixgFxoCxg/i-founded-longview-and-have-written-down-some-thoughts-on",
+      "https://forum.effectivealtruism.org/posts/NwJ3kpYgSYxE8KqAq/hit-me-up-if-you-go-to-dartmouth-university"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -322,7 +327,8 @@
       "https://www.noahpinion.blog/p/if-youre-in-tokyo-this-friday-come",
       "https://www.noahpinion.blog/p/salarymen-specialists-and-small-businesses",
       "https://www.noahpinion.blog/p/how-japan-has-changed-in-the-last",
-      "https://www.noahpinion.blog/p/roundup-80-all-ai-all-the-time"
+      "https://www.noahpinion.blog/p/roundup-80-all-ai-all-the-time",
+      "https://www.noahpinion.blog/p/i-told-you-this-would-end-badly"
     ],
     "https://www.benkuhn.net/index.xml": [
       "https://www.benkuhn.net/impact",
@@ -364,7 +370,9 @@
       "https://daily.jstor.org/how-a-giant-squid-attack-became-an-urban-legend",
       "https://daily.jstor.org/editors-picks-national-poetry-month",
       "https://daily.jstor.org/the-real-antifa",
-      "https://daily.jstor.org/the-hidden-politics-of-german-carnival"
+      "https://daily.jstor.org/the-hidden-politics-of-german-carnival",
+      "https://daily.jstor.org/just-wilde-about-hair",
+      "https://daily.jstor.org/chinese-lion-dance-finds-new-life-in-newfoundland"
     ],
     "https://www.slowboring.com/feed": [
       "https://www.slowboring.com/p/upscale-liberals-are-developing-class",
@@ -381,7 +389,9 @@
       "https://www.slowboring.com/p/the-two-homelessness-problems",
       "https://www.slowboring.com/p/thursday-discussion-post-6eb",
       "https://www.slowboring.com/p/my-new-podcast",
-      "https://www.slowboring.com/p/tuesday-discussion-post-213"
+      "https://www.slowboring.com/p/tuesday-discussion-post-213",
+      "https://www.slowboring.com/p/america-needs-more-statues",
+      "https://www.slowboring.com/p/good-environment-bad-party"
     ],
     "https://www.experimental-history.com/feed": [
       "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
@@ -899,6 +909,16 @@
     "2f695f47ff0eba1f275425307d5e69da88f84300",
     "6c601a896a5724b3f96e5c980698b2d76349cb4a",
     "acac23e2fb46e81ec414cd0fb7ae910d7a587f3c",
-    "fe2117031040d5d20352d337dde65d9d5e5c1f41"
+    "fe2117031040d5d20352d337dde65d9d5e5c1f41",
+    "7645f1809f58f8503ea6b19931f6e41278ea0a4e",
+    "47dafb10079361d08b4c61e260dfc3b9a0368882",
+    "2f42c25b53f7e713d2b56c91b28003179df9eba3",
+    "65f6681df9a3ee99be22eab3f594cfd59bdac983",
+    "9f061e4c01d456ba017b1d04d0c6d5207e4ced2b",
+    "d52fe02d570c91a7acae78b182f86f8a01d0cb95",
+    "9e29edc5ab7d581809c9dda5b0287d25408dbb03",
+    "0a28a4656ea49e291c38f53fe387310d78e986f6",
+    "5d3feaab640bcb5dad9148e80d108bba5f231856",
+    "c43d93b04ff957e8ff9f6e05636b096fa1cbbdce"
   ]
 }
