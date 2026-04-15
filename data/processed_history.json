@@ -97,7 +97,8 @@
       "https://seths.blog/2026/04/even",
       "https://seths.blog/2026/04/settling",
       "https://seths.blog/2026/04/avoiding-the-purity-loop",
-      "https://seths.blog/2026/04/on-pricing"
+      "https://seths.blog/2026/04/on-pricing",
+      "https://seths.blog/2026/04/what-do-you-own-3"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -352,7 +353,10 @@
       "https://undark.org/2026/03/30/sex-biological-variable",
       "https://undark.org/2026/04/10/burning-plastic-pollution-indonesia",
       "https://undark.org/2026/04/09/opinion-journal-fact-checkers",
-      "https://undark.org/2026/04/02/opinion-prediction-markets-public-health"
+      "https://undark.org/2026/04/02/opinion-prediction-markets-public-health",
+      "https://undark.org/2026/04/15/sudafed-phenylephrine-debate",
+      "https://undark.org/2026/04/14/parental-alienation-custody",
+      "https://undark.org/2026/04/13/student-athletes-climate-change"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -417,7 +421,8 @@
       "https://www.astralcodexten.com/p/the-pauseai-protest-a-photo-essay",
       "https://www.astralcodexten.com/p/hidden-open-thread-4275",
       "https://www.astralcodexten.com/p/meetups-everywhere-spring-2026-times",
-      "https://www.astralcodexten.com/p/against-the-concept-of-telescopic"
+      "https://www.astralcodexten.com/p/against-the-concept-of-telescopic",
+      "https://www.astralcodexten.com/p/open-thread-429"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -426,7 +431,10 @@
       "https://scottaaronson.blog/?p=9627",
       "https://scottaaronson.blog/?p=9606",
       "https://scottaaronson.blog/?p=9591",
-      "https://scottaaronson.blog/?p=9665"
+      "https://scottaaronson.blog/?p=9665",
+      "https://scottaaronson.blog/?p=9668",
+      "https://scottaaronson.blog/?p=9656",
+      "https://scottaaronson.blog/?p=9650"
     ],
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
@@ -490,7 +498,9 @@
       "https://www.technologyreview.com/2026/04/10/1135618/the-download-jeff-vandermeer-short-story-and-ai-models-too-danger-to-release",
       "https://www.technologyreview.com/2026/04/10/1135106/jeff-vandermeer-constellations-science-fiction",
       "https://www.technologyreview.com/2026/04/09/1135514/the-download-astroturf-wars-exponential-ai-growth-desalination-numbers",
-      "https://www.technologyreview.com/2026/04/09/1135092/astroturf-fake-grass-artificial-heated-debates"
+      "https://www.technologyreview.com/2026/04/09/1135092/astroturf-fake-grass-artificial-heated-debates",
+      "https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all",
+      "https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -919,6 +929,16 @@
     "9e29edc5ab7d581809c9dda5b0287d25408dbb03",
     "0a28a4656ea49e291c38f53fe387310d78e986f6",
     "5d3feaab640bcb5dad9148e80d108bba5f231856",
-    "c43d93b04ff957e8ff9f6e05636b096fa1cbbdce"
+    "c43d93b04ff957e8ff9f6e05636b096fa1cbbdce",
+    "29ac3c1d8997bbffcb8416aa82840b37d6450adf",
+    "bee8c03ec3d8240ba5cea66da24e09b704077dae",
+    "1aae3c020dcc3da19684d9d19a69f05b18d5f00a",
+    "51957232a2894b059a1a16d203673d9ecf7e15cd",
+    "7687d046fca2ebd9fe94082505156c0accb79612",
+    "a6ce3994a3a1bb48e9fdff7602c2f5149768a24c",
+    "d54cb44eba8b94f3e2814e702d2a7f4fbb54c9ee",
+    "9a52766235cd65105c53e70328d0a659bbf3b2e2",
+    "a0e0b63101f9186af0485b8e2bd613a421e2934a",
+    "95c055aa2ec7198d0cf4073546d3fb7a7e430149"
   ]
 }
