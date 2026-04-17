@@ -34,7 +34,8 @@
       "https://blog.givewell.org/2026/03/12/givewells-2025-grant-investigation-survey-results",
       "https://blog.givewell.org/2026/03/19/podcast-episode-26-investing-in-information-for-greater-future-impact",
       "https://blog.givewell.org/2026/03/31/march-2026-updates",
-      "https://blog.givewell.org/2026/04/02/podcast-episode-27-scrutinizing-one-of-our-longest-funded-programs"
+      "https://blog.givewell.org/2026/04/02/podcast-episode-27-scrutinizing-one-of-our-longest-funded-programs",
+      "https://blog.givewell.org/2026/04/16/podcast-episode-28-evaluating-and-funding-a-new-kind-of-grant-clubfoot-treatment"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -99,7 +100,8 @@
       "https://seths.blog/2026/04/avoiding-the-purity-loop",
       "https://seths.blog/2026/04/on-pricing",
       "https://seths.blog/2026/04/what-do-you-own-3",
-      "https://seths.blog/2026/04/the-definitive-study-of-seed-oil-and-health"
+      "https://seths.blog/2026/04/the-definitive-study-of-seed-oil-and-health",
+      "https://seths.blog/2026/04/the-second-circle"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -208,7 +210,9 @@
       "https://www.themarginalian.org/2026/03/29/ursula-k-le-guin-the-dispossessed-suffering",
       "https://www.themarginalian.org/2026/04/05/gibran-war",
       "https://www.themarginalian.org/2026/04/05/general-theory-of-love-separation",
-      "https://www.themarginalian.org/2026/04/15/le-guin-lathe-of-heaven-change"
+      "https://www.themarginalian.org/2026/04/15/le-guin-lathe-of-heaven-change",
+      "https://www.themarginalian.org/2026/04/15/kiln-quantum",
+      "https://www.themarginalian.org/2026/04/14/rene-magritte-enchantment"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -426,7 +430,8 @@
       "https://www.astralcodexten.com/p/hidden-open-thread-4275",
       "https://www.astralcodexten.com/p/meetups-everywhere-spring-2026-times",
       "https://www.astralcodexten.com/p/against-the-concept-of-telescopic",
-      "https://www.astralcodexten.com/p/open-thread-429"
+      "https://www.astralcodexten.com/p/open-thread-429",
+      "https://www.astralcodexten.com/p/orban-was-bad-even-though-we-dont"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -455,7 +460,12 @@
       "https://www.quantamagazine.org/quantum-cryptography-pioneers-win-turing-award-20260318",
       "https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316",
       "https://www.quantamagazine.org/why-do-humanoid-robots-still-struggle-with-the-small-stuff-20260313",
-      "https://www.quantamagazine.org/when-coupled-volcanoes-talk-these-researchers-listen-20260327"
+      "https://www.quantamagazine.org/when-coupled-volcanoes-talk-these-researchers-listen-20260327",
+      "https://www.quantamagazine.org/the-ancient-weapons-active-in-your-immune-system-today-20260415",
+      "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413",
+      "https://www.quantamagazine.org/why-do-we-tell-ourselves-scary-stories-about-ai-20260410",
+      "https://www.quantamagazine.org/experiments-ring-the-death-knell-for-sterile-neutrinos-20260408",
+      "https://www.quantamagazine.org/an-arctic-road-trip-brings-vital-underground-networks-into-view-20260406"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -959,6 +969,16 @@
     "892cf143f3c16b6949c1a0d73c50d2ef079d1d36",
     "622678462a997cd0a2964ea88932e8e4060a15c6",
     "c403bb1c864ef4ae5f81a018c6e393cc87b97b15",
-    "42e41bf79f504344041e80c5587255f5f7b55c37"
+    "42e41bf79f504344041e80c5587255f5f7b55c37",
+    "136be1feeb8e57a6fb7c2142910a178c2ad7eab8",
+    "e5f649a1d9378ef8c3b9eeccb3c6904438e6fcb8",
+    "e13dbd8f972c7a0daaacae95ed06a5f4af70e822",
+    "7d7693ca9a2e1ad1c355e99578885f56b6246109",
+    "3c92b44419cbcd2c9c7c265e06baa3da0978b3f7",
+    "e532ace3f28811196c6abe926b49548ecde1b410",
+    "620ae5186e00213205a07b60be8683959f6c7398",
+    "6580345f540d6ad93c5d288aedcab10111daecf7",
+    "bb4263d47a77a9a6b99faad384aa98817c5c76d7",
+    "453ede7db73ac307bf196d10850c58fd6faae49e"
   ]
 }
