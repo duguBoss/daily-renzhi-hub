@@ -20,7 +20,8 @@
       "https://80000hours.org/podcast/episodes/richard-moulange-ai-bioweapons-biorisk",
       "https://80000hours.org/2026/04/anthropic-dow-conflict-three-bad-arguments",
       "https://80000hours.org/podcast/episodes/global-health-development-compilation",
-      "https://80000hours.org/2026/04/claude-mythos-hacking-alignment"
+      "https://80000hours.org/2026/04/claude-mythos-hacking-alignment",
+      "https://80000hours.org/2026/04/want-to-upskill-in-ai-policy-here-are-57-useful-resources"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -101,7 +102,8 @@
       "https://seths.blog/2026/04/on-pricing",
       "https://seths.blog/2026/04/what-do-you-own-3",
       "https://seths.blog/2026/04/the-definitive-study-of-seed-oil-and-health",
-      "https://seths.blog/2026/04/the-second-circle"
+      "https://seths.blog/2026/04/the-second-circle",
+      "https://seths.blog/2026/04/the-book-of-concern"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -212,7 +214,12 @@
       "https://www.themarginalian.org/2026/04/05/general-theory-of-love-separation",
       "https://www.themarginalian.org/2026/04/15/le-guin-lathe-of-heaven-change",
       "https://www.themarginalian.org/2026/04/15/kiln-quantum",
-      "https://www.themarginalian.org/2026/04/14/rene-magritte-enchantment"
+      "https://www.themarginalian.org/2026/04/14/rene-magritte-enchantment",
+      "https://www.themarginalian.org/2026/04/17/orcas",
+      "https://www.themarginalian.org/2026/04/17/c-s-lewis-longing",
+      "https://www.themarginalian.org/2026/04/17/samantha-harvey-interview-reading",
+      "https://www.themarginalian.org/2026/04/16/william-james-on-habit",
+      "https://www.themarginalian.org/2026/04/14/tree-of-knowledge-maturana-love"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -225,7 +232,11 @@
       "https://www.noemamag.com/the-climate-wont-bend-to-trumps-will-to-power",
       "https://www.noemamag.com/what-the-ai-consciousness-question-conceals",
       "https://www.noemamag.com/before-waging-war-consult-historians-first",
-      "https://www.noemamag.com/the-eradication-of-grief"
+      "https://www.noemamag.com/the-eradication-of-grief",
+      "https://www.noemamag.com/openai-proposes-a-social-contract-for-the-intelligence-age",
+      "https://www.noemamag.com/why-ai-needs-a-sense-of-smell",
+      "https://www.noemamag.com/the-vulnerability-of-the-liberal-neutral-state",
+      "https://www.noemamag.com/quantum-existentialism"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -979,6 +990,17 @@
     "620ae5186e00213205a07b60be8683959f6c7398",
     "6580345f540d6ad93c5d288aedcab10111daecf7",
     "bb4263d47a77a9a6b99faad384aa98817c5c76d7",
-    "453ede7db73ac307bf196d10850c58fd6faae49e"
+    "453ede7db73ac307bf196d10850c58fd6faae49e",
+    "11d501a1ba518c2c3e747afd8d078f28791c9c3b",
+    "b20516de385fcce4791811ad7e7fbb768d8ab922",
+    "a0c345e9ff3a53578213fd34edafffed13ac1bd1",
+    "99c62dd9b9f34a36cb01b686c8f680edd180b6bf",
+    "f8c74dc626f9538ba95a1cb1f031a906cc6ab0cf",
+    "64b9692ca77bc419d29a81ae12bd5337c53d9edd",
+    "f2aa44d0c7b7002d8679db475a3c74f56afccfca",
+    "5185c5ab99754799a7ce562a7683f10218d39ff0",
+    "ad46406e0d60c2100292aa76e0cc127578e12844",
+    "7be18b9ad6cce55e0dd364d2b019ed0b10d2b186",
+    "f11fe1f3c2f9888476d8f5b116fa1176cbd99cf4"
   ]
 }
