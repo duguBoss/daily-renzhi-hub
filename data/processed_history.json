@@ -104,7 +104,8 @@
       "https://seths.blog/2026/04/the-definitive-study-of-seed-oil-and-health",
       "https://seths.blog/2026/04/the-second-circle",
       "https://seths.blog/2026/04/the-book-of-concern",
-      "https://seths.blog/2026/04/the-petrillo-complications"
+      "https://seths.blog/2026/04/the-petrillo-complications",
+      "https://seths.blog/2026/04/is-it-sciatica"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -220,7 +221,12 @@
       "https://www.themarginalian.org/2026/04/17/c-s-lewis-longing",
       "https://www.themarginalian.org/2026/04/17/samantha-harvey-interview-reading",
       "https://www.themarginalian.org/2026/04/16/william-james-on-habit",
-      "https://www.themarginalian.org/2026/04/14/tree-of-knowledge-maturana-love"
+      "https://www.themarginalian.org/2026/04/14/tree-of-knowledge-maturana-love",
+      "https://www.themarginalian.org/2026/04/19/the-experience-machine-andy-clark",
+      "https://www.themarginalian.org/2026/04/18/the-sane-society-erich-fromm",
+      "https://www.themarginalian.org/2026/04/18/hemingway-loss-letter",
+      "https://www.themarginalian.org/2026/04/18/whitman-traversal",
+      "https://www.themarginalian.org/2026/04/17/mary-oliver-advice-on-writing"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -237,7 +243,9 @@
       "https://www.noemamag.com/openai-proposes-a-social-contract-for-the-intelligence-age",
       "https://www.noemamag.com/why-ai-needs-a-sense-of-smell",
       "https://www.noemamag.com/the-vulnerability-of-the-liberal-neutral-state",
-      "https://www.noemamag.com/quantum-existentialism"
+      "https://www.noemamag.com/quantum-existentialism",
+      "https://www.noemamag.com/why-a-liberal-arts-education-will-soon-be-more-valuable-than-ever",
+      "https://www.noemamag.com/iran-could-become-like-egypt-myanmar-or-pakistan"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -443,7 +451,8 @@
       "https://www.astralcodexten.com/p/meetups-everywhere-spring-2026-times",
       "https://www.astralcodexten.com/p/against-the-concept-of-telescopic",
       "https://www.astralcodexten.com/p/open-thread-429",
-      "https://www.astralcodexten.com/p/orban-was-bad-even-though-we-dont"
+      "https://www.astralcodexten.com/p/orban-was-bad-even-though-we-dont",
+      "https://www.astralcodexten.com/p/open-thread-430"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -480,7 +489,8 @@
       "https://www.quantamagazine.org/the-ai-revolution-in-math-has-arrived-20260413",
       "https://www.quantamagazine.org/why-do-we-tell-ourselves-scary-stories-about-ai-20260410",
       "https://www.quantamagazine.org/experiments-ring-the-death-knell-for-sterile-neutrinos-20260408",
-      "https://www.quantamagazine.org/an-arctic-road-trip-brings-vital-underground-networks-into-view-20260406"
+      "https://www.quantamagazine.org/an-arctic-road-trip-brings-vital-underground-networks-into-view-20260406",
+      "https://www.quantamagazine.org/quantum-jamming-explores-the-truly-fundamental-principles-of-nature-20260417"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -1021,6 +1031,16 @@
     "732b6291c348fa887ee6318f04c92c508fcec369",
     "9b54c0455df1171c8c43d7d8557670665907016b",
     "fe51769dcfc6a772385049da014e7ea976c57067",
-    "9a1d309ddfe7a2b50078c121672fcbbc7387dee2"
+    "9a1d309ddfe7a2b50078c121672fcbbc7387dee2",
+    "eee315002c11d8ba0717dc9b7f9066aa06c55b79",
+    "e0e852f05683d6dfe80e2df9e9a66953fe997927",
+    "b8d30da1e5f6a3e29c512ac21d2809879c10136e",
+    "dcca40e4772cb9cfa9febd07e083955132c89459",
+    "b8600242351b18ce1f4baa3a15b8c2ad3b0159c7",
+    "ca7242baba3e89c47006c731e32dc6e416db2569",
+    "1a58a8a207cf6fab9368780da21a9c1df4e09232",
+    "ffac963ba2c93669fc0ab8d501531fe3c11a3a28",
+    "b32e5b4272af6ce330c679a44f32ec1826b48535",
+    "3783cf998abb44f2f80d171f68cc36b4dc638d47"
   ]
 }
