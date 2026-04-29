@@ -26,7 +26,8 @@
       "https://80000hours.org/2026/04/open-position-on-the-video-team-operational-partner-creative-operations-associate-to-aric-floyd",
       "https://80000hours.org/2026/04/open-contracting-position-on-the-video-team-pair-writer-writing-support-to-aric-floyd",
       "https://80000hours.org/2026/04/open-contracting-position-on-the-video-team-executive-assistant-to-aric-floyd",
-      "https://80000hours.org/2026/04/ai-safety-needs-more-than-engineers"
+      "https://80000hours.org/2026/04/ai-safety-needs-more-than-engineers",
+      "https://80000hours.org/podcast/episodes/ai-workplace-mit-study"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -119,7 +120,8 @@
       "https://seths.blog/2026/04/breathwork",
       "https://seths.blog/2026/04/bad-money",
       "https://seths.blog/2026/04/warm-pistachios",
-      "https://seths.blog/2026/04/puddles"
+      "https://seths.blog/2026/04/puddles",
+      "https://seths.blog/2026/04/photoshopping-the-package"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -210,7 +212,12 @@
       "https://bigthink.com/collections/the-energy-transition",
       "https://bigthink.com/starts-with-a-bang/biggest-misconception-astronomy",
       "https://bigthink.com/starts-with-a-bang/theories-of-everything",
-      "https://bigthink.com/starts-with-a-bang/challenge-celebrating-artemis-ii-nasa-cuts"
+      "https://bigthink.com/starts-with-a-bang/challenge-celebrating-artemis-ii-nasa-cuts",
+      "https://bigthink.com/plus/what-we-should-be-teaching-managers",
+      "https://bigthink.com/series/the-big-think-interview/true-happiness-hedonism",
+      "https://bigthink.com/the-well/pure-genetics-dont-exist",
+      "https://bigthink.com/starts-with-a-bang/dark-matter-bullet-cluster-595214",
+      "https://bigthink.com/starts-with-a-bang/particles-early-universe"
     ],
     "https://sideways-view.com/feed/": [
       "https://sideways-view.com/2023/07/29/self-driving-car-bets",
@@ -382,7 +389,13 @@
       "https://forum.effectivealtruism.org/posts/zmbfZjK54xF4oGjSB/forecasting-is-way-overrated-and-we-should-stop-funding-it",
       "https://forum.effectivealtruism.org/posts/HuyZE6xFfebv7ByXC/donate-less-to-ai-safety",
       "https://forum.effectivealtruism.org/posts/kQapzDZmTW25gmijD/ai-safety-can-be-a-pascal-s-mugging-even-if-p-doom-is-high",
-      "https://forum.effectivealtruism.org/posts/TiB6vmmDtvrPzt2z6/language-models-know-what-matters-and-the-foundations-of"
+      "https://forum.effectivealtruism.org/posts/TiB6vmmDtvrPzt2z6/language-models-know-what-matters-and-the-foundations-of",
+      "https://forum.effectivealtruism.org/posts/WvJffkdLvW7DwEZdc/ai-safety-funding-mechanisms-aren-t-built-for-scale",
+      "https://forum.effectivealtruism.org/posts/G8gm7WFkbKD9sgaKW/follow-up-time-sensitive-animal-welfare-action",
+      "https://forum.effectivealtruism.org/posts/7jKigNcBnHnP5Q2qJ/the-missing-key-to-agi-alignment",
+      "https://forum.effectivealtruism.org/posts/EiG3eHqNR9XouYPYN/is-ai-welfare-work-puntable",
+      "https://forum.effectivealtruism.org/posts/q92qq7XCCLJonA6CH/the-story-behind-the-bad-ai-stat-that-moved-markets-and",
+      "https://forum.effectivealtruism.org/posts/vDw9tf4BTHgYshJW5/comment-on-forecasting-is-way-overrated-and-we-should-stop"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -464,7 +477,8 @@
       "https://daily.jstor.org/how-america-racialized-the-robot",
       "https://daily.jstor.org/another-way-to-boost-fourth-grade-reading-scores-preschool",
       "https://daily.jstor.org/the-immigrant-photographers-who-shaped-a-nations-image",
-      "https://daily.jstor.org/william-hodges-and-the-art-of-empire"
+      "https://daily.jstor.org/william-hodges-and-the-art-of-empire",
+      "https://daily.jstor.org/why-does-music-in-science-fiction-sound-like-that"
     ],
     "https://www.slowboring.com/feed": [
       "https://www.slowboring.com/p/upscale-liberals-are-developing-class",
@@ -1227,6 +1241,20 @@
     "f61bf9cfaf53c1a33f3d19aa5ce07cec77752d06",
     "117d055e207402cf8d256e8d203a7279422dc3c3",
     "15b7ee77d32edfc8941424a90fb213bffee0e267",
-    "24c05c4d8ce95ed5bc5521a0e3df22ea166c9a29"
+    "24c05c4d8ce95ed5bc5521a0e3df22ea166c9a29",
+    "fb6ab39922449f80907c6aac128788257de91cf3",
+    "a16245dacaa5d36c56a90598401b48abf05c9b10",
+    "807234533bb53b064da7799ac402bdc30a3c54cc",
+    "be8ab13e613d4ed2e5f27794ef553f17c9afa5ec",
+    "462e33226ec44a231137fb4afb31ed7387995638",
+    "f417511cd3e4c00c8e3244a8aa55daec247e248c",
+    "a54d77e0975aa1323eace94f7f22958a36f0ca19",
+    "88f95d4c40f00b5521ab274fb42be8c1fc9e11af",
+    "80b1ddb13ed8cdcd7d1c5e98117b2c22110c15e4",
+    "da5a018250cfa2cd873948f83fd6889e09d85b9c",
+    "44e7f60853fd336c179364829fdef4f26ffce164",
+    "f2f576f3ccaed7015e8c29bb6956fcbac0a0ece5",
+    "f9fc9ab05fa38b54476874287ea4d7a3fba24d5a",
+    "dfcfc60d28135049b26cba01640b29a37ce00764"
   ]
 }
