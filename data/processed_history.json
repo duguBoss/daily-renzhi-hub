@@ -123,7 +123,8 @@
       "https://seths.blog/2026/04/puddles",
       "https://seths.blog/2026/04/photoshopping-the-package",
       "https://seths.blog/2026/04/one-thing-at-a-time",
-      "https://seths.blog/2026/05/the-most-exciting-mobile-trend-is-full-qwerty-keyboards"
+      "https://seths.blog/2026/05/the-most-exciting-mobile-trend-is-full-qwerty-keyboards",
+      "https://seths.blog/2026/05/nostalgia-can-be-fatal"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -470,7 +471,9 @@
       "https://undark.org/2026/04/16/opinion-black-hair-health",
       "https://undark.org/2026/04/22/sea-level-land-subsidence",
       "https://undark.org/2026/04/24/interview-jennifer-pomeranz",
-      "https://undark.org/2026/04/23/opinion-teaching-darwin"
+      "https://undark.org/2026/04/23/opinion-teaching-darwin",
+      "https://undark.org/2026/05/01/book-review-return-of-the-oystercatcher",
+      "https://undark.org/2026/04/30/opinion-ai-humanitarian-decisions"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -566,7 +569,8 @@
       "https://scottaaronson.blog/?p=9668",
       "https://scottaaronson.blog/?p=9656",
       "https://scottaaronson.blog/?p=9650",
-      "https://scottaaronson.blog/?p=9704"
+      "https://scottaaronson.blog/?p=9704",
+      "https://scottaaronson.blog/?p=9718"
     ],
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
@@ -584,7 +588,9 @@
       "https://www.lesswrong.com/posts/9rCTjbJpZB4KzqhiQ/you-can-t-imitation-learn-how-to-continual-learn",
       "https://www.lesswrong.com/posts/xG9Y2Mct7uZyt98yb/annoyingly-principled-people-and-what-befalls-them",
       "https://www.lesswrong.com/posts/a9zfyHymPYY58D8hx/socrates-is-mortal",
-      "https://www.lesswrong.com/posts/LEzENY5brcNXfB9aX/gyre"
+      "https://www.lesswrong.com/posts/LEzENY5brcNXfB9aX/gyre",
+      "https://www.lesswrong.com/posts/znbfRXHq285nS7NAh/the-terrarium",
+      "https://www.lesswrong.com/posts/jinzzbPHshif8nmnw/do-not-conquer-what-you-cannot-defend"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -599,7 +605,8 @@
       "https://www.quantamagazine.org/an-arctic-road-trip-brings-vital-underground-networks-into-view-20260406",
       "https://www.quantamagazine.org/quantum-jamming-explores-the-truly-fundamental-principles-of-nature-20260417",
       "https://www.quantamagazine.org/a-powerful-new-qr-code-untangles-maths-knottiest-knots-20260422",
-      "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420"
+      "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420",
+      "https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -641,7 +648,10 @@
       "https://www.overcomingbias.com/p/nations-double-down-on-status",
       "https://www.overcomingbias.com/p/my-class-and-goals",
       "https://www.overcomingbias.com/p/power-futarchy",
-      "https://www.overcomingbias.com/p/remake-or-replace-tribes"
+      "https://www.overcomingbias.com/p/remake-or-replace-tribes",
+      "https://www.overcomingbias.com/p/intellectual-populism-trend",
+      "https://www.overcomingbias.com/p/my-best-idea-decision-markets",
+      "https://www.overcomingbias.com/p/why-focus-on-mid-level-goals"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -1305,6 +1315,16 @@
     "2a38af2acc1e4a9b49506e03047327ac4f0da753",
     "657702e6386f5f2651fd7c40c33be058323de318",
     "1c967d6829262395323766a22eaa92abec5ee34d",
-    "5c05932222c1921d80367e78ace6f6bea76a5a05"
+    "5c05932222c1921d80367e78ace6f6bea76a5a05",
+    "97f97b251f17cc768a8665a872f403b47d979610",
+    "be88a99d6e7cbb287188095151358483abd028d8",
+    "4d09060914d1dca45f32b11eed6b0a39db95dc93",
+    "02c019fa3d2df48032040ebc2ae3ae55b4cb7de4",
+    "17c494a90d3feb2deda8feb000d8c99e9f4fff3a",
+    "d2e1f5c0734c9da24243e68d09833826992546b5",
+    "30071c07a013c2b0c49406686bb866707dc2d03e",
+    "08853a774832abc1ea03d68882ef5b75e0c4256c",
+    "362dcec85f59baa2cfa5774391df893327420e6a",
+    "789aaec85cb19c977c629be067e3205636a3e897"
   ]
 }
