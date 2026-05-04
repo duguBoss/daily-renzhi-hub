@@ -127,7 +127,8 @@
       "https://seths.blog/2026/04/one-thing-at-a-time",
       "https://seths.blog/2026/05/the-most-exciting-mobile-trend-is-full-qwerty-keyboards",
       "https://seths.blog/2026/05/nostalgia-can-be-fatal",
-      "https://seths.blog/2026/05/just-like-me-but"
+      "https://seths.blog/2026/05/just-like-me-but",
+      "https://seths.blog/2026/05/trained-equanimity-and-a-bias-toward-action"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -485,7 +486,10 @@
       "https://undark.org/2026/04/24/interview-jennifer-pomeranz",
       "https://undark.org/2026/04/23/opinion-teaching-darwin",
       "https://undark.org/2026/05/01/book-review-return-of-the-oystercatcher",
-      "https://undark.org/2026/04/30/opinion-ai-humanitarian-decisions"
+      "https://undark.org/2026/04/30/opinion-ai-humanitarian-decisions",
+      "https://undark.org/2026/04/29/drug-costs-2022-law",
+      "https://undark.org/2026/04/28/birth-rates-title-x",
+      "https://undark.org/2026/04/27/whale-euthanasia"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -618,7 +622,8 @@
       "https://www.quantamagazine.org/quantum-jamming-explores-the-truly-fundamental-principles-of-nature-20260417",
       "https://www.quantamagazine.org/a-powerful-new-qr-code-untangles-maths-knottiest-knots-20260422",
       "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420",
-      "https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424"
+      "https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424",
+      "https://www.quantamagazine.org/physicists-discover-the-most-complex-forms-of-ice-yet-20260427"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -663,7 +668,11 @@
       "https://www.overcomingbias.com/p/remake-or-replace-tribes",
       "https://www.overcomingbias.com/p/intellectual-populism-trend",
       "https://www.overcomingbias.com/p/my-best-idea-decision-markets",
-      "https://www.overcomingbias.com/p/why-focus-on-mid-level-goals"
+      "https://www.overcomingbias.com/p/why-focus-on-mid-level-goals",
+      "https://www.overcomingbias.com/p/on-politics-and-governance",
+      "https://www.overcomingbias.com/p/figure-stuff-out-together",
+      "https://www.overcomingbias.com/p/on-prediction-market-regulation",
+      "https://www.overcomingbias.com/p/where-you-are-most-wrong"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -705,7 +714,8 @@
       "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare",
       "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients",
       "https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue",
-      "https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost"
+      "https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost",
+      "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1349,6 +1359,16 @@
     "f2627d5a320ba62bd0f355f5e897b1edd8bf3183",
     "d05a1af26153db6cd66b135f05bd2a328bf8ff6c",
     "f747fc3fcdb77dc9a336997775da425fa676eb18",
-    "2691c074a71c1548adf8c65ecbd8379ab6bdd7f7"
+    "2691c074a71c1548adf8c65ecbd8379ab6bdd7f7",
+    "4b7a302658e58c3d55bad18e31adabeb8f0bd198",
+    "851e091e744117bb773ff2cd0bb7ed59dbf96ca2",
+    "36d57fa27ccc36fee80c6142cd66bafb36697d18",
+    "7c3077674792f939dc182064a6fa635df9365d1f",
+    "2496c8ad82e7885ad46b5a27b898a455a96af0a1",
+    "4b4169f492e3c5e04b316b04aa00c1ebeb4557d9",
+    "73013480feae1dd01bc98026a5a5e4db24228138",
+    "333a5d1119515220643e422c460ff57a89971cf2",
+    "dd4eefc148060bd4ea45c89fa1fc00e6b7d1da26",
+    "9a5c7749b6756580c164587deaa745fb80162a4b"
   ]
 }
