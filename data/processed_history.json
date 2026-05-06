@@ -29,7 +29,11 @@
       "https://80000hours.org/2026/04/ai-safety-needs-more-than-engineers",
       "https://80000hours.org/podcast/episodes/ai-workplace-mit-study",
       "https://80000hours.org/2026/05/open-position-web-product-lead",
-      "https://80000hours.org/2026/05/open-role-product-and-growth-manager"
+      "https://80000hours.org/2026/05/open-role-product-and-growth-manager",
+      "https://80000hours.org/2026/05/business-operations-associate-specialist",
+      "https://80000hours.org/2026/05/people-operations-associate-specialist-2",
+      "https://80000hours.org/2026/05/recruiting-associate-specialist-2",
+      "https://80000hours.org/2026/05/open-position-advisor-2"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -129,7 +133,9 @@
       "https://seths.blog/2026/05/nostalgia-can-be-fatal",
       "https://seths.blog/2026/05/just-like-me-but",
       "https://seths.blog/2026/05/trained-equanimity-and-a-bias-toward-action",
-      "https://seths.blog/2026/05/the-best-year"
+      "https://seths.blog/2026/05/the-best-year",
+      "https://seths.blog/2026/05/your-work-diary",
+      "https://seths.blog/2026/05/ai-together"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -365,7 +371,13 @@
       "https://longreads.com/2026/04/30/infinity-ultrafinitism-quanta",
       "https://longreads.com/2026/04/30/we-bought-an-orchestra",
       "https://longreads.com/2026/04/30/dave-the-potter-ancestors",
-      "https://longreads.com/2026/05/05/mac-barnett-childrens-books-make-believe"
+      "https://longreads.com/2026/05/05/mac-barnett-childrens-books-make-believe",
+      "https://longreads.com/2026/05/06/enhanced-games-peptides-abu-dhabi",
+      "https://longreads.com/2026/05/05/group-home-delinquent-kentucky-fathers-sons",
+      "https://longreads.com/2026/05/05/my-classroom-life",
+      "https://longreads.com/2026/05/05/its-super-weird-super-odd-super-rare-meet-the-twins-who-have-different-dads",
+      "https://longreads.com/2026/05/01/ds-waldman-brother-elegy-poetry",
+      "https://longreads.com/2026/05/01/secrets-of-the-bees-revealing-the-sneaky-genius-of-natures-brightest-thinkers"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -492,7 +504,8 @@
       "https://undark.org/2026/04/29/drug-costs-2022-law",
       "https://undark.org/2026/04/28/birth-rates-title-x",
       "https://undark.org/2026/04/27/whale-euthanasia",
-      "https://undark.org/2026/05/05/prediction-markets-polling"
+      "https://undark.org/2026/05/05/prediction-markets-polling",
+      "https://undark.org/2026/05/06/black-lung-federal-protections"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -725,7 +738,8 @@
       "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era",
       "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty",
       "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms",
-      "https://www.technologyreview.com/2026/05/01/1136734/inexpensive-seafloor-hopping-submersibles-could-stoke-deep-sea-science-and-mining"
+      "https://www.technologyreview.com/2026/05/01/1136734/inexpensive-seafloor-hopping-submersibles-could-stoke-deep-sea-science-and-mining",
+      "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1389,6 +1403,20 @@
     "2f74e90266121d66fe52747f5e97bbe98bad350c",
     "89aacda3c15796892bdb255cd1068be9c98025f4",
     "4f0ce7008eb3d03d75a9ad2e49c02b9dd500b69c",
-    "98d523eafedd4107d57e23fe704f377d74d23fd6"
+    "98d523eafedd4107d57e23fe704f377d74d23fd6",
+    "89b4b41058a1b0f7722a54efcc353117a9317afd",
+    "0b51e817adacabd74a892e0765845a368712c823",
+    "7edac25ed5684d797e59069b92d3bd95aa2b48e1",
+    "85f44b5928cd3339ec85c1dc2292cece1a5daeb8",
+    "70c0f0c5c6e7aa54f6195ebf7e7d6bb009de1ad2",
+    "db5461b75d15b2793eaafce869afdf6a032a706a",
+    "27fbf221c3399d0223131ef5c0d356feef8c6f41",
+    "a961e4731bc51b7be4476ccb32ca0baf39e37b84",
+    "08b7229beb5bd4567a51182a925b5674656ba831",
+    "c4a1cb263dd0af787417c5f2ec152ad15a0aa362",
+    "a86cd17c02e5b1dc7daec488eed47161bfb06613",
+    "bdfc7cefb7df62657b4f10c8e317713035f0b1b4",
+    "60fcdec31270445f9efaecc6071632cbe307d281",
+    "a8d8d4b911c291ecb1db114f873efd072fb89786"
   ]
 }
