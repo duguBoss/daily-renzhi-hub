@@ -135,7 +135,8 @@
       "https://seths.blog/2026/05/trained-equanimity-and-a-bias-toward-action",
       "https://seths.blog/2026/05/the-best-year",
       "https://seths.blog/2026/05/your-work-diary",
-      "https://seths.blog/2026/05/ai-together"
+      "https://seths.blog/2026/05/ai-together",
+      "https://seths.blog/2026/05/dream-physics"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -149,7 +150,8 @@
       "https://fs.blog/knowledge-project-podcast/outliers-harrison-mccain",
       "https://fs.blog/knowledge-project-podcast/joe-liemandt",
       "https://fs.blog/knowledge-project-podcast/mario-harik",
-      "https://fs.blog/knowledge-project-podcast/greg-brockman"
+      "https://fs.blog/knowledge-project-podcast/greg-brockman",
+      "https://fs.blog/knowledge-project-podcast/winston-weinberg"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -377,7 +379,9 @@
       "https://longreads.com/2026/05/05/my-classroom-life",
       "https://longreads.com/2026/05/05/its-super-weird-super-odd-super-rare-meet-the-twins-who-have-different-dads",
       "https://longreads.com/2026/05/01/ds-waldman-brother-elegy-poetry",
-      "https://longreads.com/2026/05/01/secrets-of-the-bees-revealing-the-sneaky-genius-of-natures-brightest-thinkers"
+      "https://longreads.com/2026/05/01/secrets-of-the-bees-revealing-the-sneaky-genius-of-natures-brightest-thinkers",
+      "https://longreads.com/2026/05/07/opposable-thumbs",
+      "https://longreads.com/2026/05/07/undercover-agent-wildlife-poaching"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -505,7 +509,8 @@
       "https://undark.org/2026/04/28/birth-rates-title-x",
       "https://undark.org/2026/04/27/whale-euthanasia",
       "https://undark.org/2026/05/05/prediction-markets-polling",
-      "https://undark.org/2026/05/06/black-lung-federal-protections"
+      "https://undark.org/2026/05/06/black-lung-federal-protections",
+      "https://undark.org/2026/05/07/opinion-race-neutral-health-calculators"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -622,7 +627,8 @@
       "https://www.lesswrong.com/posts/a9zfyHymPYY58D8hx/socrates-is-mortal",
       "https://www.lesswrong.com/posts/LEzENY5brcNXfB9aX/gyre",
       "https://www.lesswrong.com/posts/znbfRXHq285nS7NAh/the-terrarium",
-      "https://www.lesswrong.com/posts/jinzzbPHshif8nmnw/do-not-conquer-what-you-cannot-defend"
+      "https://www.lesswrong.com/posts/jinzzbPHshif8nmnw/do-not-conquer-what-you-cannot-defend",
+      "https://www.lesswrong.com/posts/rNpGFodLTFvhqLmK6/intelligence-dissolves-privacy"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -688,7 +694,8 @@
       "https://www.overcomingbias.com/p/on-politics-and-governance",
       "https://www.overcomingbias.com/p/figure-stuff-out-together",
       "https://www.overcomingbias.com/p/on-prediction-market-regulation",
-      "https://www.overcomingbias.com/p/where-you-are-most-wrong"
+      "https://www.overcomingbias.com/p/where-you-are-most-wrong",
+      "https://www.overcomingbias.com/p/the-coming-hackastrophe"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -739,7 +746,10 @@
       "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty",
       "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms",
       "https://www.technologyreview.com/2026/05/01/1136734/inexpensive-seafloor-hopping-submersibles-could-stoke-deep-sea-science-and-mining",
-      "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy"
+      "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy",
+      "https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom",
+      "https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing",
+      "https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1417,6 +1427,16 @@
     "a86cd17c02e5b1dc7daec488eed47161bfb06613",
     "bdfc7cefb7df62657b4f10c8e317713035f0b1b4",
     "60fcdec31270445f9efaecc6071632cbe307d281",
-    "a8d8d4b911c291ecb1db114f873efd072fb89786"
+    "a8d8d4b911c291ecb1db114f873efd072fb89786",
+    "f183b052ca3e8c5d53ee1abecc0025ec9c7b2351",
+    "486cbf2bbdf3b4abc1174de4353d7cb845210ac2",
+    "c356dda10ddaadea85607bc0bc46d591680c5d35",
+    "58682857645b30892341e129e2292a319d510bb4",
+    "9b2f41d73627c93f1351983b40f16a0854c36aef",
+    "a876fdd1f4ba3807f898f8b90c2a06a2148fc724",
+    "cfc7388767f7b8866fcda2d833de42ca10518c8e",
+    "333f73460a3b3befe3b456ad424898909698e700",
+    "9b3f82368f5ae7f48e31d2ceaa4b81aa330ecd6f",
+    "775b1393b1ab23f3a76df7e277040c8fe0d2dc30"
   ]
 }
