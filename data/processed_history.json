@@ -33,7 +33,9 @@
       "https://80000hours.org/2026/05/business-operations-associate-specialist",
       "https://80000hours.org/2026/05/people-operations-associate-specialist-2",
       "https://80000hours.org/2026/05/recruiting-associate-specialist-2",
-      "https://80000hours.org/2026/05/open-position-advisor-2"
+      "https://80000hours.org/2026/05/open-position-advisor-2",
+      "https://80000hours.org/2026/05/expression-of-interest-chief-of-staff-operations-team",
+      "https://80000hours.org/podcast/episodes/yoshua-bengio-scientist-ai"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -136,7 +138,8 @@
       "https://seths.blog/2026/05/the-best-year",
       "https://seths.blog/2026/05/your-work-diary",
       "https://seths.blog/2026/05/ai-together",
-      "https://seths.blog/2026/05/dream-physics"
+      "https://seths.blog/2026/05/dream-physics",
+      "https://seths.blog/2026/05/kinds-of-fast"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -381,7 +384,11 @@
       "https://longreads.com/2026/05/01/ds-waldman-brother-elegy-poetry",
       "https://longreads.com/2026/05/01/secrets-of-the-bees-revealing-the-sneaky-genius-of-natures-brightest-thinkers",
       "https://longreads.com/2026/05/07/opposable-thumbs",
-      "https://longreads.com/2026/05/07/undercover-agent-wildlife-poaching"
+      "https://longreads.com/2026/05/07/undercover-agent-wildlife-poaching",
+      "https://longreads.com/2026/05/08/top-5-609",
+      "https://longreads.com/2026/05/07/tweendom-the-new-yorker",
+      "https://longreads.com/2026/05/07/i-want-to-live-like-costco-people",
+      "https://longreads.com/2026/05/07/beverly-glenn-copeland-keyboard-fantasies"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -510,7 +517,8 @@
       "https://undark.org/2026/04/27/whale-euthanasia",
       "https://undark.org/2026/05/05/prediction-markets-polling",
       "https://undark.org/2026/05/06/black-lung-federal-protections",
-      "https://undark.org/2026/05/07/opinion-race-neutral-health-calculators"
+      "https://undark.org/2026/05/07/opinion-race-neutral-health-calculators",
+      "https://undark.org/2026/05/08/book-review-homesick-for-world-unknown"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -628,7 +636,8 @@
       "https://www.lesswrong.com/posts/LEzENY5brcNXfB9aX/gyre",
       "https://www.lesswrong.com/posts/znbfRXHq285nS7NAh/the-terrarium",
       "https://www.lesswrong.com/posts/jinzzbPHshif8nmnw/do-not-conquer-what-you-cannot-defend",
-      "https://www.lesswrong.com/posts/rNpGFodLTFvhqLmK6/intelligence-dissolves-privacy"
+      "https://www.lesswrong.com/posts/rNpGFodLTFvhqLmK6/intelligence-dissolves-privacy",
+      "https://www.lesswrong.com/posts/nR3DkyivzF4ve97oM/how-go-players-disempower-themselves-to-ai"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -749,7 +758,9 @@
       "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy",
       "https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom",
       "https://www.technologyreview.com/2026/05/07/1136946/whats-next-for-ivf-ai-robot-pgt-gene-editing",
-      "https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots"
+      "https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots",
+      "https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf",
+      "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1437,6 +1448,17 @@
     "cfc7388767f7b8866fcda2d833de42ca10518c8e",
     "333f73460a3b3befe3b456ad424898909698e700",
     "9b3f82368f5ae7f48e31d2ceaa4b81aa330ecd6f",
-    "775b1393b1ab23f3a76df7e277040c8fe0d2dc30"
+    "775b1393b1ab23f3a76df7e277040c8fe0d2dc30",
+    "04065676bbe32e0e2bf87f68362730239c8db9c7",
+    "942462d5e654f547c5bb3db69e1cb0313cee57bd",
+    "d3b2269d12f9ac27fbb91b8e762054f4ab5d2003",
+    "5d00a2b4b80ed23de683eebffcfbe6eb38ef0d21",
+    "a41313cf0a477381ba18a4fef7df2497f82852c4",
+    "aa8e55e93b585ef538f2f9615baeaccd726c55ac",
+    "53d6a81a128f7e6ddef4096e52beea681650fc1b",
+    "13f7ace7890740bbac5167191fdef2215ac3bab6",
+    "1fa00de93e50cb4c85336df04178a862b50d2497",
+    "16704bee20b454c7182803ebbcc812b8ea26c074",
+    "c898bbe60de375062138217e221da81be7c7e4cf"
   ]
 }
