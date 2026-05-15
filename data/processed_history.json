@@ -36,7 +36,8 @@
       "https://80000hours.org/2026/05/open-position-advisor-2",
       "https://80000hours.org/2026/05/expression-of-interest-chief-of-staff-operations-team",
       "https://80000hours.org/podcast/episodes/yoshua-bengio-scientist-ai",
-      "https://80000hours.org/2026/05/senior-video-operations"
+      "https://80000hours.org/2026/05/senior-video-operations",
+      "https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -53,7 +54,8 @@
       "https://blog.givewell.org/2026/04/02/podcast-episode-27-scrutinizing-one-of-our-longest-funded-programs",
       "https://blog.givewell.org/2026/04/16/podcast-episode-28-evaluating-and-funding-a-new-kind-of-grant-clubfoot-treatment",
       "https://blog.givewell.org/2026/04/27/april-2026-update",
-      "https://blog.givewell.org/2026/05/11/givewell-opens-rfi-for-malaria-pilots-and-research"
+      "https://blog.givewell.org/2026/05/11/givewell-opens-rfi-for-malaria-pilots-and-research",
+      "https://blog.givewell.org/2026/05/14/podcast-episode-29-behind-the-analysis-assessing-past-malaria-nets-grants"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -147,7 +149,8 @@
       "https://seths.blog/2026/05/the-shared-tragedy-of-red-queen-hiring",
       "https://seths.blog/2026/05/early-rejections",
       "https://seths.blog/2026/05/the-airplane-oath",
-      "https://seths.blog/2026/05/cats-dogs"
+      "https://seths.blog/2026/05/cats-dogs",
+      "https://seths.blog/2026/05/personally"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -491,7 +494,8 @@
       "https://forum.effectivealtruism.org/posts/8grfQbZcJx6iAJkiv/the-hatchery-fund-microgrants-for-experiments-in-animal",
       "https://forum.effectivealtruism.org/events/K2NJLK8mP2Gfjvi7R/dach-meetup-for-eag-london-2026-attendees",
       "https://forum.effectivealtruism.org/posts/FRBii9Lp4zwd9CnpQ/ea-buddhism-monastic-academy",
-      "https://forum.effectivealtruism.org/posts/MfjuFPKxBiq4FdBkb/ai-displacement-in-kenya-a-governance-problem-disguised-as"
+      "https://forum.effectivealtruism.org/posts/MfjuFPKxBiq4FdBkb/ai-displacement-in-kenya-a-governance-problem-disguised-as",
+      "https://forum.effectivealtruism.org/posts/HdJDnq3m4mJ3Hiwmy/stickiness-in-ai-behavioral-design"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -516,7 +520,8 @@
       "https://www.noahpinion.blog/p/is-chinas-soft-power-really-rising",
       "https://www.noahpinion.blog/p/no-america-is-not-in-a-stealth-manufacturing",
       "https://www.noahpinion.blog/p/updated-thoughts-on-industrial-policy",
-      "https://www.noahpinion.blog/p/hasan-piker-is-bad-for-the-democrats"
+      "https://www.noahpinion.blog/p/hasan-piker-is-bad-for-the-democrats",
+      "https://www.noahpinion.blog/p/yes-europeans-are-poorer-than-americans"
     ],
     "https://www.benkuhn.net/index.xml": [
       "https://www.benkuhn.net/impact",
@@ -596,7 +601,11 @@
       "https://daily.jstor.org/why-do-people-embrace-hate-sartre-has-an-answer",
       "https://daily.jstor.org/how-1980s-childrens-books-framed-vietnamese-refugees",
       "https://daily.jstor.org/preserving-the-art-of-ed-aulerich-sugai",
-      "https://daily.jstor.org/six-flash-fiction-stories-by-contemporary-writers"
+      "https://daily.jstor.org/six-flash-fiction-stories-by-contemporary-writers",
+      "https://daily.jstor.org/the-violent-history-behind-nutmeg",
+      "https://daily.jstor.org/the-forgotten-untouchables-of-france",
+      "https://daily.jstor.org/arctic-airships-and-the-rise-of-the-technological-explorer",
+      "https://daily.jstor.org/the-invention-of-the-continental-divide"
     ],
     "https://www.slowboring.com/feed": [
       "https://www.slowboring.com/p/upscale-liberals-are-developing-class",
@@ -714,7 +723,8 @@
       "https://www.quantamagazine.org/physicists-discover-the-most-complex-forms-of-ice-yet-20260427",
       "https://www.quantamagazine.org/what-causes-lightning-the-answer-keeps-getting-more-interesting-20260506",
       "https://www.quantamagazine.org/will-we-ever-be-able-to-forecast-volcanic-eruptions-like-weather-20260508",
-      "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504"
+      "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504",
+      "https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -1587,6 +1597,16 @@
     "84e1b5535819a5c5506fd9a5d35e98bd6e0694f9",
     "0106081283b8ead5c37c0bfd634641a9e4ce5d80",
     "0533dfdcffb2d55ea1a66fa889222ef424829ed4",
-    "5afce8a46c8d227933eb78f9d7c51b9e4960aba3"
+    "5afce8a46c8d227933eb78f9d7c51b9e4960aba3",
+    "74e03d8fb213ea78f9718789e39aaa0f04febdb3",
+    "0c0ee1a57229e77813128f52c66a3cb6206dae5e",
+    "57dcb3e3c973fe005e83ee6df6d8eb5929139e47",
+    "98f1c74006b9e5737c07b2dde4329357beac0fc3",
+    "88f6f06f29d9a607a4a4a2aa26f4da07a2194f03",
+    "544e71ab4899cdc7dcea517082b2e4eda6dc49f3",
+    "62e2838991f7ed37d871402415232187e574b798",
+    "fd534c73c2aef4625619eb47cd732b3017881bfd",
+    "08a977b3ceda5e779372c3cbaa4fad1351e2fb89",
+    "9a52c22e4fc575a7a43df6c55610f40e99aa5dc5"
   ]
 }
