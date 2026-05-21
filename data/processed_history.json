@@ -38,7 +38,8 @@
       "https://80000hours.org/podcast/episodes/yoshua-bengio-scientist-ai",
       "https://80000hours.org/2026/05/senior-video-operations",
       "https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics",
-      "https://80000hours.org/2026/05/our-strategy-at-80000-hours"
+      "https://80000hours.org/2026/05/our-strategy-at-80000-hours",
+      "https://80000hours.org/podcast/episodes/metr-risk-report-red-team"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -157,7 +158,8 @@
       "https://seths.blog/2026/05/perfect-or-better",
       "https://seths.blog/2026/05/all-right-and-none-the-same",
       "https://seths.blog/2026/05/the-night-clerk",
-      "https://seths.blog/2026/05/the-art-of-umfunktionierung"
+      "https://seths.blog/2026/05/the-art-of-umfunktionierung",
+      "https://seths.blog/2026/05/value-creation-bullshit-jobs-and-the-future-of-work"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -359,7 +361,8 @@
       "https://www.noemamag.com/when-the-eternity-glaciers-disappear",
       "https://www.noemamag.com/the-rise-and-fall-of-petty-tyrants",
       "https://www.noemamag.com/there-is-a-soul-but-not-a-transcendent-one",
-      "https://www.noemamag.com/the-doomsday-organism"
+      "https://www.noemamag.com/the-doomsday-organism",
+      "https://www.noemamag.com/we-may-be-entering-a-second-axial-age"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -444,7 +447,10 @@
       "https://longreads.com/2026/05/18/marfa-lights-viewing-center-texas",
       "https://longreads.com/2026/05/15/longreads-top-5-610",
       "https://longreads.com/2026/05/14/ai-wives-relationships",
-      "https://longreads.com/2026/05/14/flood-aftermath-texas-monthly"
+      "https://longreads.com/2026/05/14/flood-aftermath-texas-monthly",
+      "https://longreads.com/2026/05/21/hollywood-ending-atavist-magazine",
+      "https://longreads.com/2026/05/20/combatting-sludge-wired",
+      "https://longreads.com/2026/05/20/are-we-there-yet"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -884,7 +890,11 @@
       "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial",
       "https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape",
       "https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o",
-      "https://www.technologyreview.com/2026/05/19/1137471/colossal-biosciences-is-growing-chickens-in-a-3d-printed-container"
+      "https://www.technologyreview.com/2026/05/19/1137471/colossal-biosciences-is-growing-chickens-in-a-3d-printed-container",
+      "https://www.technologyreview.com/2026/05/21/1137622/climate-tech-pivot-critical-minerals",
+      "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research",
+      "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals",
+      "https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1707,6 +1717,16 @@
     "969235f152f3aa587ee3f3b16ec75b21374a67d1",
     "6a5d4109eb136f3cae80bb002273260c751f65c2",
     "66556e80498b78ab819ad839b4ddcd02ee0b6682",
-    "ad5f02c2cc7cecaf1ee16197a4bd6b3aea9f6ea4"
+    "ad5f02c2cc7cecaf1ee16197a4bd6b3aea9f6ea4",
+    "0c1559f536edd1c68a8339ba4b58854b6df8908e",
+    "64573c8508eb94c58108991f3fb8c053b7240b19",
+    "bfe9bff9a39ceb349c9db1f4f5812ae84d5733e9",
+    "c233703078049aa35981eb789c8317c053f8c1bf",
+    "1ff4c6b39dd37932943c89c344038930a406cd3f",
+    "96c33246ad14cc81555220609b6fafa31b386810",
+    "fa7871e6622110a924e57ba4fb88ed4227e00a5f",
+    "176e6163b49149f92d551da7229fe44f9172b067",
+    "0e1fba743fe44ac8bf473fdd097842fd429e2b9a",
+    "4875d49d751a560a46d6313d424a5b08d2e556a2"
   ]
 }
