@@ -58,7 +58,8 @@
       "https://blog.givewell.org/2026/04/27/april-2026-update",
       "https://blog.givewell.org/2026/05/11/givewell-opens-rfi-for-malaria-pilots-and-research",
       "https://blog.givewell.org/2026/05/14/podcast-episode-29-behind-the-analysis-assessing-past-malaria-nets-grants",
-      "https://blog.givewell.org/2026/05/18/how-were-searching-for-the-best-ways-to-help-in-2026"
+      "https://blog.givewell.org/2026/05/18/how-were-searching-for-the-best-ways-to-help-in-2026",
+      "https://blog.givewell.org/2026/05/21/podcast-episode-30-what-a-decade-of-iron-funding-has-taught-us"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -159,7 +160,8 @@
       "https://seths.blog/2026/05/all-right-and-none-the-same",
       "https://seths.blog/2026/05/the-night-clerk",
       "https://seths.blog/2026/05/the-art-of-umfunktionierung",
-      "https://seths.blog/2026/05/value-creation-bullshit-jobs-and-the-future-of-work"
+      "https://seths.blog/2026/05/value-creation-bullshit-jobs-and-the-future-of-work",
+      "https://seths.blog/2026/05/the-second-thing"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -450,7 +452,10 @@
       "https://longreads.com/2026/05/14/flood-aftermath-texas-monthly",
       "https://longreads.com/2026/05/21/hollywood-ending-atavist-magazine",
       "https://longreads.com/2026/05/20/combatting-sludge-wired",
-      "https://longreads.com/2026/05/20/are-we-there-yet"
+      "https://longreads.com/2026/05/20/are-we-there-yet",
+      "https://longreads.com/2026/05/22/the-top-5-longreads-of-the-week-475",
+      "https://longreads.com/2026/05/20/prehistory-ai-slop",
+      "https://longreads.com/2026/05/20/vacation-swap-the-dial"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -532,7 +537,8 @@
       "https://forum.effectivealtruism.org/posts/SQkJcr6btpq8amMBv/i-built-a-nonpartisan-tracker-for-ai-pac-spending-in-the",
       "https://forum.effectivealtruism.org/posts/KzJuxvRF4KnaSgRhr/christians-should-be-longtermists",
       "https://forum.effectivealtruism.org/posts/5EMt9awTxXc5pDrfq/review-the-dying-trade",
-      "https://forum.effectivealtruism.org/posts/dimFMmbfQs2wPyvbA/impact-and-false-dichotomies"
+      "https://forum.effectivealtruism.org/posts/dimFMmbfQs2wPyvbA/impact-and-false-dichotomies",
+      "https://forum.effectivealtruism.org/posts/eLr8nLoM7Qz8havn8/did-i-roll-a-one-in-a-billion-to-be-human"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -894,7 +900,13 @@
       "https://www.technologyreview.com/2026/05/21/1137622/climate-tech-pivot-critical-minerals",
       "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research",
       "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals",
-      "https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial"
+      "https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial",
+      "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting",
+      "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not",
+      "https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes",
+      "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world",
+      "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai",
+      "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1727,6 +1739,18 @@
     "fa7871e6622110a924e57ba4fb88ed4227e00a5f",
     "176e6163b49149f92d551da7229fe44f9172b067",
     "0e1fba743fe44ac8bf473fdd097842fd429e2b9a",
-    "4875d49d751a560a46d6313d424a5b08d2e556a2"
+    "4875d49d751a560a46d6313d424a5b08d2e556a2",
+    "6ef8bc7202c45b544437afbe76f48c04e3cf4429",
+    "cd03fc05c0262bec74bf486acdc6d62e7a7d58a7",
+    "32679b822c2a6fb4864fde0051db6bcd3c3db137",
+    "68cc3e2b627196e2bda80ce97f3df96abe6ac5d7",
+    "39fa03280f64a7cc23f4451f65a1dc0ee451358d",
+    "ecec4ec1c14bae1be1ca96350370dda0f8f456ef",
+    "e5bf95aa378311f5878db7f18ac667fadd6182a2",
+    "f3d2141da33685cc8285b8054ee5669fc224e132",
+    "3a6ca5d01505c4abec346a427caff6aaebbf225b",
+    "345a14cefeee94886458d6832addb0cbe3a59c42",
+    "573e8e2dd549c898730676c88c5c5ef83d73f2e1",
+    "139744b7b24860712edc560cb10565faa49efa1c"
   ]
 }
