@@ -163,7 +163,8 @@
       "https://seths.blog/2026/05/the-art-of-umfunktionierung",
       "https://seths.blog/2026/05/value-creation-bullshit-jobs-and-the-future-of-work",
       "https://seths.blog/2026/05/the-second-thing",
-      "https://seths.blog/2026/05/is-it-plugged-in"
+      "https://seths.blog/2026/05/is-it-plugged-in",
+      "https://seths.blog/2026/05/in-search-of-ai"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -367,7 +368,9 @@
       "https://www.noemamag.com/the-rise-and-fall-of-petty-tyrants",
       "https://www.noemamag.com/there-is-a-soul-but-not-a-transcendent-one",
       "https://www.noemamag.com/the-doomsday-organism",
-      "https://www.noemamag.com/we-may-be-entering-a-second-axial-age"
+      "https://www.noemamag.com/we-may-be-entering-a-second-axial-age",
+      "https://www.noemamag.com/to-understand-ai-think-like-a-dragonfly",
+      "https://www.noemamag.com/the-little-known-nuclear-deal-that-could-help-our-climate-crisis"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -458,7 +461,9 @@
       "https://longreads.com/2026/05/20/are-we-there-yet",
       "https://longreads.com/2026/05/22/the-top-5-longreads-of-the-week-475",
       "https://longreads.com/2026/05/20/prehistory-ai-slop",
-      "https://longreads.com/2026/05/20/vacation-swap-the-dial"
+      "https://longreads.com/2026/05/20/vacation-swap-the-dial",
+      "https://longreads.com/2026/05/22/victor-wembanyama-shaolin-monks",
+      "https://longreads.com/2026/05/22/the-wrong-stalker"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -619,7 +624,9 @@
       "https://undark.org/2026/05/07/opinion-race-neutral-health-calculators",
       "https://undark.org/2026/05/08/book-review-homesick-for-world-unknown",
       "https://undark.org/2026/05/14/opinion-scientific-moral-arguments",
-      "https://undark.org/2026/05/15/book-review-huge-numbers"
+      "https://undark.org/2026/05/15/book-review-huge-numbers",
+      "https://undark.org/2026/05/22/book-review-beyond-belief",
+      "https://undark.org/2026/05/21/opinion-hantavirus-medical-mistrust"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -761,7 +768,8 @@
       "https://www.lesswrong.com/posts/nR3DkyivzF4ve97oM/how-go-players-disempower-themselves-to-ai",
       "https://www.lesswrong.com/posts/rgXQuG8KXtxugSG6H/what-i-did-in-the-hedonium-shockwave-by-emma-age-six-and-a",
       "https://www.lesswrong.com/posts/fQz6afpcZhdMdYzgE/my-hobby-running-deranged-surveys",
-      "https://www.lesswrong.com/posts/fbrz9xhKpEeTKw5zL/irretrievability-or-murphy-s-curse-of-oneshotness-upon-asi"
+      "https://www.lesswrong.com/posts/fbrz9xhKpEeTKw5zL/irretrievability-or-murphy-s-curse-of-oneshotness-upon-asi",
+      "https://www.lesswrong.com/posts/f5DKLsTsRRhbipH4r/llm-assistant-personas-seem-increasingly-incoherent-some"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -837,7 +845,8 @@
       "https://www.overcomingbias.com/p/the-coming-hackastrophe",
       "https://www.overcomingbias.com/p/the-return-of-culture",
       "https://www.overcomingbias.com/p/four-culture-fixes",
-      "https://www.overcomingbias.com/p/the-past-and-future-of-good-and-evil"
+      "https://www.overcomingbias.com/p/the-past-and-future-of-good-and-evil",
+      "https://www.overcomingbias.com/p/staying-like-foragers"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -916,7 +925,8 @@
       "https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes",
       "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world",
       "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai",
-      "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot"
+      "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot",
+      "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1771,6 +1781,16 @@
     "e1c53b8ccc078f51e87cc0a02e5510af2819e2f7",
     "e8f5dfadb91b884eacc581c668426a7c2fe524af",
     "f273526119f3bbe63e3f4a2e1a34c60f468bb9f1",
-    "f33710b47cb42e47019732aef3c6886fc5a927ff"
+    "f33710b47cb42e47019732aef3c6886fc5a927ff",
+    "4facc9c8dfff5452ebf686373b6bb547f872b771",
+    "6a99dff2c187aa59a0a00949bb8a6018cd16d226",
+    "374761b0754451bccf74b7c2b46efce3cf1ee971",
+    "d07337aff375da891506335b599a5b2f3ac2c72b",
+    "4053a3cfafceeb3bf4dcb0f905f2de9db96e37da",
+    "372f01a6b310bc5ebc04d5a106e37ea26043e1dd",
+    "20b6c5453805d65febe8ff254115604beeaa0cc6",
+    "8b6ae757df452ecbcbae767e2cd862419795331c",
+    "58752fbf6cf1edefa92e37154d9f7a07bb70437a",
+    "05c60eb3795c93a4817175acc41fa9bb8f106737"
   ]
 }
