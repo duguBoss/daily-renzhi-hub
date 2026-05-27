@@ -39,7 +39,8 @@
       "https://80000hours.org/2026/05/senior-video-operations",
       "https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics",
       "https://80000hours.org/2026/05/our-strategy-at-80000-hours",
-      "https://80000hours.org/podcast/episodes/metr-risk-report-red-team"
+      "https://80000hours.org/podcast/episodes/metr-risk-report-red-team",
+      "https://80000hours.org/podcast/episodes/benjamin-todd-careers-in-age-of-ai"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -60,7 +61,8 @@
       "https://blog.givewell.org/2026/05/14/podcast-episode-29-behind-the-analysis-assessing-past-malaria-nets-grants",
       "https://blog.givewell.org/2026/05/18/how-were-searching-for-the-best-ways-to-help-in-2026",
       "https://blog.givewell.org/2026/05/21/podcast-episode-30-what-a-decade-of-iron-funding-has-taught-us",
-      "https://blog.givewell.org/2026/05/22/may-2026-updates"
+      "https://blog.givewell.org/2026/05/22/may-2026-updates",
+      "https://blog.givewell.org/2026/05/26/building-our-safe-water-grantmaking-apply-to-the-div-funds-rfp"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -165,7 +167,9 @@
       "https://seths.blog/2026/05/the-second-thing",
       "https://seths.blog/2026/05/is-it-plugged-in",
       "https://seths.blog/2026/05/in-search-of-ai",
-      "https://seths.blog/2026/05/laughing-at-you-behind-your-back"
+      "https://seths.blog/2026/05/laughing-at-you-behind-your-back",
+      "https://seths.blog/2026/05/which-one-do-you-want",
+      "https://seths.blog/2026/05/predictions-prescriptions-and-systems-change"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -701,7 +705,8 @@
       "https://www.experimental-history.com/p/infinite-midwit",
       "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
       "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
-      "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat"
+      "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
+      "https://www.experimental-history.com/p/only-insane-people-use-the-internet"
     ],
     "https://www.astralcodexten.com/feed": [
       "https://www.astralcodexten.com/p/being-john-rawls",
@@ -856,7 +861,9 @@
       "https://www.overcomingbias.com/p/the-return-of-culture",
       "https://www.overcomingbias.com/p/four-culture-fixes",
       "https://www.overcomingbias.com/p/the-past-and-future-of-good-and-evil",
-      "https://www.overcomingbias.com/p/staying-like-foragers"
+      "https://www.overcomingbias.com/p/staying-like-foragers",
+      "https://www.overcomingbias.com/p/the-elephant-in-the-op-ed",
+      "https://www.overcomingbias.com/p/toward-forager-predictions"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -936,7 +943,10 @@
       "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world",
       "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai",
       "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot",
-      "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science"
+      "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science",
+      "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai",
+      "https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data",
+      "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1811,6 +1821,16 @@
     "2f13d279aa26f3230b7e4b0f48164acf47a85024",
     "df46a4fccfa298f0614768adac71893fc41405e7",
     "f9784e0fd4b34642c0d4481cf94ee6e169749cae",
-    "89dfa0e3c097d61a95b5e6866ee00d674a7bcf44"
+    "89dfa0e3c097d61a95b5e6866ee00d674a7bcf44",
+    "b51bd65a884b6560cc1f4e36890899348821dc3d",
+    "42a0b3ed8047048a2b12e3f8bea5305367b77ddb",
+    "70425ce70c8fe937fd247d1bceae2c80f2769b79",
+    "fc77e638de1635a16bac8da9214bd2b9b144c71f",
+    "121b06db2425e1c26548d96cff6828d41eb5cd29",
+    "0c7b54438cd91d8ab79f0815f197064690b321e4",
+    "201ed38b186c067bb1b1e341e7fb7881dd41bc97",
+    "47f7b10fd34bd2bac74d6152826d4cf8a345dadc",
+    "0d2939970fc436f8c86c607a0b606b31cc5d9970",
+    "e45d32a1106a41901bd72dbdfa253394d3f0f35c"
   ]
 }
