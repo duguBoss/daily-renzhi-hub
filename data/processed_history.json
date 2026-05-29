@@ -62,7 +62,8 @@
       "https://blog.givewell.org/2026/05/18/how-were-searching-for-the-best-ways-to-help-in-2026",
       "https://blog.givewell.org/2026/05/21/podcast-episode-30-what-a-decade-of-iron-funding-has-taught-us",
       "https://blog.givewell.org/2026/05/22/may-2026-updates",
-      "https://blog.givewell.org/2026/05/26/building-our-safe-water-grantmaking-apply-to-the-div-funds-rfp"
+      "https://blog.givewell.org/2026/05/26/building-our-safe-water-grantmaking-apply-to-the-div-funds-rfp",
+      "https://blog.givewell.org/2026/05/28/growing-givewells-largest-research-area-malaria"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -170,7 +171,9 @@
       "https://seths.blog/2026/05/laughing-at-you-behind-your-back",
       "https://seths.blog/2026/05/which-one-do-you-want",
       "https://seths.blog/2026/05/predictions-prescriptions-and-systems-change",
-      "https://seths.blog/2026/05/unpaid-labor"
+      "https://seths.blog/2026/05/unpaid-labor",
+      "https://seths.blog/2026/05/because-youre-the-cheapest",
+      "https://seths.blog/2026/05/two-video-upgrades"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -377,7 +380,8 @@
       "https://www.noemamag.com/the-doomsday-organism",
       "https://www.noemamag.com/we-may-be-entering-a-second-axial-age",
       "https://www.noemamag.com/to-understand-ai-think-like-a-dragonfly",
-      "https://www.noemamag.com/the-little-known-nuclear-deal-that-could-help-our-climate-crisis"
+      "https://www.noemamag.com/the-little-known-nuclear-deal-that-could-help-our-climate-crisis",
+      "https://www.noemamag.com/pope-leo-xiv-ai-wealth-must-be-universally-shared"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -565,7 +569,9 @@
       "https://forum.effectivealtruism.org/posts/Qzg3zj97eq667u8Z9/the-legibility-trap-how-fund-the-most-rigorous-thinkers-can",
       "https://forum.effectivealtruism.org/posts/PCPDdjjWETDXHGfTb/what-a-decade-of-iron-funding-has-taught-us",
       "https://forum.effectivealtruism.org/posts/MDcaWPGwtFHmyqT3J/stewardship-in-ea-s-most-important-era",
-      "https://forum.effectivealtruism.org/posts/pehLvuur4aTSw3KmP/glasswing-exposed-a-governance-gap-1"
+      "https://forum.effectivealtruism.org/posts/pehLvuur4aTSw3KmP/glasswing-exposed-a-governance-gap-1",
+      "https://forum.effectivealtruism.org/posts/phtZxxPyP9tizQQaF/why-i-m-skeptical-of-air-filters-for-infection-prevention",
+      "https://forum.effectivealtruism.org/posts/CJJjhvsRafGFn6S6v/profit-for-good-390-page-research-compilation"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -679,7 +685,11 @@
       "https://daily.jstor.org/the-violent-history-behind-nutmeg",
       "https://daily.jstor.org/the-forgotten-untouchables-of-france",
       "https://daily.jstor.org/arctic-airships-and-the-rise-of-the-technological-explorer",
-      "https://daily.jstor.org/the-invention-of-the-continental-divide"
+      "https://daily.jstor.org/the-invention-of-the-continental-divide",
+      "https://daily.jstor.org/a-history-wrapped-in-banana-leaves",
+      "https://daily.jstor.org/fritz-eichenbergs-art-of-human-connection",
+      "https://daily.jstor.org/why-care-matters-more-than-work",
+      "https://daily.jstor.org/the-civil-war-fight-over-underage-soldiers"
     ],
     "https://www.slowboring.com/feed": [
       "https://www.slowboring.com/p/upscale-liberals-are-developing-class",
@@ -1851,6 +1861,16 @@
     "844a13e843a23b083b6fcd1af2d274a43684d747",
     "7b5b6a331c97c9f7dd687c983d77b9f56ef9ec20",
     "3abb6b2527d88642970a54a023b5421526f6af5c",
-    "15365937ba03239fd7dd046f89b749d0f4d36254"
+    "15365937ba03239fd7dd046f89b749d0f4d36254",
+    "c3b0a2232a0f66e21a6d5965777a6bf4c263be6a",
+    "106c7f34418d5fc53ef37ccee4b3d47c1036b649",
+    "81b9a06196c9ce8528d8c95d766952315938272a",
+    "125416724ca13fdba46bb7ed4bb39621f5547db3",
+    "83e48af3af896ee54820e9eba238e2d84d4067e7",
+    "4234fea9efc2313ce40743bd95b2851578796f34",
+    "c040c57219892ed4b894dbcc38cdc176b827ef31",
+    "63280ba3d4661762d3246b519fbfc8877bab78be",
+    "c3ad65e1d75714135622925275c50d94e5ac4bf6",
+    "684c6165c573b4ef94129db960dd432dca3c95f7"
   ]
 }
