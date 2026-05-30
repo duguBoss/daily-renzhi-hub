@@ -40,7 +40,8 @@
       "https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics",
       "https://80000hours.org/2026/05/our-strategy-at-80000-hours",
       "https://80000hours.org/podcast/episodes/metr-risk-report-red-team",
-      "https://80000hours.org/podcast/episodes/benjamin-todd-careers-in-age-of-ai"
+      "https://80000hours.org/podcast/episodes/benjamin-todd-careers-in-age-of-ai",
+      "https://80000hours.org/2026/05/open-position-marketer-2026"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -173,7 +174,8 @@
       "https://seths.blog/2026/05/predictions-prescriptions-and-systems-change",
       "https://seths.blog/2026/05/unpaid-labor",
       "https://seths.blog/2026/05/because-youre-the-cheapest",
-      "https://seths.blog/2026/05/two-video-upgrades"
+      "https://seths.blog/2026/05/two-video-upgrades",
+      "https://seths.blog/2026/05/doing-your-job-vs-doing-your-work"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -347,7 +349,11 @@
       "https://www.themarginalian.org/2026/05/14/on-children-kahlil-gibran",
       "https://www.themarginalian.org/2026/05/13/whitman-emerson-criticism",
       "https://www.themarginalian.org/2026/05/12/anais-nin-d-h-lawrence",
-      "https://www.themarginalian.org/2026/05/18/bell-hooks-margins"
+      "https://www.themarginalian.org/2026/05/18/bell-hooks-margins",
+      "https://www.themarginalian.org/2026/05/29/platero-and-i",
+      "https://www.themarginalian.org/2026/05/29/thoreau-screech-owl",
+      "https://www.themarginalian.org/2026/05/29/hermann-hesse-letter-to-a-young-german",
+      "https://www.themarginalian.org/2026/05/28/albert-camus-interview-absurd"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -751,7 +757,9 @@
       "https://www.astralcodexten.com/p/open-thread-432",
       "https://www.astralcodexten.com/p/what-deontological-bars",
       "https://www.astralcodexten.com/p/open-thread-431",
-      "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you"
+      "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
+      "https://www.astralcodexten.com/p/open-thread-434",
+      "https://www.astralcodexten.com/p/the-types-of-candidate-you-find-in"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -819,7 +827,10 @@
       "https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515",
       "https://www.quantamagazine.org/how-unknowable-math-can-help-hide-secrets-20260511",
       "https://www.quantamagazine.org/when-quiet-undersea-volcanoes-turn-disruptive-20260526",
-      "https://www.quantamagazine.org/how-ecotypes-harbor-the-genetic-memory-of-a-species-past-20260521"
+      "https://www.quantamagazine.org/how-ecotypes-harbor-the-genetic-memory-of-a-species-past-20260521",
+      "https://www.quantamagazine.org/key-chemistry-question-answered-no-quantum-computer-required-20260529",
+      "https://www.quantamagazine.org/how-we-see-the-beautiful-violent-sun-20260528",
+      "https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -1871,6 +1882,17 @@
     "c040c57219892ed4b894dbcc38cdc176b827ef31",
     "63280ba3d4661762d3246b519fbfc8877bab78be",
     "c3ad65e1d75714135622925275c50d94e5ac4bf6",
-    "684c6165c573b4ef94129db960dd432dca3c95f7"
+    "684c6165c573b4ef94129db960dd432dca3c95f7",
+    "e5bada1306bad7962a8a207e9aea302956eb026f",
+    "f91040584ec1962e16507eb703a83f77cd8a302f",
+    "7e1e7ff45961734c71e00b4ac65e2188c61c098e",
+    "72758d65c8f4041074d7c2c5898cef0b5ef3c7db",
+    "d2df62445e3945b59243b537bab1004a77cd4a48",
+    "82b9679d9dd2ed4b5613ebe8a05ca1b0137f9ba0",
+    "0ac2b2edfd63fb21ef4a358fa0df9fe35cdca2c6",
+    "5d5e41ff76c65b652637c4fadf7335b72b5909b0",
+    "d46bf547e1cb65c1648d8469d9715d016a71089b",
+    "282b41cf0c51631103e1b974a2fd2c7a0d4a48ec",
+    "c66f0fb37211bf564b256ae681f0a222f956d14d"
   ]
 }
