@@ -176,7 +176,8 @@
       "https://seths.blog/2026/05/because-youre-the-cheapest",
       "https://seths.blog/2026/05/two-video-upgrades",
       "https://seths.blog/2026/05/doing-your-job-vs-doing-your-work",
-      "https://seths.blog/2026/05/suboptimal-events"
+      "https://seths.blog/2026/05/suboptimal-events",
+      "https://seths.blog/2026/06/rethinking-famous-college-admissions"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -485,7 +486,11 @@
       "https://longreads.com/2026/05/26/for-profit-autism-clinics",
       "https://longreads.com/2026/05/26/similes",
       "https://longreads.com/2026/05/26/egocentric-data-collection-wired",
-      "https://longreads.com/2026/05/26/pine-island-james-wright-poem-data-center"
+      "https://longreads.com/2026/05/26/pine-island-james-wright-poem-data-center",
+      "https://longreads.com/2026/06/01/what-happened-to-borats-village",
+      "https://longreads.com/2026/05/29/bunnies-rabbits-toronto",
+      "https://longreads.com/2026/05/28/queer-writers-fish",
+      "https://longreads.com/2026/05/28/landline-smartphone-experiment"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -807,7 +812,8 @@
       "https://www.lesswrong.com/posts/fQz6afpcZhdMdYzgE/my-hobby-running-deranged-surveys",
       "https://www.lesswrong.com/posts/fbrz9xhKpEeTKw5zL/irretrievability-or-murphy-s-curse-of-oneshotness-upon-asi",
       "https://www.lesswrong.com/posts/f5DKLsTsRRhbipH4r/llm-assistant-personas-seem-increasingly-incoherent-some",
-      "https://www.lesswrong.com/posts/PCsmhN9z65HtC4t5v/bad-problems-don-t-stop-being-bad-because-somebody-s-wrong"
+      "https://www.lesswrong.com/posts/PCsmhN9z65HtC4t5v/bad-problems-don-t-stop-being-bad-because-somebody-s-wrong",
+      "https://www.lesswrong.com/posts/vzHtHHBJoKATi5SeK/empowerment-corrigibility-etc-are-simple-abstractions-of-a"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -899,7 +905,8 @@
       "https://www.overcomingbias.com/p/the-past-and-future-of-good-and-evil",
       "https://www.overcomingbias.com/p/staying-like-foragers",
       "https://www.overcomingbias.com/p/the-elephant-in-the-op-ed",
-      "https://www.overcomingbias.com/p/toward-forager-predictions"
+      "https://www.overcomingbias.com/p/toward-forager-predictions",
+      "https://www.overcomingbias.com/p/meta-institutions-matter-most"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -987,7 +994,10 @@
       "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control",
       "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment",
       "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero",
-      "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index"
+      "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index",
+      "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops",
+      "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip",
+      "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1913,6 +1923,16 @@
     "f91660971ed717188a1d37c63901d83c33ce27bd",
     "b57e50eb2f33eca35b1b9d05ad5d6c24e0a2dd42",
     "f386413044dbce374c9e58cbf04518a2872be6d4",
-    "cbf40c53c5ac494c265a82fa05534a8ab601e659"
+    "cbf40c53c5ac494c265a82fa05534a8ab601e659",
+    "7e58623cb66b850ba153a995d77ea14b4539e71e",
+    "b850dc35e1cc2c50a1f8bf21eac9c3c8cfc6b691",
+    "10ab5fa4b0de954c0ee531e90096adeac6eaf930",
+    "468ad44c3ffbdfa47143dea8638947bd81fd6043",
+    "e5eba00ae037504c4174d12bcb36cbee714667ce",
+    "3ae22d8721c242beefd2fc79c447e044007025e5",
+    "442bc9b9fa56707372c3a80d42a3d06aa0a82a68",
+    "f3eac6de72c86b8e7c4ba967434d9b07d65c366d",
+    "0d5949e449a331fcad0e7a3444414143d8da9631",
+    "5888a28ef1fc75b92157eac8ea31c527ac123ffa"
   ]
 }
