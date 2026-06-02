@@ -177,7 +177,8 @@
       "https://seths.blog/2026/05/two-video-upgrades",
       "https://seths.blog/2026/05/doing-your-job-vs-doing-your-work",
       "https://seths.blog/2026/05/suboptimal-events",
-      "https://seths.blog/2026/06/rethinking-famous-college-admissions"
+      "https://seths.blog/2026/06/rethinking-famous-college-admissions",
+      "https://seths.blog/2026/06/stop-ruining-it"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -490,7 +491,11 @@
       "https://longreads.com/2026/06/01/what-happened-to-borats-village",
       "https://longreads.com/2026/05/29/bunnies-rabbits-toronto",
       "https://longreads.com/2026/05/28/queer-writers-fish",
-      "https://longreads.com/2026/05/28/landline-smartphone-experiment"
+      "https://longreads.com/2026/05/28/landline-smartphone-experiment",
+      "https://longreads.com/2026/06/02/jenny-odell-deep-listening-soft-eyes",
+      "https://longreads.com/2026/06/01/farsi-language-loss",
+      "https://longreads.com/2026/06/01/autobiographical-memory-hyperthymesia",
+      "https://longreads.com/2026/05/28/capybaras-brazil"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -583,7 +588,9 @@
       "https://forum.effectivealtruism.org/posts/MDcaWPGwtFHmyqT3J/stewardship-in-ea-s-most-important-era",
       "https://forum.effectivealtruism.org/posts/pehLvuur4aTSw3KmP/glasswing-exposed-a-governance-gap-1",
       "https://forum.effectivealtruism.org/posts/phtZxxPyP9tizQQaF/why-i-m-skeptical-of-air-filters-for-infection-prevention",
-      "https://forum.effectivealtruism.org/posts/CJJjhvsRafGFn6S6v/profit-for-good-390-page-research-compilation"
+      "https://forum.effectivealtruism.org/posts/CJJjhvsRafGFn6S6v/profit-for-good-390-page-research-compilation",
+      "https://forum.effectivealtruism.org/posts/KrPLSKRwBiSwDrueZ/is-bernie-s-ai-sovereign-wealth-fund-proposal-good-or-bad",
+      "https://forum.effectivealtruism.org/posts/hXzxBDwKj5yEpbnPq/mapping-positive-visions-of-post-agi-futures"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -997,7 +1004,10 @@
       "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index",
       "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops",
       "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip",
-      "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos"
+      "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos",
+      "https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin",
+      "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai",
+      "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -1933,6 +1943,16 @@
     "442bc9b9fa56707372c3a80d42a3d06aa0a82a68",
     "f3eac6de72c86b8e7c4ba967434d9b07d65c366d",
     "0d5949e449a331fcad0e7a3444414143d8da9631",
-    "5888a28ef1fc75b92157eac8ea31c527ac123ffa"
+    "5888a28ef1fc75b92157eac8ea31c527ac123ffa",
+    "bae1110491a0984ab94c329a2555fff4b721d420",
+    "aaaf6e5ded11c385ec9d48ecdafb462628d18f77",
+    "228f371b304ea61b340d35f0e4a5a36cf62e719c",
+    "be25c1fe53f2b6d41d117a961052b3083b7516c3",
+    "6397dd30241874915df32bf1233db013ce5a3dae",
+    "b486efb3acaaed6a79a12d87a2b13762eb604d48",
+    "7ba9698e4494834746045c2d6a889e5ea3523dbf",
+    "e343b330664136086574d5403c46f29b580742b6",
+    "97e6e7c2f771bcda4c1ada3b738e6e78e4c7a6f8",
+    "1c703e2229354c2b79daeb8c1219177c6bb471bd"
   ]
 }
