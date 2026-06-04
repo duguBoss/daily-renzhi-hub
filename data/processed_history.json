@@ -41,7 +41,8 @@
       "https://80000hours.org/2026/05/our-strategy-at-80000-hours",
       "https://80000hours.org/podcast/episodes/metr-risk-report-red-team",
       "https://80000hours.org/podcast/episodes/benjamin-todd-careers-in-age-of-ai",
-      "https://80000hours.org/2026/05/open-position-marketer-2026"
+      "https://80000hours.org/2026/05/open-position-marketer-2026",
+      "https://80000hours.org/podcast/episodes/rohin-shah-google-deepmind-agi-safety"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -179,7 +180,8 @@
       "https://seths.blog/2026/05/suboptimal-events",
       "https://seths.blog/2026/06/rethinking-famous-college-admissions",
       "https://seths.blog/2026/06/stop-ruining-it",
-      "https://seths.blog/2026/06/professionals-know-how-to-talk-about-it"
+      "https://seths.blog/2026/06/professionals-know-how-to-talk-about-it",
+      "https://seths.blog/2026/06/transparency-and-trust"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -365,7 +367,8 @@
       "https://www.themarginalian.org/2026/06/01/against-self-criticism-adam-phillips-unforbidden-pleasures",
       "https://www.themarginalian.org/2026/05/31/general-theory-of-love-music-emotion",
       "https://www.themarginalian.org/2026/05/30/traversal-phrenology-whitman",
-      "https://www.themarginalian.org/2026/05/30/louise-bourgeois-solitude"
+      "https://www.themarginalian.org/2026/05/30/louise-bourgeois-solitude",
+      "https://www.themarginalian.org/2026/06/03/leonard-cohen-anger-resistance"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -721,7 +724,12 @@
       "https://daily.jstor.org/a-history-wrapped-in-banana-leaves",
       "https://daily.jstor.org/fritz-eichenbergs-art-of-human-connection",
       "https://daily.jstor.org/why-care-matters-more-than-work",
-      "https://daily.jstor.org/the-civil-war-fight-over-underage-soldiers"
+      "https://daily.jstor.org/the-civil-war-fight-over-underage-soldiers",
+      "https://daily.jstor.org/the-oral-histories-of-the-aids-crisis",
+      "https://daily.jstor.org/inventing-machismo-in-the-us",
+      "https://daily.jstor.org/how-national-geographic-conquered-american-culture",
+      "https://daily.jstor.org/lgbtq-pride-month-editors-picks",
+      "https://daily.jstor.org/how-race-shaped-new-yorks-view-of-chinese-opera"
     ],
     "https://www.slowboring.com/feed": [
       "https://www.slowboring.com/p/upscale-liberals-are-developing-class",
@@ -886,7 +894,9 @@
       "https://www.worksinprogress.news/p/what-is-local-government-good-for",
       "https://www.worksinprogress.news/p/more-articles-we-would-like-to-commission-ed3",
       "https://www.worksinprogress.news/p/whats-new-in-biology-may-2026",
-      "https://www.worksinprogress.news/p/one-week-left-to-apply-for-invisible"
+      "https://www.worksinprogress.news/p/one-week-left-to-apply-for-invisible",
+      "https://www.worksinprogress.news/p/the-lost-art-of-building-cities",
+      "https://www.worksinprogress.news/p/how-japan-stopped-civil-war"
     ],
     "https://www.overcomingbias.com/feed": [
       "https://www.overcomingbias.com/p/we-submit-by-banning-blackmail",
@@ -1973,6 +1983,16 @@
     "5624a1785d0fc170b2547103a1b19b95cb11c586",
     "0366ef4d924d2d53b6fa1ca570911bedd7c6c4b8",
     "d618fa36e12e6893d3d7ba40f8cffb3b90e15835",
-    "1e129f7c6ac1f77be62c7ec75607c68ef3d27faf"
+    "1e129f7c6ac1f77be62c7ec75607c68ef3d27faf",
+    "20b8253ddc013493ece608667d7544bb5fb30918",
+    "195eae41ae6fd7bd57db6026774b7bd89e40a806",
+    "ff2675cb797ce3e5759183919dc8702905c6ca00",
+    "4d25b3c1b3747519c8107d1afcb3167b1abb5510",
+    "a81823793e0602d4144b1ffbf7a79af49229e528",
+    "6228d6e8e6f4564d1c2d19fabf3ba166edd6b092",
+    "0bf5cf3985d202654a17044b54d3b85187349beb",
+    "93fd082f0c553040cfdd1cd60bc6ae7f91ae2cd6",
+    "afb535544f602f96eae62f8cc1a18198e58dd651",
+    "a822c69936e760585240fa7ef6af6e0fbcdec51c"
   ]
 }
