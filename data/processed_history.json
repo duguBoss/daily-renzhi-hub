@@ -65,7 +65,8 @@
       "https://blog.givewell.org/2026/05/21/podcast-episode-30-what-a-decade-of-iron-funding-has-taught-us",
       "https://blog.givewell.org/2026/05/22/may-2026-updates",
       "https://blog.givewell.org/2026/05/26/building-our-safe-water-grantmaking-apply-to-the-div-funds-rfp",
-      "https://blog.givewell.org/2026/05/28/growing-givewells-largest-research-area-malaria"
+      "https://blog.givewell.org/2026/05/28/growing-givewells-largest-research-area-malaria",
+      "https://blog.givewell.org/2026/06/04/expanding-our-search-for-cost-effective-ways-to-reduce-poverty"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -181,7 +182,8 @@
       "https://seths.blog/2026/06/rethinking-famous-college-admissions",
       "https://seths.blog/2026/06/stop-ruining-it",
       "https://seths.blog/2026/06/professionals-know-how-to-talk-about-it",
-      "https://seths.blog/2026/06/transparency-and-trust"
+      "https://seths.blog/2026/06/transparency-and-trust",
+      "https://seths.blog/2026/06/how-to-teach-marketing"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -198,7 +200,8 @@
       "https://fs.blog/knowledge-project-podcast/greg-brockman",
       "https://fs.blog/knowledge-project-podcast/winston-weinberg",
       "https://fs.blog/knowledge-project-podcast/outliers-chung-ju-yung",
-      "https://fs.blog/knowledge-project-podcast/mark-pincus"
+      "https://fs.blog/knowledge-project-podcast/mark-pincus",
+      "https://fs.blog/knowledge-project-podcast/bill-gurley"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -415,7 +418,9 @@
       "https://dynomight.net/coffee",
       "https://dynomight.net/prior",
       "https://dynomight.net/painkillers",
-      "https://dynomight.net/drinking"
+      "https://dynomight.net/drinking",
+      "https://dynomight.net/crc-rates",
+      "https://dynomight.net/slides"
     ],
     "https://ourworldindata.org/feed": [
       "https://ourworldindata.org/biofuel-land-solar-electric-vehicles",
@@ -429,10 +434,13 @@
       "https://rootsofprogress.org/write-about-agriculture-or-health-longevity-and-biotech",
       "https://rootsofprogress.org/announcing-the-2025-roots-of-progress-blog-building-intensive",
       "https://rootsofprogress.org/announcing-progress-conference-2025",
-      "https://rootsofprogress.org/save-the-date-progress-conference-2025"
+      "https://rootsofprogress.org/save-the-date-progress-conference-2025",
+      "https://rootsofprogress.org/announcing-progress-conference-2026"
     ],
     "https://ifp.org/feed/": [
-      "https://ifp.org/interconnection-for-ai"
+      "https://ifp.org/interconnection-for-ai",
+      "https://ifp.org/funding-for-caisi",
+      "https://ifp.org/pro-housing-supply-to-dos"
     ],
     "https://longreads.com/feed/": [
       "https://longreads.com/2026/03/11/questionnaire-julian-brave-noisecat",
@@ -603,7 +611,8 @@
       "https://forum.effectivealtruism.org/posts/phtZxxPyP9tizQQaF/why-i-m-skeptical-of-air-filters-for-infection-prevention",
       "https://forum.effectivealtruism.org/posts/CJJjhvsRafGFn6S6v/profit-for-good-390-page-research-compilation",
       "https://forum.effectivealtruism.org/posts/KrPLSKRwBiSwDrueZ/is-bernie-s-ai-sovereign-wealth-fund-proposal-good-or-bad",
-      "https://forum.effectivealtruism.org/posts/hXzxBDwKj5yEpbnPq/mapping-positive-visions-of-post-agi-futures"
+      "https://forum.effectivealtruism.org/posts/hXzxBDwKj5yEpbnPq/mapping-positive-visions-of-post-agi-futures",
+      "https://forum.effectivealtruism.org/posts/KAx6vsPNZ7kHPYRDf/messages-frames-and-messengers-what-might-a-climate-outreach"
     ],
     "https://www.noahpinion.blog/feed": [
       "https://www.noahpinion.blog/p/san-franciscos-urban-revival-is-in",
@@ -729,7 +738,8 @@
       "https://daily.jstor.org/inventing-machismo-in-the-us",
       "https://daily.jstor.org/how-national-geographic-conquered-american-culture",
       "https://daily.jstor.org/lgbtq-pride-month-editors-picks",
-      "https://daily.jstor.org/how-race-shaped-new-yorks-view-of-chinese-opera"
+      "https://daily.jstor.org/how-race-shaped-new-yorks-view-of-chinese-opera",
+      "https://daily.jstor.org/the-lasting-power-of-tyeb-mehtas-art"
     ],
     "https://www.slowboring.com/feed": [
       "https://www.slowboring.com/p/upscale-liberals-are-developing-class",
@@ -1993,6 +2003,16 @@
     "0bf5cf3985d202654a17044b54d3b85187349beb",
     "93fd082f0c553040cfdd1cd60bc6ae7f91ae2cd6",
     "afb535544f602f96eae62f8cc1a18198e58dd651",
-    "a822c69936e760585240fa7ef6af6e0fbcdec51c"
+    "a822c69936e760585240fa7ef6af6e0fbcdec51c",
+    "b212e430130b8d721ddec85908358bf9b2b86862",
+    "558552616b730ad23e98c5dee81f580944398915",
+    "8cdbb1d9d24bb5ca8726d5538b5d7338ab121bdf",
+    "a9e7e11cb3690fedbdb3cdcd1fd7e325b89da0c7",
+    "b46c600f517fe30a79f9eb2eef9a8083d70740be",
+    "12df7b180966e44ad165d39f02b3a533f7e284fc",
+    "6d11447f06dd134ed130ded90b6378d10d6eb195",
+    "631f983ccda0fc71b5d0883e4627e84464353aa8",
+    "7610db280581900e8a54d733508e5125b4fd7fce",
+    "e1a0852bb3cdbca1aa8e621a1a0bec9e360478e6"
   ]
 }
