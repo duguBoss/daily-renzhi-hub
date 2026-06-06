@@ -183,7 +183,8 @@
       "https://seths.blog/2026/06/stop-ruining-it",
       "https://seths.blog/2026/06/professionals-know-how-to-talk-about-it",
       "https://seths.blog/2026/06/transparency-and-trust",
-      "https://seths.blog/2026/06/how-to-teach-marketing"
+      "https://seths.blog/2026/06/how-to-teach-marketing",
+      "https://seths.blog/2026/06/real-artists"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -689,7 +690,9 @@
       "https://undark.org/2026/05/21/opinion-hantavirus-medical-mistrust",
       "https://undark.org/2026/05/29/stress-test-bpc-157-history",
       "https://undark.org/2026/05/29/book-review-beyond-inheritance",
-      "https://undark.org/2026/05/28/opinion-postpartum-checkup-too-late"
+      "https://undark.org/2026/05/28/opinion-postpartum-checkup-too-late",
+      "https://undark.org/2026/06/05/book-review-echoing-universe",
+      "https://undark.org/2026/06/04/opinion-risk-aversion-innovation"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -820,7 +823,8 @@
       "https://scottaaronson.blog/?p=9718",
       "https://scottaaronson.blog/?p=9758",
       "https://scottaaronson.blog/?p=9732",
-      "https://scottaaronson.blog/?p=9782"
+      "https://scottaaronson.blog/?p=9782",
+      "https://scottaaronson.blog/?p=9801"
     ],
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
@@ -1037,7 +1041,13 @@
       "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos",
       "https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin",
       "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai",
-      "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai"
+      "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai",
+      "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts",
+      "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains",
+      "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos",
+      "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers",
+      "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits",
+      "https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -2013,6 +2023,16 @@
     "6d11447f06dd134ed130ded90b6378d10d6eb195",
     "631f983ccda0fc71b5d0883e4627e84464353aa8",
     "7610db280581900e8a54d733508e5125b4fd7fce",
-    "e1a0852bb3cdbca1aa8e621a1a0bec9e360478e6"
+    "e1a0852bb3cdbca1aa8e621a1a0bec9e360478e6",
+    "7185222ae8d64cc8193d67523ad183515132ab77",
+    "0e8f30659834f0d24d36958a2711cd132f30d58f",
+    "3dc29c5d3ea4eaa235b98d15edb24a435548e733",
+    "272a17f3d7f03ad66bc31dd2bf6a98963996d8e7",
+    "c0cb6dbe7a597cfe0bb6053802d96cd40215f63e",
+    "9138ffb57b1c89c8a836dc6429f65b69e79e2463",
+    "09ed8272095e697510fd7b651d30dd6ada66811a",
+    "3bd13fecd0f1c095871d8bb4b83b99163ceea176",
+    "cd29863481e1c4c31bba1de9c88d565572265815",
+    "983a2b5a4556bc04d78682113d112021508c8bc9"
   ]
 }
