@@ -42,7 +42,8 @@
       "https://80000hours.org/podcast/episodes/metr-risk-report-red-team",
       "https://80000hours.org/podcast/episodes/benjamin-todd-careers-in-age-of-ai",
       "https://80000hours.org/2026/05/open-position-marketer-2026",
-      "https://80000hours.org/podcast/episodes/rohin-shah-google-deepmind-agi-safety"
+      "https://80000hours.org/podcast/episodes/rohin-shah-google-deepmind-agi-safety",
+      "https://80000hours.org/2026/06/our-top-tips-for-becoming-a-better-applicant"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -186,7 +187,8 @@
       "https://seths.blog/2026/06/how-to-teach-marketing",
       "https://seths.blog/2026/06/real-artists",
       "https://seths.blog/2026/06/marketing-clerks",
-      "https://seths.blog/2026/06/art-is-a-verb"
+      "https://seths.blog/2026/06/art-is-a-verb",
+      "https://seths.blog/2026/06/none-of-it-is-important-or-all-of-it-is"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -374,7 +376,12 @@
       "https://www.themarginalian.org/2026/05/31/general-theory-of-love-music-emotion",
       "https://www.themarginalian.org/2026/05/30/traversal-phrenology-whitman",
       "https://www.themarginalian.org/2026/05/30/louise-bourgeois-solitude",
-      "https://www.themarginalian.org/2026/06/03/leonard-cohen-anger-resistance"
+      "https://www.themarginalian.org/2026/06/03/leonard-cohen-anger-resistance",
+      "https://www.themarginalian.org/2026/06/05/alan-lightman-probability",
+      "https://www.themarginalian.org/2026/06/05/simone-de-beauvoir-coming-of-age",
+      "https://www.themarginalian.org/2026/06/05/john-berger-some-notes-on-song",
+      "https://www.themarginalian.org/2026/06/04/storyteller-poet-qualities",
+      "https://www.themarginalian.org/2026/06/03/harpy-eagle-gps"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -411,7 +418,8 @@
       "https://www.noemamag.com/pope-leo-xiv-ai-wealth-must-be-universally-shared",
       "https://www.noemamag.com/this-is-not-financial-advice",
       "https://www.noemamag.com/what-might-the-next-axial-age-look-like",
-      "https://www.noemamag.com/why-conflict-feels-constant-now"
+      "https://www.noemamag.com/why-conflict-feels-constant-now",
+      "https://www.noemamag.com/how-ais-see-our-world"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -819,7 +827,9 @@
       "https://www.astralcodexten.com/p/open-thread-431",
       "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
       "https://www.astralcodexten.com/p/open-thread-434",
-      "https://www.astralcodexten.com/p/the-types-of-candidate-you-find-in"
+      "https://www.astralcodexten.com/p/the-types-of-candidate-you-find-in",
+      "https://www.astralcodexten.com/p/book-review-the-dialectical-imagination",
+      "https://www.astralcodexten.com/p/hidden-open-thread-4355"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -966,7 +976,8 @@
       "https://www.overcomingbias.com/p/the-elephant-in-the-op-ed",
       "https://www.overcomingbias.com/p/toward-forager-predictions",
       "https://www.overcomingbias.com/p/meta-institutions-matter-most",
-      "https://www.overcomingbias.com/p/how-weak-is-cultural-evolution"
+      "https://www.overcomingbias.com/p/how-weak-is-cultural-evolution",
+      "https://www.overcomingbias.com/p/why-excess-regulation"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -2073,6 +2084,17 @@
     "6d663f674adec8c20daa94df5d852a370750bef6",
     "9f369f5f3f50a9100bf0464fa7f918b668500b3a",
     "b3cbfc63684f035d7dce3ca9338af8e0d2f23fbb",
-    "67557194eb9149f6f8cb10c109fb00f201da214a"
+    "67557194eb9149f6f8cb10c109fb00f201da214a",
+    "e411abeccee094c06b45827d178aeb267aafdc8e",
+    "f424eb38ed65eaf5608f30e18104095bb3e54649",
+    "6ee793e00c5c778ead00551f7ed7f62437177d3e",
+    "187a49f83e43a532e71494aaf6af11c9e7a83509",
+    "a97f4d5998601c976905cf75c0e8c657b7a06bd7",
+    "a614b68fd15afd69065a6045a3f50671185978ca",
+    "be9189ad7211874ebaedf929c0ce3d725cdf197f",
+    "4fee7f513b600305f2fdc5f1e775b99e99d129c4",
+    "06107804e12717cfe7b402679bc5d742a8322955",
+    "8451ccbd9c42cb8427d9fdc1159cf12e47cdaba5",
+    "47b5f83c98fdbe2a3b8a8c336effe3d6bb8564f6"
   ]
 }
