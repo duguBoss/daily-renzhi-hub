@@ -190,7 +190,8 @@
       "https://seths.blog/2026/06/art-is-a-verb",
       "https://seths.blog/2026/06/none-of-it-is-important-or-all-of-it-is",
       "https://seths.blog/2026/06/video-games-movies-and-books",
-      "https://seths.blog/2026/06/values-capture-2"
+      "https://seths.blog/2026/06/values-capture-2",
+      "https://seths.blog/2026/06/nu-tennis"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -388,7 +389,8 @@
       "https://www.themarginalian.org/2026/06/08/robert-louis-stevenson-love",
       "https://www.themarginalian.org/2026/06/08/dictionary-of-obscure-sorrows",
       "https://www.themarginalian.org/2026/06/06/le-guin-life",
-      "https://www.themarginalian.org/2026/06/06/j-r-r-tolkien-on-fairy-stories"
+      "https://www.themarginalian.org/2026/06/06/j-r-r-tolkien-on-fairy-stories",
+      "https://www.themarginalian.org/2026/06/11/book-of-birds-macfarlane-morris"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -916,7 +918,9 @@
       "https://www.quantamagazine.org/key-chemistry-question-answered-no-quantum-computer-required-20260529",
       "https://www.quantamagazine.org/how-we-see-the-beautiful-violent-sun-20260528",
       "https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520",
-      "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608"
+      "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608",
+      "https://www.quantamagazine.org/an-early-step-on-the-long-strange-road-to-photosynthesis-20260610",
+      "https://www.quantamagazine.org/are-memories-transferable-or-edible-20260605"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -1098,7 +1102,13 @@
       "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise",
       "https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition",
       "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai",
-      "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app"
+      "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app",
+      "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception",
+      "https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction",
+      "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now",
+      "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body",
+      "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power",
+      "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -2135,6 +2145,16 @@
     "9e1e390ec871ca32f4b1e025d319c636c6953a86",
     "e98bddd3376173305ce7798c3f3d7a712cb59200",
     "f4d413365759414aa68a823004b0135edef6c494",
-    "f7a98a68ae06d55a5fc80d687b8e7e962c543b0b"
+    "f7a98a68ae06d55a5fc80d687b8e7e962c543b0b",
+    "6b0154ae76df922fda562d3805c3eb95e118ea8d",
+    "0f04927439ec8b98b88574299684e5ca087c95f9",
+    "d7f4eb29fc76126b1d0ded743956a5e5c893d022",
+    "77fcdf5d626f8473905968ec5c3ce8cd22902c60",
+    "1b00c3de3e169a3b7445f1c5a7dd8449965a99e2",
+    "81e89a64c70201facd751bd5279a52b5942424db",
+    "a71d516f20ea7fc0ff7b6d763c7ef8871226d224",
+    "3778bf33ac2adcc105751fb0d8acb2e50ccc1e3d",
+    "da73bdc17c167ce1d632d41affa1d38a847b934d",
+    "8ca8354a2b80492a9ad13a1ef0c33f55633f8102"
   ]
 }
