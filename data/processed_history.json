@@ -191,7 +191,8 @@
       "https://seths.blog/2026/06/none-of-it-is-important-or-all-of-it-is",
       "https://seths.blog/2026/06/video-games-movies-and-books",
       "https://seths.blog/2026/06/values-capture-2",
-      "https://seths.blog/2026/06/nu-tennis"
+      "https://seths.blog/2026/06/nu-tennis",
+      "https://seths.blog/2026/06/the-troll-button"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -390,7 +391,9 @@
       "https://www.themarginalian.org/2026/06/08/dictionary-of-obscure-sorrows",
       "https://www.themarginalian.org/2026/06/06/le-guin-life",
       "https://www.themarginalian.org/2026/06/06/j-r-r-tolkien-on-fairy-stories",
-      "https://www.themarginalian.org/2026/06/11/book-of-birds-macfarlane-morris"
+      "https://www.themarginalian.org/2026/06/11/book-of-birds-macfarlane-morris",
+      "https://www.themarginalian.org/2026/06/11/emily-dickinson-hope-kate",
+      "https://www.themarginalian.org/2026/06/11/david-whyte-consolations-anger-forgiveness-maturity"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -842,7 +845,12 @@
       "https://www.astralcodexten.com/p/open-thread-434",
       "https://www.astralcodexten.com/p/the-types-of-candidate-you-find-in",
       "https://www.astralcodexten.com/p/book-review-the-dialectical-imagination",
-      "https://www.astralcodexten.com/p/hidden-open-thread-4355"
+      "https://www.astralcodexten.com/p/hidden-open-thread-4355",
+      "https://www.astralcodexten.com/p/hidden-open-thread-4375",
+      "https://www.astralcodexten.com/p/berkeley-meetup-this-wednesday-77b",
+      "https://www.astralcodexten.com/p/open-thread-437",
+      "https://www.astralcodexten.com/p/choose-book-review-finalists-2026",
+      "https://www.astralcodexten.com/p/open-thread-436"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -920,7 +928,9 @@
       "https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520",
       "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608",
       "https://www.quantamagazine.org/an-early-step-on-the-long-strange-road-to-photosynthesis-20260610",
-      "https://www.quantamagazine.org/are-memories-transferable-or-edible-20260605"
+      "https://www.quantamagazine.org/are-memories-transferable-or-edible-20260605",
+      "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612",
+      "https://www.quantamagazine.org/whats-the-future-of-gene-editing-20260611"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2155,6 +2165,16 @@
     "a71d516f20ea7fc0ff7b6d763c7ef8871226d224",
     "3778bf33ac2adcc105751fb0d8acb2e50ccc1e3d",
     "da73bdc17c167ce1d632d41affa1d38a847b934d",
-    "8ca8354a2b80492a9ad13a1ef0c33f55633f8102"
+    "8ca8354a2b80492a9ad13a1ef0c33f55633f8102",
+    "29e659ca8ae7d4e1bba0c5d5dbcb317a82c60fd5",
+    "48fb2ee7e4da42507ed91a3bb776361489c0eec9",
+    "9f8309f4674afac895ad6103f2d978a147c8f624",
+    "43be605a464d876ef32a741f954e17dcebd5580e",
+    "7f06c73ae9ef480e880227ffcf0912fa06475ee7",
+    "a88d7e2d5392f24e6c2a343f444d94322f5d635c",
+    "6274fac51be05d45ec9bb68ad29370cc3594478b",
+    "3f6bd32533073b764343a22ff5a691e418838b95",
+    "0ad974d0398c2cd1e22842abf5f1e609c7bd360e",
+    "ff4c517662bfbb9575634a885c95e0abbf9fbdcc"
   ]
 }
