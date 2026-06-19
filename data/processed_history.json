@@ -43,7 +43,11 @@
       "https://80000hours.org/podcast/episodes/benjamin-todd-careers-in-age-of-ai",
       "https://80000hours.org/2026/05/open-position-marketer-2026",
       "https://80000hours.org/podcast/episodes/rohin-shah-google-deepmind-agi-safety",
-      "https://80000hours.org/2026/06/our-top-tips-for-becoming-a-better-applicant"
+      "https://80000hours.org/2026/06/our-top-tips-for-becoming-a-better-applicant",
+      "https://80000hours.org/career-reviews/ai-security",
+      "https://80000hours.org/podcast/episodes/war-in-space",
+      "https://80000hours.org/career-reviews/ai-policy-us-government",
+      "https://80000hours.org/career-reviews/ai-policy-and-strategy-research"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -197,7 +201,8 @@
       "https://seths.blog/2026/06/degrees-of-freedom-3",
       "https://seths.blog/2026/06/the-relentless-math-of-the-long-tail",
       "https://seths.blog/2026/06/status-symbols",
-      "https://seths.blog/2026/06/promotion-activation-conversation"
+      "https://seths.blog/2026/06/promotion-activation-conversation",
+      "https://seths.blog/2026/06/the-gap-between-true-and-known"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -254,7 +259,12 @@
       "https://nautil.us/iss-astronaut-shares-incredible-photos-of-volcanoes-taken-from-space-1281988",
       "https://nautil.us/goblin-sharks-caught-on-camera-in-their-natural-habitat-for-the-first-time-1281981",
       "https://nautil.us/the-ancient-roots-of-modern-winemaking-1281970",
-      "https://nautil.us/how-to-feel-at-home-in-the-modern-world-1281964"
+      "https://nautil.us/how-to-feel-at-home-in-the-modern-world-1281964",
+      "https://nautil.us/in-the-midst-of-tornado-season-a-surprisingly-short-history-of-predicting-twisters-1282133",
+      "https://nautil.us/can-dantes-inferno-tell-us-something-about-space-rocks-1282127",
+      "https://nautil.us/how-to-dodge-a-mountain-lion-1282112",
+      "https://nautil.us/the-inventor-of-the-thinking-machine-didnt-worry-neither-should-you-1282097",
+      "https://nautil.us/science-is-political-and-spiritual-1282081"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -2277,6 +2287,16 @@
     "cd493fcf34d6e6eb9e92e6f370c9f2c1934fe88c",
     "d61ae578b14748139baa82f16f8ca11e1b0c2a35",
     "fc8d168c36aabb34599ae01581f0c83b298de2fb",
-    "fb344118793adb510bbd064e43ed255f7225d918"
+    "fb344118793adb510bbd064e43ed255f7225d918",
+    "728b39d014736656972e8700dab1e80838a78463",
+    "0c33b0a3cfa9d3f723650403048a7ea1eb5d0da2",
+    "638e976e93a90e55487554a67359412ab145924f",
+    "39ca5b3738f2f14b1a3cf0d5f6869683a98d0013",
+    "5ede79bd4ef71355a12c3148b1464869e1a8e658",
+    "043137638dcd936b1337b2e39a81fc414f93abc6",
+    "c78c33b73277e258eefe9464666dd29843d36e7f",
+    "ac0f03e07892096ba40789afc6048e589a95d333",
+    "c69ba3bfce79519023e900fe225bc348ee5f0674",
+    "6c6ec4a5cab7bb62a24d50f3dbceb2763518d516"
   ]
 }
