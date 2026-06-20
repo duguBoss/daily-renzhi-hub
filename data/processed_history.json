@@ -47,7 +47,8 @@
       "https://80000hours.org/career-reviews/ai-security",
       "https://80000hours.org/podcast/episodes/war-in-space",
       "https://80000hours.org/career-reviews/ai-policy-us-government",
-      "https://80000hours.org/career-reviews/ai-policy-and-strategy-research"
+      "https://80000hours.org/career-reviews/ai-policy-and-strategy-research",
+      "https://80000hours.org/career-reviews/ai-safety-advocacy"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -202,7 +203,8 @@
       "https://seths.blog/2026/06/the-relentless-math-of-the-long-tail",
       "https://seths.blog/2026/06/status-symbols",
       "https://seths.blog/2026/06/promotion-activation-conversation",
-      "https://seths.blog/2026/06/the-gap-between-true-and-known"
+      "https://seths.blog/2026/06/the-gap-between-true-and-known",
+      "https://seths.blog/2026/06/99-might-be-enough-or-not"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -264,7 +266,10 @@
       "https://nautil.us/can-dantes-inferno-tell-us-something-about-space-rocks-1282127",
       "https://nautil.us/how-to-dodge-a-mountain-lion-1282112",
       "https://nautil.us/the-inventor-of-the-thinking-machine-didnt-worry-neither-should-you-1282097",
-      "https://nautil.us/science-is-political-and-spiritual-1282081"
+      "https://nautil.us/science-is-political-and-spiritual-1282081",
+      "https://nautil.us/take-a-gander-at-an-ancient-supernova-in-the-heart-of-the-milky-way-1282090",
+      "https://nautil.us/the-model-for-botticellis-venus-died-at-23-1282083",
+      "https://nautil.us/the-birth-control-pill-may-encourage-binge-eating-1282073"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -899,7 +904,11 @@
       "https://www.astralcodexten.com/p/open-thread-437",
       "https://www.astralcodexten.com/p/choose-book-review-finalists-2026",
       "https://www.astralcodexten.com/p/open-thread-436",
-      "https://www.astralcodexten.com/p/open-thread-438"
+      "https://www.astralcodexten.com/p/open-thread-438",
+      "https://www.astralcodexten.com/p/preliminary-thoughts-on-the-midjourney",
+      "https://www.astralcodexten.com/p/waiting-for-the-miracle",
+      "https://www.astralcodexten.com/p/never-cross-a-river-four-feet-deep",
+      "https://www.astralcodexten.com/p/my-ai-opinions"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -981,7 +990,9 @@
       "https://www.quantamagazine.org/an-early-step-on-the-long-strange-road-to-photosynthesis-20260610",
       "https://www.quantamagazine.org/are-memories-transferable-or-edible-20260605",
       "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612",
-      "https://www.quantamagazine.org/whats-the-future-of-gene-editing-20260611"
+      "https://www.quantamagazine.org/whats-the-future-of-gene-editing-20260611",
+      "https://www.quantamagazine.org/why-the-human-genomes-tangled-physicality-may-confound-ai-20260618",
+      "https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2297,6 +2308,17 @@
     "c78c33b73277e258eefe9464666dd29843d36e7f",
     "ac0f03e07892096ba40789afc6048e589a95d333",
     "c69ba3bfce79519023e900fe225bc348ee5f0674",
-    "6c6ec4a5cab7bb62a24d50f3dbceb2763518d516"
+    "6c6ec4a5cab7bb62a24d50f3dbceb2763518d516",
+    "04a5e1059d9f8c3e856b66ac6da842319496ae4c",
+    "60538d217b9808e1c2757ad8f8684c0e0fe7ecf1",
+    "b8cc828f131de51595bb948541c25fc9d1eac96f",
+    "afa63fc0b0b16c8f03e60bce2728a2505f10db06",
+    "e8d85dc0195de99db64fa6401a54f2ee85c8f1af",
+    "8607547fedc5b7d7c115fa750752647e00f235d0",
+    "822a312b39aaee311c175506a9c4585fcabdb308",
+    "e9e8d35f9da17d30bdbeb9c7ceca0577ccf74723",
+    "bd09d2246fdf664de9f2726d2ea5170181f008d1",
+    "cc94ebde2a00d54d437fabd51a2fbf248ee6be81",
+    "939fa33c86c36e7e3063a89462226dde4bbffe76"
   ]
 }
