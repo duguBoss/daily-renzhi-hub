@@ -205,7 +205,8 @@
       "https://seths.blog/2026/06/promotion-activation-conversation",
       "https://seths.blog/2026/06/the-gap-between-true-and-known",
       "https://seths.blog/2026/06/99-might-be-enough-or-not",
-      "https://seths.blog/2026/06/in-its-larval-state"
+      "https://seths.blog/2026/06/in-its-larval-state",
+      "https://seths.blog/2026/06/anniversaries"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -437,7 +438,9 @@
       "https://www.themarginalian.org/2026/06/20/george-forster-andrea-wulf",
       "https://www.themarginalian.org/2026/06/19/kafka-insomnia",
       "https://www.themarginalian.org/2026/06/19/oliver-sacks-letters-meaning-of-life",
-      "https://www.themarginalian.org/2026/06/18/necessary-losses"
+      "https://www.themarginalian.org/2026/06/18/necessary-losses",
+      "https://www.themarginalian.org/2026/06/22/polyvagal-theory",
+      "https://www.themarginalian.org/2026/06/21/bayo-akomolafe-wilds-obstacles"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -790,7 +793,8 @@
       "https://undark.org/2026/06/05/book-review-echoing-universe",
       "https://undark.org/2026/06/04/opinion-risk-aversion-innovation",
       "https://undark.org/2026/06/08/liquid-biopsies-cancer",
-      "https://undark.org/2026/06/12/california-wildlife-crossing"
+      "https://undark.org/2026/06/12/california-wildlife-crossing",
+      "https://undark.org/2026/06/19/interview-joe-patterson-peptides"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -935,7 +939,8 @@
       "https://scottaaronson.blog/?p=9758",
       "https://scottaaronson.blog/?p=9732",
       "https://scottaaronson.blog/?p=9782",
-      "https://scottaaronson.blog/?p=9801"
+      "https://scottaaronson.blog/?p=9801",
+      "https://scottaaronson.blog/?p=9833"
     ],
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
@@ -966,7 +971,9 @@
       "https://www.lesswrong.com/posts/vzHtHHBJoKATi5SeK/empowerment-corrigibility-etc-are-simple-abstractions-of-a",
       "https://www.lesswrong.com/posts/BJ7AqXeigNKXLqZyx/mnemonic-portraits-for-19-023-human-genes",
       "https://www.lesswrong.com/posts/gutiw8MBrYDiD2u5z/models-finding-software-vulnerabilities-is-not-the-primary",
-      "https://www.lesswrong.com/posts/eW7knx6zPSKzFc8iK/x-risk-themed"
+      "https://www.lesswrong.com/posts/eW7knx6zPSKzFc8iK/x-risk-themed",
+      "https://www.lesswrong.com/posts/siWqHqCSybdhtWGud/guardian-angels-llm-personalization-for-productivity-and",
+      "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -1083,7 +1090,10 @@
       "https://www.overcomingbias.com/p/why-excess-regulation",
       "https://www.overcomingbias.com/p/biotech-paper-game",
       "https://www.overcomingbias.com/p/the-promise-of-polymath-llms",
-      "https://www.overcomingbias.com/p/we-must-change-how-we-source-morality"
+      "https://www.overcomingbias.com/p/we-must-change-how-we-source-morality",
+      "https://www.overcomingbias.com/p/our-eight-great-contests",
+      "https://www.overcomingbias.com/p/do-polymath-llms-love-big-brother",
+      "https://www.overcomingbias.com/p/legible-forager-stories"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -2339,6 +2349,16 @@
     "d1f249af0cee814c8e5b48123622a17df7b16e27",
     "348d3a0e26a81cb1f4787d2d859087740583a37d",
     "45b255d9d8941a63ea51b9caf4fd6879d1939b2a",
-    "dd17180c64dd81f36729cfd0e61c8b9783a1563d"
+    "dd17180c64dd81f36729cfd0e61c8b9783a1563d",
+    "ab0c87758b05a0cbae78def18371750ebe0e7f0a",
+    "3b070869e56bfe77dd314afadd72fdeffff50bd8",
+    "facab9e4b485238d140d9adf1061c03dd902f043",
+    "4781c81b6c46acabc7a61e1f0802c999becb8fa1",
+    "f6706ce6f3105d49ac92078fe34e072fc981a3fc",
+    "eae2d6b2d1363ced4d67c4183b2e4d259ce4bb19",
+    "6b9ad3d96ea88be99b1822c72bb248343c379471",
+    "52844753494ba2e5eee3aa24ccf93507759934da",
+    "2c59fb35a915a9e8b64039038ac893e0d9a51010",
+    "1e2968c99ac8d83b00d115152b242f27d92e84d1"
   ]
 }
