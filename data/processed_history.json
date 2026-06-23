@@ -48,7 +48,8 @@
       "https://80000hours.org/podcast/episodes/war-in-space",
       "https://80000hours.org/career-reviews/ai-policy-us-government",
       "https://80000hours.org/career-reviews/ai-policy-and-strategy-research",
-      "https://80000hours.org/career-reviews/ai-safety-advocacy"
+      "https://80000hours.org/career-reviews/ai-safety-advocacy",
+      "https://80000hours.org/videos/openai"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -206,7 +207,9 @@
       "https://seths.blog/2026/06/the-gap-between-true-and-known",
       "https://seths.blog/2026/06/99-might-be-enough-or-not",
       "https://seths.blog/2026/06/in-its-larval-state",
-      "https://seths.blog/2026/06/anniversaries"
+      "https://seths.blog/2026/06/anniversaries",
+      "https://seths.blog/2026/06/limited-swag-the-knot-multipack",
+      "https://seths.blog/2026/06/blogs-traffic-and-google"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -271,7 +274,12 @@
       "https://nautil.us/science-is-political-and-spiritual-1282081",
       "https://nautil.us/take-a-gander-at-an-ancient-supernova-in-the-heart-of-the-milky-way-1282090",
       "https://nautil.us/the-model-for-botticellis-venus-died-at-23-1282083",
-      "https://nautil.us/the-birth-control-pill-may-encourage-binge-eating-1282073"
+      "https://nautil.us/the-birth-control-pill-may-encourage-binge-eating-1282073",
+      "https://nautil.us/this-roasted-exoplanet-has-a-wild-orbit-1282171",
+      "https://nautil.us/today-was-the-day-galileo-caved-1282164",
+      "https://nautil.us/see-the-southern-lights-from-space-in-new-iss-video-1282158",
+      "https://nautil.us/qatari-sand-cats-caught-on-camera-for-the-first-time-1282149",
+      "https://nautil.us/how-to-protect-earth-against-violent-space-weather-1282146"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -921,7 +929,9 @@
       "https://www.astralcodexten.com/p/preliminary-thoughts-on-the-midjourney",
       "https://www.astralcodexten.com/p/waiting-for-the-miracle",
       "https://www.astralcodexten.com/p/never-cross-a-river-four-feet-deep",
-      "https://www.astralcodexten.com/p/my-ai-opinions"
+      "https://www.astralcodexten.com/p/my-ai-opinions",
+      "https://www.astralcodexten.com/p/should-people-avoid-whole-body-screening",
+      "https://www.astralcodexten.com/p/open-thread-439"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1009,7 +1019,8 @@
       "https://www.quantamagazine.org/whats-the-future-of-gene-editing-20260611",
       "https://www.quantamagazine.org/why-the-human-genomes-tangled-physicality-may-confound-ai-20260618",
       "https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617",
-      "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615"
+      "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615",
+      "https://www.quantamagazine.org/a-dark-dimension-could-link-two-of-the-universes-great-unknowns-20260622"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2359,6 +2370,17 @@
     "6b9ad3d96ea88be99b1822c72bb248343c379471",
     "52844753494ba2e5eee3aa24ccf93507759934da",
     "2c59fb35a915a9e8b64039038ac893e0d9a51010",
-    "1e2968c99ac8d83b00d115152b242f27d92e84d1"
+    "1e2968c99ac8d83b00d115152b242f27d92e84d1",
+    "33215b78c044188b97dc5581b3051d89016e13ee",
+    "f8776485ec1a0db322c3a24ddf483bdb11fefc92",
+    "50218ea70917a04bfdbdd7ab164565f821a2cd81",
+    "d754335156f72eba0450bae2325ae0f541af463c",
+    "ee9289896ce6be3a8ddbbe8e40c6e01eae4080a8",
+    "00b92669670da10d38655022f2c8e3eb349cc1f9",
+    "53ff670452c984372930ac5840fbcf46548bd8a9",
+    "ae2ac26cfbbdb517313ec1360cff798584b58b71",
+    "ec16f6eebc17848627772b0ba71e886dc3695e71",
+    "bd093957a3bbf48dc32eafca4d3f22243b629acb",
+    "f38743f2a46937033a8ec4698a1509e0358e410e"
   ]
 }
