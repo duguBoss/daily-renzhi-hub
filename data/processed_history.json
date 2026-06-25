@@ -210,7 +210,8 @@
       "https://seths.blog/2026/06/anniversaries",
       "https://seths.blog/2026/06/limited-swag-the-knot-multipack",
       "https://seths.blog/2026/06/blogs-traffic-and-google",
-      "https://seths.blog/2026/06/empathy-and-good-advice"
+      "https://seths.blog/2026/06/empathy-and-good-advice",
+      "https://seths.blog/2026/06/standby-intervention"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -286,7 +287,13 @@
       "https://nautil.us/the-physics-behind-the-poo-emojis-shape-1282189",
       "https://nautil.us/all-the-microbes-that-could-survive-in-space-1282184",
       "https://nautil.us/can-the-sugar-molecules-that-coat-our-cells-predict-our-health-1282180",
-      "https://nautil.us/these-ancient-baby-predators-challenge-our-understanding-of-evolution-1282176"
+      "https://nautil.us/these-ancient-baby-predators-challenge-our-understanding-of-evolution-1282176",
+      "https://nautil.us/everyones-been-drawing-pterosaur-wings-wrong-1282235",
+      "https://nautil.us/can-we-air-condition-our-way-out-of-climate-change-1282223",
+      "https://nautil.us/me-myself-and-i-the-increasing-narcissism-of-western-music-1282220",
+      "https://nautil.us/the-unlucky-ones-what-it-feels-like-to-get-struck-by-lightning-1282217",
+      "https://nautil.us/see-the-milky-ways-galactic-bulge-captured-in-unprecedented-detail-1282212",
+      "https://nautil.us/how-city-rats-are-becoming-resistant-to-poison-1282206"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -458,7 +465,9 @@
       "https://www.themarginalian.org/2026/06/21/bayo-akomolafe-wilds-obstacles",
       "https://www.themarginalian.org/2026/06/24/diatom-atlas-adolf-schmidt",
       "https://www.themarginalian.org/2026/06/23/yes-to-life-in-spite-of-everything-viktor-frankl",
-      "https://www.themarginalian.org/2026/06/23/florida-scott-maxwell-mother"
+      "https://www.themarginalian.org/2026/06/23/florida-scott-maxwell-mother",
+      "https://www.themarginalian.org/2026/06/25/kurt-vonnegut-advice-to-children",
+      "https://www.themarginalian.org/2026/06/24/epictetus-love-loss"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -941,7 +950,8 @@
       "https://www.astralcodexten.com/p/never-cross-a-river-four-feet-deep",
       "https://www.astralcodexten.com/p/my-ai-opinions",
       "https://www.astralcodexten.com/p/should-people-avoid-whole-body-screening",
-      "https://www.astralcodexten.com/p/open-thread-439"
+      "https://www.astralcodexten.com/p/open-thread-439",
+      "https://www.astralcodexten.com/p/hidden-open-thread-4395"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1030,7 +1040,8 @@
       "https://www.quantamagazine.org/why-the-human-genomes-tangled-physicality-may-confound-ai-20260618",
       "https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617",
       "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615",
-      "https://www.quantamagazine.org/a-dark-dimension-could-link-two-of-the-universes-great-unknowns-20260622"
+      "https://www.quantamagazine.org/a-dark-dimension-could-link-two-of-the-universes-great-unknowns-20260622",
+      "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2401,6 +2412,17 @@
     "5e33dcc02b0688eb3ed02d3b55afbaad739cbfd5",
     "c419e403a24bf48bf3e69ba45b708f37785a9612",
     "3c1969bdc3509dc5a7b654b6dd20999357c7b7ab",
-    "cca548d60487aabe94c117d906edb3806a812bd8"
+    "cca548d60487aabe94c117d906edb3806a812bd8",
+    "a78ce0e1ee5367fdddac190bc7ee5e6ec5906a67",
+    "eddc60c87bd499022f52bc2c0e8a54a58cc962db",
+    "13ba1b1852c18e7f64478aa84ef10cd9ed8ff441",
+    "10301cca5078fd7d88e866a7cc2045f14623bd87",
+    "e5da4a5121297cddd312812eef097825df5036cc",
+    "0af9bf54413b7867a76a62768536de4558ed3c42",
+    "1b1bb056257019012fbcfef192308e917dc43031",
+    "2df203a51e4360b749579dfb3fabe53fe6a887b9",
+    "a76f74200774604479b37c1bcfae743d1f4f9a6d",
+    "96dc9bd0910abf0e9ae15d98f45320153efad914",
+    "23b4e5f58f60c737b1dfe9ce931994a0ad07dea5"
   ]
 }
