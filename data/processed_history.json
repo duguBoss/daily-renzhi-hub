@@ -216,7 +216,8 @@
       "https://seths.blog/2026/06/standby-intervention",
       "https://seths.blog/2026/06/you-dont-need-a-better-camera",
       "https://seths.blog/2026/06/seeking-a-complement",
-      "https://seths.blog/2026/06/the-generic-headline"
+      "https://seths.blog/2026/06/the-generic-headline",
+      "https://seths.blog/2026/06/backlist-confusion"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -310,7 +311,8 @@
       "https://nautil.us/this-was-a-big-week-for-marie-curie-more-than-120-years-ago-1282285",
       "https://nautil.us/james-webb-space-telescope-captures-the-cigar-galaxys-brilliant-stellar-halo-in-pristine-detail-1282277",
       "https://nautil.us/how-humans-are-like-bloodhounds-and-bats-1282274",
-      "https://nautil.us/how-fruit-flies-manage-their-exceptionally-long-sperm-1282271"
+      "https://nautil.us/how-fruit-flies-manage-their-exceptionally-long-sperm-1282271",
+      "https://nautil.us/what-do-you-do-when-you-lose-gigantic-megalodon-shark-vertebrae-1282295"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -491,7 +493,8 @@
       "https://www.themarginalian.org/2026/06/27/trees",
       "https://www.themarginalian.org/2026/06/26/fungi-orion",
       "https://www.themarginalian.org/2026/06/26/georgia-okeeffe-sherwood-anderson-letters",
-      "https://www.themarginalian.org/2026/06/26/kafka-diaries-self-doubt"
+      "https://www.themarginalian.org/2026/06/26/kafka-diaries-self-doubt",
+      "https://www.themarginalian.org/2026/06/28/why-you"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -552,7 +555,9 @@
       "https://dynomight.net/painkillers",
       "https://dynomight.net/drinking",
       "https://dynomight.net/crc-rates",
-      "https://dynomight.net/slides"
+      "https://dynomight.net/slides",
+      "https://dynomight.net/vitamin-d",
+      "https://dynomight.net/blink"
     ],
     "https://ourworldindata.org/feed": [
       "https://ourworldindata.org/biofuel-land-solar-electric-vehicles",
@@ -933,7 +938,8 @@
       "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
       "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
       "https://www.experimental-history.com/p/only-insane-people-use-the-internet",
-      "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos"
+      "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
+      "https://www.experimental-history.com/p/the-most-wonderful-thing-that-happened"
     ],
     "https://www.astralcodexten.com/feed": [
       "https://www.astralcodexten.com/p/being-john-rawls",
@@ -1031,7 +1037,8 @@
       "https://www.lesswrong.com/posts/gutiw8MBrYDiD2u5z/models-finding-software-vulnerabilities-is-not-the-primary",
       "https://www.lesswrong.com/posts/eW7knx6zPSKzFc8iK/x-risk-themed",
       "https://www.lesswrong.com/posts/siWqHqCSybdhtWGud/guardian-angels-llm-personalization-for-productivity-and",
-      "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier"
+      "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier",
+      "https://www.lesswrong.com/posts/xiTBpBDwubnr4MLRe/trees-are-mostly-made-of-air-and-a-generalizable-lesson-for"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -1155,7 +1162,11 @@
       "https://www.overcomingbias.com/p/we-must-change-how-we-source-morality",
       "https://www.overcomingbias.com/p/our-eight-great-contests",
       "https://www.overcomingbias.com/p/do-polymath-llms-love-big-brother",
-      "https://www.overcomingbias.com/p/legible-forager-stories"
+      "https://www.overcomingbias.com/p/legible-forager-stories",
+      "https://www.overcomingbias.com/p/beware-change-blocking-priors",
+      "https://www.overcomingbias.com/p/sacred-identify",
+      "https://www.overcomingbias.com/p/overcoming-sincere-prestige-bias",
+      "https://www.overcomingbias.com/p/hanania-on-populism"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -2483,6 +2494,17 @@
     "6b77b940823b3ff11f6a3e0a1f4c6b0cc0166a43",
     "886bcd029cd1bab67941456ecc4a1aaf6d56fabf",
     "24471800a8cc3a9517cf61b280c6d67b913cc9dc",
-    "07df23afb69026db44ce0912b0d2726589a7213b"
+    "07df23afb69026db44ce0912b0d2726589a7213b",
+    "1585abb4362702a44f32a7257ec8674be751318e",
+    "ef3a2dba4ed6aaebf7c2069b472d6af94c4d9b79",
+    "312cd759e06486495af4dd73dfee29a454ca7460",
+    "d52dc8feadcbfdf4dbbf0e9d545444ff83a8e2f6",
+    "f7fe56845a7a8085f3805ecace5f50b026c7c151",
+    "41a133d9e7babedc494fdbfd1823ed5e2cd968d5",
+    "9c1e1bba147813b11025423c07f0f817045fc78e",
+    "b676a63aa0f15d28f2fcb1b71474135c8d118335",
+    "78446ff03e01cb717a4b99eada7d23037bf8da76",
+    "da0e3b96b73b2c7da10f7f1fd16db39ca3bc384c",
+    "6c8903de2517dca0e1f74ce9321b51484a8c6f1f"
   ]
 }
