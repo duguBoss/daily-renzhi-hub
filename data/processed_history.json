@@ -220,7 +220,8 @@
       "https://seths.blog/2026/06/backlist-confusion",
       "https://seths.blog/2026/06/we-are-all-weird-2",
       "https://seths.blog/2026/07/can-you-believe-it",
-      "https://seths.blog/2026/06/fancy-food-update"
+      "https://seths.blog/2026/06/fancy-food-update",
+      "https://seths.blog/2026/07/left-unsaid"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -326,7 +327,12 @@
       "https://nautil.us/was-the-saber-toothed-cat-doomed-by-its-signature-fangs-1282383",
       "https://nautil.us/lung-on-a-chip-reveals-how-asthma-attacks-permanently-change-airways-1282377",
       "https://nautil.us/the-trouble-with-trash-1282371",
-      "https://nautil.us/11-books-to-read-this-july-1282351"
+      "https://nautil.us/11-books-to-read-this-july-1282351",
+      "https://nautil.us/when-it-comes-to-back-pain-maybe-you-should-be-your-own-doctor-1282416",
+      "https://nautil.us/ovaries-might-take-on-an-immune-function-after-menopause-1282410",
+      "https://nautil.us/how-a-twitter-post-discovered-a-new-wasp-species-to-japan-1282405",
+      "https://nautil.us/does-your-chatbot-need-a-therapist-1282401",
+      "https://nautil.us/rat-disease-has-a-new-pick-me-up-1282392"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -509,7 +515,9 @@
       "https://www.themarginalian.org/2026/06/26/georgia-okeeffe-sherwood-anderson-letters",
       "https://www.themarginalian.org/2026/06/26/kafka-diaries-self-doubt",
       "https://www.themarginalian.org/2026/06/28/why-you",
-      "https://www.themarginalian.org/2026/06/29/pablo-casals-work-age"
+      "https://www.themarginalian.org/2026/06/29/pablo-casals-work-age",
+      "https://www.themarginalian.org/2026/07/01/marie-tharp-traversal",
+      "https://www.themarginalian.org/2026/07/01/anais-nin-d-h-lawrence"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1002,7 +1010,8 @@
       "https://www.astralcodexten.com/p/hidden-open-thread-4395",
       "https://www.astralcodexten.com/p/the-metaculus-threat-to-democracy",
       "https://www.astralcodexten.com/p/open-thread-440",
-      "https://www.astralcodexten.com/p/chip-off-the-old-block"
+      "https://www.astralcodexten.com/p/chip-off-the-old-block",
+      "https://www.astralcodexten.com/p/hidden-open-thread-4405"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1097,7 +1106,8 @@
       "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624",
       "https://www.quantamagazine.org/what-is-the-positive-grassmannian-and-why-does-it-show-up-everywhere-20260625",
       "https://www.quantamagazine.org/after-80-years-mathematicians-give-famed-erdos-method-an-upgrade-20260626",
-      "https://www.quantamagazine.org/what-breaks-a-cells-ribs-can-make-it-stronger-20260629"
+      "https://www.quantamagazine.org/what-breaks-a-cells-ribs-can-make-it-stronger-20260629",
+      "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2545,6 +2555,16 @@
     "11fd56e138bf51b9a56a4370f0b359a207ff162a",
     "77edc3d8e5ef6f6fe3db7d4c3d48bf62ea9f4276",
     "a864664358dd131c311e9b69355e443d198b0146",
-    "58b198a4458f538ef8c42060327aca3ea40c2b32"
+    "58b198a4458f538ef8c42060327aca3ea40c2b32",
+    "a743cf656c13197f62616d802f95aac300d907d7",
+    "b5ecd835dfdc6322462f5c7cee1d3b5d81f5ee00",
+    "2c25b9de4d4fe991e3540c64a9bb1f46e5959914",
+    "a2ea09e55e419e29487573e767ff8ddebc0637bf",
+    "b9105544195d314029eedfaa13100e64bdce7eb1",
+    "a63f090678e90a026c2116e8516acf1e20e23bda",
+    "64b61151fb574224df824d7e52a2b9abaa8204f1",
+    "9df1b59fb896a6f56075a26adb84aea940469603",
+    "2b9f5cc7d5dc1df8666b67cb53f3c779a0f3dfa3",
+    "a782a75caa74be7df91df91316a2e5cdd1df1507"
   ]
 }
