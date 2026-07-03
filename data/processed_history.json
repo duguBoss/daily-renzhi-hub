@@ -221,7 +221,8 @@
       "https://seths.blog/2026/06/we-are-all-weird-2",
       "https://seths.blog/2026/07/can-you-believe-it",
       "https://seths.blog/2026/06/fancy-food-update",
-      "https://seths.blog/2026/07/left-unsaid"
+      "https://seths.blog/2026/07/left-unsaid",
+      "https://seths.blog/2026/07/operator-error"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -332,7 +333,13 @@
       "https://nautil.us/ovaries-might-take-on-an-immune-function-after-menopause-1282410",
       "https://nautil.us/how-a-twitter-post-discovered-a-new-wasp-species-to-japan-1282405",
       "https://nautil.us/does-your-chatbot-need-a-therapist-1282401",
-      "https://nautil.us/rat-disease-has-a-new-pick-me-up-1282392"
+      "https://nautil.us/rat-disease-has-a-new-pick-me-up-1282392",
+      "https://nautil.us/heres-how-mosquitoes-survive-the-deadly-viruses-they-transmit-1282440",
+      "https://nautil.us/synthetic-cells-to-sell-synthetic-biology-1282444",
+      "https://nautil.us/cosmic-shockwave-reshaped-a-newly-discovered-bow-and-arrow-galaxy-1282436",
+      "https://nautil.us/how-to-not-get-mauled-on-your-hike-this-summer-1282430",
+      "https://nautil.us/this-blind-cave-dwelling-fish-may-be-the-key-to-understanding-brain-evolution-1282427",
+      "https://nautil.us/the-dangers-of-ai-voice-clones-1282420"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -517,7 +524,8 @@
       "https://www.themarginalian.org/2026/06/28/why-you",
       "https://www.themarginalian.org/2026/06/29/pablo-casals-work-age",
       "https://www.themarginalian.org/2026/07/01/marie-tharp-traversal",
-      "https://www.themarginalian.org/2026/07/01/anais-nin-d-h-lawrence"
+      "https://www.themarginalian.org/2026/07/01/anais-nin-d-h-lawrence",
+      "https://www.themarginalian.org/2026/07/02/hermann-hesse-solitude-suffering-destiny"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1011,7 +1019,8 @@
       "https://www.astralcodexten.com/p/the-metaculus-threat-to-democracy",
       "https://www.astralcodexten.com/p/open-thread-440",
       "https://www.astralcodexten.com/p/chip-off-the-old-block",
-      "https://www.astralcodexten.com/p/hidden-open-thread-4405"
+      "https://www.astralcodexten.com/p/hidden-open-thread-4405",
+      "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1107,7 +1116,8 @@
       "https://www.quantamagazine.org/what-is-the-positive-grassmannian-and-why-does-it-show-up-everywhere-20260625",
       "https://www.quantamagazine.org/after-80-years-mathematicians-give-famed-erdos-method-an-upgrade-20260626",
       "https://www.quantamagazine.org/what-breaks-a-cells-ribs-can-make-it-stronger-20260629",
-      "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701"
+      "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701",
+      "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2565,6 +2575,16 @@
     "64b61151fb574224df824d7e52a2b9abaa8204f1",
     "9df1b59fb896a6f56075a26adb84aea940469603",
     "2b9f5cc7d5dc1df8666b67cb53f3c779a0f3dfa3",
-    "a782a75caa74be7df91df91316a2e5cdd1df1507"
+    "a782a75caa74be7df91df91316a2e5cdd1df1507",
+    "a121b9fd4eab27b4aaa6c41ae4f743481c6e4603",
+    "a99752ce40c9a59b22ccecbf0d81b74f64d70f2b",
+    "29896423277e36a82682f1405c4458e31746963c",
+    "04677e309038ad046ede9f2e831ff112fe6d66fc",
+    "8d1b947bc48a5ea35b24b6255ec9650eaf0412ef",
+    "3b477b48ba201bc9e23a97f2dbb3e1f9786d9dba",
+    "a6a6c4c26d990389ddc815ffce9c9c91cd990c93",
+    "6d590183964019d01bc325691c0fcbc9519ec155",
+    "b9d2e5616e51bee97f6c357710d4d4ac01b793f9",
+    "56205a57887ca0235802bfdb97f149ec584cbb98"
   ]
 }
