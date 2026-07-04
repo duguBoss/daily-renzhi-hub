@@ -222,7 +222,8 @@
       "https://seths.blog/2026/07/can-you-believe-it",
       "https://seths.blog/2026/06/fancy-food-update",
       "https://seths.blog/2026/07/left-unsaid",
-      "https://seths.blog/2026/07/operator-error"
+      "https://seths.blog/2026/07/operator-error",
+      "https://seths.blog/2026/07/freedom"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -339,7 +340,8 @@
       "https://nautil.us/cosmic-shockwave-reshaped-a-newly-discovered-bow-and-arrow-galaxy-1282436",
       "https://nautil.us/how-to-not-get-mauled-on-your-hike-this-summer-1282430",
       "https://nautil.us/this-blind-cave-dwelling-fish-may-be-the-key-to-understanding-brain-evolution-1282427",
-      "https://nautil.us/the-dangers-of-ai-voice-clones-1282420"
+      "https://nautil.us/the-dangers-of-ai-voice-clones-1282420",
+      "https://nautil.us/memory-loss-may-not-be-the-earliest-sign-of-alzheimers-1282448"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -525,7 +527,11 @@
       "https://www.themarginalian.org/2026/06/29/pablo-casals-work-age",
       "https://www.themarginalian.org/2026/07/01/marie-tharp-traversal",
       "https://www.themarginalian.org/2026/07/01/anais-nin-d-h-lawrence",
-      "https://www.themarginalian.org/2026/07/02/hermann-hesse-solitude-suffering-destiny"
+      "https://www.themarginalian.org/2026/07/02/hermann-hesse-solitude-suffering-destiny",
+      "https://www.themarginalian.org/2026/07/03/hemingway-loss-letter",
+      "https://www.themarginalian.org/2026/07/01/tolkien-reads-from-the-hobbit",
+      "https://www.themarginalian.org/2026/06/30/jo-marchant-now",
+      "https://www.themarginalian.org/2026/06/30/martha-nussbaum-loves-knowledge"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -572,7 +578,10 @@
       "https://www.noemamag.com/heritage-exists-beyond-humankind",
       "https://www.noemamag.com/how-ai-will-change-us",
       "https://www.noemamag.com/trumps-iran-war-the-midwife-to-a-renewable-energy-future",
-      "https://www.noemamag.com/what-comes-after-the-refugee-camp"
+      "https://www.noemamag.com/what-comes-after-the-refugee-camp",
+      "https://www.noemamag.com/when-the-machines-deserve-our-consideration",
+      "https://www.noemamag.com/america-at-250",
+      "https://www.noemamag.com/we-need-a-way-to-prove-personhood-online"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -1206,7 +1215,8 @@
       "https://www.overcomingbias.com/p/sacred-identify",
       "https://www.overcomingbias.com/p/overcoming-sincere-prestige-bias",
       "https://www.overcomingbias.com/p/hanania-on-populism",
-      "https://www.overcomingbias.com/p/ai-solution-to-cultural-drift"
+      "https://www.overcomingbias.com/p/ai-solution-to-cultural-drift",
+      "https://www.overcomingbias.com/p/my-politics"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -2585,6 +2595,16 @@
     "a6a6c4c26d990389ddc815ffce9c9c91cd990c93",
     "6d590183964019d01bc325691c0fcbc9519ec155",
     "b9d2e5616e51bee97f6c357710d4d4ac01b793f9",
-    "56205a57887ca0235802bfdb97f149ec584cbb98"
+    "56205a57887ca0235802bfdb97f149ec584cbb98",
+    "ea68c459cc1d41e5e9f8747402073ab6133d70ac",
+    "01b71531842a04efad0ff703643ba74ef8530c3a",
+    "cbe94d40a892a4e2b633e6ec1a56f1e5113e1bcd",
+    "4a8d94d297d70ee88eebad7e4093d9fac861fea6",
+    "ca4897f7315d21fce65cac885c4a55f3ed1a7f2f",
+    "3a27b9f890a874fe75110eb2afd315ff95535406",
+    "2f77ada3e50487c750991286d0cd2d9a29de8dd9",
+    "21a63276e4f7b8c5918c7dc4bdfb9a0636ba2afc",
+    "dd76c4b3c9da1c277650699dc03b0d626cbdb9ad",
+    "526f24a3c8d6bc91f27fc5272d0ff156e4e7a4d2"
   ]
 }
