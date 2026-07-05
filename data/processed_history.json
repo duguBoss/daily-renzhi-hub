@@ -223,7 +223,8 @@
       "https://seths.blog/2026/06/fancy-food-update",
       "https://seths.blog/2026/07/left-unsaid",
       "https://seths.blog/2026/07/operator-error",
-      "https://seths.blog/2026/07/freedom"
+      "https://seths.blog/2026/07/freedom",
+      "https://seths.blog/2026/07/the-urgency-paradox"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -531,7 +532,9 @@
       "https://www.themarginalian.org/2026/07/03/hemingway-loss-letter",
       "https://www.themarginalian.org/2026/07/01/tolkien-reads-from-the-hobbit",
       "https://www.themarginalian.org/2026/06/30/jo-marchant-now",
-      "https://www.themarginalian.org/2026/06/30/martha-nussbaum-loves-knowledge"
+      "https://www.themarginalian.org/2026/06/30/martha-nussbaum-loves-knowledge",
+      "https://www.themarginalian.org/2026/07/04/carl-jung-neurosis-creativity",
+      "https://www.themarginalian.org/2026/07/03/one-art"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -893,7 +896,8 @@
       "https://undark.org/2026/06/04/opinion-risk-aversion-innovation",
       "https://undark.org/2026/06/08/liquid-biopsies-cancer",
       "https://undark.org/2026/06/12/california-wildlife-crossing",
-      "https://undark.org/2026/06/19/interview-joe-patterson-peptides"
+      "https://undark.org/2026/06/19/interview-joe-patterson-peptides",
+      "https://undark.org/2026/07/02/opinion-biologists-leiden-declaration"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -1048,7 +1052,13 @@
       "https://scottaaronson.blog/?p=9732",
       "https://scottaaronson.blog/?p=9782",
       "https://scottaaronson.blog/?p=9801",
-      "https://scottaaronson.blog/?p=9833"
+      "https://scottaaronson.blog/?p=9833",
+      "https://scottaaronson.blog/?p=9909",
+      "https://scottaaronson.blog/?p=9902",
+      "https://scottaaronson.blog/?p=9881",
+      "https://scottaaronson.blog/?p=9875",
+      "https://scottaaronson.blog/?p=9861",
+      "https://scottaaronson.blog/?p=9851"
     ],
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
@@ -2605,6 +2615,16 @@
     "2f77ada3e50487c750991286d0cd2d9a29de8dd9",
     "21a63276e4f7b8c5918c7dc4bdfb9a0636ba2afc",
     "dd76c4b3c9da1c277650699dc03b0d626cbdb9ad",
-    "526f24a3c8d6bc91f27fc5272d0ff156e4e7a4d2"
+    "526f24a3c8d6bc91f27fc5272d0ff156e4e7a4d2",
+    "4073d81c5102281de49ce5e815a6a91001b2b739",
+    "fb33cb6518c428fb46285bf74f6e9ed2f3ca98de",
+    "1d6ba3880545f39c83d4936d3cdfc726b510f610",
+    "e84c720e98b79853dc19f646de794c3911e09875",
+    "1e1ffd66380095b0e0d0ac6498b7256aabe4328a",
+    "8b55b87391a144f7232da6b833d99503f617aa8d",
+    "76b91a1b899e3b622a12d83433fc560e13ed5da2",
+    "d1f9031552e0dea39e2c6a2261ff26477e53e8d0",
+    "ec15789ca3930ae2c2cff984df3acc97b476dc7f",
+    "6069659c4c24814fba4c8ea0adaf868bdc84774c"
   ]
 }
