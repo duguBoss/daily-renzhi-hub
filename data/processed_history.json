@@ -224,7 +224,8 @@
       "https://seths.blog/2026/07/left-unsaid",
       "https://seths.blog/2026/07/operator-error",
       "https://seths.blog/2026/07/freedom",
-      "https://seths.blog/2026/07/the-urgency-paradox"
+      "https://seths.blog/2026/07/the-urgency-paradox",
+      "https://seths.blog/2026/07/facts-and-feelings"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -534,7 +535,8 @@
       "https://www.themarginalian.org/2026/06/30/jo-marchant-now",
       "https://www.themarginalian.org/2026/06/30/martha-nussbaum-loves-knowledge",
       "https://www.themarginalian.org/2026/07/04/carl-jung-neurosis-creativity",
-      "https://www.themarginalian.org/2026/07/03/one-art"
+      "https://www.themarginalian.org/2026/07/03/one-art",
+      "https://www.themarginalian.org/2026/07/05/e-e-cummings-advice"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -897,7 +899,11 @@
       "https://undark.org/2026/06/08/liquid-biopsies-cancer",
       "https://undark.org/2026/06/12/california-wildlife-crossing",
       "https://undark.org/2026/06/19/interview-joe-patterson-peptides",
-      "https://undark.org/2026/07/02/opinion-biologists-leiden-declaration"
+      "https://undark.org/2026/07/02/opinion-biologists-leiden-declaration",
+      "https://undark.org/2026/06/26/book-review-creatures-guide-to-caring",
+      "https://undark.org/2026/06/25/opinion-maha-ibogaine-addiction",
+      "https://undark.org/2026/06/24/embryo-editing-disease-advocacy",
+      "https://undark.org/2026/06/16/opinion-wearable-health-tracker-data"
     ],
     "https://daily.jstor.org/feed/": [
       "https://daily.jstor.org/building-brasilia",
@@ -1033,7 +1039,8 @@
       "https://www.astralcodexten.com/p/open-thread-440",
       "https://www.astralcodexten.com/p/chip-off-the-old-block",
       "https://www.astralcodexten.com/p/hidden-open-thread-4405",
-      "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here"
+      "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
+      "https://www.astralcodexten.com/p/open-thread-441"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1093,7 +1100,8 @@
       "https://www.lesswrong.com/posts/siWqHqCSybdhtWGud/guardian-angels-llm-personalization-for-productivity-and",
       "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier",
       "https://www.lesswrong.com/posts/xiTBpBDwubnr4MLRe/trees-are-mostly-made-of-air-and-a-generalizable-lesson-for",
-      "https://www.lesswrong.com/posts/XTHa5C6SgGKYopH7o/who-got-breasts-first-and-how-we-got-them"
+      "https://www.lesswrong.com/posts/XTHa5C6SgGKYopH7o/who-got-breasts-first-and-how-we-got-them",
+      "https://www.lesswrong.com/posts/nhb8AyEcQGjQetgi5/the-llm-shoggoth-meme-is-weirder-than-you-think"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -1226,7 +1234,8 @@
       "https://www.overcomingbias.com/p/overcoming-sincere-prestige-bias",
       "https://www.overcomingbias.com/p/hanania-on-populism",
       "https://www.overcomingbias.com/p/ai-solution-to-cultural-drift",
-      "https://www.overcomingbias.com/p/my-politics"
+      "https://www.overcomingbias.com/p/my-politics",
+      "https://www.overcomingbias.com/p/why-so-lucky-in-weights"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -1343,7 +1352,8 @@
       "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak",
       "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis",
       "https://www.technologyreview.com/2026/06/15/1138948/the-download-solid-state-air-conditioning-animal-drugs",
-      "https://www.technologyreview.com/2026/06/15/1138552/solid-state-acs-promise-cool-future"
+      "https://www.technologyreview.com/2026/06/15/1138552/solid-state-acs-promise-cool-future",
+      "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -2625,6 +2635,16 @@
     "76b91a1b899e3b622a12d83433fc560e13ed5da2",
     "d1f9031552e0dea39e2c6a2261ff26477e53e8d0",
     "ec15789ca3930ae2c2cff984df3acc97b476dc7f",
-    "6069659c4c24814fba4c8ea0adaf868bdc84774c"
+    "6069659c4c24814fba4c8ea0adaf868bdc84774c",
+    "7d1a21e6576dcde546f75a1cbe28b012f2acd207",
+    "f2fc05058843a923989e555ad2e85c5ffd54ca09",
+    "4544b228b761dffa1342fb8c2a4c4b833d678868",
+    "a397566d6d127e2c9a4dbd8822c278a580161477",
+    "4bbaf9f252142519a628fbb5d0f97c348cea424b",
+    "f09d43456ebf35c6497474d1ff03dad0b77b1897",
+    "afde441973521cb88d6da9c1e34f3c8ab9a5578e",
+    "6853ec915841e01fa894fad4a588f39085ed6420",
+    "0c9ba0de37c9b95bcf3c50488d2d4ae00f6e7e44",
+    "07e58638a0968e390f44cd197f55d8015aeecb68"
   ]
 }
