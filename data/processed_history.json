@@ -49,7 +49,8 @@
       "https://80000hours.org/career-reviews/ai-policy-us-government",
       "https://80000hours.org/career-reviews/ai-policy-and-strategy-research",
       "https://80000hours.org/career-reviews/ai-safety-advocacy",
-      "https://80000hours.org/videos/openai"
+      "https://80000hours.org/videos/openai",
+      "https://80000hours.org/podcast/episodes/sneha-revanur-ai-advocacy"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -227,7 +228,8 @@
       "https://seths.blog/2026/07/the-urgency-paradox",
       "https://seths.blog/2026/07/facts-and-feelings",
       "https://seths.blog/2026/07/the-builders-creed",
-      "https://seths.blog/2026/07/goal-clarity-and-the-hawking-index"
+      "https://seths.blog/2026/07/goal-clarity-and-the-hawking-index",
+      "https://seths.blog/2026/07/generous-collusion"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -355,7 +357,13 @@
       "https://nautil.us/the-loving-embrace-of-the-milky-way-1282550",
       "https://nautil.us/heres-just-how-disgusting-your-kitchen-sponge-is-1282546",
       "https://nautil.us/modern-humans-and-neanderthals-may-have-shared-a-cave-dwelling-culture-1282537",
-      "https://nautil.us/how-hannibals-war-elephants-helped-to-determine-his-route-through-the-alps-1282523"
+      "https://nautil.us/how-hannibals-war-elephants-helped-to-determine-his-route-through-the-alps-1282523",
+      "https://nautil.us/can-we-geoengineer-our-way-out-of-a-super-el-nino-1282580",
+      "https://nautil.us/when-galaxies-clash-1282574",
+      "https://nautil.us/why-do-men-develop-parkinsons-disease-more-often-than-women-1282568",
+      "https://nautil.us/hunting-for-a-new-hallucinogen-in-the-lilliputian-psychedelic-1282565",
+      "https://nautil.us/the-surprising-evolutionary-trade-offs-between-fangs-stingers-and-claws-1282561",
+      "https://nautil.us/what-makes-humans-stupid-1282459"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -553,7 +561,8 @@
       "https://www.themarginalian.org/2026/07/06/hermann-hesse-books-poem",
       "https://www.themarginalian.org/2026/07/05/tenderness-olga-tokarczuk-nobel-prize",
       "https://www.themarginalian.org/2026/07/07/richard-feynman-arline-letter",
-      "https://www.themarginalian.org/2026/07/07/the-souls-of-animals"
+      "https://www.themarginalian.org/2026/07/07/the-souls-of-animals",
+      "https://www.themarginalian.org/2026/07/08/jenn-shapland-thin-skin"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1059,7 +1068,8 @@
       "https://www.astralcodexten.com/p/chip-off-the-old-block",
       "https://www.astralcodexten.com/p/hidden-open-thread-4405",
       "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
-      "https://www.astralcodexten.com/p/open-thread-441"
+      "https://www.astralcodexten.com/p/open-thread-441",
+      "https://www.astralcodexten.com/p/your-book-review-the-book-of-abraham"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1164,7 +1174,8 @@
       "https://www.quantamagazine.org/what-breaks-a-cells-ribs-can-make-it-stronger-20260629",
       "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701",
       "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702",
-      "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706"
+      "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706",
+      "https://www.quantamagazine.org/is-life-just-different-20260708"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2685,6 +2696,17 @@
     "cac79b48acca9cd58dbc1e763ea58c72be81b520",
     "740eff2da0dd72505e730568a96f424ab363501f",
     "6e57bd4e137a4c8509e8505e76981f342012b312",
-    "9508df515b4d1920b9b44bae93461468d4514184"
+    "9508df515b4d1920b9b44bae93461468d4514184",
+    "7d4d02901a29a702662f752460c7389adc08ae51",
+    "724d02a8a33d499fc0ab31fdaa42a38478fac48c",
+    "9750d2d689e2b1781fc077a1fbf969f4aa4873a1",
+    "92a8a2ee91a92debb0665281b8feb575abcb05fb",
+    "aec4369db7d0e453c4dc6ca5456d41fcdd4e64ed",
+    "a9cfb124454bd8f32319557ba26a2b336e3762cf",
+    "1a600bc60d617378159c460aed8f2574349bf198",
+    "8191026abc7243a4b4444e0bcfd13108e75aae6a",
+    "101d9e5e6159a483532b835800bf80f9b40ff866",
+    "c566e7108c98bc4887f49aa466df4ee89719af0d",
+    "92851e89a0a11150a4b75a0529f4411149b3f9c5"
   ]
 }
