@@ -233,7 +233,8 @@
       "https://seths.blog/2026/07/pi-x-110",
       "https://seths.blog/2026/07/a-captive-audience",
       "https://seths.blog/2026/07/controversial",
-      "https://seths.blog/2026/07/mels-back"
+      "https://seths.blog/2026/07/mels-back",
+      "https://seths.blog/2026/07/the-hedonic-treadmill"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -585,7 +586,9 @@
       "https://www.themarginalian.org/2026/07/12/no-te-salves",
       "https://www.themarginalian.org/2026/07/11/stephen-hawking-brief-answers-to-the-big-questions",
       "https://www.themarginalian.org/2026/07/09/oliver-sacks-gardens",
-      "https://www.themarginalian.org/2026/07/09/loneliness-forever"
+      "https://www.themarginalian.org/2026/07/09/loneliness-forever",
+      "https://www.themarginalian.org/2026/07/12/chronodiversity",
+      "https://www.themarginalian.org/2026/07/12/pythagoras-olympic-games"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1096,7 +1099,8 @@
       "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
       "https://www.astralcodexten.com/p/open-thread-441",
       "https://www.astralcodexten.com/p/your-book-review-the-book-of-abraham",
-      "https://www.astralcodexten.com/p/introducing-plan-a"
+      "https://www.astralcodexten.com/p/introducing-plan-a",
+      "https://www.astralcodexten.com/p/open-thread-442"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1121,7 +1125,9 @@
       "https://scottaaronson.blog/?p=9881",
       "https://scottaaronson.blog/?p=9875",
       "https://scottaaronson.blog/?p=9861",
-      "https://scottaaronson.blog/?p=9851"
+      "https://scottaaronson.blog/?p=9851",
+      "https://scottaaronson.blog/?p=9930",
+      "https://scottaaronson.blog/?p=9940"
     ],
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
@@ -1157,7 +1163,8 @@
       "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier",
       "https://www.lesswrong.com/posts/xiTBpBDwubnr4MLRe/trees-are-mostly-made-of-air-and-a-generalizable-lesson-for",
       "https://www.lesswrong.com/posts/XTHa5C6SgGKYopH7o/who-got-breasts-first-and-how-we-got-them",
-      "https://www.lesswrong.com/posts/nhb8AyEcQGjQetgi5/the-llm-shoggoth-meme-is-weirder-than-you-think"
+      "https://www.lesswrong.com/posts/nhb8AyEcQGjQetgi5/the-llm-shoggoth-meme-is-weirder-than-you-think",
+      "https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-mechanistic-explanation-of-prompt-injection-and-why-you"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -1296,7 +1303,8 @@
       "https://www.overcomingbias.com/p/ai-solution-to-cultural-drift",
       "https://www.overcomingbias.com/p/my-politics",
       "https://www.overcomingbias.com/p/why-so-lucky-in-weights",
-      "https://www.overcomingbias.com/p/firm-inside-info-auctions"
+      "https://www.overcomingbias.com/p/firm-inside-info-auctions",
+      "https://www.overcomingbias.com/p/this-time-is-always-different"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -1414,7 +1422,10 @@
       "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis",
       "https://www.technologyreview.com/2026/06/15/1138948/the-download-solid-state-air-conditioning-animal-drugs",
       "https://www.technologyreview.com/2026/06/15/1138552/solid-state-acs-promise-cool-future",
-      "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers"
+      "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers",
+      "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app",
+      "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group",
+      "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -2767,6 +2778,17 @@
     "4ef6e89c0164c4f30e969467e9f9b059a903e461",
     "3b7f0cc6db8c606e4d2e89ad8d7fd4cd0457076a",
     "24690a026e78ad9daeb10b57e79244c7f22358ef",
-    "3cef4386b2894c42088ffc6ff2848beff916a1a5"
+    "3cef4386b2894c42088ffc6ff2848beff916a1a5",
+    "e17a7d0561a1838916adb7a437e7786dc6898bc3",
+    "caf289c22222820d91973acfc08ade35e6ab5a80",
+    "b9d708c2e05e728bb60e26ac32c69d27589c7461",
+    "47a036f9e9d1b4c784592b016cf8d6bbaab390c6",
+    "25682813abd9675430c5d1aede35579a888beded",
+    "bfe9b1de17b641212007a555961b7933a3c625f5",
+    "612248fe1634f7422a274d304a9b7cd9d4ec5ba4",
+    "9b0fe55755a082a72f1a228fe14350696f25b5cc",
+    "c9fc8065fc7643126f11b1bb5f196620207e52e6",
+    "bfd3f7841fd5c3bc8862ed89c1d4b78993dfafa6",
+    "f28f3af0044223a8e0067e5963eea27388f38b4b"
   ]
 }
