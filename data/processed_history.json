@@ -50,7 +50,8 @@
       "https://80000hours.org/career-reviews/ai-policy-and-strategy-research",
       "https://80000hours.org/career-reviews/ai-safety-advocacy",
       "https://80000hours.org/videos/openai",
-      "https://80000hours.org/podcast/episodes/sneha-revanur-ai-advocacy"
+      "https://80000hours.org/podcast/episodes/sneha-revanur-ai-advocacy",
+      "https://80000hours.org/podcast/episodes/anton-leicht-middle-powers-agi-left-behind"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -236,7 +237,8 @@
       "https://seths.blog/2026/07/controversial",
       "https://seths.blog/2026/07/mels-back",
       "https://seths.blog/2026/07/the-hedonic-treadmill",
-      "https://seths.blog/2026/07/is-it-okay-if-i-share-my-screen"
+      "https://seths.blog/2026/07/is-it-okay-if-i-share-my-screen",
+      "https://seths.blog/2026/07/disposable-software"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -387,7 +389,11 @@
       "https://nautil.us/how-mariner-4-rewrote-what-we-know-about-mars-1282653",
       "https://nautil.us/the-fight-against-colony-collapse-disorder-started-19-years-ago-today-1282660",
       "https://nautil.us/are-women-really-better-at-multitasking-than-men-1282649",
-      "https://nautil.us/confessions-of-a-reluctant-protein-maxxer-1282639"
+      "https://nautil.us/confessions-of-a-reluctant-protein-maxxer-1282639",
+      "https://nautil.us/do-fossils-belong-in-mansions-or-museums-1282699",
+      "https://nautil.us/can-a-preteens-reaction-to-a-face-predict-their-future-social-lives-1282693",
+      "https://nautil.us/how-dinosaur-skeletons-became-so-expensive-1282687",
+      "https://nautil.us/the-nautilus-guide-to-the-best-books-on-the-science-of-art-1282668"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -597,7 +603,10 @@
       "https://www.themarginalian.org/2026/07/12/chronodiversity",
       "https://www.themarginalian.org/2026/07/12/pythagoras-olympic-games",
       "https://www.themarginalian.org/2026/07/13/tsunetomo-feedback",
-      "https://www.themarginalian.org/2026/07/13/how-to-grow-old-bertrand-russell"
+      "https://www.themarginalian.org/2026/07/13/how-to-grow-old-bertrand-russell",
+      "https://www.themarginalian.org/2026/07/14/fernando-pessoa-disquiet-self",
+      "https://www.themarginalian.org/2026/07/14/love-chekhov-the-darling-saunders",
+      "https://www.themarginalian.org/2026/07/13/lying-in-politics-hannah-arendt"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1109,7 +1118,8 @@
       "https://www.astralcodexten.com/p/open-thread-441",
       "https://www.astralcodexten.com/p/your-book-review-the-book-of-abraham",
       "https://www.astralcodexten.com/p/introducing-plan-a",
-      "https://www.astralcodexten.com/p/open-thread-442"
+      "https://www.astralcodexten.com/p/open-thread-442",
+      "https://www.astralcodexten.com/p/ai-chip-regulation-is-not-a-dystopian"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2809,6 +2819,16 @@
     "01f4493b592088b1bfa05ba0fdd8a6813b30fef1",
     "c8eda3e7d00f5f379cad7d35a552a6447359675e",
     "b085d053f4b79db4dbb62537ce2e3b30dad95cfe",
-    "74afc2ad52dcb06d2f2c69c94659ec1c6df3cadd"
+    "74afc2ad52dcb06d2f2c69c94659ec1c6df3cadd",
+    "fea468bd3646df496e530f9983ca5758ab25f77f",
+    "dac04f056ab60bdedfe6b6424b60876e0b32aa50",
+    "4c8967c9ac5172ca063f4227399be11667e075e1",
+    "c6cb37383513ed42894660376f03d9387a10f273",
+    "0979f13fd68f7e8f853f9f5c41736e2f04e1de0e",
+    "43d1e53bccf94a4bc8ea9ec072557aed4a491979",
+    "348c1ed7a4b76db7f031db686be03fce366c9d7b",
+    "dba548cfc6971c57f57c23437367532cab934594",
+    "6d1bc236a4791ba6e793a9a810e6d6b95cc8786c",
+    "6d643057a9f25644b534ca165285ea62b3b4df3b"
   ]
 }
