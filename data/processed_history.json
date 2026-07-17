@@ -52,7 +52,8 @@
       "https://80000hours.org/videos/openai",
       "https://80000hours.org/podcast/episodes/sneha-revanur-ai-advocacy",
       "https://80000hours.org/podcast/episodes/anton-leicht-middle-powers-agi-left-behind",
-      "https://80000hours.org/career-reviews/scaling-organisations"
+      "https://80000hours.org/career-reviews/scaling-organisations",
+      "https://80000hours.org/2026/07/why-were-increasing-the-ai-focus-of-our-job-board"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -240,7 +241,8 @@
       "https://seths.blog/2026/07/the-hedonic-treadmill",
       "https://seths.blog/2026/07/is-it-okay-if-i-share-my-screen",
       "https://seths.blog/2026/07/disposable-software",
-      "https://seths.blog/2026/07/two-kinds-of-word-salad"
+      "https://seths.blog/2026/07/two-kinds-of-word-salad",
+      "https://seths.blog/2026/07/resources-and-focus"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -401,7 +403,12 @@
       "https://nautil.us/nasa-satellite-map-shows-stifling-heat-dome-squatting-over-the-united-states-1282721",
       "https://nautil.us/this-is-the-oldest-amber-ever-found-1282716",
       "https://nautil.us/new-orange-lipped-monkey-discovered-in-africa-1282707",
-      "https://nautil.us/whats-causing-the-rise-in-rural-mortality-1282704"
+      "https://nautil.us/whats-causing-the-rise-in-rural-mortality-1282704",
+      "https://nautil.us/some-people-are-better-at-eavesdropping-than-others-1282751",
+      "https://nautil.us/when-monkeys-enter-the-uncanny-valley-1282747",
+      "https://nautil.us/small-cheap-and-full-of-teeth-baby-tyrannosaurs-were-plentiful-and-precocious-1282740",
+      "https://nautil.us/how-this-emerging-tick-borne-virus-escapes-your-immune-system-1282736",
+      "https://nautil.us/what-a-picture-of-a-dog-has-to-do-with-reason-and-logic-1282727"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -614,7 +621,9 @@
       "https://www.themarginalian.org/2026/07/13/how-to-grow-old-bertrand-russell",
       "https://www.themarginalian.org/2026/07/14/fernando-pessoa-disquiet-self",
       "https://www.themarginalian.org/2026/07/14/love-chekhov-the-darling-saunders",
-      "https://www.themarginalian.org/2026/07/13/lying-in-politics-hannah-arendt"
+      "https://www.themarginalian.org/2026/07/13/lying-in-politics-hannah-arendt",
+      "https://www.themarginalian.org/2026/07/16/louse-gluck-wild-iris",
+      "https://www.themarginalian.org/2026/07/16/marcus-aurelius-luck"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1128,7 +1137,8 @@
       "https://www.astralcodexten.com/p/introducing-plan-a",
       "https://www.astralcodexten.com/p/open-thread-442",
       "https://www.astralcodexten.com/p/ai-chip-regulation-is-not-a-dystopian",
-      "https://www.astralcodexten.com/p/six-slightly-skew-boogeymen"
+      "https://www.astralcodexten.com/p/six-slightly-skew-boogeymen",
+      "https://www.astralcodexten.com/p/against-stochastic-terrorism"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2849,6 +2859,16 @@
     "311a3f4d140c8d3bc60e0950838b5272d963d49a",
     "3c57751b973c41753f56aaa7f6a16d908cb4f789",
     "6638a1732c19b341142b60e9090869ccf110196e",
-    "f7a37699ad930e95881902885de3c1c1f3b757be"
+    "f7a37699ad930e95881902885de3c1c1f3b757be",
+    "7a6ef949bc0bf97c09d042b03ad9e6974f976be1",
+    "2a2f7f0db75227e68319634f4f661c370453cf38",
+    "20c2056ab441638c5e162a8a5638d410e5bdeb17",
+    "ac3ceb3aab80629501c7168b61c6304e214177f6",
+    "ae4e2c284ce1efcd0d4290756a7bc50d1cdca708",
+    "409a4d9e5d2c00952b860746dbc00375989b4e93",
+    "dcaec3ea3b2553b279967872c4aa46da1adc9328",
+    "01f78eadafca73a3c1970b1062efe86b5f331ed5",
+    "23b77f381380ba6e3474ed846e7700514214b049",
+    "6a17a5c3536c8e33a373bbffdad001f106971abc"
   ]
 }
