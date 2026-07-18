@@ -242,7 +242,8 @@
       "https://seths.blog/2026/07/is-it-okay-if-i-share-my-screen",
       "https://seths.blog/2026/07/disposable-software",
       "https://seths.blog/2026/07/two-kinds-of-word-salad",
-      "https://seths.blog/2026/07/resources-and-focus"
+      "https://seths.blog/2026/07/resources-and-focus",
+      "https://seths.blog/2026/07/imminent-urgent-trending-and-important"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -408,7 +409,12 @@
       "https://nautil.us/when-monkeys-enter-the-uncanny-valley-1282747",
       "https://nautil.us/small-cheap-and-full-of-teeth-baby-tyrannosaurs-were-plentiful-and-precocious-1282740",
       "https://nautil.us/how-this-emerging-tick-borne-virus-escapes-your-immune-system-1282736",
-      "https://nautil.us/what-a-picture-of-a-dog-has-to-do-with-reason-and-logic-1282727"
+      "https://nautil.us/what-a-picture-of-a-dog-has-to-do-with-reason-and-logic-1282727",
+      "https://nautil.us/radar-map-shows-wildfires-in-canada-blanketing-the-us-with-smoke-1282776",
+      "https://nautil.us/drinking-water-with-meals-may-make-you-eat-more-not-less-1282772",
+      "https://nautil.us/the-warrior-life-of-ancient-egyptian-princesses-1282763",
+      "https://nautil.us/what-became-of-the-chimps-who-revolutionized-our-understanding-of-animal-behavior-1282759",
+      "https://nautil.us/how-eating-healthier-could-reshape-agriculture-1282754"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -623,7 +629,9 @@
       "https://www.themarginalian.org/2026/07/14/love-chekhov-the-darling-saunders",
       "https://www.themarginalian.org/2026/07/13/lying-in-politics-hannah-arendt",
       "https://www.themarginalian.org/2026/07/16/louse-gluck-wild-iris",
-      "https://www.themarginalian.org/2026/07/16/marcus-aurelius-luck"
+      "https://www.themarginalian.org/2026/07/16/marcus-aurelius-luck",
+      "https://www.themarginalian.org/2026/07/17/marett-humility",
+      "https://www.themarginalian.org/2026/07/17/how-to-love-thich-nhat-hanh"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1138,7 +1146,8 @@
       "https://www.astralcodexten.com/p/open-thread-442",
       "https://www.astralcodexten.com/p/ai-chip-regulation-is-not-a-dystopian",
       "https://www.astralcodexten.com/p/six-slightly-skew-boogeymen",
-      "https://www.astralcodexten.com/p/against-stochastic-terrorism"
+      "https://www.astralcodexten.com/p/against-stochastic-terrorism",
+      "https://www.astralcodexten.com/p/your-book-review-great-and-desperate"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1251,7 +1260,8 @@
       "https://www.quantamagazine.org/will-we-ever-find-alien-civilizations-20260709",
       "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710",
       "https://www.quantamagazine.org/why-am-i-left-handed-20260713",
-      "https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715"
+      "https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715",
+      "https://www.quantamagazine.org/martin-picards-mitochondrial-theory-of-mind-20260717"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2869,6 +2879,16 @@
     "dcaec3ea3b2553b279967872c4aa46da1adc9328",
     "01f78eadafca73a3c1970b1062efe86b5f331ed5",
     "23b77f381380ba6e3474ed846e7700514214b049",
-    "6a17a5c3536c8e33a373bbffdad001f106971abc"
+    "6a17a5c3536c8e33a373bbffdad001f106971abc",
+    "dbb431873d51e48b978544cacbacd06a5bbfd5f0",
+    "1bfb32e25661c64fd5f424f4ec79d6647a476942",
+    "226b88891698aeccff833f80aeb822bd36d91cf0",
+    "560edf6eaf03d3191de1542ba11cd42260526b07",
+    "b52e00d282a61aad37f3973a0e242e565e77c968",
+    "f7033e89c933c8ed9398ef24141c3888b96c3e0b",
+    "e32c0d38183b52f1bfaa1f16f9b1383c0ee58506",
+    "71a400b437701d07ca32f5fc4af0b398742abd15",
+    "972985123f7a68ea789449980de06723daa75952",
+    "86fa9119e372e644d59cd51a68b16c48b31f9662"
   ]
 }
