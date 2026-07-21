@@ -245,7 +245,8 @@
       "https://seths.blog/2026/07/resources-and-focus",
       "https://seths.blog/2026/07/imminent-urgent-trending-and-important",
       "https://seths.blog/2026/07/pointless-banality-and-the-uncanny-valley",
-      "https://seths.blog/2026/07/the-power-of-positive-argument"
+      "https://seths.blog/2026/07/the-power-of-positive-argument",
+      "https://seths.blog/2026/07/the-having-doing-job-gap"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -416,7 +417,12 @@
       "https://nautil.us/drinking-water-with-meals-may-make-you-eat-more-not-less-1282772",
       "https://nautil.us/the-warrior-life-of-ancient-egyptian-princesses-1282763",
       "https://nautil.us/what-became-of-the-chimps-who-revolutionized-our-understanding-of-animal-behavior-1282759",
-      "https://nautil.us/how-eating-healthier-could-reshape-agriculture-1282754"
+      "https://nautil.us/how-eating-healthier-could-reshape-agriculture-1282754",
+      "https://nautil.us/the-bird-singing-contests-that-are-fueling-a-conservation-crisis-1282799",
+      "https://nautil.us/this-robot-can-flap-its-wings-and-swim-1282822",
+      "https://nautil.us/monkeys-interpret-shapes-similarly-to-humans-1282814",
+      "https://nautil.us/what-satellite-photos-of-penguin-poop-tell-us-about-earths-health-1282792",
+      "https://nautil.us/how-fruit-flies-tell-what-time-of-year-it-is-without-a-calendar-1282786"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -639,7 +645,8 @@
       "https://www.themarginalian.org/2026/07/17/patti-smith-reads-oscar-wilde-de-profundis",
       "https://www.themarginalian.org/2026/07/15/nick-cave-loss",
       "https://www.themarginalian.org/2026/07/19/the-forgotten-teachers",
-      "https://www.themarginalian.org/2026/07/19/notes-on-complexity-neil-theise"
+      "https://www.themarginalian.org/2026/07/19/notes-on-complexity-neil-theise",
+      "https://www.themarginalian.org/2026/07/20/fernando-pessoa-sleep"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1278,7 +1285,8 @@
       "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710",
       "https://www.quantamagazine.org/why-am-i-left-handed-20260713",
       "https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715",
-      "https://www.quantamagazine.org/martin-picards-mitochondrial-theory-of-mind-20260717"
+      "https://www.quantamagazine.org/martin-picards-mitochondrial-theory-of-mind-20260717",
+      "https://www.quantamagazine.org/the-organisms-that-make-earths-harshest-places-home-20260720"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -1373,7 +1381,8 @@
       "https://www.overcomingbias.com/p/firm-inside-info-auctions",
       "https://www.overcomingbias.com/p/this-time-is-always-different",
       "https://www.overcomingbias.com/p/overly-smooth-drained-strict-costly",
-      "https://www.overcomingbias.com/p/callards-uni-context"
+      "https://www.overcomingbias.com/p/callards-uni-context",
+      "https://www.overcomingbias.com/p/llm-judged-policy-debates"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -1496,7 +1505,8 @@
       "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group",
       "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts",
       "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
-      "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai"
+      "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai",
+      "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -2931,6 +2941,16 @@
     "2f669b8d5e17ad28f186ccf120c0fb2228f759dd",
     "0a29770ac6cac69890684b9071702fa9b9224fd5",
     "83605077906122389bea2fe6d6d796a082dc3ef1",
-    "c4141a314646b919f65a7463e9d487066960725f"
+    "c4141a314646b919f65a7463e9d487066960725f",
+    "ab6b8f46b8c22fe01d44ca79ff6fe6b3cf110bb1",
+    "9a870c7f5195c5bcaeff2fbf90852e2caeadef02",
+    "0255dacc0a9a759a268a66aa5702d9494c48c7ed",
+    "3ada7a26977789f91310a0ca664413cbdd6987f8",
+    "a6cb3c13632d34bb437048ebc348b00c229e4dc8",
+    "78a9d09d710fc3f8889387b3ca9c616a1e3a8e40",
+    "34968b5bffde8801cdef01de6aa3e4c28a42d138",
+    "72841124e85700f6395f84db28cc690515cb092e",
+    "e4004d682a2e8c40041a7b9a5b381233a0d88d7c",
+    "031913196334a7546c2237128b665b2f5f244327"
   ]
 }
