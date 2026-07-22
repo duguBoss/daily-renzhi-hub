@@ -53,7 +53,8 @@
       "https://80000hours.org/podcast/episodes/sneha-revanur-ai-advocacy",
       "https://80000hours.org/podcast/episodes/anton-leicht-middle-powers-agi-left-behind",
       "https://80000hours.org/career-reviews/scaling-organisations",
-      "https://80000hours.org/2026/07/why-were-increasing-the-ai-focus-of-our-job-board"
+      "https://80000hours.org/2026/07/why-were-increasing-the-ai-focus-of-our-job-board",
+      "https://80000hours.org/podcast/episodes/jasmine-sun-ai-anthropology"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -246,7 +247,8 @@
       "https://seths.blog/2026/07/imminent-urgent-trending-and-important",
       "https://seths.blog/2026/07/pointless-banality-and-the-uncanny-valley",
       "https://seths.blog/2026/07/the-power-of-positive-argument",
-      "https://seths.blog/2026/07/the-having-doing-job-gap"
+      "https://seths.blog/2026/07/the-having-doing-job-gap",
+      "https://seths.blog/2026/07/state-champs"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -422,7 +424,12 @@
       "https://nautil.us/this-robot-can-flap-its-wings-and-swim-1282822",
       "https://nautil.us/monkeys-interpret-shapes-similarly-to-humans-1282814",
       "https://nautil.us/what-satellite-photos-of-penguin-poop-tell-us-about-earths-health-1282792",
-      "https://nautil.us/how-fruit-flies-tell-what-time-of-year-it-is-without-a-calendar-1282786"
+      "https://nautil.us/how-fruit-flies-tell-what-time-of-year-it-is-without-a-calendar-1282786",
+      "https://nautil.us/why-are-we-using-machines-to-study-our-inner-lives-1282870",
+      "https://nautil.us/record-of-human-migration-hiding-in-the-dna-of-a-musky-rodent-1282867",
+      "https://nautil.us/why-the-cyclospora-outbreak-is-hard-to-pin-down-an-intimate-encounter-1282846",
+      "https://nautil.us/it-was-a-record-breaking-year-for-dust-storms-1282852",
+      "https://nautil.us/a-dead-coral-reef-found-thriving-off-the-coast-of-africa-1282826"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -646,7 +653,8 @@
       "https://www.themarginalian.org/2026/07/15/nick-cave-loss",
       "https://www.themarginalian.org/2026/07/19/the-forgotten-teachers",
       "https://www.themarginalian.org/2026/07/19/notes-on-complexity-neil-theise",
-      "https://www.themarginalian.org/2026/07/20/fernando-pessoa-sleep"
+      "https://www.themarginalian.org/2026/07/20/fernando-pessoa-sleep",
+      "https://www.themarginalian.org/2026/07/21/g-k-chesterton-dandelion"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -702,7 +710,8 @@
       "https://www.noemamag.com/ais-greatest-gift-to-humanity",
       "https://www.noemamag.com/the-heated-debate-in-europe-over-air-conditioning",
       "https://www.noemamag.com/how-ai-is-rewriting-human-nature",
-      "https://www.noemamag.com/why-we-demand-perfect-machines-yet-tolerate-human-carnage"
+      "https://www.noemamag.com/why-we-demand-perfect-machines-yet-tolerate-human-carnage",
+      "https://www.noemamag.com/what-humanity-needs-to-flourish-in-the-next-decade"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -1168,7 +1177,8 @@
       "https://www.astralcodexten.com/p/six-slightly-skew-boogeymen",
       "https://www.astralcodexten.com/p/against-stochastic-terrorism",
       "https://www.astralcodexten.com/p/your-book-review-great-and-desperate",
-      "https://www.astralcodexten.com/p/open-thread-443"
+      "https://www.astralcodexten.com/p/open-thread-443",
+      "https://www.astralcodexten.com/p/contra-pritchard-on-liberal-happiness"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2951,6 +2961,16 @@
     "34968b5bffde8801cdef01de6aa3e4c28a42d138",
     "72841124e85700f6395f84db28cc690515cb092e",
     "e4004d682a2e8c40041a7b9a5b381233a0d88d7c",
-    "031913196334a7546c2237128b665b2f5f244327"
+    "031913196334a7546c2237128b665b2f5f244327",
+    "45bd098a3184172f05c8b2f5e394848f9f2c7277",
+    "83d6410fd05887ce6263521e60e7b88a47cdf873",
+    "667d50930facaecfb2c37069270d9f2f6fe5ff7b",
+    "a0decff4d351abc5e094e3c44ceb24275ce5f300",
+    "24a8d82ee3dbc1ff879d6bfcd7bdafd1ef8ed1ed",
+    "8887041b273a9343162c6ad0621aeedeed9341f8",
+    "6009f98110793648c29001aa2d97ccd034699a7c",
+    "b84c86db103e384844f8fd4fadb6d2c68f2d7238",
+    "607f0e1e1245ec9c697c43a250dfa3040f88bab5",
+    "de7bc58fcd2c17b0041d45dea2e26bbb622694f3"
   ]
 }
