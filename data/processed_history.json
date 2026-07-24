@@ -81,7 +81,9 @@
       "https://blog.givewell.org/2026/06/04/expanding-our-search-for-cost-effective-ways-to-reduce-poverty",
       "https://blog.givewell.org/2026/06/25/looking-back-to-give-better",
       "https://blog.givewell.org/2026/06/26/june-2026-updates",
-      "https://blog.givewell.org/2026/07/13/casting-a-wider-net-for-cost-effective-programs"
+      "https://blog.givewell.org/2026/07/13/casting-a-wider-net-for-cost-effective-programs",
+      "https://blog.givewell.org/2026/07/23/tackling-diarrheal-disease-in-the-democratic-republic-of-the-congo-drc-and-south-sudan",
+      "https://blog.givewell.org/2026/07/23/scaling-our-impact-with-support"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -249,7 +251,8 @@
       "https://seths.blog/2026/07/the-power-of-positive-argument",
       "https://seths.blog/2026/07/the-having-doing-job-gap",
       "https://seths.blog/2026/07/state-champs",
-      "https://seths.blog/2026/07/authenticity-vs-the-slippery-slope"
+      "https://seths.blog/2026/07/authenticity-vs-the-slippery-slope",
+      "https://seths.blog/2026/07/first-take-next-take-last-take"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -436,7 +439,12 @@
       "https://nautil.us/australias-greater-gliders-fly-majestically-from-tree-to-tree-and-now-we-know-exactly-how-far-1282905",
       "https://nautil.us/how-tunas-evolved-to-become-an-apex-predator-of-the-sea-1282901",
       "https://nautil.us/the-avocados-that-may-save-us-from-a-guacamole-apocalypse-1282897",
-      "https://nautil.us/plants-and-their-ants-when-flora-and-fauna-team-up-1282810"
+      "https://nautil.us/plants-and-their-ants-when-flora-and-fauna-team-up-1282810",
+      "https://nautil.us/the-amazing-photos-from-nasas-first-ever-mars-lander-1282964",
+      "https://nautil.us/mole-rat-queens-stink-their-way-to-power-1282957",
+      "https://nautil.us/does-watching-tv-really-rot-your-brain-1282948",
+      "https://nautil.us/why-do-we-tell-ourselves-scary-stories-about-ai-1282920",
+      "https://nautil.us/watch-orcas-play-with-read-obliterate-their-food-1282937"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1188,7 +1196,8 @@
       "https://www.astralcodexten.com/p/your-book-review-great-and-desperate",
       "https://www.astralcodexten.com/p/open-thread-443",
       "https://www.astralcodexten.com/p/contra-pritchard-on-liberal-happiness",
-      "https://www.astralcodexten.com/p/links-for-july-2026-part-1"
+      "https://www.astralcodexten.com/p/links-for-july-2026-part-1",
+      "https://www.astralcodexten.com/p/the-hugging-face-incident"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1306,7 +1315,8 @@
       "https://www.quantamagazine.org/why-am-i-left-handed-20260713",
       "https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715",
       "https://www.quantamagazine.org/martin-picards-mitochondrial-theory-of-mind-20260717",
-      "https://www.quantamagazine.org/the-organisms-that-make-earths-harshest-places-home-20260720"
+      "https://www.quantamagazine.org/the-organisms-that-make-earths-harshest-places-home-20260720",
+      "https://www.quantamagazine.org/how-fast-is-the-universe-really-expanding-20260723"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2991,6 +3001,16 @@
     "65cdd8f4e898600e57d71c87b08211a5b13cb709",
     "ac32c8bf5abbd8abeb4e859b6be91ec892481cd2",
     "7d682658c78e439f15a056b025af0d22c455f496",
-    "5335979a18dc0bf4efd425f8f10d076c1dcaee74"
+    "5335979a18dc0bf4efd425f8f10d076c1dcaee74",
+    "604f27a9d9845359d928857b58072821292aa3ef",
+    "31bd4dff48ce7f901165b4a58ac0e13194ad9345",
+    "91fc31d7d47b35ec10781c1e483af7ce85ec19f8",
+    "e7e32a454785b2244d43963fd9d4837c9ba0a58a",
+    "52628d9e54938d811f1c5329097047a3ce7f9c54",
+    "04276e33def9c3f1bdf124fcbdfa4566ddd09f56",
+    "823c974aa4da114577ae4bfcee8f90c8e69aca93",
+    "d64e36cd803a799a6fdcb2b4c4d22432a857527f",
+    "ba6588c76c140bb34221a5cb4b6e30a2b58ff91b",
+    "183ae9f8ac72e8cf6b433841d6f4fbfc7035e891"
   ]
 }
