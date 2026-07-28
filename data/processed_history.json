@@ -255,7 +255,8 @@
       "https://seths.blog/2026/07/first-take-next-take-last-take",
       "https://seths.blog/2026/07/more-interesting",
       "https://seths.blog/2026/07/the-lego-problem",
-      "https://seths.blog/2026/07/optimizing-yourself-into-a-corner"
+      "https://seths.blog/2026/07/optimizing-yourself-into-a-corner",
+      "https://seths.blog/2026/07/the-smush"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -455,7 +456,11 @@
       "https://nautil.us/a-forgotten-literary-window-into-the-personal-life-of-alan-turing-1282977",
       "https://nautil.us/how-do-sperm-whales-keep-their-massive-wax-filled-heads-beneath-the-waves-as-they-sleep-1282973",
       "https://nautil.us/koalas-are-getting-a-vaccine-to-help-with-their-std-problem-1283030",
-      "https://nautil.us/jimothy-the-raccoon-survived-against-the-odds-a-testament-to-sophisticated-brains-and-devoted-mothers-1283021"
+      "https://nautil.us/jimothy-the-raccoon-survived-against-the-odds-a-testament-to-sophisticated-brains-and-devoted-mothers-1283021",
+      "https://nautil.us/mysterious-human-relative-was-bigger-than-previously-thought-1283071",
+      "https://nautil.us/frequent-cannabis-use-linked-to-higher-morning-stress-hormone-levels-1283064",
+      "https://nautil.us/why-do-psychiatric-disorders-persist-in-humans-1283057",
+      "https://nautil.us/why-an-icy-hummingbird-has-emerged-in-antarctica-1283049"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -688,7 +693,9 @@
       "https://www.themarginalian.org/2026/07/23/antidotes-to-fear-of-death-rebecca-elson",
       "https://www.themarginalian.org/2026/07/22/carl-jung-creativity",
       "https://www.themarginalian.org/2026/07/22/simone-de-beauvoir-coming-of-age",
-      "https://www.themarginalian.org/2026/07/25/oliver-sacks-perception"
+      "https://www.themarginalian.org/2026/07/25/oliver-sacks-perception",
+      "https://www.themarginalian.org/2026/07/27/carl-jung-next-right-thing",
+      "https://www.themarginalian.org/2026/07/26/platero-and-i"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1219,7 +1226,9 @@
       "https://www.astralcodexten.com/p/contra-pritchard-on-liberal-happiness",
       "https://www.astralcodexten.com/p/links-for-july-2026-part-1",
       "https://www.astralcodexten.com/p/the-hugging-face-incident",
-      "https://www.astralcodexten.com/p/breakdown-in-pakistan"
+      "https://www.astralcodexten.com/p/breakdown-in-pakistan",
+      "https://www.astralcodexten.com/p/psychology-research-is-mostly-fine",
+      "https://www.astralcodexten.com/p/open-thread-444"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1343,7 +1352,8 @@
       "https://www.quantamagazine.org/fields-and-abacus-medals-2026-20260723",
       "https://www.quantamagazine.org/shayan-oveis-gharan-wins-2026-imu-abacus-medal-20260723",
       "https://www.quantamagazine.org/hong-wang-wins-2026-fields-medal-the-third-woman-ever-20260723",
-      "https://www.quantamagazine.org/jacob-tsimerman-wins-2026-fields-medal-for-andre-oort-conjecture-proof-20260723"
+      "https://www.quantamagazine.org/jacob-tsimerman-wins-2026-fields-medal-for-andre-oort-conjecture-proof-20260723",
+      "https://www.quantamagazine.org/a-new-way-that-a-cows-inner-world-shapes-earths-atmosphere-20260727"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -3071,6 +3081,16 @@
     "2a9c7fa52d3f17b5337bb063e96f6262a1bbf2e3",
     "d4ddd36a34b469f8f220b993ffd16cbace4c9278",
     "815765d0327c8fab062920a0099ed9f0f3440f59",
-    "ed51d0f214e15863d45957cbe5eb613d1a772ae6"
+    "ed51d0f214e15863d45957cbe5eb613d1a772ae6",
+    "749e56ba965432ef59ddc5ef83bc11edb93d9671",
+    "0cae04809f8e7e4ddc326ab9be86893875c67a7e",
+    "716882cb3787a4f2ffa989a24661f7cafced5011",
+    "01aa99f595ac1379a202531d29c10b5d49e751a8",
+    "1ded47898c9ddf45ea0343dfda8db07d1b4b9f4b",
+    "d184b6314246b3a2a2c1381ec1e62886fe21dcd6",
+    "7a0739223d40f61f7b3364e2d26ad1f2f8b025d4",
+    "29f1e6651221f4c64056ada2c85940229c1c7d05",
+    "b549ad9319099f9ded0578263e2cd12ea473b6e3",
+    "c58632215718ded741ecb465a51fb0c092d22da2"
   ]
 }
