@@ -54,7 +54,8 @@
       "https://80000hours.org/podcast/episodes/anton-leicht-middle-powers-agi-left-behind",
       "https://80000hours.org/career-reviews/scaling-organisations",
       "https://80000hours.org/2026/07/why-were-increasing-the-ai-focus-of-our-job-board",
-      "https://80000hours.org/podcast/episodes/jasmine-sun-ai-anthropology"
+      "https://80000hours.org/podcast/episodes/jasmine-sun-ai-anthropology",
+      "https://80000hours.org/podcast/episodes/spencer-greenberg-existential-risk-mental-health-12-levers"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -256,7 +257,8 @@
       "https://seths.blog/2026/07/more-interesting",
       "https://seths.blog/2026/07/the-lego-problem",
       "https://seths.blog/2026/07/optimizing-yourself-into-a-corner",
-      "https://seths.blog/2026/07/the-smush"
+      "https://seths.blog/2026/07/the-smush",
+      "https://seths.blog/2026/07/eager-to-give-up-agency"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -460,7 +462,14 @@
       "https://nautil.us/mysterious-human-relative-was-bigger-than-previously-thought-1283071",
       "https://nautil.us/frequent-cannabis-use-linked-to-higher-morning-stress-hormone-levels-1283064",
       "https://nautil.us/why-do-psychiatric-disorders-persist-in-humans-1283057",
-      "https://nautil.us/why-an-icy-hummingbird-has-emerged-in-antarctica-1283049"
+      "https://nautil.us/why-an-icy-hummingbird-has-emerged-in-antarctica-1283049",
+      "https://nautil.us/anthony-faucis-diary-reveals-a-human-at-the-helm-1283145",
+      "https://nautil.us/pre-roman-necropolis-reveals-secrets-of-iron-age-mediterranean-diets-1283129",
+      "https://nautil.us/omniscient-tree-networks-immortal-amoebas-and-hope-1283103",
+      "https://nautil.us/the-humble-amoeba-is-smarter-than-you-think-1283100",
+      "https://nautil.us/why-we-stopped-burying-our-dead-at-home-1283097",
+      "https://nautil.us/an-abandoned-spacex-rocket-is-about-to-crash-into-the-moon-the-real-problem-comes-next-1283069",
+      "https://nautil.us/where-was-your-backyard-145-million-years-ago-1283084"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -695,7 +704,8 @@
       "https://www.themarginalian.org/2026/07/22/simone-de-beauvoir-coming-of-age",
       "https://www.themarginalian.org/2026/07/25/oliver-sacks-perception",
       "https://www.themarginalian.org/2026/07/27/carl-jung-next-right-thing",
-      "https://www.themarginalian.org/2026/07/26/platero-and-i"
+      "https://www.themarginalian.org/2026/07/26/platero-and-i",
+      "https://www.themarginalian.org/2026/07/27/serpentine-birdworlds"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -3091,6 +3101,16 @@
     "7a0739223d40f61f7b3364e2d26ad1f2f8b025d4",
     "29f1e6651221f4c64056ada2c85940229c1c7d05",
     "b549ad9319099f9ded0578263e2cd12ea473b6e3",
-    "c58632215718ded741ecb465a51fb0c092d22da2"
+    "c58632215718ded741ecb465a51fb0c092d22da2",
+    "4b7af4226123445cb7a79f7bd4a38576229f084e",
+    "7f60d3e32dce1237c4e6ba9a546ac8aa4d16e23b",
+    "b767d9aa64c93a7f38050b1653597c164f27b107",
+    "6cd6e84004d1026a659821bd82a8a95af454390d",
+    "15ff18bb9a06e5478f4c321c87e2795d21a70528",
+    "7bf8e64d390dcd13e751788300cb51e4e26576c6",
+    "2594462537618ed4f2a79fcf4e5d4c3f576f36cc",
+    "2911174c22e1173a543494d7fef0430a7875f3d0",
+    "dcaced3f60a782a58109d629cbb242cdc3e9356b",
+    "1ce07f8e49cb8cc83d441f0fe5dfd61885466120"
   ]
 }
