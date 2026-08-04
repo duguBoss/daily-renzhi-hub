@@ -84,7 +84,8 @@
       "https://blog.givewell.org/2026/06/26/june-2026-updates",
       "https://blog.givewell.org/2026/07/13/casting-a-wider-net-for-cost-effective-programs",
       "https://blog.givewell.org/2026/07/23/tackling-diarrheal-disease-in-the-democratic-republic-of-the-congo-drc-and-south-sudan",
-      "https://blog.givewell.org/2026/07/23/scaling-our-impact-with-support"
+      "https://blog.givewell.org/2026/07/23/scaling-our-impact-with-support",
+      "https://blog.givewell.org/2026/08/03/july-2026-updates"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -263,7 +264,8 @@
       "https://seths.blog/2026/07/that-doesnt-work",
       "https://seths.blog/2026/08/welcome-back",
       "https://seths.blog/2026/08/the-rowboat",
-      "https://seths.blog/2026/08/celebrity-art-2"
+      "https://seths.blog/2026/08/celebrity-art-2",
+      "https://seths.blog/2026/08/preference-falsification"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -496,7 +498,12 @@
       "https://nautil.us/high-blood-pressure-in-pregnant-women-is-rising-across-the-country-1283279",
       "https://nautil.us/more-testosterone-wont-make-a-better-soldier-or-a-tougher-man-aggression-and-strength-drive-t-levels-not-the-other-way-around-1283226",
       "https://nautil.us/a-hellish-cloud-descended-on-los-angeles-in-1943-1283256",
-      "https://nautil.us/how-invasive-rats-mess-with-coral-reef-food-webs-1283294"
+      "https://nautil.us/how-invasive-rats-mess-with-coral-reef-food-webs-1283294",
+      "https://nautil.us/55-years-ago-an-apollo-15-astronaut-dropped-a-hammer-on-the-moon-1283339",
+      "https://nautil.us/better-posture-linked-to-better-decision-making-and-mood-1283327",
+      "https://nautil.us/less-protein-not-more-may-lead-to-healthier-aging-1283315",
+      "https://nautil.us/how-dreaming-drains-your-energy-1283306",
+      "https://nautil.us/this-ichthyosaur-chomped-a-pterosaur-then-got-chomped-by-something-bigger-1283298"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -742,7 +749,8 @@
       "https://www.themarginalian.org/2026/07/29/eric-berne-games-people-play",
       "https://www.themarginalian.org/2026/08/02/rene-magritte-enchantment",
       "https://www.themarginalian.org/2026/08/02/francis-weller-ordinary",
-      "https://www.themarginalian.org/2026/08/01/rose-macaulay-personal-pleasures"
+      "https://www.themarginalian.org/2026/08/01/rose-macaulay-personal-pleasures",
+      "https://www.themarginalian.org/2026/08/03/emily-levine-cold-solace-anna-belle-kaufman"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1284,7 +1292,9 @@
       "https://www.astralcodexten.com/p/highlights-from-the-discourse-on",
       "https://www.astralcodexten.com/p/links-for-july-2026-part-2",
       "https://www.astralcodexten.com/p/hidden-open-thread-4445",
-      "https://www.astralcodexten.com/p/your-book-review-the-epic-of-gilgamesh"
+      "https://www.astralcodexten.com/p/your-book-review-the-epic-of-gilgamesh",
+      "https://www.astralcodexten.com/p/open-thread-445",
+      "https://www.astralcodexten.com/p/does-forecasting-have-room-at-the"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1412,7 +1422,8 @@
       "https://www.quantamagazine.org/jacob-tsimerman-wins-2026-fields-medal-for-andre-oort-conjecture-proof-20260723",
       "https://www.quantamagazine.org/a-new-way-that-a-cows-inner-world-shapes-earths-atmosphere-20260727",
       "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729",
-      "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731"
+      "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
+      "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -3213,6 +3224,17 @@
     "e220692d61247e9cd9120e07acd3647edf1e0fe3",
     "8e39217ab6f926bc018c6c898d9ec8d3bb904405",
     "a4fb16e474201e948e8e94868850213122a0d9f3",
-    "b811358869f11986c29e218c74ac699c880fbd42"
+    "b811358869f11986c29e218c74ac699c880fbd42",
+    "050bd31c9b60a43f96a6e8034ba0d6206668084e",
+    "a945a94091c2482e21be21098c57ded1f7c6177a",
+    "f96a0fd726a59db5b4ec3c5826649920e7c13e2a",
+    "d22068a6e713d75d520178902153bfe325de499f",
+    "dd3d86303d41b0862281e6f3c36915a45125b560",
+    "6ebcdfe307a8ac52ec9ffdfa8a4684b51432ad04",
+    "987e4162773e6e137223bedc17fe12c13526f996",
+    "d7cb77c6d74499a8b887fa48c624fb86a356c708",
+    "2a451f92fdd13578f3b12c38f6336d3be29afe2b",
+    "543c4ed4812ab088c2f41d096cf76ac90b74bb20",
+    "1075d4a715810137eab91940d6b303f6bfec70d4"
   ]
 }
