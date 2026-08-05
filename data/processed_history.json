@@ -55,7 +55,8 @@
       "https://80000hours.org/career-reviews/scaling-organisations",
       "https://80000hours.org/2026/07/why-were-increasing-the-ai-focus-of-our-job-board",
       "https://80000hours.org/podcast/episodes/jasmine-sun-ai-anthropology",
-      "https://80000hours.org/podcast/episodes/spencer-greenberg-existential-risk-mental-health-12-levers"
+      "https://80000hours.org/podcast/episodes/spencer-greenberg-existential-risk-mental-health-12-levers",
+      "https://80000hours.org/podcast/episodes/2026-agi-timelines"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -265,7 +266,8 @@
       "https://seths.blog/2026/08/welcome-back",
       "https://seths.blog/2026/08/the-rowboat",
       "https://seths.blog/2026/08/celebrity-art-2",
-      "https://seths.blog/2026/08/preference-falsification"
+      "https://seths.blog/2026/08/preference-falsification",
+      "https://seths.blog/2026/08/the-disconnect-between-effort-and-value"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -503,7 +505,13 @@
       "https://nautil.us/better-posture-linked-to-better-decision-making-and-mood-1283327",
       "https://nautil.us/less-protein-not-more-may-lead-to-healthier-aging-1283315",
       "https://nautil.us/how-dreaming-drains-your-energy-1283306",
-      "https://nautil.us/this-ichthyosaur-chomped-a-pterosaur-then-got-chomped-by-something-bigger-1283298"
+      "https://nautil.us/this-ichthyosaur-chomped-a-pterosaur-then-got-chomped-by-something-bigger-1283298",
+      "https://nautil.us/these-ancient-sea-worms-have-biometal-jaws-1283391",
+      "https://nautil.us/rec-league-sports-may-be-better-at-building-strong-bones-than-weightlifting-1283384",
+      "https://nautil.us/what-do-people-think-about-1283364",
+      "https://nautil.us/check-out-rare-images-of-borneos-ghosts-of-the-forest-1283351",
+      "https://nautil.us/an-explosion-of-feces-may-have-triggered-earths-explosion-of-species-1283343",
+      "https://nautil.us/the-virtue-of-being-simple-1283320"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -750,7 +758,8 @@
       "https://www.themarginalian.org/2026/08/02/rene-magritte-enchantment",
       "https://www.themarginalian.org/2026/08/02/francis-weller-ordinary",
       "https://www.themarginalian.org/2026/08/01/rose-macaulay-personal-pleasures",
-      "https://www.themarginalian.org/2026/08/03/emily-levine-cold-solace-anna-belle-kaufman"
+      "https://www.themarginalian.org/2026/08/03/emily-levine-cold-solace-anna-belle-kaufman",
+      "https://www.themarginalian.org/2026/08/04/beethoven-ode-to-joy"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1294,7 +1303,8 @@
       "https://www.astralcodexten.com/p/hidden-open-thread-4445",
       "https://www.astralcodexten.com/p/your-book-review-the-epic-of-gilgamesh",
       "https://www.astralcodexten.com/p/open-thread-445",
-      "https://www.astralcodexten.com/p/does-forecasting-have-room-at-the"
+      "https://www.astralcodexten.com/p/does-forecasting-have-room-at-the",
+      "https://www.astralcodexten.com/p/the-beauty-of-settled-science"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -3235,6 +3245,16 @@
     "d7cb77c6d74499a8b887fa48c624fb86a356c708",
     "2a451f92fdd13578f3b12c38f6336d3be29afe2b",
     "543c4ed4812ab088c2f41d096cf76ac90b74bb20",
-    "1075d4a715810137eab91940d6b303f6bfec70d4"
+    "1075d4a715810137eab91940d6b303f6bfec70d4",
+    "c9ce3c847e7ce603be638f8675b2b9f676e2a306",
+    "665747383d9e319323341925d8f9e5da17d353b5",
+    "1772c287a8b86191bc0d6ccbbb82ecafc8e54bea",
+    "cd6bfbbc157e47c864110cde13e4513fb525b2e3",
+    "58e139d0ca5b4ae065372581094a7e7ac2933abd",
+    "a020e0011260b0167b979dcd770b99f4d461233e",
+    "9464051defae0c4654775ee3a1f245c81d2d1302",
+    "a98fe123fba2bc027ee6d1c6f3e37ffd1c95eebf",
+    "f1f4da625630ea3ecc145f92344bf1de343dc36e",
+    "c00028ffcad3218ceaef7c3c9835c8bffb50a572"
   ]
 }
