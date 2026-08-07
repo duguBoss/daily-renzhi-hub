@@ -56,7 +56,8 @@
       "https://80000hours.org/2026/07/why-were-increasing-the-ai-focus-of-our-job-board",
       "https://80000hours.org/podcast/episodes/jasmine-sun-ai-anthropology",
       "https://80000hours.org/podcast/episodes/spencer-greenberg-existential-risk-mental-health-12-levers",
-      "https://80000hours.org/podcast/episodes/2026-agi-timelines"
+      "https://80000hours.org/podcast/episodes/2026-agi-timelines",
+      "https://80000hours.org/podcast/episodes/toby-ord-recursive-self-improvement-agi-timelines"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -86,7 +87,8 @@
       "https://blog.givewell.org/2026/07/13/casting-a-wider-net-for-cost-effective-programs",
       "https://blog.givewell.org/2026/07/23/tackling-diarrheal-disease-in-the-democratic-republic-of-the-congo-drc-and-south-sudan",
       "https://blog.givewell.org/2026/07/23/scaling-our-impact-with-support",
-      "https://blog.givewell.org/2026/08/03/july-2026-updates"
+      "https://blog.givewell.org/2026/08/03/july-2026-updates",
+      "https://blog.givewell.org/2026/08/06/finding-the-bottlenecks-in-family-planning-access"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -268,7 +270,8 @@
       "https://seths.blog/2026/08/celebrity-art-2",
       "https://seths.blog/2026/08/preference-falsification",
       "https://seths.blog/2026/08/the-disconnect-between-effort-and-value",
-      "https://seths.blog/2026/08/the-modern-library"
+      "https://seths.blog/2026/08/the-modern-library",
+      "https://seths.blog/2026/08/as-the-crow-flies"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -519,7 +522,14 @@
       "https://nautil.us/this-image-from-the-dark-energy-camera-is-a-bit-van-gogh-no-1283412",
       "https://nautil.us/people-with-this-neanderthal-hormone-receptor-have-more-muscle-mass-1283409",
       "https://nautil.us/heres-why-there-arent-any-tiny-dinosaurs-1283402",
-      "https://nautil.us/a-new-toad-species-emerges-from-the-la-brea-tar-pits-1283396"
+      "https://nautil.us/a-new-toad-species-emerges-from-the-la-brea-tar-pits-1283396",
+      "https://nautil.us/life-originated-twice-on-earth-1283481",
+      "https://nautil.us/a-one-two-punch-new-drug-overfeeds-then-starves-cancer-cells-1283471",
+      "https://nautil.us/your-big-brain-wouldnt-be-possible-without-sugar-1283454",
+      "https://nautil.us/how-much-do-we-really-want-to-know-about-ufos-1283450",
+      "https://nautil.us/why-longevity-research-should-focus-on-women-1283406",
+      "https://nautil.us/ai-made-me-look-foolish-then-i-learned-1283376",
+      "https://nautil.us/the-best-mars-photos-taken-by-the-curiosity-rover-1283426"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -3275,6 +3285,16 @@
     "09b45b257cd0912793fd82372aa6d01945149e67",
     "c10570b765efb01d8002b40383a74e9b40d7a7b0",
     "0de88f98773c62747764a55a6afe690b7b34a65b",
-    "526a0725a282bb13ea45816f1862a007691aea06"
+    "526a0725a282bb13ea45816f1862a007691aea06",
+    "561c3a1be34a4eed24be6b7136ebe52b45dbff72",
+    "9b6ba10d9dc6980121a7f86a43c24570d6886a4d",
+    "e3219ca0c29d8f0690d455fb7d167af6139bc646",
+    "906e48e932070fb9570e8e1d36da2abfeca4824b",
+    "30cb8018ccc27944aee365c11b1ed7fd72a5ae1f",
+    "e9ad5536111cf768a7d54ac05a2e074bb4af6fed",
+    "1ef55469988365a36c151bea1bbbd40215d6dd5b",
+    "5926af7eb348f32061dcad8633c90c87a5cc9fc9",
+    "fdfa86a994475de9d63780721ec6cfe6d4a7cf96",
+    "91e72d84089d846503b4b397d349e7662b66b175"
   ]
 }
