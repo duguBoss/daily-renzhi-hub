@@ -274,7 +274,8 @@
       "https://seths.blog/2026/08/as-the-crow-flies",
       "https://seths.blog/2026/08/the-mcintosh-modernity-index",
       "https://seths.blog/2026/08/were-all-being-surprised-at-the-same-time",
-      "https://seths.blog/2026/08/give-me-one-reason"
+      "https://seths.blog/2026/08/give-me-one-reason",
+      "https://seths.blog/2026/08/attention-up-for-auction"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -541,7 +542,13 @@
       "https://nautil.us/financial-struggle-can-age-your-brain-1283464",
       "https://nautil.us/new-observatory-captures-more-than-half-a-million-galaxies-in-a-single-image-1283526",
       "https://nautil.us/inside-the-not-so-dumb-head-of-the-dodo-bird-1283522",
-      "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501"
+      "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501",
+      "https://nautil.us/why-doctors-telling-patients-their-symptoms-are-normal-can-backfire-1283597",
+      "https://nautil.us/heres-the-crater-spacexs-rocket-left-on-the-moon-1283581",
+      "https://nautil.us/turtle-sex-determination-just-got-a-lot-weirder-1283575",
+      "https://nautil.us/30-minutes-3-exercises-a-routine-for-an-aging-brain-1283557",
+      "https://nautil.us/when-dreaming-gets-your-heart-moving-1283546",
+      "https://nautil.us/this-supernova-death-of-a-star-broke-all-the-rules-1283530"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -796,7 +803,9 @@
       "https://www.themarginalian.org/2026/08/06/maggie-smith-harrowing",
       "https://www.themarginalian.org/2026/08/05/nathaniel-hawthorne-classification",
       "https://www.themarginalian.org/2026/08/09/pessoa-explorer",
-      "https://www.themarginalian.org/2026/08/09/marcus-aurelius-meditations-robin-waterfield"
+      "https://www.themarginalian.org/2026/08/09/marcus-aurelius-meditations-robin-waterfield",
+      "https://www.themarginalian.org/2026/08/10/alan-watts-love-of-waters",
+      "https://www.themarginalian.org/2026/08/10/nick-cave-humility-curiosity"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1349,7 +1358,8 @@
       "https://www.astralcodexten.com/p/the-beauty-of-settled-science",
       "https://www.astralcodexten.com/p/open-questions-on-open-weights",
       "https://www.astralcodexten.com/p/hidden-open-thread-4455",
-      "https://www.astralcodexten.com/p/macgregor-the-bridge-builder"
+      "https://www.astralcodexten.com/p/macgregor-the-bridge-builder",
+      "https://www.astralcodexten.com/p/open-thread-446"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1481,7 +1491,8 @@
       "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
       "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807",
       "https://www.quantamagazine.org/how-does-touch-lead-to-pain-or-pleasure-20260806",
-      "https://www.quantamagazine.org/corals-spin-tiny-vortices-to-get-oxygen-but-not-if-its-too-hot-20260805"
+      "https://www.quantamagazine.org/corals-spin-tiny-vortices-to-get-oxygen-but-not-if-its-too-hot-20260805",
+      "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -3355,6 +3366,17 @@
     "d0e51b76fd29b4d9bfe69ef758747bf1a1e87518",
     "41f62624a7a698ba720eb150b1e7c8476fd1a3e7",
     "b2176ebff409f5d762cb440e589a4c912af1ed05",
-    "ac94cad701a30fe24756b0f868c74b7f2a1c4a2a"
+    "ac94cad701a30fe24756b0f868c74b7f2a1c4a2a",
+    "cb40313bdb3e8080f1473ab4a264e6f7ea05b2ec",
+    "381691e84cdcad1bdb5e2090d08c4c8f1de23505",
+    "2d32bde40ccc64987f87e5fee2e88389feb09f68",
+    "e66d6ee5e37dfe8c3a3c1afbf4acea4a861a7b95",
+    "2411080d4c744d1f06be68142c8fb353a1df5509",
+    "b56952cbfae80e6fac541261e0c5a90c42816422",
+    "a77c055812825de6677c9a509d75bf0ea12df1a0",
+    "ac2e194ef5150d21a204e9aad79d4ab5bd0d323c",
+    "4ed025dcce444ebca37e35fd7cbe9c7bc0e279fb",
+    "ccda4142e886facd3eb3ec72d5062820ac4de095",
+    "4cdcdd8d484c66f15f5a5cf5bcf3cf51c75214de"
   ]
 }
