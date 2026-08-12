@@ -57,7 +57,8 @@
       "https://80000hours.org/podcast/episodes/jasmine-sun-ai-anthropology",
       "https://80000hours.org/podcast/episodes/spencer-greenberg-existential-risk-mental-health-12-levers",
       "https://80000hours.org/podcast/episodes/2026-agi-timelines",
-      "https://80000hours.org/podcast/episodes/toby-ord-recursive-self-improvement-agi-timelines"
+      "https://80000hours.org/podcast/episodes/toby-ord-recursive-self-improvement-agi-timelines",
+      "https://80000hours.org/podcast/episodes/geoffrey-irving-superintelligence-alignment-theory"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -275,7 +276,8 @@
       "https://seths.blog/2026/08/the-mcintosh-modernity-index",
       "https://seths.blog/2026/08/were-all-being-surprised-at-the-same-time",
       "https://seths.blog/2026/08/give-me-one-reason",
-      "https://seths.blog/2026/08/attention-up-for-auction"
+      "https://seths.blog/2026/08/attention-up-for-auction",
+      "https://seths.blog/2026/08/the-magic-of-a-two-year-waitlist"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -548,7 +550,14 @@
       "https://nautil.us/turtle-sex-determination-just-got-a-lot-weirder-1283575",
       "https://nautil.us/30-minutes-3-exercises-a-routine-for-an-aging-brain-1283557",
       "https://nautil.us/when-dreaming-gets-your-heart-moving-1283546",
-      "https://nautil.us/this-supernova-death-of-a-star-broke-all-the-rules-1283530"
+      "https://nautil.us/this-supernova-death-of-a-star-broke-all-the-rules-1283530",
+      "https://nautil.us/how-our-attraction-to-natural-fixes-can-stymie-climate-progress-1283671",
+      "https://nautil.us/we-wanted-to-create-an-experience-of-microscopic-awe-a-radical-new-view-of-sacred-plants-1283647",
+      "https://nautil.us/who-keeps-spreading-the-seeds-of-this-parasitic-plant-1283643",
+      "https://nautil.us/researchers-return-to-a-forgotten-forest-experiment-30-years-later-with-astounding-results-1283623",
+      "https://nautil.us/the-soviets-drilled-the-deepest-hole-ever-1283561",
+      "https://nautil.us/an-astrobiologists-guide-to-the-best-sci-fi-reads-1283590",
+      "https://nautil.us/why-the-perseids-are-the-most-famous-meteor-shower-1283631"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -805,7 +814,8 @@
       "https://www.themarginalian.org/2026/08/09/pessoa-explorer",
       "https://www.themarginalian.org/2026/08/09/marcus-aurelius-meditations-robin-waterfield",
       "https://www.themarginalian.org/2026/08/10/alan-watts-love-of-waters",
-      "https://www.themarginalian.org/2026/08/10/nick-cave-humility-curiosity"
+      "https://www.themarginalian.org/2026/08/10/nick-cave-humility-curiosity",
+      "https://www.themarginalian.org/2026/08/11/dylan-thomas-do-not-go-gentle-into-that-good-night"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -3377,6 +3387,16 @@
     "ac2e194ef5150d21a204e9aad79d4ab5bd0d323c",
     "4ed025dcce444ebca37e35fd7cbe9c7bc0e279fb",
     "ccda4142e886facd3eb3ec72d5062820ac4de095",
-    "4cdcdd8d484c66f15f5a5cf5bcf3cf51c75214de"
+    "4cdcdd8d484c66f15f5a5cf5bcf3cf51c75214de",
+    "50ca3ac9947bbbc13dc7063b0b407bec2d6f43eb",
+    "778ed7534486b0c323031f30e5232156d98767f1",
+    "dc17f317d2a5962a93f3cc22a38f0dbd9a7cc447",
+    "7a564f2eddbb257f2263b3c80a8205a710694584",
+    "e87f65756854a146527d8dcb9adfdcc748f84b1f",
+    "c25c237e3aacc30b623296a9efd780c4392245b4",
+    "3ecb12cb3c4bee33d44a36adfcec1a0c24d968db",
+    "f8d8fc53a3677554d7bb9dd8522b9140faeca533",
+    "c929971763c458ebca8a8b01c43a568c08d59819",
+    "ad2a70bd95ef18242fb0c6f5bb9bb6de85696a91"
   ]
 }
