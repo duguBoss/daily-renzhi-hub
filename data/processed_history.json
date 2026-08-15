@@ -58,7 +58,8 @@
       "https://80000hours.org/podcast/episodes/spencer-greenberg-existential-risk-mental-health-12-levers",
       "https://80000hours.org/podcast/episodes/2026-agi-timelines",
       "https://80000hours.org/podcast/episodes/toby-ord-recursive-self-improvement-agi-timelines",
-      "https://80000hours.org/podcast/episodes/geoffrey-irving-superintelligence-alignment-theory"
+      "https://80000hours.org/podcast/episodes/geoffrey-irving-superintelligence-alignment-theory",
+      "https://80000hours.org/problem-profiles/loss-of-control"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -279,7 +280,8 @@
       "https://seths.blog/2026/08/attention-up-for-auction",
       "https://seths.blog/2026/08/the-magic-of-a-two-year-waitlist",
       "https://seths.blog/2026/08/beating-yourself-up-2",
-      "https://seths.blog/2026/08/emotional-hygiene"
+      "https://seths.blog/2026/08/emotional-hygiene",
+      "https://seths.blog/2026/08/short-term-dumb-long-term-smart"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -574,7 +576,14 @@
       "https://nautil.us/awe-inspiring-images-from-this-years-solar-eclipse-1283740",
       "https://nautil.us/we-may-have-finally-identified-the-brains-language-network-1283730",
       "https://nautil.us/the-trouble-with-cancer-screening-1283638",
-      "https://nautil.us/an-ice-island-as-big-as-manhattan-just-broke-off-greenland-1283725"
+      "https://nautil.us/an-ice-island-as-big-as-manhattan-just-broke-off-greenland-1283725",
+      "https://nautil.us/the-real-mummys-curse-lurks-online-1283802",
+      "https://nautil.us/where-human-sleep-went-wrong-1283797",
+      "https://nautil.us/the-conditions-on-a-us-aircraft-carrier-sound-concerning-1283806",
+      "https://nautil.us/how-vipers-got-their-venom-1283792",
+      "https://nautil.us/the-extraterrestrial-rings-of-bronze-age-greece-1283789",
+      "https://nautil.us/extreme-space-weather-could-delay-your-next-flight-1283780",
+      "https://nautil.us/in-stunning-color-a-celestial-treasure-chest-full-of-stars-1283773"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1389,7 +1398,8 @@
       "https://www.astralcodexten.com/p/macgregor-the-bridge-builder",
       "https://www.astralcodexten.com/p/open-thread-446",
       "https://www.astralcodexten.com/p/the-quest-for-caffeine-you-can-have",
-      "https://www.astralcodexten.com/p/the-foothills-of-bay-area-house-party"
+      "https://www.astralcodexten.com/p/the-foothills-of-bay-area-house-party",
+      "https://www.astralcodexten.com/p/your-book-review-the-escape-artist"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -3439,6 +3449,16 @@
     "8d384c373b33085fec591c61e479719c0f218d5b",
     "9807e016be3bc655ad258e2acd3a73b35752c0d7",
     "f0aa4e16e1ec961d1ac260971495a706c5dfb726",
-    "3d32c337f36e5d533b8c3168249b17ce39d058d4"
+    "3d32c337f36e5d533b8c3168249b17ce39d058d4",
+    "c52ffbc2c01a364c8f24c2f3cd61efa282468316",
+    "506b8c1e8715bd5b6e9563f90da85a22f395716e",
+    "8f5782eea779b7bca12632c059088b72e41c94c5",
+    "bbf3b0b8a61e58e8ebab11b6813b424713b8f438",
+    "a8052c33543ccacba832058580e01f182cd0ee4b",
+    "a2a8e230cbc0d61743c46d44531f3e32d218558c",
+    "29c93d47135e03df6c4619bde18c9ae6ade2f28e",
+    "6dfbf4ff5dcc958decb6d87abb86e97caffbd2e0",
+    "0df221cf4d7f08024bbb482c82b06ff2cbac1e0e",
+    "b22c634a0ba71347b0ebffa938973baa9859284e"
   ]
 }
