@@ -60,7 +60,8 @@
       "https://80000hours.org/podcast/episodes/toby-ord-recursive-self-improvement-agi-timelines",
       "https://80000hours.org/podcast/episodes/geoffrey-irving-superintelligence-alignment-theory",
       "https://80000hours.org/problem-profiles/loss-of-control",
-      "https://80000hours.org/podcast/episodes/owain-evans-emergent-misalignment"
+      "https://80000hours.org/podcast/episodes/owain-evans-emergent-misalignment",
+      "https://80000hours.org/career-reviews/ai-safety-grantmaking"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -288,7 +289,8 @@
       "https://seths.blog/2026/08/the-amazon-tax",
       "https://seths.blog/2026/08/dont-steal-the-revelation-2",
       "https://seths.blog/2026/08/matters-of-degree",
-      "https://seths.blog/2026/08/assume-misunderstanding"
+      "https://seths.blog/2026/08/assume-misunderstanding",
+      "https://seths.blog/2026/08/dont-eat-if-youre-not-hungry"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -619,7 +621,13 @@
       "https://nautil.us/how-the-ancient-greeks-interpreted-their-dreams-1284046",
       "https://nautil.us/the-secret-lives-of-japanese-temple-frogs-1284039",
       "https://nautil.us/no-one-knows-how-whale-sharks-give-birth-but-this-neonatal-shark-discovery-provides-some-clues-1284017",
-      "https://nautil.us/the-return-of-a-discredited-pseudoscience-1283873"
+      "https://nautil.us/the-return-of-a-discredited-pseudoscience-1283873",
+      "https://nautil.us/the-remarkable-lives-of-5-year-old-brain-organoids-1284120",
+      "https://nautil.us/are-you-in-danger-of-becoming-a-robot-1284114",
+      "https://nautil.us/a-peek-inside-the-pompeii-of-greece-1284099",
+      "https://nautil.us/dolphins-eavesdrop-on-their-prey-and-each-other-1284095",
+      "https://nautil.us/ai-can-see-optical-illusions-1284064",
+      "https://nautil.us/why-human-giants-defy-the-laws-of-physics-1284028"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1451,7 +1459,8 @@
       "https://www.astralcodexten.com/p/your-book-review-the-escape-artist",
       "https://www.astralcodexten.com/p/open-thread-447",
       "https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack",
-      "https://www.astralcodexten.com/p/college-ea-meetups-everywhere-call"
+      "https://www.astralcodexten.com/p/college-ea-meetups-everywhere-call",
+      "https://www.astralcodexten.com/p/your-book-review-a-residence-of-21"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1589,7 +1598,8 @@
       "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814",
       "https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817",
       "https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819",
-      "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820"
+      "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820",
+      "https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -3579,6 +3589,16 @@
     "56491f01e200d1621419032c91558ee4a708580a",
     "e18e44242296b8d38f6c00ce6e2d74afac24f975",
     "6621e8100ab54e354d9848f927fbae1d30be1afc",
-    "a91332fd308d23af4c644e495bf5978c27184edf"
+    "a91332fd308d23af4c644e495bf5978c27184edf",
+    "9f1ea96bfdeef24623290a481a0c7977340e266d",
+    "c789359284c76ec7ac808dfe6f2623dae5888d67",
+    "271d13cbb775b1b3bccec69f06302d0609acbd6e",
+    "e003fb5f30f07eb070d804ccfd768bda3cf8cc92",
+    "2a8deda8e457f236229a95f8d7c3868bf2db8351",
+    "d497aa848a12c4a109c2251617c1033b61134d31",
+    "8f5b4afcc4bff495dce901d59448dff308677b6c",
+    "15d9cb7936277e05d678a4f5f20fb1a36e37682b",
+    "31a48ea32cb29dd04a8fed5d7dc41db62e1c966c",
+    "ebc2761673099060802b34ca97b8f6af6bacdd85"
   ]
 }
