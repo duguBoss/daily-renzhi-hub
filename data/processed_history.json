@@ -1096,7 +1096,8 @@
       "https://longreads.com/2026/06/11/womens-travel-writing-lavinia-spalding",
       "https://longreads.com/2026/06/10/breast-cancer-sun-magazine",
       "https://longreads.com/2026/06/10/vulture-decline-rabies-india",
-      "https://longreads.com/2026/06/10/meta-neural-band-wearable-tech-prototype"
+      "https://longreads.com/2026/06/10/meta-neural-band-wearable-tech-prototype",
+      "https://longreads.com/2026/08/21/climate-crisis-european-summer"
     ],
     "https://forum.effectivealtruism.org/.rss": [
       "https://forum.effectivealtruism.org/posts/vHGseBxE63uqxzGYS/carving-up-the-future",
@@ -1488,7 +1489,9 @@
       "https://scottaaronson.blog/?p=9851",
       "https://scottaaronson.blog/?p=9930",
       "https://scottaaronson.blog/?p=9940",
-      "https://scottaaronson.blog/?p=9949"
+      "https://scottaaronson.blog/?p=9949",
+      "https://scottaaronson.blog/?p=10020",
+      "https://scottaaronson.blog/?p=10014"
     ],
     "https://www.lesswrong.com/feed.xml?view=curated-rss": [
       "https://www.lesswrong.com/posts/KWdtL8iyCCiYud9mw/persona-parasitology",
@@ -1529,7 +1532,8 @@
       "https://www.lesswrong.com/posts/pFzctpJBat95SrCyC/ai-2040-plan-a",
       "https://www.lesswrong.com/posts/yDZcsojmRXo5qKNBm/surprising-facts-about-the-slave-trade",
       "https://www.lesswrong.com/posts/sF5gAxnmifQe2TBNt/the-worthlessness-of-vitamin-d-is-mildly-exaggerated",
-      "https://www.lesswrong.com/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2"
+      "https://www.lesswrong.com/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
+      "https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -1830,7 +1834,13 @@
       "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts",
       "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
       "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai",
-      "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation"
+      "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation",
+      "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit",
+      "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky",
+      "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap",
+      "https://www.technologyreview.com/2026/08/20/1142579/the-download-polycrisis-support-networks-underground-hydrogen-gold-rush",
+      "https://www.technologyreview.com/2026/08/20/1142512/geologic-hydrogen-hunt",
+      "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models"
     ],
     "https://newsletter.safe.ai/feed": [
       "https://newsletter.safe.ai/p/ai-safety-newsletter-70-ai-layoffs",
@@ -3599,6 +3609,16 @@
     "8f5b4afcc4bff495dce901d59448dff308677b6c",
     "15d9cb7936277e05d678a4f5f20fb1a36e37682b",
     "31a48ea32cb29dd04a8fed5d7dc41db62e1c966c",
-    "ebc2761673099060802b34ca97b8f6af6bacdd85"
+    "ebc2761673099060802b34ca97b8f6af6bacdd85",
+    "3a04b7a5e8ef06318c0c334e0a8907ebadde26bd",
+    "dd062096668517c9df9be34a1d156f72dd07d89b",
+    "ca65b727ad2cd2384a3d07cbb2a728327322645f",
+    "c5025d0bd6bdbb524e0c45eccf9d883de0bbbccf",
+    "05f076c434c3d3cfbf758294543d935e30fe13bd",
+    "e4fb54af2c80c9a71795ea67654e307acf3ec5a8",
+    "ff63873353159d52259e4fea492f77a04c32c292",
+    "eb023e0a893b5072428c4a64debb77ee71710fe0",
+    "ccb21300c93c0291e5591d0327cc9a4a6bcb249a",
+    "9488290e67e8da65eed3d5fd03081da1e50d1810"
   ]
 }
