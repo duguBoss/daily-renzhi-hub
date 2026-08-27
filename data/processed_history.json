@@ -61,7 +61,8 @@
       "https://80000hours.org/podcast/episodes/geoffrey-irving-superintelligence-alignment-theory",
       "https://80000hours.org/problem-profiles/loss-of-control",
       "https://80000hours.org/podcast/episodes/owain-evans-emergent-misalignment",
-      "https://80000hours.org/career-reviews/ai-safety-grantmaking"
+      "https://80000hours.org/career-reviews/ai-safety-grantmaking",
+      "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2040-plan-a"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -93,7 +94,8 @@
       "https://blog.givewell.org/2026/07/23/scaling-our-impact-with-support",
       "https://blog.givewell.org/2026/08/03/july-2026-updates",
       "https://blog.givewell.org/2026/08/06/finding-the-bottlenecks-in-family-planning-access",
-      "https://blog.givewell.org/2026/08/24/announcing-our-largest-grant-to-date"
+      "https://blog.givewell.org/2026/08/24/announcing-our-largest-grant-to-date",
+      "https://blog.givewell.org/2026/08/27/the-research-behind-our-276-million-grant-for-malaria-nets-in-drc"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -295,7 +297,8 @@
       "https://seths.blog/2026/08/thanks-for-your-quick-response",
       "https://seths.blog/2026/08/the-drucker-drift",
       "https://seths.blog/2026/08/on-the-verge-of-done",
-      "https://seths.blog/2026/08/hiding-out-in-higher-ed"
+      "https://seths.blog/2026/08/hiding-out-in-higher-ed",
+      "https://seths.blog/2026/08/we-say-we-want-a-revolution-2"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -320,7 +323,8 @@
       "https://fs.blog/knowledge-project-podcast/kaz-nejatian",
       "https://fs.blog/knowledge-project-podcast/outliers-john-d-rockefeller",
       "https://fs.blog/knowledge-project-podcast/brad-jacobs-2",
-      "https://fs.blog/knowledge-project-podcast/david-baszucki"
+      "https://fs.blog/knowledge-project-podcast/david-baszucki",
+      "https://fs.blog/knowledge-project-podcast/geoffrey-cain"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -643,7 +647,13 @@
       "https://nautil.us/20-minutes-of-exercise-is-as-good-as-a-90-minute-nap-if-youre-sleep-deprived-1284348",
       "https://nautil.us/this-one-in-a-million-fossil-has-450-million-year-old-soft-tissue-1284340",
       "https://nautil.us/the-resistance-is-here-1283887",
-      "https://nautil.us/small-iguanodon-fossil-sheds-light-on-dino-diversity-1284182"
+      "https://nautil.us/small-iguanodon-fossil-sheds-light-on-dino-diversity-1284182",
+      "https://nautil.us/meet-the-vegan-draculas-of-australia-1284543",
+      "https://nautil.us/archaeologists-just-found-a-fascinating-ancient-statue-used-as-a-paving-stone-in-a-roman-road-1284531",
+      "https://nautil.us/how-much-of-a-problem-is-ais-water-use-1284519",
+      "https://nautil.us/nasa-is-counting-down-to-the-launch-of-the-nancy-grace-roman-space-telescope-1284513",
+      "https://nautil.us/the-kitchen-of-the-realm-even-the-commoners-ate-well-in-ancient-osaka-1284509",
+      "https://nautil.us/how-we-decide-who-deserves-our-help-1284505"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -3679,6 +3689,16 @@
     "088924073457299f8944a4d5f271c13f3511f644",
     "299c9bde91f7b19be714a587765e783e98e90012",
     "ad668ace8ade43df55e72c91658e0adfa75d6640",
-    "c6eb32de38ba198c067e1c12a0b54fc4f3906cde"
+    "c6eb32de38ba198c067e1c12a0b54fc4f3906cde",
+    "fdb813fd8d3f7b9c2f3316636f1148e4880d914b",
+    "72f03ae15c8312dd1e5d33961fd16e9d2b7ec1d4",
+    "f59d4f549283a0110221bc6a5e8dc17709172689",
+    "b9ecd2ebcecebb565fa2a9c7e62d07e8e3b001dd",
+    "b77bcb92a23685a42735f135012128b190882be2",
+    "814d1ad7ba87b667469409769fe4b8d5b635f514",
+    "ab0d098896eedfa2237d674b161758564c8fe67f",
+    "53a6aacb1eeea0d109294cbcd18c10c54b44c92c",
+    "38d119653d2cf1d1625a5e3cf7cadbdd0d2b47dd",
+    "77c8b9f1bc2c7bd1ba2123019caa71a71765e9b6"
   ]
 }
