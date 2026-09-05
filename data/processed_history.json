@@ -62,7 +62,8 @@
       "https://80000hours.org/problem-profiles/loss-of-control",
       "https://80000hours.org/podcast/episodes/owain-evans-emergent-misalignment",
       "https://80000hours.org/career-reviews/ai-safety-grantmaking",
-      "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2040-plan-a"
+      "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2040-plan-a",
+      "https://80000hours.org/podcast/episodes/hugging-face-hack"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -309,7 +310,8 @@
       "https://seths.blog/2026/09/apophenia-cuts-both-ways",
       "https://seths.blog/2026/09/enrollment-and-learning",
       "https://seths.blog/2026/09/what-it-is-like-to-be-a-dog",
-      "https://seths.blog/2026/09/an-end-to-fully-open-networks"
+      "https://seths.blog/2026/09/an-end-to-fully-open-networks",
+      "https://seths.blog/2026/09/homo-habilis"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -699,7 +701,13 @@
       "https://nautil.us/your-home-is-crawling-with-microplastics-1284761",
       "https://nautil.us/no-two-people-age-in-the-same-way-1284757",
       "https://nautil.us/envy-at-the-ballot-box-1284752",
-      "https://nautil.us/30-minutes-of-exercise-can-boost-your-task-switching-efficiency-1284737"
+      "https://nautil.us/30-minutes-of-exercise-can-boost-your-task-switching-efficiency-1284737",
+      "https://nautil.us/your-boss-is-watching-you-1284806",
+      "https://nautil.us/ancient-coins-reveal-a-wealth-of-information-about-the-roman-republic-1284847",
+      "https://nautil.us/your-smartwatch-may-not-be-as-smart-as-you-think-it-is-1284836",
+      "https://nautil.us/can-nature-benefit-you-if-youre-already-well-1284801",
+      "https://nautil.us/chimps-have-accents-too-1284795",
+      "https://nautil.us/the-extinct-american-cheetah-wasnt-a-cheetah-after-all-1284777"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -995,7 +1003,8 @@
       "https://www.themarginalian.org/2026/09/02/zero-robert-kaplan",
       "https://www.themarginalian.org/2026/09/01/c-s-lewis-longing",
       "https://www.themarginalian.org/2026/09/01/thich-nhat-hanh-listening-love",
-      "https://www.themarginalian.org/2026/09/03/wislawa-szymborska-nobel-speech"
+      "https://www.themarginalian.org/2026/09/03/wislawa-szymborska-nobel-speech",
+      "https://www.themarginalian.org/2026/09/04/rumi-love-gold"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1573,7 +1582,8 @@
       "https://www.astralcodexten.com/p/open-thread-449",
       "https://www.astralcodexten.com/p/nicholas-decker-in-hell",
       "https://www.astralcodexten.com/p/absurd-adventure-and-amygdalectomy",
-      "https://www.astralcodexten.com/p/college-ea-meetups-everywhere-times"
+      "https://www.astralcodexten.com/p/college-ea-meetups-everywhere-times",
+      "https://www.astralcodexten.com/p/your-book-review-the-tale-of-genji"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -3859,6 +3869,16 @@
     "e111d8ed63428d2ee352e86dc8fe73809eabdf32",
     "ce4b494ccf5eb60671deae36cd5c24907fc5afe8",
     "75e185a602ad2086ef869a04c3a7a5183a6eaa73",
-    "82d1bfe7a06a090f66d997a61600b7253e765641"
+    "82d1bfe7a06a090f66d997a61600b7253e765641",
+    "6206c6b3208596bd8c2cedb8ddf520862dbdf122",
+    "a375be1fa3a5cd4ddc97e40e19d5afb449f11988",
+    "10aa0c3baba7214b432fbf210c646d899173a9a5",
+    "294883a1693126690f36ff7728946a89187974d7",
+    "3e42b898d1726e7b8fb8eca9bfc4702e7d894c35",
+    "a932ff37960d8dfbcedc902e92e4de28f016c953",
+    "55ced421e50561236c47416b857241cba43e84fb",
+    "aaf3286eb9187574483699f4f3380b7c18a200ee",
+    "cebff90c65820d18d698eb4b37c0bd158035006d",
+    "68549139d0a26f583a68bd7c3b2123d9d799aea9"
   ]
 }
