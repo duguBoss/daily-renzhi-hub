@@ -313,7 +313,8 @@
       "https://seths.blog/2026/09/an-end-to-fully-open-networks",
       "https://seths.blog/2026/09/homo-habilis",
       "https://seths.blog/2026/09/the-lab-the-factory-and-the-dentist",
-      "https://seths.blog/2026/09/the-reality-of-sunk-costs"
+      "https://seths.blog/2026/09/the-reality-of-sunk-costs",
+      "https://seths.blog/2026/09/i-dont-know-2"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -712,7 +713,9 @@
       "https://nautil.us/the-extinct-american-cheetah-wasnt-a-cheetah-after-all-1284777",
       "https://nautil.us/many-space-missions-are-searching-for-life-beyond-earth-but-are-we-prepared-for-the-fallout-if-they-succeed-1284812",
       "https://nautil.us/whats-creating-these-mysterious-seafloor-hexagons-1284850",
-      "https://nautil.us/after-an-8-year-journey-orbiters-are-about-to-give-us-a-fresh-look-at-mercury-1284822"
+      "https://nautil.us/after-an-8-year-journey-orbiters-are-about-to-give-us-a-fresh-look-at-mercury-1284822",
+      "https://nautil.us/why-some-ants-are-lazy-freeloaders-1284862",
+      "https://nautil.us/what-archaeology-reveals-about-the-rise-of-all-powerful-rulers-1284855"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1018,7 +1021,9 @@
       "https://www.themarginalian.org/2026/09/03/wendell-berry-pride-despair-solitude",
       "https://www.themarginalian.org/2026/09/06/alejandro-jorodowsky-tarot",
       "https://www.themarginalian.org/2026/09/06/how-to-apologize-ellen-bass",
-      "https://www.themarginalian.org/2026/09/06/erich-fromm-the-art-of-listening"
+      "https://www.themarginalian.org/2026/09/06/erich-fromm-the-art-of-listening",
+      "https://www.themarginalian.org/2026/09/07/dont-waste-your-wildness",
+      "https://www.themarginalian.org/2026/09/06/tove-jansson-letters-tuulikki-pietila"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1508,7 +1513,8 @@
       "https://www.experimental-history.com/p/the-decline-of-deviance-2",
       "https://www.experimental-history.com/p/blog-jamboree-2026-the-winners",
       "https://www.experimental-history.com/p/incentives-are-for-losers",
-      "https://www.experimental-history.com/p/actually-good-advice"
+      "https://www.experimental-history.com/p/actually-good-advice",
+      "https://www.experimental-history.com/p/i-like-em-thick"
     ],
     "https://www.astralcodexten.com/feed": [
       "https://www.astralcodexten.com/p/being-john-rawls",
@@ -1603,7 +1609,8 @@
       "https://www.astralcodexten.com/p/absurd-adventure-and-amygdalectomy",
       "https://www.astralcodexten.com/p/college-ea-meetups-everywhere-times",
       "https://www.astralcodexten.com/p/your-book-review-the-tale-of-genji",
-      "https://www.astralcodexten.com/p/open-thread-450"
+      "https://www.astralcodexten.com/p/open-thread-450",
+      "https://www.astralcodexten.com/p/god-help-us-lets-try-to-learn-about"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1860,7 +1867,10 @@
       "https://www.overcomingbias.com/p/no-new-physics-consciousness",
       "https://www.overcomingbias.com/p/digital-mind-suicide",
       "https://www.overcomingbias.com/p/tool-vs-companion-digital-minds",
-      "https://www.overcomingbias.com/p/how-to-be-a-usually-right-contrarian"
+      "https://www.overcomingbias.com/p/how-to-be-a-usually-right-contrarian",
+      "https://www.overcomingbias.com/p/what-hidden-motives-imply",
+      "https://www.overcomingbias.com/p/your-conscience-is-not-a-moral-oracle",
+      "https://www.overcomingbias.com/p/disclosure-seems-unlikely"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -3919,6 +3929,16 @@
     "f6aecc39c7e5657bdb09d7d206b2a3db445ae692",
     "7bde749cd773f1ff50791d4d6f0d5c27787440bd",
     "d6274176eccb198e2c993cdc8c409f5ad7a749c3",
-    "acfc1fb7b47da6154a62c87634ecf8148fd2334c"
+    "acfc1fb7b47da6154a62c87634ecf8148fd2334c",
+    "0055d5534da7ac057d6318ba01dd6271f71371b2",
+    "c8326fdfcbf2aa4bf82d079fc2e663637f967fe2",
+    "5ff707a98b25843a75ab7aa9fd2a862f47398cd4",
+    "f4ed5ff41bdb47c818f1bde2862861e54a7ca912",
+    "423029df5ee9edd5890f54e806730d62ccfdb518",
+    "aa7d86157b9586398db5dc1edb09e955ae5457f8",
+    "cd6f6b76cdb5db5f440732cda86463db7fe39048",
+    "82288c1118142e41638c74feccdca2757fdeffa5",
+    "37fed47e5fec918160ad32e15f8cac264172d3e9",
+    "638ff74f34be5ae7bb9f06972f15ff6881669faf"
   ]
 }
