@@ -315,7 +315,8 @@
       "https://seths.blog/2026/09/the-lab-the-factory-and-the-dentist",
       "https://seths.blog/2026/09/the-reality-of-sunk-costs",
       "https://seths.blog/2026/09/i-dont-know-2",
-      "https://seths.blog/2026/09/two-schools-of-thought-about-school"
+      "https://seths.blog/2026/09/two-schools-of-thought-about-school",
+      "https://seths.blog/2026/09/how-much-extra-for-not-lazy"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -341,7 +342,8 @@
       "https://fs.blog/knowledge-project-podcast/outliers-john-d-rockefeller",
       "https://fs.blog/knowledge-project-podcast/brad-jacobs-2",
       "https://fs.blog/knowledge-project-podcast/david-baszucki",
-      "https://fs.blog/knowledge-project-podcast/geoffrey-cain"
+      "https://fs.blog/knowledge-project-podcast/geoffrey-cain",
+      "https://fs.blog/knowledge-project-podcast/tobi-lutke-3"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -723,7 +725,12 @@
       "https://nautil.us/nasas-new-experimental-jet-promises-supersonic-flight-without-the-sonic-booms-1284883",
       "https://nautil.us/this-new-devil-flower-species-doesnt-photosynthesize-1284872",
       "https://nautil.us/male-sex-reversed-frogs-hold-their-own-in-fertility-competitions-1284867",
-      "https://nautil.us/the-elegance-of-a-stupid-question-1284839"
+      "https://nautil.us/the-elegance-of-a-stupid-question-1284839",
+      "https://nautil.us/twin-spirit-galaxies-are-on-a-collision-course-1284904",
+      "https://nautil.us/could-you-survive-the-oregon-trail-1284907",
+      "https://nautil.us/elephants-think-before-they-act-1284893",
+      "https://nautil.us/does-consciousness-require-a-body-1284886",
+      "https://nautil.us/an-astrophysicists-favorite-books-on-cosmology-1284896"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1032,7 +1039,8 @@
       "https://www.themarginalian.org/2026/09/06/erich-fromm-the-art-of-listening",
       "https://www.themarginalian.org/2026/09/07/dont-waste-your-wildness",
       "https://www.themarginalian.org/2026/09/06/tove-jansson-letters-tuulikki-pietila",
-      "https://www.themarginalian.org/2026/09/08/kahlil-gibran-prophet-love"
+      "https://www.themarginalian.org/2026/09/08/kahlil-gibran-prophet-love",
+      "https://www.themarginalian.org/2026/09/09/how-to-change-your-life"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1619,7 +1627,8 @@
       "https://www.astralcodexten.com/p/college-ea-meetups-everywhere-times",
       "https://www.astralcodexten.com/p/your-book-review-the-tale-of-genji",
       "https://www.astralcodexten.com/p/open-thread-450",
-      "https://www.astralcodexten.com/p/god-help-us-lets-try-to-learn-about"
+      "https://www.astralcodexten.com/p/god-help-us-lets-try-to-learn-about",
+      "https://www.astralcodexten.com/p/royce-on-san-francisco"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1770,7 +1779,8 @@
       "https://www.quantamagazine.org/genome-duplication-is-a-radical-evolutionary-gamble-20260902",
       "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903",
       "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903",
-      "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908"
+      "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908",
+      "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -3959,6 +3969,16 @@
     "195bb501a1cfdc5badfd61a2948fc374fcf7da2b",
     "e9cad44382d9b903b067766971b6e1c52bbde553",
     "ec0b051d19c8e3e55fe74c9589391cf02ee436d8",
-    "ff6b7cc5b4ff3ce3d0124287bd2221a4ca8f9457"
+    "ff6b7cc5b4ff3ce3d0124287bd2221a4ca8f9457",
+    "d54a68b964b31639c304b00f013ddd89e6ad3704",
+    "856ea23571831fcb2f70668cbf99f3393120c3ac",
+    "7022ae7ba8a2a0ea14643f6c2286eb7c35a55f75",
+    "6d7c1a8296012094a15e49e5fe49ba1d38761e11",
+    "55f4dc4911eecbb86ddfa068067c8e1212e025ec",
+    "fd1a82317e31133196562dcd7ba60c0864ade064",
+    "71774493ec67775f74a3019e9cc06cf0eebc5540",
+    "0435ff4353822f9a9de45ea21c439b65d542d177",
+    "ee5764d7c3aa0fd78ff069d08dabb204eb596f9e",
+    "42e486472cf3c3a78cddf18d4c36fa1c067f21f0"
   ]
 }
