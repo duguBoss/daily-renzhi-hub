@@ -63,7 +63,8 @@
       "https://80000hours.org/podcast/episodes/owain-evans-emergent-misalignment",
       "https://80000hours.org/career-reviews/ai-safety-grantmaking",
       "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2040-plan-a",
-      "https://80000hours.org/podcast/episodes/hugging-face-hack"
+      "https://80000hours.org/podcast/episodes/hugging-face-hack",
+      "https://80000hours.org/podcast/episodes/the-goodhart-singularity"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -316,7 +317,9 @@
       "https://seths.blog/2026/09/the-reality-of-sunk-costs",
       "https://seths.blog/2026/09/i-dont-know-2",
       "https://seths.blog/2026/09/two-schools-of-thought-about-school",
-      "https://seths.blog/2026/09/how-much-extra-for-not-lazy"
+      "https://seths.blog/2026/09/how-much-extra-for-not-lazy",
+      "https://seths.blog/2026/09/solace",
+      "https://seths.blog/2026/09/things-are-humming"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -730,7 +733,14 @@
       "https://nautil.us/could-you-survive-the-oregon-trail-1284907",
       "https://nautil.us/elephants-think-before-they-act-1284893",
       "https://nautil.us/does-consciousness-require-a-body-1284886",
-      "https://nautil.us/an-astrophysicists-favorite-books-on-cosmology-1284896"
+      "https://nautil.us/an-astrophysicists-favorite-books-on-cosmology-1284896",
+      "https://nautil.us/inside-ibms-new-quantum-computing-fridges-180-times-colder-than-deep-space-1284948",
+      "https://nautil.us/ai-engineers-are-having-their-oppenheimer-destroyer-of-worlds-moment-1284956",
+      "https://nautil.us/a-natural-solution-to-the-replication-crisis-in-science-1284942",
+      "https://nautil.us/what-bird-feeding-has-to-do-with-happiness-1284926",
+      "https://nautil.us/rethinking-the-mechanisms-of-alzheimers-disease-1284912",
+      "https://nautil.us/how-did-birds-outlive-the-other-dinosaurs-1284920",
+      "https://nautil.us/this-snakes-tail-has-a-fake-spider-at-the-tip-1284917"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -3979,6 +3989,16 @@
     "71774493ec67775f74a3019e9cc06cf0eebc5540",
     "0435ff4353822f9a9de45ea21c439b65d542d177",
     "ee5764d7c3aa0fd78ff069d08dabb204eb596f9e",
-    "42e486472cf3c3a78cddf18d4c36fa1c067f21f0"
+    "42e486472cf3c3a78cddf18d4c36fa1c067f21f0",
+    "a83f72f92f5b64ba8c7e37da6dcfee744590a5b1",
+    "ab66dcad8338b46be267fdf955aed5f0f79a13f8",
+    "a5ef52540458bc8e6d957a2c130afeb335601d8a",
+    "317ce653875f1138736d9ff732f17ead283b5f68",
+    "5976fec5a96d56a22d374c099cb0aed82bffc2df",
+    "6c99a0d6ff4684b705c492050a2ba75b4cc76f0f",
+    "c94de9d843b1ca79658b0d1c300081259aa2e725",
+    "6827214699048ec9d088fd9fbc71b3ee2512dcf3",
+    "13a6e1981d9771408cbb3a3b8f234d5fb5d30050",
+    "f846adc57581a1b080adb80f2ba3a0fd062d4081"
   ]
 }
