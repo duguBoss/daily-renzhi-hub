@@ -321,7 +321,8 @@
       "https://seths.blog/2026/09/solace",
       "https://seths.blog/2026/09/things-are-humming",
       "https://seths.blog/2026/09/the-daily-review",
-      "https://seths.blog/2026/09/when-does-it-become-a-lecture"
+      "https://seths.blog/2026/09/when-does-it-become-a-lecture",
+      "https://seths.blog/2026/09/canceling-one-flight"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -750,7 +751,9 @@
       "https://nautil.us/genetically-engineered-yeast-could-transform-martian-soil-into-living-building-materials-1284972",
       "https://nautil.us/nighttime-light-may-change-the-shape-of-your-heart-1284967",
       "https://nautil.us/the-moon-may-have-been-created-in-just-five-hours-1284952",
-      "https://nautil.us/gondwana-really-was-a-supercontinent-1284991"
+      "https://nautil.us/gondwana-really-was-a-supercontinent-1284991",
+      "https://nautil.us/the-promise-and-peril-of-toad-smoking-the-everest-of-psychedelics-1284999",
+      "https://nautil.us/why-the-discovery-of-the-first-short-tailed-tsushima-leopard-cat-worried-researchers-1285013"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1065,7 +1068,10 @@
       "https://www.themarginalian.org/2026/09/11/why-leaves-change-color",
       "https://www.themarginalian.org/2026/09/10/alan-watts-unspeakable-world",
       "https://www.themarginalian.org/2026/09/10/albert-camus-almond-trees-character",
-      "https://www.themarginalian.org/2026/09/09/the-light-eaters"
+      "https://www.themarginalian.org/2026/09/09/the-light-eaters",
+      "https://www.themarginalian.org/2026/09/13/seneca-friendship",
+      "https://www.themarginalian.org/2026/09/13/dawn-redwood-metasequoia",
+      "https://www.themarginalian.org/2026/09/13/the-extended-mind"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1656,7 +1662,8 @@
       "https://www.astralcodexten.com/p/your-book-review-the-tale-of-genji",
       "https://www.astralcodexten.com/p/open-thread-450",
       "https://www.astralcodexten.com/p/god-help-us-lets-try-to-learn-about",
-      "https://www.astralcodexten.com/p/royce-on-san-francisco"
+      "https://www.astralcodexten.com/p/royce-on-san-francisco",
+      "https://www.astralcodexten.com/p/open-thread-451"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1810,7 +1817,8 @@
       "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908",
       "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909",
       "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911",
-      "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910"
+      "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910",
+      "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -1920,7 +1928,9 @@
       "https://www.overcomingbias.com/p/how-to-be-a-usually-right-contrarian",
       "https://www.overcomingbias.com/p/what-hidden-motives-imply",
       "https://www.overcomingbias.com/p/your-conscience-is-not-a-moral-oracle",
-      "https://www.overcomingbias.com/p/disclosure-seems-unlikely"
+      "https://www.overcomingbias.com/p/disclosure-seems-unlikely",
+      "https://www.overcomingbias.com/p/ai-vs-human-value-drift",
+      "https://www.overcomingbias.com/p/ai-pause-regs-look-risky"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -4039,6 +4049,16 @@
     "e101efdbf724c203107f4aadc6785ba390182da7",
     "0d9602e5bec54ecff1ff70ceaf441e8dc2bdd6ac",
     "4fcc7eb288b6e1e0f1b850f5bf052f846cc04588",
-    "33c469ab6e78d59676a16e5b00fb707880be8398"
+    "33c469ab6e78d59676a16e5b00fb707880be8398",
+    "e75681cca6075008404de6b461d637631e055388",
+    "1846eae13fa2a9af346e57ee13e8d315d4fed088",
+    "5cc7adcd7cfa5ba0b2cca878ede24a7372bb9751",
+    "30d3ad322c16143b6030744cbcf34734df1b3fe8",
+    "b58f2f0405a9536b1b7972c162ecf16b011377f4",
+    "622c8be54c5e791395914cf62e050f6673dc33b6",
+    "27e8859cadef5cae9fa5ffa412d80856a177b825",
+    "ff45cbeb3cdc5766d45f12df2013c7086f5785c3",
+    "2951109ee2ae4d2c68bd6f408450d0fe4800c556",
+    "c29a915dfcd6e93a50773ad1c8b84b6686bbc0af"
   ]
 }
