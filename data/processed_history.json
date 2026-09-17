@@ -64,7 +64,8 @@
       "https://80000hours.org/career-reviews/ai-safety-grantmaking",
       "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2040-plan-a",
       "https://80000hours.org/podcast/episodes/hugging-face-hack",
-      "https://80000hours.org/podcast/episodes/the-goodhart-singularity"
+      "https://80000hours.org/podcast/episodes/the-goodhart-singularity",
+      "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-3-months"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -324,7 +325,8 @@
       "https://seths.blog/2026/09/when-does-it-become-a-lecture",
       "https://seths.blog/2026/09/canceling-one-flight",
       "https://seths.blog/2026/09/maps-and-a-compass",
-      "https://seths.blog/2026/09/work-isnt-optional"
+      "https://seths.blog/2026/09/work-isnt-optional",
+      "https://seths.blog/2026/09/gfi-and-the-alternative"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -767,7 +769,15 @@
       "https://nautil.us/mercury-has-gotten-smaller-than-we-thought-1285044",
       "https://nautil.us/a-process-made-for-mars-is-now-uncovering-ancient-art-on-earth-1285039",
       "https://nautil.us/heres-how-fast-an-adult-tyrannosaurus-rex-walked-1285033",
-      "https://nautil.us/how-your-brain-see-saws-between-risk-and-reward-1285030"
+      "https://nautil.us/how-your-brain-see-saws-between-risk-and-reward-1285030",
+      "https://nautil.us/seeking-a-trippy-placebo-1285089",
+      "https://nautil.us/the-story-of-walking-upright-is-written-in-the-bones-of-our-ancestors-1285086",
+      "https://nautil.us/chimps-hand-down-tools-across-generations-1285081",
+      "https://nautil.us/cold-weather-could-predict-an-increase-in-heart-attacks-three-days-in-advance-1285074",
+      "https://nautil.us/what-grok-and-claude-have-to-say-about-the-ai-apocalypse-1285077",
+      "https://nautil.us/we-finally-know-tyrannosaurus-rexs-body-temperature-1285067",
+      "https://nautil.us/the-ancient-mammal-that-changes-our-understanding-of-dinosaur-origins-1285071",
+      "https://nautil.us/the-crescent-nebula-a-gas-bubble-surrounding-a-violently-dying-star-1285062"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -4099,6 +4109,16 @@
     "0bb69ba757d8b8406a7a9cee24b502a16168d085",
     "3381eb4097ba951b5dbf4f1fb07197c7d85b21b9",
     "457e462d20796431f467fa0458a37013c5a3ef78",
-    "976bce0ceee8c8fe91b93a79a14e8290b1744888"
+    "976bce0ceee8c8fe91b93a79a14e8290b1744888",
+    "4be6e3a253f4a291fbb26c58430c47ac90de8683",
+    "9309cd4a4209d14706c417412322d1ce3daad207",
+    "0357a298be31c630d68674e368002f3f6437ab50",
+    "61be18158e55800b0cc913acae1bd62628864bd2",
+    "6b8ec82030c7c38c2c11e13499adf3ffcbecc5c2",
+    "ce6523aa29ea7824695665731307941955b42ab5",
+    "180021468f8a2105340e3a5669de202db2664fb0",
+    "db96dabb5b59484b6c5ae3ac05c3ca80b42019c1",
+    "c9f14286a8b22e1683b45cc93f3f72cd7cf9bcae",
+    "337804d1ae499febe8873ee8069cd7a5c44f58d5"
   ]
 }
