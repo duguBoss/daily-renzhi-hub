@@ -65,7 +65,9 @@
       "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2040-plan-a",
       "https://80000hours.org/podcast/episodes/hugging-face-hack",
       "https://80000hours.org/podcast/episodes/the-goodhart-singularity",
-      "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-3-months"
+      "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-3-months",
+      "https://80000hours.org/podcast/episodes/max-nadeau-project-tailwind-technical-ai-grants",
+      "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-three-months"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -326,7 +328,8 @@
       "https://seths.blog/2026/09/canceling-one-flight",
       "https://seths.blog/2026/09/maps-and-a-compass",
       "https://seths.blog/2026/09/work-isnt-optional",
-      "https://seths.blog/2026/09/gfi-and-the-alternative"
+      "https://seths.blog/2026/09/gfi-and-the-alternative",
+      "https://seths.blog/2026/09/a-series-of-bad-decisions"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -777,7 +780,12 @@
       "https://nautil.us/what-grok-and-claude-have-to-say-about-the-ai-apocalypse-1285077",
       "https://nautil.us/we-finally-know-tyrannosaurus-rexs-body-temperature-1285067",
       "https://nautil.us/the-ancient-mammal-that-changes-our-understanding-of-dinosaur-origins-1285071",
-      "https://nautil.us/the-crescent-nebula-a-gas-bubble-surrounding-a-violently-dying-star-1285062"
+      "https://nautil.us/the-crescent-nebula-a-gas-bubble-surrounding-a-violently-dying-star-1285062",
+      "https://nautil.us/you-have-two-brains-not-one-1285111",
+      "https://nautil.us/humpback-whales-grieve-for-lost-offspring-video-evidence-shows-1285114",
+      "https://nautil.us/theres-a-neurological-basis-for-pregnancy-brain-1285107",
+      "https://nautil.us/dinosaur-eggs-have-never-been-discovered-this-far-south-before-1285103",
+      "https://nautil.us/how-do-you-read-ancient-charred-scrolls-make-your-own-1285098"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1693,7 +1701,8 @@
       "https://www.astralcodexten.com/p/god-help-us-lets-try-to-learn-about",
       "https://www.astralcodexten.com/p/royce-on-san-francisco",
       "https://www.astralcodexten.com/p/open-thread-451",
-      "https://www.astralcodexten.com/p/king-ludd"
+      "https://www.astralcodexten.com/p/king-ludd",
+      "https://www.astralcodexten.com/p/ai-superforecasting-should-transform"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1848,7 +1857,8 @@
       "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909",
       "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911",
       "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910",
-      "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914"
+      "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914",
+      "https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4119,6 +4129,16 @@
     "180021468f8a2105340e3a5669de202db2664fb0",
     "db96dabb5b59484b6c5ae3ac05c3ca80b42019c1",
     "c9f14286a8b22e1683b45cc93f3f72cd7cf9bcae",
-    "337804d1ae499febe8873ee8069cd7a5c44f58d5"
+    "337804d1ae499febe8873ee8069cd7a5c44f58d5",
+    "7c166a9c8b2349b602fe2c9a00648a165e461821",
+    "9c0ad6a684dada82accb1c054201b3092fc82a26",
+    "2307f6fc44d0e3f70df6ef59ab7cce6702fcb286",
+    "ea22483ba5355620e43a7642c8ec16d37645c5db",
+    "e940e5a33e48594c6bb3e4eb100574d252e08a70",
+    "2a96e381af6b5d8950d8550513e320e51869e7d5",
+    "0d7e63fcf3dc35ad9a65948229faeda9e591dab0",
+    "5131a655f2aa277620b8d79f541c61775755d55e",
+    "bce1afc7b9e2c636b6804072b040c02f99504a3f",
+    "0ffa3eddd3b41bcfc943839f2fdf6502c75a56b0"
   ]
 }
