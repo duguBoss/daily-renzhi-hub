@@ -329,7 +329,8 @@
       "https://seths.blog/2026/09/maps-and-a-compass",
       "https://seths.blog/2026/09/work-isnt-optional",
       "https://seths.blog/2026/09/gfi-and-the-alternative",
-      "https://seths.blog/2026/09/a-series-of-bad-decisions"
+      "https://seths.blog/2026/09/a-series-of-bad-decisions",
+      "https://seths.blog/2026/09/disconcerting-genre-shift"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -785,7 +786,13 @@
       "https://nautil.us/humpback-whales-grieve-for-lost-offspring-video-evidence-shows-1285114",
       "https://nautil.us/theres-a-neurological-basis-for-pregnancy-brain-1285107",
       "https://nautil.us/dinosaur-eggs-have-never-been-discovered-this-far-south-before-1285103",
-      "https://nautil.us/how-do-you-read-ancient-charred-scrolls-make-your-own-1285098"
+      "https://nautil.us/how-do-you-read-ancient-charred-scrolls-make-your-own-1285098",
+      "https://nautil.us/this-dolphin-steals-from-fish-for-its-meals-1285147",
+      "https://nautil.us/the-moon-has-a-new-once-in-a-century-crater-1285140",
+      "https://nautil.us/the-most-complete-mastodon-tooth-ever-found-1285135",
+      "https://nautil.us/this-stray-cat-turned-out-to-be-the-first-new-cat-species-discovered-in-over-a-century-1285132",
+      "https://nautil.us/muscle-loss-is-a-big-warning-sign-of-dementia-1285125",
+      "https://nautil.us/is-this-massive-new-study-on-the-benefits-of-whole-grains-part-of-the-war-on-protein-rfk-jr-is-ending-1285119"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1105,7 +1112,8 @@
       "https://www.themarginalian.org/2026/09/13/dawn-redwood-metasequoia",
       "https://www.themarginalian.org/2026/09/13/the-extended-mind",
       "https://www.themarginalian.org/2026/09/15/tolkien-faery",
-      "https://www.themarginalian.org/2026/09/15/thomas-bernhard-walking"
+      "https://www.themarginalian.org/2026/09/15/thomas-bernhard-walking",
+      "https://www.themarginalian.org/2026/09/18/andre-gregory-richard-avedon-letter"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1702,7 +1710,8 @@
       "https://www.astralcodexten.com/p/royce-on-san-francisco",
       "https://www.astralcodexten.com/p/open-thread-451",
       "https://www.astralcodexten.com/p/king-ludd",
-      "https://www.astralcodexten.com/p/ai-superforecasting-should-transform"
+      "https://www.astralcodexten.com/p/ai-superforecasting-should-transform",
+      "https://www.astralcodexten.com/p/your-book-review-this-is-going-to"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -1858,7 +1867,9 @@
       "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911",
       "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910",
       "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914",
-      "https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917"
+      "https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917",
+      "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918",
+      "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4139,6 +4150,17 @@
     "0d7e63fcf3dc35ad9a65948229faeda9e591dab0",
     "5131a655f2aa277620b8d79f541c61775755d55e",
     "bce1afc7b9e2c636b6804072b040c02f99504a3f",
-    "0ffa3eddd3b41bcfc943839f2fdf6502c75a56b0"
+    "0ffa3eddd3b41bcfc943839f2fdf6502c75a56b0",
+    "dc4dfa0a05ac4bcdee2bc664649df95f1c24a43a",
+    "8e27cf5c0f4cad896354c9bca8573a6722ac6175",
+    "85d6c2ed48164ff1d54bfdfd81d5ec68506dcdde",
+    "5c77e4b94a107088a28e732967233d71d63c96bf",
+    "b4ef65f2e08ad621438e9a325089fb8942f141a0",
+    "32c9851761980a534b9cf9e1157cfa40f57f6e62",
+    "0f6e49200210cf400a9617aa08761d584d5deb96",
+    "4dac56bf4afb090dcc54aa5f349946392d3a13f4",
+    "99c315bab394f650569c147500a67635a32451fc",
+    "e61465f637368df0cc04ec86c8ff920e5de7a9d8",
+    "f72a8bd6b3e5aca7aba65e080540eb7ad280749f"
   ]
 }
