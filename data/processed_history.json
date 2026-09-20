@@ -330,7 +330,8 @@
       "https://seths.blog/2026/09/work-isnt-optional",
       "https://seths.blog/2026/09/gfi-and-the-alternative",
       "https://seths.blog/2026/09/a-series-of-bad-decisions",
-      "https://seths.blog/2026/09/disconcerting-genre-shift"
+      "https://seths.blog/2026/09/disconcerting-genre-shift",
+      "https://seths.blog/2026/09/think-big-think-small"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1113,7 +1114,13 @@
       "https://www.themarginalian.org/2026/09/13/the-extended-mind",
       "https://www.themarginalian.org/2026/09/15/tolkien-faery",
       "https://www.themarginalian.org/2026/09/15/thomas-bernhard-walking",
-      "https://www.themarginalian.org/2026/09/18/andre-gregory-richard-avedon-letter"
+      "https://www.themarginalian.org/2026/09/18/andre-gregory-richard-avedon-letter",
+      "https://www.themarginalian.org/2026/09/19/edward-abbey-live-die",
+      "https://www.themarginalian.org/2026/09/18/seneca-letter-1-time",
+      "https://www.themarginalian.org/2026/09/17/the-coziest-place-on-the-moon",
+      "https://www.themarginalian.org/2026/09/17/on-losing-a-parent",
+      "https://www.themarginalian.org/2026/09/17/george-kubler-actuality",
+      "https://www.themarginalian.org/2026/09/17/solitude"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1192,7 +1199,8 @@
       "https://www.noemamag.com/whose-ai-will-rule-the-world",
       "https://www.noemamag.com/a-new-kind-of-creative-poverty",
       "https://www.noemamag.com/a-new-form-of-life",
-      "https://www.noemamag.com/conceding-ai-danger-raises-not-reduces-public-anxiety"
+      "https://www.noemamag.com/conceding-ai-danger-raises-not-reduces-public-anxiety",
+      "https://www.noemamag.com/the-end-of-upward-mobility"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -1981,7 +1989,9 @@
       "https://www.overcomingbias.com/p/your-conscience-is-not-a-moral-oracle",
       "https://www.overcomingbias.com/p/disclosure-seems-unlikely",
       "https://www.overcomingbias.com/p/ai-vs-human-value-drift",
-      "https://www.overcomingbias.com/p/ai-pause-regs-look-risky"
+      "https://www.overcomingbias.com/p/ai-pause-regs-look-risky",
+      "https://www.overcomingbias.com/p/the-arc-of-moral-authority-from-tradition",
+      "https://www.overcomingbias.com/p/modern-worries"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -4161,6 +4171,16 @@
     "4dac56bf4afb090dcc54aa5f349946392d3a13f4",
     "99c315bab394f650569c147500a67635a32451fc",
     "e61465f637368df0cc04ec86c8ff920e5de7a9d8",
-    "f72a8bd6b3e5aca7aba65e080540eb7ad280749f"
+    "f72a8bd6b3e5aca7aba65e080540eb7ad280749f",
+    "c5b9cffafcee43f09ecd9e57072c753626e59211",
+    "696a962048dae192f3cb87a5a33cd3787a9fe909",
+    "257a610802b83f943209013d2c269b4211bc9a6d",
+    "5f9d71d3f0fdce4e611d8a49bb8def5da820da6e",
+    "27f44638d917645c44e19841a11382aa6857adde",
+    "38c8822a44e2925d64353345e546f139a999b0a5",
+    "98ecc914d7e0751bc7b32c842f7a076eb2f16d63",
+    "fcf763bfcf31d332f3d8b7e0c22e7f32c3c5d68f",
+    "22311617b4f2a08b9fc9f50b48e857eb66d40575",
+    "caf2d9e32e5f558d3b93bc128cab0537419a3b26"
   ]
 }
