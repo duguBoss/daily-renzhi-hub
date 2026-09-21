@@ -331,7 +331,8 @@
       "https://seths.blog/2026/09/gfi-and-the-alternative",
       "https://seths.blog/2026/09/a-series-of-bad-decisions",
       "https://seths.blog/2026/09/disconcerting-genre-shift",
-      "https://seths.blog/2026/09/think-big-think-small"
+      "https://seths.blog/2026/09/think-big-think-small",
+      "https://seths.blog/2026/09/a-book-cant-change-your-life"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -793,7 +794,10 @@
       "https://nautil.us/the-most-complete-mastodon-tooth-ever-found-1285135",
       "https://nautil.us/this-stray-cat-turned-out-to-be-the-first-new-cat-species-discovered-in-over-a-century-1285132",
       "https://nautil.us/muscle-loss-is-a-big-warning-sign-of-dementia-1285125",
-      "https://nautil.us/is-this-massive-new-study-on-the-benefits-of-whole-grains-part-of-the-war-on-protein-rfk-jr-is-ending-1285119"
+      "https://nautil.us/is-this-massive-new-study-on-the-benefits-of-whole-grains-part-of-the-war-on-protein-rfk-jr-is-ending-1285119",
+      "https://nautil.us/could-ai-have-consciousness-that-isnt-human-like-1285156",
+      "https://nautil.us/the-oldest-evidence-of-drug-use-is-also-a-story-about-addiction-1285144",
+      "https://nautil.us/ferritin-face-is-trending-but-can-your-skin-really-reveal-low-iron-1285150"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1120,7 +1124,8 @@
       "https://www.themarginalian.org/2026/09/17/the-coziest-place-on-the-moon",
       "https://www.themarginalian.org/2026/09/17/on-losing-a-parent",
       "https://www.themarginalian.org/2026/09/17/george-kubler-actuality",
-      "https://www.themarginalian.org/2026/09/17/solitude"
+      "https://www.themarginalian.org/2026/09/17/solitude",
+      "https://www.themarginalian.org/2026/09/20/leo-lionni-frederick"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1791,7 +1796,10 @@
       "https://www.lesswrong.com/posts/yDZcsojmRXo5qKNBm/surprising-facts-about-the-slave-trade",
       "https://www.lesswrong.com/posts/sF5gAxnmifQe2TBNt/the-worthlessness-of-vitamin-d-is-mildly-exaggerated",
       "https://www.lesswrong.com/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
-      "https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help"
+      "https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help",
+      "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais",
+      "https://www.lesswrong.com/posts/pYFBD2SnqiWkuNns5/explaining-knightianism-on-one-foot",
+      "https://www.lesswrong.com/posts/bGoo3NWzMAzsLQceJ/drone-wmds-don-t-need-any-new-technology"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -1877,7 +1885,8 @@
       "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914",
       "https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917",
       "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918",
-      "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916"
+      "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916",
+      "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -1991,7 +2000,8 @@
       "https://www.overcomingbias.com/p/ai-vs-human-value-drift",
       "https://www.overcomingbias.com/p/ai-pause-regs-look-risky",
       "https://www.overcomingbias.com/p/the-arc-of-moral-authority-from-tradition",
-      "https://www.overcomingbias.com/p/modern-worries"
+      "https://www.overcomingbias.com/p/modern-worries",
+      "https://www.overcomingbias.com/p/aliens-are-not-crazy-unlikely"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -4181,6 +4191,16 @@
     "98ecc914d7e0751bc7b32c842f7a076eb2f16d63",
     "fcf763bfcf31d332f3d8b7e0c22e7f32c3c5d68f",
     "22311617b4f2a08b9fc9f50b48e857eb66d40575",
-    "caf2d9e32e5f558d3b93bc128cab0537419a3b26"
+    "caf2d9e32e5f558d3b93bc128cab0537419a3b26",
+    "8b48867d927f231e453f7dc8018b38e5e07e32a4",
+    "ee76ee2d2e50a451d58f0c1b9b669d2bdebbfa4f",
+    "117555f319451f88e086bfa29c4fe952d8c78e65",
+    "6f510f83176050c549092671bfbe9bb057288d9a",
+    "b760480f78bfd49885d12ff1de69df86ce9c7926",
+    "3f1536334c4d6388fe96a4f3bcf3a8b25e2c425d",
+    "5542dbe6803a41b1c8f24b7d84c32890a8a85f45",
+    "9277b360758e2c43b63866fdf9d0e0ef229aba06",
+    "7cf21dc625d124ecef65bb9a7c5321fbc3fe34d1",
+    "c6e8e7db6efb952907bc71ad31bf798d08d7d658"
   ]
 }
