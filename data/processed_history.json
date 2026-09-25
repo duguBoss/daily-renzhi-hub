@@ -67,7 +67,8 @@
       "https://80000hours.org/podcast/episodes/the-goodhart-singularity",
       "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-3-months",
       "https://80000hours.org/podcast/episodes/max-nadeau-project-tailwind-technical-ai-grants",
-      "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-three-months"
+      "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-three-months",
+      "https://80000hours.org/podcast/episodes/ai-extinction-explained"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -338,7 +339,9 @@
       "https://seths.blog/2026/09/badge-vs-scoreboard-contagious-and-competitive-games",
       "https://seths.blog/2026/09/knotchat-2",
       "https://seths.blog/2026/09/knotchat-4-nicole-walters",
-      "https://seths.blog/2026/09/responsibility-fault-blame-and-shame"
+      "https://seths.blog/2026/09/responsibility-fault-blame-and-shame",
+      "https://seths.blog/2026/09/thinking-about-your-purpose",
+      "https://seths.blog/2026/09/say-what-you-want-2"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -821,7 +824,14 @@
       "https://nautil.us/u-s-life-expectancy-is-circling-the-drain-1285237",
       "https://nautil.us/does-earths-magnetic-field-affect-aging-1285234",
       "https://nautil.us/how-a-horse-flu-outbreak-spurred-an-early-animal-rights-crusade-1285227",
-      "https://nautil.us/pangolins-are-some-of-the-most-illegally-trafficked-animals-on-the-planet-a-rediscovered-species-could-help-1285218"
+      "https://nautil.us/pangolins-are-some-of-the-most-illegally-trafficked-animals-on-the-planet-a-rediscovered-species-could-help-1285218",
+      "https://nautil.us/why-is-this-octopus-hitching-a-ride-on-a-dolphin-1285278",
+      "https://nautil.us/behold-crawzilla-the-not-quite-biggest-crayfish-ever-caught-1285273",
+      "https://nautil.us/gentle-exercise-may-be-more-effective-than-medications-at-managing-chronic-pain-1285269",
+      "https://nautil.us/in-a-culture-obsessed-with-staying-young-we-ignore-the-many-benefits-of-aging-1285263",
+      "https://nautil.us/can-a-drug-reverse-age-related-muscle-weakness-1285260",
+      "https://nautil.us/how-social-learning-keeps-orangutans-fed-1285257",
+      "https://nautil.us/two-big-stick-insect-species-emerge-from-australia-1285252"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -4261,6 +4271,16 @@
     "26ac7bdcbd07aac7372a43fb4d4a0d187b0fa494",
     "e218d6759c958c3a54a6983edd11ea7ac793c603",
     "d8d7c847b47104752e7f3f175475536c82fd97c7",
-    "9a9b216331e5cf876feaefd92987353f36e7fe85"
+    "9a9b216331e5cf876feaefd92987353f36e7fe85",
+    "8f1ef3a642281b747ecd3c8f347c60c77414f0c6",
+    "e703cb3843f59aaa990ab119c411b8cbf8f6af5f",
+    "3535e636ac1a9f852fa1db35f36af55fc745234a",
+    "df01d6b217c6266713e15b9d3059673c892e706c",
+    "0577a561def7b13fe04d0110fddd9a327dca71f9",
+    "0c0e536267bf657713ad4d050f893c25b319698f",
+    "74975e2f2042e7e276ef5d0598b7835dd4d0aa23",
+    "90a9af1d82fdb6528c294852951d2a8076df2c8d",
+    "af4aedde8e609f1c5f3cb592572cfbd082aa7208",
+    "56ddfe1edc86427be342984b95c88a0914d22abd"
   ]
 }
