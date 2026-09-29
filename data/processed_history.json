@@ -68,7 +68,8 @@
       "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-3-months",
       "https://80000hours.org/podcast/episodes/max-nadeau-project-tailwind-technical-ai-grants",
       "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-three-months",
-      "https://80000hours.org/podcast/episodes/ai-extinction-explained"
+      "https://80000hours.org/podcast/episodes/ai-extinction-explained",
+      "https://80000hours.org/podcast/episodes/katja-grace-vs-tom-davidson-ai-risk-debate"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -346,7 +347,8 @@
       "https://seths.blog/2026/09/knotchat-jennifer-myers-chua",
       "https://seths.blog/2026/09/the-opposite-of-mass",
       "https://seths.blog/2026/09/knotchat-danny-meyer",
-      "https://seths.blog/2026/09/two-ways-to-use-lock-in-loyalty"
+      "https://seths.blog/2026/09/two-ways-to-use-lock-in-loyalty",
+      "https://seths.blog/2026/09/what-sort-of-fuel"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -846,7 +848,13 @@
       "https://nautil.us/a-striking-new-fish-species-discovered-in-amazon-1285318",
       "https://nautil.us/does-religion-change-our-brains-1285342",
       "https://nautil.us/fire-in-the-brain-how-psychosis-may-arise-when-the-body-attacks-itself-1285334",
-      "https://nautil.us/what-do-you-know-about-the-deep-sea-barbie-pig-1285329"
+      "https://nautil.us/what-do-you-know-about-the-deep-sea-barbie-pig-1285329",
+      "https://nautil.us/one-of-saturns-moons-could-support-life-and-it-might-be-easy-to-find-1285366",
+      "https://nautil.us/how-snail-shells-could-be-used-to-map-prehistoric-cyclones-1285369",
+      "https://nautil.us/frogs-wear-bacterial-armor-to-defend-against-fungus-1285363",
+      "https://nautil.us/famed-dancers-diary-offers-glimpse-into-psychosis-1285359",
+      "https://nautil.us/how-menopause-symptoms-could-predict-alzheimers-risk-1285356",
+      "https://nautil.us/a-dispatch-from-the-trenches-of-algorithmic-living-1285345"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1184,7 +1192,9 @@
       "https://www.themarginalian.org/2026/09/28/orcas",
       "https://www.themarginalian.org/2026/09/28/bertrand-russell-happiness",
       "https://www.themarginalian.org/2026/09/27/annie-dillard-weasel",
-      "https://www.themarginalian.org/2026/09/25/nietzsche-find-yourself-schopenhauer-as-educator"
+      "https://www.themarginalian.org/2026/09/25/nietzsche-find-yourself-schopenhauer-as-educator",
+      "https://www.themarginalian.org/2026/09/29/c-s-lewis-schedule",
+      "https://www.themarginalian.org/2026/09/28/eric-berne-intimacy"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -4341,6 +4351,16 @@
     "448926ab35f51e21bd811ce4d6bc4fa48cf9696b",
     "b10e4e874a82f45ad1bd19e65f354909acc10701",
     "a2e35d919062032926498af5f4d1ca999888d7b3",
-    "81eb2cb3e40b6256768926317eeaf2a619f84ac1"
+    "81eb2cb3e40b6256768926317eeaf2a619f84ac1",
+    "2eda28f6ca844472d31dc3e952ea6f8d9a3090c8",
+    "f7b1f95764dc5ece47bcce1c90648d2bade07271",
+    "ceb77e1aeded8536be21e79d0dd2a032eb6d1615",
+    "70489a8198bb5a73c8fd4b527ee9ab7dddb13425",
+    "d143fcb03e0d41293f08e6fc8a293855c98e58bb",
+    "45531f10ec8d116e9fc79b3a1df59898d13872cc",
+    "c7810d513767ae1b8d581060833d4b61b5aa6824",
+    "df605b6f320ae2dea313c26656ae62df840203e6",
+    "18f55a9aafdff2f46478b49a65c22dcdb9d086d3",
+    "74a1ce08927c717fd39223b23e616e49ce92a80c"
   ]
 }
