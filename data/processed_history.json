@@ -69,7 +69,8 @@
       "https://80000hours.org/podcast/episodes/max-nadeau-project-tailwind-technical-ai-grants",
       "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-three-months",
       "https://80000hours.org/podcast/episodes/ai-extinction-explained",
-      "https://80000hours.org/podcast/episodes/katja-grace-vs-tom-davidson-ai-risk-debate"
+      "https://80000hours.org/podcast/episodes/katja-grace-vs-tom-davidson-ai-risk-debate",
+      "https://80000hours.org/podcast/episodes/simon-goldstein-ai-legal-rights"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -106,7 +107,8 @@
       "https://blog.givewell.org/2026/08/28/august-2026-updates",
       "https://blog.givewell.org/2026/08/31/givewells-2025-metrics-and-impact",
       "https://blog.givewell.org/2026/09/03/pressure-testing-our-research-as-givewell-grows",
-      "https://blog.givewell.org/2026/09/30/september-2026-updates"
+      "https://blog.givewell.org/2026/09/30/september-2026-updates",
+      "https://blog.givewell.org/2026/10/01/behind-the-research-how-our-team-tackles-hard-questions"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -351,7 +353,8 @@
       "https://seths.blog/2026/09/two-ways-to-use-lock-in-loyalty",
       "https://seths.blog/2026/09/what-sort-of-fuel",
       "https://seths.blog/2026/09/extraction-or-generation",
-      "https://seths.blog/2026/10/media-and-messages"
+      "https://seths.blog/2026/10/media-and-messages",
+      "https://seths.blog/2026/10/modern-vanity"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -871,7 +874,13 @@
       "https://nautil.us/this-cool-lava-planet-has-an-atmosphere-1285436",
       "https://nautil.us/your-speech-may-contain-hidden-information-about-how-fast-youre-aging-1285433",
       "https://nautil.us/morally-binding-ai-safety-pledge-mocked-1285430",
-      "https://nautil.us/a-photographic-look-at-sputnik-1-the-satellite-that-launched-the-space-age-69-years-ago-1285418"
+      "https://nautil.us/a-photographic-look-at-sputnik-1-the-satellite-that-launched-the-space-age-69-years-ago-1285418",
+      "https://nautil.us/theres-a-new-sea-spider-in-town-1285470",
+      "https://nautil.us/this-newly-discovered-dinosaur-looks-terrifying-but-probably-wouldnt-eat-you-1285466",
+      "https://nautil.us/dont-miss-saturn-in-all-its-glory-this-weekend-1285461",
+      "https://nautil.us/ancient-pocket-change-reveals-special-status-of-romes-little-englanders-1285457",
+      "https://nautil.us/a-look-at-how-many-cancers-are-caused-by-infections-worldwide-1285454",
+      "https://nautil.us/where-did-the-social-magic-go-1285451"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1819,7 +1828,8 @@
       "https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs",
       "https://www.astralcodexten.com/p/fall-meetups-2026-call-for-meetup",
       "https://www.astralcodexten.com/p/the-specter-of-neuralese",
-      "https://www.astralcodexten.com/p/open-thread-453"
+      "https://www.astralcodexten.com/p/open-thread-453",
+      "https://www.astralcodexten.com/p/our-ai-midwife"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -4401,6 +4411,16 @@
     "d9e0e7b8f9adccd477471ac96047853f1d8d1ed4",
     "fb514def27cca25a124a4086c321ab97b735d58e",
     "3c3a4c339ac5c17b01dcf6550622e8f33b7ad78b",
-    "ec6465f0e1c9834f45b5ba3a04a7c5c598f5e815"
+    "ec6465f0e1c9834f45b5ba3a04a7c5c598f5e815",
+    "e49f54ebc34fe14863d62c2a204ad75a8868d125",
+    "cbecfdde0a73ef174a0c78269d0fadb4abb44899",
+    "3433cbdf926291514cb5deed9923b9900d34d3f0",
+    "0192e0a49ed548374a80a76b38b67d8f0810e582",
+    "8fbedbf19984bb29b700813b199e696659a9cf90",
+    "b8ffb68e4a10b178a15ca849f51547e27d9eebcb",
+    "f49bfaa9bbc26eef870fe348247a7fce793c6a06",
+    "035787f849fedd1b903be548e1d3881e31804132",
+    "c15204465ad3370d735a2c37c281f2136f440683",
+    "6d55d0c7065d25891d24fc74e9346dd943944323"
   ]
 }
