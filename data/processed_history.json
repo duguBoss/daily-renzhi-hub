@@ -70,7 +70,8 @@
       "https://80000hours.org/2026/09/how-to-get-into-ai-safety-in-three-months",
       "https://80000hours.org/podcast/episodes/ai-extinction-explained",
       "https://80000hours.org/podcast/episodes/katja-grace-vs-tom-davidson-ai-risk-debate",
-      "https://80000hours.org/podcast/episodes/simon-goldstein-ai-legal-rights"
+      "https://80000hours.org/podcast/episodes/simon-goldstein-ai-legal-rights",
+      "https://80000hours.org/podcast/episodes/ai-takeover-soon-oversight-monitorability"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -880,7 +881,13 @@
       "https://nautil.us/dont-miss-saturn-in-all-its-glory-this-weekend-1285461",
       "https://nautil.us/ancient-pocket-change-reveals-special-status-of-romes-little-englanders-1285457",
       "https://nautil.us/a-look-at-how-many-cancers-are-caused-by-infections-worldwide-1285454",
-      "https://nautil.us/where-did-the-social-magic-go-1285451"
+      "https://nautil.us/where-did-the-social-magic-go-1285451",
+      "https://nautil.us/do-calorie%e2%80%91restricted-diets-work-1285497",
+      "https://nautil.us/floating-scarecrow-demonstrates-the-enduring-power-of-eyes-in-the-natural-world-1285493",
+      "https://nautil.us/your-immune-system-ages-in-two-big-bursts-1285487",
+      "https://nautil.us/this-spectacular-star-field-hides-brown-dwarfs-that-never-ignite-1285482",
+      "https://nautil.us/what-goes-on-in-the-brain-when-a-good-buzz-gets-harshed-1285479",
+      "https://nautil.us/this-obscure-1960s-guide-to-lsd-holds-up-1285476"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1221,7 +1228,9 @@
       "https://www.themarginalian.org/2026/09/25/nietzsche-find-yourself-schopenhauer-as-educator",
       "https://www.themarginalian.org/2026/09/29/c-s-lewis-schedule",
       "https://www.themarginalian.org/2026/09/28/eric-berne-intimacy",
-      "https://www.themarginalian.org/2026/09/29/david-bowie-proust-questionnaire-vanity-fair"
+      "https://www.themarginalian.org/2026/09/29/david-bowie-proust-questionnaire-vanity-fair",
+      "https://www.themarginalian.org/2026/10/03/g-k-chesterton-dandelion",
+      "https://www.themarginalian.org/2026/10/02/ocean-of-stars-azita-ardakani"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1996,7 +2005,8 @@
       "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923",
       "https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928",
       "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930",
-      "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001"
+      "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001",
+      "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4421,6 +4431,16 @@
     "f49bfaa9bbc26eef870fe348247a7fce793c6a06",
     "035787f849fedd1b903be548e1d3881e31804132",
     "c15204465ad3370d735a2c37c281f2136f440683",
-    "6d55d0c7065d25891d24fc74e9346dd943944323"
+    "6d55d0c7065d25891d24fc74e9346dd943944323",
+    "475e18457b504a5dae90c0d2ced86d04fe0170a9",
+    "3fc1bcee45aaaff4970c5bcd54f0a92ab63f9717",
+    "deb1d6172f069bc21f570283c471ccc575f2cfb4",
+    "6b441013b80375be8fd97f69c21cfb6c9c5b97af",
+    "53a5f186caec3133e34d5fb2a3adc5a0b3f3a320",
+    "07808808db4643ab140739bdccc3cc7ca0e3ebe6",
+    "fc668ba0b5fe61ffe23ce9e067d39dcb2de86915",
+    "2109d424313bc3c1645c59cb66ac47a5d6525a30",
+    "3df1122da99647a2b386256e568bd102084333c0",
+    "5821d941efcbf073919d50cd9f19e3d80439551d"
   ]
 }
