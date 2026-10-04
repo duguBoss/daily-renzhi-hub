@@ -355,7 +355,9 @@
       "https://seths.blog/2026/09/what-sort-of-fuel",
       "https://seths.blog/2026/09/extraction-or-generation",
       "https://seths.blog/2026/10/media-and-messages",
-      "https://seths.blog/2026/10/modern-vanity"
+      "https://seths.blog/2026/10/modern-vanity",
+      "https://seths.blog/2026/10/getting-critical",
+      "https://seths.blog/2026/10/uniformity"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -887,7 +889,8 @@
       "https://nautil.us/your-immune-system-ages-in-two-big-bursts-1285487",
       "https://nautil.us/this-spectacular-star-field-hides-brown-dwarfs-that-never-ignite-1285482",
       "https://nautil.us/what-goes-on-in-the-brain-when-a-good-buzz-gets-harshed-1285479",
-      "https://nautil.us/this-obscure-1960s-guide-to-lsd-holds-up-1285476"
+      "https://nautil.us/this-obscure-1960s-guide-to-lsd-holds-up-1285476",
+      "https://nautil.us/how-sugar-from-outer-space-became-one-of-the-backbones-of-life-on-earth-1285504"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1230,7 +1233,12 @@
       "https://www.themarginalian.org/2026/09/28/eric-berne-intimacy",
       "https://www.themarginalian.org/2026/09/29/david-bowie-proust-questionnaire-vanity-fair",
       "https://www.themarginalian.org/2026/10/03/g-k-chesterton-dandelion",
-      "https://www.themarginalian.org/2026/10/02/ocean-of-stars-azita-ardakani"
+      "https://www.themarginalian.org/2026/10/02/ocean-of-stars-azita-ardakani",
+      "https://www.themarginalian.org/2026/10/03/d-h-lawrence-brute-force",
+      "https://www.themarginalian.org/2026/10/02/albert-einstein-the-common-language-of-science",
+      "https://www.themarginalian.org/2026/10/01/yes",
+      "https://www.themarginalian.org/2026/10/01/richard-dawkins-death",
+      "https://www.themarginalian.org/2026/09/30/james-baldwin-advice-on-writing"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1310,7 +1318,9 @@
       "https://www.noemamag.com/a-new-kind-of-creative-poverty",
       "https://www.noemamag.com/a-new-form-of-life",
       "https://www.noemamag.com/conceding-ai-danger-raises-not-reduces-public-anxiety",
-      "https://www.noemamag.com/the-end-of-upward-mobility"
+      "https://www.noemamag.com/the-end-of-upward-mobility",
+      "https://www.noemamag.com/return-of-the-repressed-in-germany",
+      "https://www.noemamag.com/the-ais-are-not-going-rogue"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -4441,6 +4451,16 @@
     "fc668ba0b5fe61ffe23ce9e067d39dcb2de86915",
     "2109d424313bc3c1645c59cb66ac47a5d6525a30",
     "3df1122da99647a2b386256e568bd102084333c0",
-    "5821d941efcbf073919d50cd9f19e3d80439551d"
+    "5821d941efcbf073919d50cd9f19e3d80439551d",
+    "67b2e8ef6f8575d2d87b50434173da940bc81895",
+    "c007d362ffb5c9cb8d393719b104baef0d9db36c",
+    "33ae43b6c5f9144eb306cafe37b5552bc1f00b8f",
+    "9138907509f772f966c867e250a5824842ce3270",
+    "e75e44f4cb1c240857901f0a923ebd1e6d311905",
+    "a3cfd6a4806c8db685d10b537512509ff62ded9e",
+    "99fe4743ba0aca916f71bfbab948d2e551643373",
+    "d755c07aa3cff1aad2108a2b5a891b3849871613",
+    "ead9abb5fd88c55f256aede9d30fa246741c5698",
+    "8b436b2722c63f2c2837e6a48424f89e4871e999"
   ]
 }
