@@ -357,7 +357,8 @@
       "https://seths.blog/2026/10/media-and-messages",
       "https://seths.blog/2026/10/modern-vanity",
       "https://seths.blog/2026/10/getting-critical",
-      "https://seths.blog/2026/10/uniformity"
+      "https://seths.blog/2026/10/uniformity",
+      "https://seths.blog/2026/10/create-a-handoff-doc"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -890,7 +891,11 @@
       "https://nautil.us/this-spectacular-star-field-hides-brown-dwarfs-that-never-ignite-1285482",
       "https://nautil.us/what-goes-on-in-the-brain-when-a-good-buzz-gets-harshed-1285479",
       "https://nautil.us/this-obscure-1960s-guide-to-lsd-holds-up-1285476",
-      "https://nautil.us/how-sugar-from-outer-space-became-one-of-the-backbones-of-life-on-earth-1285504"
+      "https://nautil.us/how-sugar-from-outer-space-became-one-of-the-backbones-of-life-on-earth-1285504",
+      "https://nautil.us/how-an-accidental-virus-release-triggered-1977s-russian-flu-1285538",
+      "https://nautil.us/are-right%e2%80%91brained-people-really-more-creative-1285533",
+      "https://nautil.us/was-there-really-a-female-king-in-ancient-egypt-5000-years-ago-1285520",
+      "https://nautil.us/coral-reef-like-rock-layers-on-mars-reveal-ancient-climate-secrets-1285515"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1238,7 +1243,8 @@
       "https://www.themarginalian.org/2026/10/02/albert-einstein-the-common-language-of-science",
       "https://www.themarginalian.org/2026/10/01/yes",
       "https://www.themarginalian.org/2026/10/01/richard-dawkins-death",
-      "https://www.themarginalian.org/2026/09/30/james-baldwin-advice-on-writing"
+      "https://www.themarginalian.org/2026/09/30/james-baldwin-advice-on-writing",
+      "https://www.themarginalian.org/2026/10/04/dostoyevsy-good-person"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1320,7 +1326,9 @@
       "https://www.noemamag.com/conceding-ai-danger-raises-not-reduces-public-anxiety",
       "https://www.noemamag.com/the-end-of-upward-mobility",
       "https://www.noemamag.com/return-of-the-repressed-in-germany",
-      "https://www.noemamag.com/the-ais-are-not-going-rogue"
+      "https://www.noemamag.com/the-ais-are-not-going-rogue",
+      "https://www.noemamag.com/noemas-ai-reading-list",
+      "https://www.noemamag.com/now-entering-the-era-of-bleh"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -1848,7 +1856,8 @@
       "https://www.astralcodexten.com/p/fall-meetups-2026-call-for-meetup",
       "https://www.astralcodexten.com/p/the-specter-of-neuralese",
       "https://www.astralcodexten.com/p/open-thread-453",
-      "https://www.astralcodexten.com/p/our-ai-midwife"
+      "https://www.astralcodexten.com/p/our-ai-midwife",
+      "https://www.astralcodexten.com/p/open-thread-454"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2016,7 +2025,8 @@
       "https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928",
       "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930",
       "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001",
-      "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002"
+      "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002",
+      "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4461,6 +4471,16 @@
     "99fe4743ba0aca916f71bfbab948d2e551643373",
     "d755c07aa3cff1aad2108a2b5a891b3849871613",
     "ead9abb5fd88c55f256aede9d30fa246741c5698",
-    "8b436b2722c63f2c2837e6a48424f89e4871e999"
+    "8b436b2722c63f2c2837e6a48424f89e4871e999",
+    "f5b3ed5e13570a55da25470814538851df6d5acd",
+    "028fb3262511384a243859f4383b09845f8e56fc",
+    "86f16b426d198cf49328a3f7c5643b2322a46155",
+    "b56612ed217ffc67b9399b2374b158dd67e0ea6d",
+    "b0397216102b6dbfd9b18a80e1fde869a9a3792e",
+    "2fac5ac8452fd00918ba65cff3b03b17a2d35912",
+    "bec705bfbdd0fd4d45eb6df5604acc9061fdbac2",
+    "2061d7e0e154ec1fcf38ab8430ee42b3c126eb54",
+    "3949744b9389fcc160210bff85b89e3f5899e97e",
+    "48bc3d398ca40697f409adf15c722c5f001d54a9"
   ]
 }
