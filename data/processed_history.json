@@ -361,7 +361,8 @@
       "https://seths.blog/2026/10/create-a-handoff-doc",
       "https://seths.blog/2026/10/lobby-expertise",
       "https://seths.blog/2026/10/how-do-you-like-them-apples",
-      "https://seths.blog/2026/10/but-is-it-a-business"
+      "https://seths.blog/2026/10/but-is-it-a-business",
+      "https://seths.blog/2026/10/our-genie-problem"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -390,7 +391,8 @@
       "https://fs.blog/knowledge-project-podcast/geoffrey-cain",
       "https://fs.blog/knowledge-project-podcast/tobi-lutke-3",
       "https://fs.blog/knowledge-project-podcast/bill-ackman-2",
-      "https://fs.blog/knowledge-project-podcast/outliers-munger-combs"
+      "https://fs.blog/knowledge-project-podcast/outliers-munger-combs",
+      "https://fs.blog/knowledge-project-podcast/ryan-serhant"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -911,7 +913,14 @@
       "https://nautil.us/why-do-obese-people-with-alzheimers-live-longer-1285595",
       "https://nautil.us/is-criminal-forensics-bullshit-1285587",
       "https://nautil.us/human-vision-has-quirks-that-ai-cant-match-1285580",
-      "https://nautil.us/the-incas-adorned-animal-sacrifices-with-coca-leaves-1285576"
+      "https://nautil.us/the-incas-adorned-animal-sacrifices-with-coca-leaves-1285576",
+      "https://nautil.us/a-distant-star-is-slowly-snacking-on-a-brown-dwarf-1285643",
+      "https://nautil.us/what-babies-learn-from-spit-swapping-1285626",
+      "https://nautil.us/meet-the-new-otterlike-predator-that-scurried-alongside-dinosaurs-1285635",
+      "https://nautil.us/why-forgive-and-forget-is-bad-advice-1285629",
+      "https://nautil.us/how-to-live-to-be-194-years-old-1285604",
+      "https://nautil.us/neanderthals-were-adept-woodworkers-too-1285608",
+      "https://nautil.us/the-most-curious-cloud-on-mars-relies-on-some-bizarre-physics-1285613"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1877,7 +1886,8 @@
       "https://www.astralcodexten.com/p/open-thread-453",
       "https://www.astralcodexten.com/p/our-ai-midwife",
       "https://www.astralcodexten.com/p/open-thread-454",
-      "https://www.astralcodexten.com/p/an-open-letter-to-steven-pinker-on"
+      "https://www.astralcodexten.com/p/an-open-letter-to-steven-pinker-on",
+      "https://www.astralcodexten.com/p/top-forecasters-on-the-plague"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -4521,6 +4531,16 @@
     "87c57fe3c9395c19f469b53c44417163bc9ba126",
     "589160d4b293f9a7b291f836143f7b8cd6ce0da7",
     "022b635c6c09b27b21db133fa2f75373faf15c0d",
-    "59bc3577a976b44f8ffbd4268e43b35c083c2f34"
+    "59bc3577a976b44f8ffbd4268e43b35c083c2f34",
+    "c562e4de48e8ef8f6899650210ddc52b57e9c1a1",
+    "bad6536f84731ec5082384c2407d9f40a77b4a1f",
+    "8675700f04ed24df2138f2bee0a121f4a41dd741",
+    "b013849877d7e04140bb4df3ca88470590dfd82f",
+    "3243984248af0c73fdf91cd482f9593a95f06232",
+    "a69e77a37ea8d68dc77dfc413c4bc60d2b52247d",
+    "0a0746ef22affc97339a1c9a7e9291dcabea1eb1",
+    "087e8c615743d38c11957aa7c2d0ebc2086bc0dc",
+    "5ba07db497dcd4b1279d0fb3c4d6c45c11752468",
+    "f204cfda2a2fd0a0d9a2698a1e56f626706cacc5"
   ]
 }
