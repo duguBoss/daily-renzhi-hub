@@ -363,7 +363,8 @@
       "https://seths.blog/2026/10/how-do-you-like-them-apples",
       "https://seths.blog/2026/10/but-is-it-a-business",
       "https://seths.blog/2026/10/our-genie-problem",
-      "https://seths.blog/2026/10/thin-friction-and-thicker-walls"
+      "https://seths.blog/2026/10/thin-friction-and-thicker-walls",
+      "https://seths.blog/2026/10/productive-dissatisfaction"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -927,7 +928,13 @@
       "https://nautil.us/our-ancient-ancestors-lost-habitat-revealed-by-700000-year-old-elephants-tooth-1285654",
       "https://nautil.us/single-orangutan-moms-set-up-playdates-for-their-kids-1285650",
       "https://nautil.us/a-recipe-for-stopping-ai-from-going-rogue-1285647",
-      "https://nautil.us/in-1960-mathematicians-predicted-that-earths-population-would-reach-infinity-on-a-friday-next-month-1285640"
+      "https://nautil.us/in-1960-mathematicians-predicted-that-earths-population-would-reach-infinity-on-a-friday-next-month-1285640",
+      "https://nautil.us/the-placenta-is-more-powerful-and-more-mysterious-than-you-think-1285683",
+      "https://nautil.us/why-old-dogs-might-be-able-to-teach-alzheimers-researchers-new-tricks-1285678",
+      "https://nautil.us/check-out-the-mouthparts-on-this-new-prehistoric-insect-1285707",
+      "https://nautil.us/did-these-microbes-eat-a-lot-of-the-fossil-record-1285704",
+      "https://nautil.us/see-the-artemis-ii-crews-handwritten-notes-documenting-the-lunar-surface-1285671",
+      "https://nautil.us/mosasaurs-were-capable-of-explosive-speed-1285667"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1279,7 +1286,8 @@
       "https://www.themarginalian.org/2026/10/04/dostoyevsy-good-person",
       "https://www.themarginalian.org/2026/10/05/diane-ackerman-a-slender-thread",
       "https://www.themarginalian.org/2026/10/05/david-bowie-creativity-advice",
-      "https://www.themarginalian.org/2026/10/05/nietzsche-walking"
+      "https://www.themarginalian.org/2026/10/05/nietzsche-walking",
+      "https://www.themarginalian.org/2026/10/09/jeff-foster-indecision"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1896,7 +1904,8 @@
       "https://www.astralcodexten.com/p/an-open-letter-to-steven-pinker-on",
       "https://www.astralcodexten.com/p/top-forecasters-on-the-plague",
       "https://www.astralcodexten.com/p/ballots-everywhere-times-and-places-673",
-      "https://www.astralcodexten.com/p/hidden-open-thread-4545"
+      "https://www.astralcodexten.com/p/hidden-open-thread-4545",
+      "https://www.astralcodexten.com/p/your-book-review-we-present-television"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2066,7 +2075,8 @@
       "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001",
       "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002",
       "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005",
-      "https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009"
+      "https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009",
+      "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4561,6 +4571,16 @@
     "00253fcec69dad799d92f5e78eaccecdd01b0299",
     "03e0105487a39a74154830accd0b9f2ea74aeb54",
     "3ae240809198d0bd13a3bc8bedc5ada96b341deb",
-    "963e0a2f1e347b4000f05d8525719098866e5661"
+    "963e0a2f1e347b4000f05d8525719098866e5661",
+    "4b2a5988437a93a2eef8af4abce4de2468bb57be",
+    "62a68d4cc5c9c916c480b56472ef6c67674f2f1a",
+    "ba79cb46cd6cfbc52d918baa5de3a126d2871611",
+    "cd0da93793ca44c68e6954b2fb995ad7aa469fdc",
+    "243a4f3d51fea2f114f8df2458e2e4b3cdd8b92b",
+    "026daaf169928340338b2636c75df59ccb96402b",
+    "ed193aa344b7682f6dc54fc8803cf9109d00acec",
+    "4337da8e25aabb03650c2c62d58c44029bfbeb21",
+    "6a67229b9616246b47005a61056b11819c11156f",
+    "bd4cfa50017204138df2e6a7f99baea6c8ed9b3d"
   ]
 }
