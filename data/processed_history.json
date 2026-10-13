@@ -366,7 +366,8 @@
       "https://seths.blog/2026/10/thin-friction-and-thicker-walls",
       "https://seths.blog/2026/10/productive-dissatisfaction",
       "https://seths.blog/2026/10/talent-becomes-media",
-      "https://seths.blog/2026/10/the-best-in-the-world-is-a-local-problem"
+      "https://seths.blog/2026/10/the-best-in-the-world-is-a-local-problem",
+      "https://seths.blog/2026/10/the-unreliable-witness"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -941,7 +942,12 @@
       "https://nautil.us/the-secret-superpowers-of-amphibians-and-reptiles-1285689",
       "https://nautil.us/this-is-the-oldest-peace-treaty-ever-discovered-1285725",
       "https://nautil.us/blood-cells-from-an-80-year-old-transformed-into-young-brain-cells-1285722",
-      "https://nautil.us/i-seeded-my-dreams-and-this-story-emerged-1285719"
+      "https://nautil.us/i-seeded-my-dreams-and-this-story-emerged-1285719",
+      "https://nautil.us/leap-seconds-have-helped-keep-clocks-synchronized-with-earths-rotation-but-their-time-may-be-over-1285748",
+      "https://nautil.us/the-key-to-multilingualism-lies-in-the-ears-not-the-mouth-1285745",
+      "https://nautil.us/can-glp-1s-slow-aging-1285741",
+      "https://nautil.us/mere-minutes-with-ai-causes-a-sharp-drop-in-persistence-1285736",
+      "https://nautil.us/these-new-snails-can-slam-shut-their-shells-like-doors-1285729"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1390,7 +1396,8 @@
       "https://www.noemamag.com/now-entering-the-era-of-bleh",
       "https://www.noemamag.com/we-are-already-post-human",
       "https://www.noemamag.com/does-claude-feel-the-whip",
-      "https://www.noemamag.com/americans-are-losing-the-long-game"
+      "https://www.noemamag.com/americans-are-losing-the-long-game",
+      "https://www.noemamag.com/let-the-people-decide-the-pace-of-frontier-ai"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -1413,7 +1420,8 @@
       "https://dynomight.net/plants",
       "https://dynomight.net/betteridge",
       "https://dynomight.net/human-alignment",
-      "https://dynomight.net/comment"
+      "https://dynomight.net/comment",
+      "https://dynomight.net/liver"
     ],
     "https://ourworldindata.org/feed": [
       "https://ourworldindata.org/biofuel-land-solar-electric-vehicles",
@@ -1808,7 +1816,8 @@
       "https://www.experimental-history.com/p/incentives-are-for-losers",
       "https://www.experimental-history.com/p/actually-good-advice",
       "https://www.experimental-history.com/p/i-like-em-thick",
-      "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness"
+      "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness",
+      "https://www.experimental-history.com/p/the-strangest-idea-in-the-world"
     ],
     "https://www.astralcodexten.com/feed": [
       "https://www.astralcodexten.com/p/being-john-rawls",
@@ -1924,7 +1933,8 @@
       "https://www.astralcodexten.com/p/top-forecasters-on-the-plague",
       "https://www.astralcodexten.com/p/ballots-everywhere-times-and-places-673",
       "https://www.astralcodexten.com/p/hidden-open-thread-4545",
-      "https://www.astralcodexten.com/p/your-book-review-we-present-television"
+      "https://www.astralcodexten.com/p/your-book-review-we-present-television",
+      "https://www.astralcodexten.com/p/open-thread-455"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -4621,6 +4631,16 @@
     "be4afc3abe422f500a58398e02e1ee0b7f33baf6",
     "d0aecec18415ebb0cb185de7439547b5902b1109",
     "210f483bec83535bbe99d76d7df21901d66f27d4",
-    "8eea703174cd18e2af6070552a7c6aef6a9e1243"
+    "8eea703174cd18e2af6070552a7c6aef6a9e1243",
+    "d94303a984c00d339c219abc00d818176d69d26b",
+    "def81a4ea8cc4fd19806c53e330f483833c8c6eb",
+    "29c9bc1b7863e1f92aeb19b2becb69a430098ce3",
+    "d3c842512e7451b1cbc163a311da883a706f1070",
+    "c33d4699e2da1f28b2851e3dc892083f12dd387f",
+    "c246eac03707b050de487a6944007d9fdda88345",
+    "33f5b44581b316bf86c42af32dbcaf0f553bd561",
+    "5285be68e4898f38a50195c4b229bb6e9e4aad8d",
+    "138373b163c182c1c107c0e95d269c61550ee993",
+    "cb3b08ff7ae00117c0379fddd9140fb5232b4bc8"
   ]
 }
