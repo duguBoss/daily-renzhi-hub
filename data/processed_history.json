@@ -71,7 +71,8 @@
       "https://80000hours.org/podcast/episodes/ai-extinction-explained",
       "https://80000hours.org/podcast/episodes/katja-grace-vs-tom-davidson-ai-risk-debate",
       "https://80000hours.org/podcast/episodes/simon-goldstein-ai-legal-rights",
-      "https://80000hours.org/podcast/episodes/ai-takeover-soon-oversight-monitorability"
+      "https://80000hours.org/podcast/episodes/ai-takeover-soon-oversight-monitorability",
+      "https://80000hours.org/2026/10/half-year-update-q1-q2-2026"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -367,7 +368,8 @@
       "https://seths.blog/2026/10/productive-dissatisfaction",
       "https://seths.blog/2026/10/talent-becomes-media",
       "https://seths.blog/2026/10/the-best-in-the-world-is-a-local-problem",
-      "https://seths.blog/2026/10/the-unreliable-witness"
+      "https://seths.blog/2026/10/the-unreliable-witness",
+      "https://seths.blog/2026/10/things-people-dont-say"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -947,7 +949,13 @@
       "https://nautil.us/the-key-to-multilingualism-lies-in-the-ears-not-the-mouth-1285745",
       "https://nautil.us/can-glp-1s-slow-aging-1285741",
       "https://nautil.us/mere-minutes-with-ai-causes-a-sharp-drop-in-persistence-1285736",
-      "https://nautil.us/these-new-snails-can-slam-shut-their-shells-like-doors-1285729"
+      "https://nautil.us/these-new-snails-can-slam-shut-their-shells-like-doors-1285729",
+      "https://nautil.us/our-messy-cyborg-past-and-future-1285793",
+      "https://nautil.us/was-human-language-born-around-the-campfire-1285790",
+      "https://nautil.us/nasa-shares-image-of-a-galactic-smiley-face-1285779",
+      "https://nautil.us/elephants-engineer-their-ecosystems-even-in-death-1285775",
+      "https://nautil.us/deep-sea-mining-faces-another-hurdle-exploding-rocks-1285769",
+      "https://nautil.us/check-out-the-natural-beauty-of-the-natural-landscape-photography-awards-1285755"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1309,7 +1317,8 @@
       "https://www.themarginalian.org/2026/10/07/van-gogh-fear-risk",
       "https://www.themarginalian.org/2026/10/07/walt-whitman-specimen-days-meaning-of-life",
       "https://www.themarginalian.org/2026/10/11/baldwin-love",
-      "https://www.themarginalian.org/2026/10/11/wollstonecraft-godwin-semmelweis"
+      "https://www.themarginalian.org/2026/10/11/wollstonecraft-godwin-semmelweis",
+      "https://www.themarginalian.org/2026/10/13/carissa-veliz-prophecy"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -2106,7 +2115,8 @@
       "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005",
       "https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009",
       "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007",
-      "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012"
+      "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012",
+      "https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4641,6 +4651,16 @@
     "33f5b44581b316bf86c42af32dbcaf0f553bd561",
     "5285be68e4898f38a50195c4b229bb6e9e4aad8d",
     "138373b163c182c1c107c0e95d269c61550ee993",
-    "cb3b08ff7ae00117c0379fddd9140fb5232b4bc8"
+    "cb3b08ff7ae00117c0379fddd9140fb5232b4bc8",
+    "024b358c94a0c1eb97604c35b7283ac5e4cf33f8",
+    "a03645750846ee2dde3c2b8ebd544063cddebdea",
+    "7c1695af3b01559637dda77a9fd8c173b1a4a7f6",
+    "c26526cc348dd829e4c1536e0ecec7b6690cbcd4",
+    "194940c0cec692115ca4efd0eaca93cfe80012a1",
+    "4effca2638a2c4a3cba9ac65076ce3b18ad2c8dd",
+    "d5de87ed0ec705e8c392e8f551b6b2242fb77cd4",
+    "34e872704c0f581f069968078866bcb4b4393297",
+    "fbeec952dececabb3f7b955d52b6344bce71747f",
+    "f3618b93c748893296c08de3e4a710ee63f20563"
   ]
 }
