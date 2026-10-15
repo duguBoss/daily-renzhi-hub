@@ -369,7 +369,8 @@
       "https://seths.blog/2026/10/talent-becomes-media",
       "https://seths.blog/2026/10/the-best-in-the-world-is-a-local-problem",
       "https://seths.blog/2026/10/the-unreliable-witness",
-      "https://seths.blog/2026/10/things-people-dont-say"
+      "https://seths.blog/2026/10/things-people-dont-say",
+      "https://seths.blog/2026/10/addressing-fear"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -955,7 +956,11 @@
       "https://nautil.us/nasa-shares-image-of-a-galactic-smiley-face-1285779",
       "https://nautil.us/elephants-engineer-their-ecosystems-even-in-death-1285775",
       "https://nautil.us/deep-sea-mining-faces-another-hurdle-exploding-rocks-1285769",
-      "https://nautil.us/check-out-the-natural-beauty-of-the-natural-landscape-photography-awards-1285755"
+      "https://nautil.us/check-out-the-natural-beauty-of-the-natural-landscape-photography-awards-1285755",
+      "https://nautil.us/new-feathered-dinosaur-is-the-first-megaraptor-discovered-in-europe-1285813",
+      "https://nautil.us/iss-astronaut-spots-moon-like-mountains-from-space-1285807",
+      "https://nautil.us/this-prehistoric-alaskan-camp-is-rewriting-the-history-of-beringia-1285804",
+      "https://nautil.us/the-death-of-a-russian-plague-researcher-explained-by-a-microbiologist-1285796"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1318,7 +1323,9 @@
       "https://www.themarginalian.org/2026/10/07/walt-whitman-specimen-days-meaning-of-life",
       "https://www.themarginalian.org/2026/10/11/baldwin-love",
       "https://www.themarginalian.org/2026/10/11/wollstonecraft-godwin-semmelweis",
-      "https://www.themarginalian.org/2026/10/13/carissa-veliz-prophecy"
+      "https://www.themarginalian.org/2026/10/13/carissa-veliz-prophecy",
+      "https://www.themarginalian.org/2026/10/13/mark-kac-enigmas-of-chance-geniuses",
+      "https://www.themarginalian.org/2026/10/13/doris-lessing-massey-lectures"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1406,7 +1413,8 @@
       "https://www.noemamag.com/we-are-already-post-human",
       "https://www.noemamag.com/does-claude-feel-the-whip",
       "https://www.noemamag.com/americans-are-losing-the-long-game",
-      "https://www.noemamag.com/let-the-people-decide-the-pace-of-frontier-ai"
+      "https://www.noemamag.com/let-the-people-decide-the-pace-of-frontier-ai",
+      "https://www.noemamag.com/what-we-can-save-in-a-time-of-endings"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -1943,7 +1951,8 @@
       "https://www.astralcodexten.com/p/ballots-everywhere-times-and-places-673",
       "https://www.astralcodexten.com/p/hidden-open-thread-4545",
       "https://www.astralcodexten.com/p/your-book-review-we-present-television",
-      "https://www.astralcodexten.com/p/open-thread-455"
+      "https://www.astralcodexten.com/p/open-thread-455",
+      "https://www.astralcodexten.com/p/ai-safety-is-not-a-corporate-plot"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2116,7 +2125,8 @@
       "https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009",
       "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007",
       "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012",
-      "https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014"
+      "https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014",
+      "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4661,6 +4671,16 @@
     "d5de87ed0ec705e8c392e8f551b6b2242fb77cd4",
     "34e872704c0f581f069968078866bcb4b4393297",
     "fbeec952dececabb3f7b955d52b6344bce71747f",
-    "f3618b93c748893296c08de3e4a710ee63f20563"
+    "f3618b93c748893296c08de3e4a710ee63f20563",
+    "28379ef874aaaf68647768238bd4254f55b71bc8",
+    "1f4033ea5aba5b273d843da2e7e57aa6a6a733a6",
+    "2eea45014c10d7760bb0732334e1ee89ff14dc85",
+    "4bd319dd982d9758ec1a6e093aba9feedc578fa2",
+    "e2db5504fb5ca26c259bcadb2e8082e24d47d505",
+    "0aa75cc4c348281aa799da2243bec39c75f1aab6",
+    "51981ab5f6d1bc2dffe1821d75495e2985c08d89",
+    "4b36c457099eafdcaa19d2cf6cd405b75b27f6ad",
+    "715ae102a5f17b57b7a3f89fd9d4fe3af0baddd9",
+    "66e4c6f7908d57330907270f2c2263db4218c8c4"
   ]
 }
