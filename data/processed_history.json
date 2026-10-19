@@ -374,7 +374,8 @@
       "https://seths.blog/2026/10/a-good-worker",
       "https://seths.blog/2026/10/purple-space-problem-solving",
       "https://seths.blog/2026/10/the-race-to-the-bottom-feels-inevitable",
-      "https://seths.blog/2026/10/anticipating-confusion"
+      "https://seths.blog/2026/10/anticipating-confusion",
+      "https://seths.blog/2026/10/two-commuting-hacks"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -979,7 +980,9 @@
       "https://nautil.us/meet-loki-the-sea-cucumber-one-of-57-newly-discovered-deep-sea-species-1285856",
       "https://nautil.us/a-stunning-nebula-image-predicts-how-our-sun-will-die-1285851",
       "https://nautil.us/americans-who-go-to-church-and-trust-science-are-also-more-likely-to-believe-in-ghosts-and-curses-1285880",
-      "https://nautil.us/can-we-ditch-bmi-for-an-obesity-index-that-predicts-disease-risk-better-1285877"
+      "https://nautil.us/can-we-ditch-bmi-for-an-obesity-index-that-predicts-disease-risk-better-1285877",
+      "https://nautil.us/watch-this-snake-cartwheel-away-from-danger-1285899",
+      "https://nautil.us/early-humans-in-america-endured-climate-chaos-1285885"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1350,7 +1353,10 @@
       "https://www.themarginalian.org/2026/10/17/benedetti-ruta",
       "https://www.themarginalian.org/2026/10/17/bloom-depression",
       "https://www.themarginalian.org/2026/10/17/t-h-white-once-and-future-king-merlyn",
-      "https://www.themarginalian.org/2026/10/15/new-hopes-for-a-changing-world-russell"
+      "https://www.themarginalian.org/2026/10/15/new-hopes-for-a-changing-world-russell",
+      "https://www.themarginalian.org/2026/10/19/anne-morrow-lindbergh-change",
+      "https://www.themarginalian.org/2026/10/18/refiguring",
+      "https://www.themarginalian.org/2026/10/18/iris-murdoch-unselfing"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1861,7 +1867,8 @@
       "https://www.experimental-history.com/p/actually-good-advice",
       "https://www.experimental-history.com/p/i-like-em-thick",
       "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness",
-      "https://www.experimental-history.com/p/the-strangest-idea-in-the-world"
+      "https://www.experimental-history.com/p/the-strangest-idea-in-the-world",
+      "https://www.experimental-history.com/p/claude-dont-touch-my-lump"
     ],
     "https://www.astralcodexten.com/feed": [
       "https://www.astralcodexten.com/p/being-john-rawls",
@@ -2156,7 +2163,8 @@
       "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012",
       "https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014",
       "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015",
-      "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016"
+      "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016",
+      "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2271,7 +2279,9 @@
       "https://www.overcomingbias.com/p/ai-pause-regs-look-risky",
       "https://www.overcomingbias.com/p/the-arc-of-moral-authority-from-tradition",
       "https://www.overcomingbias.com/p/modern-worries",
-      "https://www.overcomingbias.com/p/aliens-are-not-crazy-unlikely"
+      "https://www.overcomingbias.com/p/aliens-are-not-crazy-unlikely",
+      "https://www.overcomingbias.com/p/why-might-aliens-visit-earth",
+      "https://www.overcomingbias.com/p/prefer-evolved-to-folk-morality"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -4741,6 +4751,16 @@
     "ace95b1e59c9c9829d97d74305092dab9a7e93ef",
     "95d3db09cf1b9045792ebc8162428ff7a04c524f",
     "03decec1f3e75ba2226cbb6827f03e1ebd79a25d",
-    "e5b6e4b6af2bdc1637f4685287d10f4ad3ada975"
+    "e5b6e4b6af2bdc1637f4685287d10f4ad3ada975",
+    "a302a298c29052b5534d127bf283bdec85b212bc",
+    "9364a3b521f336fa59f23092f595d131338d7e42",
+    "561742039c011a712fd2edb6bfd4c01a8d7c3003",
+    "5ba54f2b739aa681486869ff11bd65a941f2719d",
+    "78a814a8c7fe8fb67b9ef652852b89d0f751f376",
+    "03e437e74c649ffde65f6a0859eba3105f90d34f",
+    "711884d2c637a3915839a40fab102ee258b10df2",
+    "b0a1dffdd03ae4d980d3c9ebb8d02b853ee7f473",
+    "602e81bc341f0775404a4e208396ab328c215899",
+    "aa1281d1d5079168e8ae8948f24b2b7f765bfe8a"
   ]
 }
