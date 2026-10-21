@@ -72,7 +72,8 @@
       "https://80000hours.org/podcast/episodes/katja-grace-vs-tom-davidson-ai-risk-debate",
       "https://80000hours.org/podcast/episodes/simon-goldstein-ai-legal-rights",
       "https://80000hours.org/podcast/episodes/ai-takeover-soon-oversight-monitorability",
-      "https://80000hours.org/2026/10/half-year-update-q1-q2-2026"
+      "https://80000hours.org/2026/10/half-year-update-q1-q2-2026",
+      "https://80000hours.org/videos/hugging-face"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -376,7 +377,8 @@
       "https://seths.blog/2026/10/the-race-to-the-bottom-feels-inevitable",
       "https://seths.blog/2026/10/anticipating-confusion",
       "https://seths.blog/2026/10/two-commuting-hacks",
-      "https://seths.blog/2026/10/thieves-cant-slang"
+      "https://seths.blog/2026/10/thieves-cant-slang",
+      "https://seths.blog/2026/10/toward-depth"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -989,7 +991,13 @@
       "https://nautil.us/it-feels-like-something-out-of-science-fiction-astronomers-find-first-green-star-1285927",
       "https://nautil.us/the-wildlife-photo-of-the-year-may-break-your-heart-1285913",
       "https://nautil.us/teen-girls-are-now-more-likely-to-vape-than-boys-1285910",
-      "https://nautil.us/how-our-brains-read-emotions-in-other-people-1285896"
+      "https://nautil.us/how-our-brains-read-emotions-in-other-people-1285896",
+      "https://nautil.us/primates-also-become-germophobes-after-living-through-a-viral-outbreak-1285973",
+      "https://nautil.us/are-our-hearts-strong-enough-to-get-to-mars-1285977",
+      "https://nautil.us/the-most-unsettling-books-we-know-1285958",
+      "https://nautil.us/how-hunger-can-trigger-alcohol-cravings-1285953",
+      "https://nautil.us/this-giant-waterlily-species-was-discovered-via-instagram-1285947",
+      "https://nautil.us/what-makes-life-beautiful-1285942"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1363,7 +1371,9 @@
       "https://www.themarginalian.org/2026/10/15/new-hopes-for-a-changing-world-russell",
       "https://www.themarginalian.org/2026/10/19/anne-morrow-lindbergh-change",
       "https://www.themarginalian.org/2026/10/18/refiguring",
-      "https://www.themarginalian.org/2026/10/18/iris-murdoch-unselfing"
+      "https://www.themarginalian.org/2026/10/18/iris-murdoch-unselfing",
+      "https://www.themarginalian.org/2026/10/21/corrective-for-a-broken-heart",
+      "https://www.themarginalian.org/2026/10/20/anais-nin-d-h-lawrence"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1996,7 +2006,8 @@
       "https://www.astralcodexten.com/p/ai-safety-is-not-a-corporate-plot",
       "https://www.astralcodexten.com/p/your-book-review-storm-of-steel",
       "https://www.astralcodexten.com/p/meetups-everywhere-2026-times-and",
-      "https://www.astralcodexten.com/p/open-thread-456"
+      "https://www.astralcodexten.com/p/open-thread-456",
+      "https://www.astralcodexten.com/p/against-against-handover"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -4781,6 +4792,17 @@
     "73f2ba9ea8ec4c0b41efa7119721975a8d7e4a2e",
     "2fb864a046201dfd04ab6d48d103177fc2779c14",
     "c8ca329221f25d8dd8ce0b7ec92dae0871b899c6",
-    "85c0c3a3474231606812379c8ee05d751c4e6502"
+    "85c0c3a3474231606812379c8ee05d751c4e6502",
+    "3e516fc58011890dc326f18040af525cac1381d6",
+    "98cfc2603803a86b58a613eda693ec564940a5f7",
+    "908f149626b6e47622779b399b081656bb45f468",
+    "15cf35e5cd94a22ea3d1f348957acdbfc415ac7b",
+    "61899308f2d6fd8471f9fb6f0ba3da977f85cdcd",
+    "7e52e887e061398a0d074032e0b82beceedd1ee3",
+    "6bf1b5ffa5252f3aac7b2efe100e42ecb320f7cd",
+    "228734807128af6017b1664a65e9ce62349c4140",
+    "4fe047e52b25590a16830b4b1eca37acfd4e44e9",
+    "9124aeced1b0c396b6b5271055f87628ae298489",
+    "a312b6b68e59fa72022bfd717784266c7dacf071"
   ]
 }
