@@ -73,7 +73,8 @@
       "https://80000hours.org/podcast/episodes/simon-goldstein-ai-legal-rights",
       "https://80000hours.org/podcast/episodes/ai-takeover-soon-oversight-monitorability",
       "https://80000hours.org/2026/10/half-year-update-q1-q2-2026",
-      "https://80000hours.org/videos/hugging-face"
+      "https://80000hours.org/videos/hugging-face",
+      "https://80000hours.org/podcast/episodes/ai-company-staff-reprioritise"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -378,7 +379,8 @@
       "https://seths.blog/2026/10/anticipating-confusion",
       "https://seths.blog/2026/10/two-commuting-hacks",
       "https://seths.blog/2026/10/thieves-cant-slang",
-      "https://seths.blog/2026/10/toward-depth"
+      "https://seths.blog/2026/10/toward-depth",
+      "https://seths.blog/2026/10/the-age-of-initiative"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -408,7 +410,8 @@
       "https://fs.blog/knowledge-project-podcast/tobi-lutke-3",
       "https://fs.blog/knowledge-project-podcast/bill-ackman-2",
       "https://fs.blog/knowledge-project-podcast/outliers-munger-combs",
-      "https://fs.blog/knowledge-project-podcast/ryan-serhant"
+      "https://fs.blog/knowledge-project-podcast/ryan-serhant",
+      "https://fs.blog/knowledge-project-podcast/steven-kotler"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -997,7 +1000,14 @@
       "https://nautil.us/the-most-unsettling-books-we-know-1285958",
       "https://nautil.us/how-hunger-can-trigger-alcohol-cravings-1285953",
       "https://nautil.us/this-giant-waterlily-species-was-discovered-via-instagram-1285947",
-      "https://nautil.us/what-makes-life-beautiful-1285942"
+      "https://nautil.us/what-makes-life-beautiful-1285942",
+      "https://nautil.us/the-surprising-origins-of-native-hawaiians-1286009",
+      "https://nautil.us/how-crocodiles-survived-the-asteroid-that-killed-the-dinosaurs-1286003",
+      "https://nautil.us/to-see-the-world-through-a-kaleidoscope-of-butterflies-1285994",
+      "https://nautil.us/drinking-tea-may-reduce-vascular-disease-risk-1286000",
+      "https://nautil.us/the-worlds-largest-penguin-colony-suffers-catastrophic-loss-1285989",
+      "https://nautil.us/be-nice-to-your-chatbot-1285986",
+      "https://nautil.us/63-years-ago-this-week-felicette-became-the-first-cat-in-space-1285981"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -4803,6 +4813,16 @@
     "228734807128af6017b1664a65e9ce62349c4140",
     "4fe047e52b25590a16830b4b1eca37acfd4e44e9",
     "9124aeced1b0c396b6b5271055f87628ae298489",
-    "a312b6b68e59fa72022bfd717784266c7dacf071"
+    "a312b6b68e59fa72022bfd717784266c7dacf071",
+    "e0d1ab3ef2d8dd86cd45e9756b1177991e21097f",
+    "879750df79c34a54cafd4a67a97bdc0f338cabc9",
+    "4c435512f4f4d32d9b87396f1ea2ec9cdbf28829",
+    "d2d736658ceb2d55f7b75d7cf02a2b4516c4c510",
+    "caf283ea100e8c52e971f39e9de3df0732680df8",
+    "cf1528d9d2f5e7dbd46888e09c7e89d048d445a3",
+    "04c59c9bb3f5df5da8d58e6ed3104cddc0bc4643",
+    "f580831a9b4bb04c8511cb40782d0af8cd170369",
+    "fda8aa12962945be185afd8fb1110f12929deb94",
+    "671ff98fc2b13c030d8fde7c6939e04d8cd112b7"
   ]
 }
