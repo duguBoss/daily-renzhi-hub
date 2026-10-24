@@ -74,7 +74,8 @@
       "https://80000hours.org/podcast/episodes/ai-takeover-soon-oversight-monitorability",
       "https://80000hours.org/2026/10/half-year-update-q1-q2-2026",
       "https://80000hours.org/videos/hugging-face",
-      "https://80000hours.org/podcast/episodes/ai-company-staff-reprioritise"
+      "https://80000hours.org/podcast/episodes/ai-company-staff-reprioritise",
+      "https://80000hours.org/podcast/episodes/tom-milton-verification-technology-ai-slowdown"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -382,7 +383,8 @@
       "https://seths.blog/2026/10/toward-depth",
       "https://seths.blog/2026/10/the-age-of-initiative",
       "https://seths.blog/2026/10/the-relentless-math-of-bandwagoning",
-      "https://seths.blog/2026/10/the-hotlist"
+      "https://seths.blog/2026/10/the-hotlist",
+      "https://seths.blog/2026/10/caveman-leadership-and-the-cdo"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1015,7 +1017,12 @@
       "https://nautil.us/lsd-may-speed-up-brain-activity-and-make-it-fractal-1286030",
       "https://nautil.us/we-now-know-what-denisovans-looked-like-1286027",
       "https://nautil.us/a-new-fossil-hints-at-the-surprising-origins-of-snakes-1286024",
-      "https://nautil.us/watch-humpback-whales-team-up-with-sea-lions-to-hunt-1286012"
+      "https://nautil.us/watch-humpback-whales-team-up-with-sea-lions-to-hunt-1286012",
+      "https://nautil.us/mother-bats-hearts-quicken-when-they-hear-babys-cries-1286069",
+      "https://nautil.us/ice-age-europeans-were-more-connected-than-we-thought-1286066",
+      "https://nautil.us/how-multiple-births-can-accelerate-a-mothers-biological-age-1286063",
+      "https://nautil.us/was-this-the-exact-date-of-van-goghs-starry-night-1286057",
+      "https://nautil.us/these-are-the-most-stunning-weather-photos-of-the-year-1286043"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1391,7 +1398,9 @@
       "https://www.themarginalian.org/2026/10/18/refiguring",
       "https://www.themarginalian.org/2026/10/18/iris-murdoch-unselfing",
       "https://www.themarginalian.org/2026/10/21/corrective-for-a-broken-heart",
-      "https://www.themarginalian.org/2026/10/20/anais-nin-d-h-lawrence"
+      "https://www.themarginalian.org/2026/10/20/anais-nin-d-h-lawrence",
+      "https://www.themarginalian.org/2026/10/23/when-things-fall-apart-pema-chodron",
+      "https://www.themarginalian.org/2026/10/22/bet"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -2027,7 +2036,8 @@
       "https://www.astralcodexten.com/p/open-thread-456",
       "https://www.astralcodexten.com/p/against-against-handover",
       "https://www.astralcodexten.com/p/san-francisco-meetup-this-saturday",
-      "https://www.astralcodexten.com/p/why-global-trepanation"
+      "https://www.astralcodexten.com/p/why-global-trepanation",
+      "https://www.astralcodexten.com/p/your-book-review-the-ghost-in-my"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2203,7 +2213,9 @@
       "https://www.quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014",
       "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015",
       "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016",
-      "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019"
+      "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019",
+      "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021",
+      "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4843,6 +4855,18 @@
     "44287c4f0196a7c69ee4049e05078ad2732af29d",
     "b2233d6247b435a2663e67a38d07aaf9c93deade",
     "0c54abfe79192f89a555049fee063b0a810fcd39",
-    "c1ce27cf1eb39bdb8c7c3b3052e31802e72ca18e"
+    "c1ce27cf1eb39bdb8c7c3b3052e31802e72ca18e",
+    "0ce1590f971b81cad50bcbec63ac71e8b63c1e67",
+    "e5c8cae2de268d8bdbf3ea076a57aa1cf5eec5c0",
+    "aed611eba04b624ab3ab5497182db4e86206d3ee",
+    "b8da2d10f5f2b60e22afd6ee9bc0b5591b930676",
+    "952ba832ac50057c4868ea0083a6a617a88be880",
+    "658505170fed2cda9c1ed479bc1116ceca5cdc9d",
+    "9acfcb462a2011c10ee807c01ff0f80ab6f1cad9",
+    "b68adddf38134250648528f5430d73d6d45691a0",
+    "306d902a94371047dd0c990a23fb300aa9abb6b2",
+    "94348d69cc48e94abcd96d50bd87ec4cc3e01575",
+    "b550311044ea2605e3319b096994e5e363f9b519",
+    "f27c2624e13d6b5899c7b838e4df9d9bac7f151d"
   ]
 }
