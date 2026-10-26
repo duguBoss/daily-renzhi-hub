@@ -75,7 +75,8 @@
       "https://80000hours.org/2026/10/half-year-update-q1-q2-2026",
       "https://80000hours.org/videos/hugging-face",
       "https://80000hours.org/podcast/episodes/ai-company-staff-reprioritise",
-      "https://80000hours.org/podcast/episodes/tom-milton-verification-technology-ai-slowdown"
+      "https://80000hours.org/podcast/episodes/tom-milton-verification-technology-ai-slowdown",
+      "https://80000hours.org/ai/guide/when-will-agi-arrive"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -385,7 +386,8 @@
       "https://seths.blog/2026/10/the-relentless-math-of-bandwagoning",
       "https://seths.blog/2026/10/the-hotlist",
       "https://seths.blog/2026/10/caveman-leadership-and-the-cdo",
-      "https://seths.blog/2026/10/hospitality-in-the-mirror"
+      "https://seths.blog/2026/10/hospitality-in-the-mirror",
+      "https://seths.blog/2026/10/is-our-attitude-up-to-us"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1023,7 +1025,9 @@
       "https://nautil.us/ice-age-europeans-were-more-connected-than-we-thought-1286066",
       "https://nautil.us/how-multiple-births-can-accelerate-a-mothers-biological-age-1286063",
       "https://nautil.us/was-this-the-exact-date-of-van-goghs-starry-night-1286057",
-      "https://nautil.us/these-are-the-most-stunning-weather-photos-of-the-year-1286043"
+      "https://nautil.us/these-are-the-most-stunning-weather-photos-of-the-year-1286043",
+      "https://nautil.us/the-bloody-palette-of-the-animal-kingdom-1286077",
+      "https://nautil.us/this-dark-spot-on-the-moon-might-be-a-giant-lunar-cave-1286072"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1405,7 +1409,11 @@
       "https://www.themarginalian.org/2026/10/22/le-guin-life",
       "https://www.themarginalian.org/2026/10/22/nathaniel-hawthorne-nature",
       "https://www.themarginalian.org/2026/10/22/museum-of-delight",
-      "https://www.themarginalian.org/2026/10/22/wood"
+      "https://www.themarginalian.org/2026/10/22/wood",
+      "https://www.themarginalian.org/2026/10/25/20-childrens-books",
+      "https://www.themarginalian.org/2026/10/25/dark-wood-margaret-wise-brown-ofra-amit",
+      "https://www.themarginalian.org/2026/10/24/20-books",
+      "https://www.themarginalian.org/2026/10/24/baloney-detection-kit-carl-sagan"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1522,7 +1530,8 @@
       "https://dynomight.net/betteridge",
       "https://dynomight.net/human-alignment",
       "https://dynomight.net/comment",
-      "https://dynomight.net/liver"
+      "https://dynomight.net/liver",
+      "https://dynomight.net/math"
     ],
     "https://ourworldindata.org/feed": [
       "https://ourworldindata.org/biofuel-land-solar-electric-vehicles",
@@ -2222,7 +2231,8 @@
       "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016",
       "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019",
       "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021",
-      "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023"
+      "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023",
+      "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -4887,6 +4897,16 @@
     "6b050a04abb5fb237ee3c96e6078abed07be3eb6",
     "bf18f1a0035a1d081f1ab01c183a64c5e00b0bac",
     "4f073b7c5fbeba5fd07f005fdc5f5729a64ee513",
-    "0dfd467170293953065520d59bd27980bbc0729e"
+    "0dfd467170293953065520d59bd27980bbc0729e",
+    "62ba34ae88404186bf4f534408419274a2d8eb88",
+    "8a44f740e89690e52feec2facaa1f578171633b3",
+    "1174e1cf867463ba47fba7faa12746e5fb843fc5",
+    "3eea9586a80618303cfea2077eb46ae5e9c3cbee",
+    "92db78f806070d1858db40b84aac0800cbd60555",
+    "b644e89506bd8b582eb04e9e1f4d110455c4253a",
+    "91cec5742af2fb5890a0d3b171a4f8fdcc039d8d",
+    "f6d7b123ec22c96891f17056957631ac7adb64b9",
+    "7d66bea0c38ff30312f3a44e8615d7a58cb22fff",
+    "c2f546477f936977c21b2cc3e143fc9d8b040484"
   ]
 }
