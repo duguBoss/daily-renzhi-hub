@@ -76,7 +76,8 @@
       "https://80000hours.org/videos/hugging-face",
       "https://80000hours.org/podcast/episodes/ai-company-staff-reprioritise",
       "https://80000hours.org/podcast/episodes/tom-milton-verification-technology-ai-slowdown",
-      "https://80000hours.org/ai/guide/when-will-agi-arrive"
+      "https://80000hours.org/ai/guide/when-will-agi-arrive",
+      "https://80000hours.org/2026/10/head-of-legal-general-counsel"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -114,7 +115,8 @@
       "https://blog.givewell.org/2026/08/31/givewells-2025-metrics-and-impact",
       "https://blog.givewell.org/2026/09/03/pressure-testing-our-research-as-givewell-grows",
       "https://blog.givewell.org/2026/09/30/september-2026-updates",
-      "https://blog.givewell.org/2026/10/01/behind-the-research-how-our-team-tackles-hard-questions"
+      "https://blog.givewell.org/2026/10/01/behind-the-research-how-our-team-tackles-hard-questions",
+      "https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -387,7 +389,8 @@
       "https://seths.blog/2026/10/the-hotlist",
       "https://seths.blog/2026/10/caveman-leadership-and-the-cdo",
       "https://seths.blog/2026/10/hospitality-in-the-mirror",
-      "https://seths.blog/2026/10/is-our-attitude-up-to-us"
+      "https://seths.blog/2026/10/is-our-attitude-up-to-us",
+      "https://seths.blog/2026/10/the-half-life-of-disappointment"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1027,7 +1030,13 @@
       "https://nautil.us/was-this-the-exact-date-of-van-goghs-starry-night-1286057",
       "https://nautil.us/these-are-the-most-stunning-weather-photos-of-the-year-1286043",
       "https://nautil.us/the-bloody-palette-of-the-animal-kingdom-1286077",
-      "https://nautil.us/this-dark-spot-on-the-moon-might-be-a-giant-lunar-cave-1286072"
+      "https://nautil.us/this-dark-spot-on-the-moon-might-be-a-giant-lunar-cave-1286072",
+      "https://nautil.us/when-texas-bat-cities-look-like-thunderstorms-1286109",
+      "https://nautil.us/take-a-look-at-the-countrys-newest-national-park-1286101",
+      "https://nautil.us/spike-thumbed-dino-discovered-in-the-united-kingdom-1286098",
+      "https://nautil.us/inside-the-mind-of-a-narcissist-1286095",
+      "https://nautil.us/why-your-boss-might-live-longer-than-you-1286092",
+      "https://nautil.us/how-we-control-what-accents-we-pick-up-1286085"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1413,7 +1422,8 @@
       "https://www.themarginalian.org/2026/10/25/20-childrens-books",
       "https://www.themarginalian.org/2026/10/25/dark-wood-margaret-wise-brown-ofra-amit",
       "https://www.themarginalian.org/2026/10/24/20-books",
-      "https://www.themarginalian.org/2026/10/24/baloney-detection-kit-carl-sagan"
+      "https://www.themarginalian.org/2026/10/24/baloney-detection-kit-carl-sagan",
+      "https://www.themarginalian.org/2026/10/27/marcus-aurelius-luck"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -2053,7 +2063,8 @@
       "https://www.astralcodexten.com/p/against-against-handover",
       "https://www.astralcodexten.com/p/san-francisco-meetup-this-saturday",
       "https://www.astralcodexten.com/p/why-global-trepanation",
-      "https://www.astralcodexten.com/p/your-book-review-the-ghost-in-my"
+      "https://www.astralcodexten.com/p/your-book-review-the-ghost-in-my",
+      "https://www.astralcodexten.com/p/open-thread-457"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -4907,6 +4918,17 @@
     "91cec5742af2fb5890a0d3b171a4f8fdcc039d8d",
     "f6d7b123ec22c96891f17056957631ac7adb64b9",
     "7d66bea0c38ff30312f3a44e8615d7a58cb22fff",
-    "c2f546477f936977c21b2cc3e143fc9d8b040484"
+    "c2f546477f936977c21b2cc3e143fc9d8b040484",
+    "428a95a80bc7bd6da45370b3964909bf66211e06",
+    "481a91f8cae3c22a3163702c0d945993e5805a4b",
+    "6ffcecd05740a3356adb0ce1d68376b652aa98f6",
+    "7f6521e8a41407c5e65fffda0ed549b948c219f0",
+    "582452d264941f718cf8cf453b8e48014a5f424c",
+    "443c7a58accc7e3ed89d91ff98027f4c481d398c",
+    "81355446392135be1e535895e55d49966aaecbe3",
+    "ea979b34170100c6a35a4ee8a1d0706f4462e50e",
+    "f47b63f3085ed806a534e05f77b6c2d9f632aca6",
+    "e165a72802f119e5966d79752cfb159bf2db7af3",
+    "4cf864e6d84bc8f248efa2ba9f817cd617e876a6"
   ]
 }
