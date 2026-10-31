@@ -118,7 +118,8 @@
       "https://blog.givewell.org/2026/09/03/pressure-testing-our-research-as-givewell-grows",
       "https://blog.givewell.org/2026/09/30/september-2026-updates",
       "https://blog.givewell.org/2026/10/01/behind-the-research-how-our-team-tackles-hard-questions",
-      "https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking"
+      "https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking",
+      "https://blog.givewell.org/2026/10/30/october-2026-updates"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -395,7 +396,8 @@
       "https://seths.blog/2026/10/the-half-life-of-disappointment",
       "https://seths.blog/2026/10/be-careful-what-you-wish-for-2",
       "https://seths.blog/2026/10/explaining-funny",
-      "https://seths.blog/2026/10/cooperation-the-fall-book-list"
+      "https://seths.blog/2026/10/cooperation-the-fall-book-list",
+      "https://seths.blog/2026/10/the-hallmark-dilemma"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1061,7 +1063,12 @@
       "https://nautil.us/ketamines-role-in-alleged-cornell-rape-highlights-flood-of-psychoactive-drugs-on-campus-1286212",
       "https://nautil.us/our-planets-lungs-are-suffering-1286196",
       "https://nautil.us/dear-human-poetry-might-save-us-from-the-apocalypse-1286192",
-      "https://nautil.us/men-who-eat-more-plant-based-protein-have-higher-testosterone-levels-1286187"
+      "https://nautil.us/men-who-eat-more-plant-based-protein-have-higher-testosterone-levels-1286187",
+      "https://nautil.us/zombie-bacteria-might-one-day-lurk-in-the-sewers-1286253",
+      "https://nautil.us/the-mystery-of-why-some-drugs-vanish-1286249",
+      "https://nautil.us/we-will-find-a-graviton-before-we-find-dark-matter-1286243",
+      "https://nautil.us/this-bizarre-jurassic-squid-swam-the-ancient-seas-of-wyoming-1286238",
+      "https://nautil.us/how-a-sick-chicken-revolutionized-cancer-research-1286219"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1449,7 +1456,9 @@
       "https://www.themarginalian.org/2026/10/24/20-books",
       "https://www.themarginalian.org/2026/10/24/baloney-detection-kit-carl-sagan",
       "https://www.themarginalian.org/2026/10/27/marcus-aurelius-luck",
-      "https://www.themarginalian.org/2026/10/29/when-your-parents-are-dying-mary-gaitskill"
+      "https://www.themarginalian.org/2026/10/29/when-your-parents-are-dying-mary-gaitskill",
+      "https://www.themarginalian.org/2026/10/31/richard-powers-music",
+      "https://www.themarginalian.org/2026/10/30/michael-pollan-witch-broomstick"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -2092,7 +2101,8 @@
       "https://www.astralcodexten.com/p/your-book-review-the-ghost-in-my",
       "https://www.astralcodexten.com/p/open-thread-457",
       "https://www.astralcodexten.com/p/my-california-ballot-2026",
-      "https://www.astralcodexten.com/p/links-for-october-2026"
+      "https://www.astralcodexten.com/p/links-for-october-2026",
+      "https://www.astralcodexten.com/p/your-book-review-the-history-and"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -4991,6 +5001,16 @@
     "db4db44c954940a7aba42523aad5f7a5a122326c",
     "8b94498416d42f39958ae1648d02b09937f10123",
     "e3c2b7e712d9b692477223cca9679206d5618691",
-    "80616ba0e1eea7843e92fbfcab136ca961c40a1c"
+    "80616ba0e1eea7843e92fbfcab136ca961c40a1c",
+    "6cd52faec5aedc090033cbb37fb569a5433bbde4",
+    "52eb0a2356ecb0357cd4e2c575447d2dfaf4c762",
+    "17b9e5b165f177773272b0cade41db29d76bac1d",
+    "370bd73b9833f799aad7bdf7c4aff19b476fbfcf",
+    "efe87a248598e2f78f825803bb7c46ba40bc45e8",
+    "42f50bfce3aebc77dd695cfd981585b1fcfd36df",
+    "9ca0be4f2cd76ebdaca28c934543602a26907a86",
+    "ce1550716521d4a4b8dda797c13e4cf654078009",
+    "c0cd70d12005edba8f7ca56e185773c008f4830d",
+    "f5822a54b4553206185a6df2f3285c0c424b3a38"
   ]
 }
