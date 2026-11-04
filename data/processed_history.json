@@ -80,7 +80,8 @@
       "https://80000hours.org/2026/10/head-of-legal-general-counsel",
       "https://80000hours.org/podcast/episodes/ai-slowdown-why-how",
       "https://80000hours.org/podcast/episodes/luke-muehlhauser-ai-safety-grantmaking-founding",
-      "https://80000hours.org/2026/11/our-cultural-values"
+      "https://80000hours.org/2026/11/our-cultural-values",
+      "https://80000hours.org/podcast/episodes/hold-frontier-ai-companies-accountable"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -401,7 +402,8 @@
       "https://seths.blog/2026/10/the-hallmark-dilemma",
       "https://seths.blog/2026/11/not-yet",
       "https://seths.blog/2026/11/trees-cant-run",
-      "https://seths.blog/2026/11/the-emotions-of-voting"
+      "https://seths.blog/2026/11/the-emotions-of-voting",
+      "https://seths.blog/2026/11/the-power-of-sync-2"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1081,7 +1083,14 @@
       "https://nautil.us/the-monstrous-raptors-that-threatened-our-ancestors-1286304",
       "https://nautil.us/bizarre-fruit-eating-hell-chicken-suggests-dinosaurs-played-a-role-in-flowering-plant-evolution-1286301",
       "https://nautil.us/a-collapsing-star-produced-an-afterglow-brighter-than-its-galaxy-1286280",
-      "https://nautil.us/listen-to-the-earliest-known-recordings-of-a-nearly-dead-american-language-1286289"
+      "https://nautil.us/listen-to-the-earliest-known-recordings-of-a-nearly-dead-american-language-1286289",
+      "https://nautil.us/the-original-x-men-1286311",
+      "https://nautil.us/nearly-3-million-eels-gather-at-an-underwater-mountain-but-what-for-1286333",
+      "https://nautil.us/plants-experience-optical-illusions-too-1286328",
+      "https://nautil.us/why-your-shrink-should-prescribe-exercise-1286325",
+      "https://nautil.us/could-one-brain-region-be-tied-to-feeling-sick-all-over-1286308",
+      "https://nautil.us/how-wishful-thinking-impacts-political-polarization-1286321",
+      "https://nautil.us/want-to-use-ai-to-improve-your-work-have-it-disagree-with-you-1286295"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -2312,7 +2321,8 @@
       "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029",
       "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030",
       "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028",
-      "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102"
+      "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102",
+      "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -5073,6 +5083,16 @@
     "c43679a14c1b5113baf49cfe8c5b4b9ca03ce6cb",
     "a12f8a932f7252efda52ab5a552430caeca0ab93",
     "5408b825a67726085e979f0b43db7b4f3f5bffc8",
-    "b863d641c6ec29ec2a1c87aa119b0162d4ef4c35"
+    "b863d641c6ec29ec2a1c87aa119b0162d4ef4c35",
+    "54fb3ddcc1943acb303cb11c139e3344f977ac78",
+    "064b5ab086f28a10fdd0ffdfa40529275d4769c9",
+    "d834afe522803917e5a71721130a65f7e54f3d98",
+    "70589e1c8cf82e11a60e53fb9cd9323baa15fae6",
+    "4059221a49e44a1a425fa88f8f87b44fad529198",
+    "e180666ed669da4786b7a9454e4139e431bf87cd",
+    "aa70e0aa89ebe5245a4d942bc86ea501c3ad429d",
+    "9385387d585e3312aeaafc18192353c80147a80b",
+    "677419ae17cbbb5fba41d15d4e73824a374007ad",
+    "a403c3db27ae5affd0ca412f51b0bddf9e6da009"
   ]
 }
