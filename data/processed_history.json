@@ -121,7 +121,8 @@
       "https://blog.givewell.org/2026/09/30/september-2026-updates",
       "https://blog.givewell.org/2026/10/01/behind-the-research-how-our-team-tackles-hard-questions",
       "https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking",
-      "https://blog.givewell.org/2026/10/30/october-2026-updates"
+      "https://blog.givewell.org/2026/10/30/october-2026-updates",
+      "https://blog.givewell.org/2026/11/05/bringing-routine-vaccines-closer-to-children-in-the-democratic-republic-of-the-congo-drc"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -405,7 +406,8 @@
       "https://seths.blog/2026/11/the-emotions-of-voting",
       "https://seths.blog/2026/11/the-power-of-sync-2",
       "https://seths.blog/2026/11/inconvenient-brands",
-      "https://seths.blog/2026/11/george-washingtons-error"
+      "https://seths.blog/2026/11/george-washingtons-error",
+      "https://seths.blog/2026/11/reviewing-the-game-tapes"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1100,7 +1102,13 @@
       "https://nautil.us/the-female-iron-age-queen-who-helped-bring-britain-to-its-knees-1286361",
       "https://nautil.us/archaeologists-unravel-an-88-year-old-murder-mystery-1286358",
       "https://nautil.us/what-happened-when-neuroscientists-started-a-mouse-fight-club-1286353",
-      "https://nautil.us/the-myth-of-mommy-brain-1286337"
+      "https://nautil.us/the-myth-of-mommy-brain-1286337",
+      "https://nautil.us/how-an-octopus-can-squeeze-into-a-beer-can-1286397",
+      "https://nautil.us/inside-king-tutankhamuns-tomb-104-years-after-its-discovery-1286390",
+      "https://nautil.us/ancient-dna-may-reveal-the-surprising-roots-of-english-and-other-germanic-languages-1286400",
+      "https://nautil.us/switching-to-this-healthier-version-of-salt-could-save-around-3-million-lives-a-year-1286385",
+      "https://nautil.us/the-evolutionary-arc-from-pigeon-brains-to-machine-consciousness-1286380",
+      "https://nautil.us/oldest-evidence-of-human-cannabis-use-has-a-ghoulish-twist-1286377"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -2148,7 +2156,8 @@
       "https://www.astralcodexten.com/p/my-california-ballot-2026",
       "https://www.astralcodexten.com/p/links-for-october-2026",
       "https://www.astralcodexten.com/p/your-book-review-the-history-and",
-      "https://www.astralcodexten.com/p/open-thread-458"
+      "https://www.astralcodexten.com/p/open-thread-458",
+      "https://www.astralcodexten.com/p/links-for-november-2026"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2332,7 +2341,8 @@
       "https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030",
       "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028",
       "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102",
-      "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104"
+      "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104",
+      "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -5113,6 +5123,16 @@
     "33a948e7a1e55a7af6de48f827eda9be1f4bf1c0",
     "95ccab31549fee5b728f56c1bc56bdc54ff1f6fb",
     "77bb97c63f1eec9be81f2159aff8555699a6b89f",
-    "aa3d52c8de79dec1b3eb220e77dcd8308e8613c1"
+    "aa3d52c8de79dec1b3eb220e77dcd8308e8613c1",
+    "e8561a2bcdba6deea95f17456feeb6bfb809e413",
+    "46ef3bff94955be0f9f40cbfc74d882d9ee7cb43",
+    "31d52d008c5aceddb0e968c317f7321a0b288624",
+    "8d4ec99378eeb35c1f4b65573d6e51800fa84cbb",
+    "b2c70aaa04a7cd44fa684f1cb101a65f53d74c4e",
+    "4301ff9dac4b72995c1b4cc8d95399e24af596cc",
+    "5b35dbdc950c08b85eba32a5eecc11c328acb528",
+    "d751adadd4c6f93f54a047e8725a13f071a52db5",
+    "0f2b740250370708cfcc9366b157a9444bb94f48",
+    "e0d25440d558dc94827cb6338ec728b101c43e21"
   ]
 }
