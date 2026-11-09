@@ -409,7 +409,8 @@
       "https://seths.blog/2026/11/george-washingtons-error",
       "https://seths.blog/2026/11/reviewing-the-game-tapes",
       "https://seths.blog/2026/11/start",
-      "https://seths.blog/2026/11/ambiguity-or-clarity"
+      "https://seths.blog/2026/11/ambiguity-or-clarity",
+      "https://seths.blog/2026/11/restrictive-design"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1116,7 +1117,10 @@
       "https://nautil.us/could-a-fiber-supplement-help-chronic-knee-pain-1286434",
       "https://nautil.us/we-attribute-personalities-to-chatbots-even-when-we-know-better-1286429",
       "https://nautil.us/astonishing-find-fossilized-dinosaur-blood-in-a-115-million-year-old-specimen-1286412",
-      "https://nautil.us/a-neuropsychologist-explains-the-importance-of-exercise-in-fighting-dementia-1286369"
+      "https://nautil.us/a-neuropsychologist-explains-the-importance-of-exercise-in-fighting-dementia-1286369",
+      "https://nautil.us/a-new-species-emerges-from-a-9-5-million-year-old-whale-carcass-1286464",
+      "https://nautil.us/medium-roast-cream-no-plastic-new-coffee-cup-coating-protects-against-microplastics-1286452",
+      "https://nautil.us/essential-reading-in-an-era-of-ai-doomsaying-1286439"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1521,7 +1525,9 @@
       "https://www.themarginalian.org/2026/11/07/rockwell-kent-wilderness-wanderlust",
       "https://www.themarginalian.org/2026/11/07/albert-camus-writing",
       "https://www.themarginalian.org/2026/11/05/umberto-eco-antilibrary",
-      "https://www.themarginalian.org/2026/11/04/hemingway-loss-letter"
+      "https://www.themarginalian.org/2026/11/04/hemingway-loss-letter",
+      "https://www.themarginalian.org/2026/11/09/carl-sagan-jonathan-cott-rolling-stone-interview",
+      "https://www.themarginalian.org/2026/11/08/wendell-berry-loved-ones"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1646,7 +1652,8 @@
       "https://dynomight.net/comment",
       "https://dynomight.net/liver",
       "https://dynomight.net/math",
-      "https://dynomight.net/shorts-8"
+      "https://dynomight.net/shorts-8",
+      "https://dynomight.net/android"
     ],
     "https://ourworldindata.org/feed": [
       "https://ourworldindata.org/biofuel-land-solar-electric-vehicles",
@@ -2251,7 +2258,8 @@
       "https://www.lesswrong.com/posts/iQzxxgJXXaAQjq7Jz/faq-isn-t-agi-coming-too-soon-for-reprogenetics-to-help",
       "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais",
       "https://www.lesswrong.com/posts/pYFBD2SnqiWkuNns5/explaining-knightianism-on-one-foot",
-      "https://www.lesswrong.com/posts/bGoo3NWzMAzsLQceJ/drone-wmds-don-t-need-any-new-technology"
+      "https://www.lesswrong.com/posts/bGoo3NWzMAzsLQceJ/drone-wmds-don-t-need-any-new-technology",
+      "https://www.lesswrong.com/posts/9PiLfo6iQbbDWFHv7/some-memories-of-early-anthropic"
     ],
     "https://www.quantamagazine.org/feed/": [
       "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320",
@@ -2361,7 +2369,8 @@
       "https://www.quantamagazine.org/how-spiders-spin-silk-dope-into-natures-toughest-material-20261028",
       "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102",
       "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104",
-      "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106"
+      "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106",
+      "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -2488,7 +2497,8 @@
       "https://www.overcomingbias.com/p/could-polymaths-settle-most-disputes",
       "https://www.overcomingbias.com/p/uap-disclosure-wouldnt-crash-society",
       "https://www.overcomingbias.com/p/prestigious-detail",
-      "https://www.overcomingbias.com/p/skinner-stewart-wilson-on-deliberate"
+      "https://www.overcomingbias.com/p/skinner-stewart-wilson-on-deliberate",
+      "https://www.overcomingbias.com/p/how-low-dimensional-is-intelligence"
     ],
     "https://www.technologyreview.com/feed/": [
       "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors",
@@ -5175,6 +5185,16 @@
     "7edd6c6130c15e863cfef41316d534317ef8e91d",
     "94783758a18a1341c05715b80dd65d02a83d36e3",
     "cbdaebb6c09f530f49f34da171655a90c2d86cef",
-    "84f2f81ae6dce203dd6071486652d69209c4e911"
+    "84f2f81ae6dce203dd6071486652d69209c4e911",
+    "e710f62a3c12ec3bbdbf06d128ab92320510a47b",
+    "d9a360616e5bcb9d6622022b43049d9ab81b708a",
+    "889bd15732705f29605f7b9588792de83a519a4a",
+    "23ef99e349affdcc32595a3f679726f84c864863",
+    "7677f4920bb38042a9eb0f03e8a1213bec742866",
+    "8d91c8bb22960cd13a3f9e3e759236ec8f34598a",
+    "2882ce7e5285d4848595f6da7e47c4f42c806962",
+    "1b8da1d15cbd66c9d4c549cee910b2091e19cf64",
+    "7bdd5e8d1ee407612c45ef2eb4ff62026f939c3c",
+    "dfba3a501fd6f01d01580aed9444fe411797f8a6"
   ]
 }
