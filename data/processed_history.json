@@ -81,7 +81,8 @@
       "https://80000hours.org/podcast/episodes/ai-slowdown-why-how",
       "https://80000hours.org/podcast/episodes/luke-muehlhauser-ai-safety-grantmaking-founding",
       "https://80000hours.org/2026/11/our-cultural-values",
-      "https://80000hours.org/podcast/episodes/hold-frontier-ai-companies-accountable"
+      "https://80000hours.org/podcast/episodes/hold-frontier-ai-companies-accountable",
+      "https://80000hours.org/podcast/episodes/china-ai-race-chips-slowdown"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -412,7 +413,8 @@
       "https://seths.blog/2026/11/ambiguity-or-clarity",
       "https://seths.blog/2026/11/restrictive-design",
       "https://seths.blog/2026/11/in-search-of-a-bargain",
-      "https://seths.blog/2026/11/bad-employees-bad-bosses"
+      "https://seths.blog/2026/11/bad-employees-bad-bosses",
+      "https://seths.blog/2026/11/the-creep-fades"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1128,7 +1130,14 @@
       "https://nautil.us/a-look-back-at-the-most-breathtaking-photos-of-saturn-from-voyager-1-1286483",
       "https://nautil.us/how-a-bedroom-air-filter-could-keep-your-blood-sugar-in-check-1286480",
       "https://nautil.us/do-we-think-in-pictures-words-or-code-1286476",
-      "https://nautil.us/common-food-additive-linked-to-lower-risk-of-cognitive-impairment-1286473"
+      "https://nautil.us/common-food-additive-linked-to-lower-risk-of-cognitive-impairment-1286473",
+      "https://nautil.us/the-temperamental-nature-of-alligator-gender-reveal-parties-1286547",
+      "https://nautil.us/this-150-million-year-old-bird-had-a-body-built-for-the-land-1286543",
+      "https://nautil.us/lean-muscle-mass-isnt-a-cure-all-for-metabolic-health-1286540",
+      "https://nautil.us/famous-fossil-could-be-rosetta-stone-for-hidden-hominin-diversity-1286535",
+      "https://nautil.us/researchers-can-tell-how-lonely-you-are-by-your-instagram-activity-1286523",
+      "https://nautil.us/descendants-of-chornobyls-pets-run-wild-1286508",
+      "https://nautil.us/the-difference-between-nice-and-kind-1286505"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -2192,7 +2201,8 @@
       "https://www.astralcodexten.com/p/open-thread-458",
       "https://www.astralcodexten.com/p/links-for-november-2026",
       "https://www.astralcodexten.com/p/your-book-review-orality-and-literacy",
-      "https://www.astralcodexten.com/p/open-thread-459"
+      "https://www.astralcodexten.com/p/open-thread-459",
+      "https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2380,7 +2390,8 @@
       "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104",
       "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106",
       "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109",
-      "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110"
+      "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110",
+      "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -5215,6 +5226,17 @@
     "926625a8c50dfe1f1bea985dd14980f285b293f0",
     "c11620a66b72f0847dc804f6e335fb3e77728b16",
     "f422ec8dfee3a260bfab2b29e9d0247b95d7e973",
-    "ce486b1920317b575bace1b2c1ff77fd73d802b0"
+    "ce486b1920317b575bace1b2c1ff77fd73d802b0",
+    "a9a64085ece6ad3850ae0eaa9693655071d6acc2",
+    "c35fed6308262717414fb74d822f1430e3b79830",
+    "ddcf8acf86653f6756a6d8ade500c649455c610e",
+    "a8b014e80a714a2946647e953956355302c2b859",
+    "7b3ac17802614e01aa4435ee655f7c040848d002",
+    "f1cec7375f0ba9d810aa09f2ae14c3abf5c92cdc",
+    "dc5682d9089a17ab4ccdcfafa2ba1f5858e5c932",
+    "834b097bd37248593cd4e00f5c42c0d9b4d81131",
+    "507ab61eff96498980b87ff0bd0a170cf5455505",
+    "bf8534954083bde5d6ad2f8d0c6c71abcf191da4",
+    "45d21307c2b7d3e921de8cffc5ecaa11ba489954"
   ]
 }
