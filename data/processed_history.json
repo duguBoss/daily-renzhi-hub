@@ -82,7 +82,8 @@
       "https://80000hours.org/podcast/episodes/luke-muehlhauser-ai-safety-grantmaking-founding",
       "https://80000hours.org/2026/11/our-cultural-values",
       "https://80000hours.org/podcast/episodes/hold-frontier-ai-companies-accountable",
-      "https://80000hours.org/podcast/episodes/china-ai-race-chips-slowdown"
+      "https://80000hours.org/podcast/episodes/china-ai-race-chips-slowdown",
+      "https://80000hours.org/podcast/episodes/metr-anthropic-recursive-self-improvement-rsi"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -123,7 +124,8 @@
       "https://blog.givewell.org/2026/10/01/behind-the-research-how-our-team-tackles-hard-questions",
       "https://blog.givewell.org/2026/10/26/further-scaling-our-malaria-grantmaking",
       "https://blog.givewell.org/2026/10/30/october-2026-updates",
-      "https://blog.givewell.org/2026/11/05/bringing-routine-vaccines-closer-to-children-in-the-democratic-republic-of-the-congo-drc"
+      "https://blog.givewell.org/2026/11/05/bringing-routine-vaccines-closer-to-children-in-the-democratic-republic-of-the-congo-drc",
+      "https://blog.givewell.org/2026/11/12/help-us-respond-to-enormous-global-needs-why-were-recommending-the-all-grants-fund"
     ],
     "https://waitbutwhy.com/feed": [
       "https://waitbutwhy.com/2025/11/bhutan.html",
@@ -415,7 +417,9 @@
       "https://seths.blog/2026/11/in-search-of-a-bargain",
       "https://seths.blog/2026/11/bad-employees-bad-bosses",
       "https://seths.blog/2026/11/the-creep-fades",
-      "https://seths.blog/2026/11/learning-from-rejection"
+      "https://seths.blog/2026/11/learning-from-rejection",
+      "https://seths.blog/2026/11/ten-minutes-a-day",
+      "https://seths.blog/2026/11/shoppurple"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1144,7 +1148,12 @@
       "https://nautil.us/whats-all-that-coffee-doing-to-your-gut-1286572",
       "https://nautil.us/the-four-forces-that-shape-collective-memory-1286569",
       "https://nautil.us/the-what-and-when-of-longevity-dieting-1286564",
-      "https://nautil.us/heres-why-its-so-hard-to-boost-a-satellite-1286550"
+      "https://nautil.us/heres-why-its-so-hard-to-boost-a-satellite-1286550",
+      "https://nautil.us/watch-norways-lice-zapping-robots-protect-salmon-farms-1286604",
+      "https://nautil.us/trail-cameras-show-coyotes-using-the-worlds-largest-wildlife-crossing-1286599",
+      "https://nautil.us/you-may-be-able-to-get-43-more-minutes-of-work-done-if-you-change-your-desk-1286594",
+      "https://nautil.us/the-shapes-and-colors-of-a-near-death-experience-1286591",
+      "https://nautil.us/was-einstein-seduced-by-a-russian-honeypot-operation-1286587"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -2211,7 +2220,8 @@
       "https://www.astralcodexten.com/p/links-for-november-2026",
       "https://www.astralcodexten.com/p/your-book-review-orality-and-literacy",
       "https://www.astralcodexten.com/p/open-thread-459",
-      "https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap"
+      "https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap",
+      "https://www.astralcodexten.com/p/ai-company-employees-should-unionize"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -5259,6 +5269,16 @@
     "8605c14191d8fafffac54e35c2ff46207b19ec46",
     "64a717836b0860881af488924d8f942055ff8bc0",
     "91866292207592f3bb6bc4e5ad881c9cba4c77ca",
-    "38a607f4ff4378d25310c9d03653f8e6c953eeb7"
+    "38a607f4ff4378d25310c9d03653f8e6c953eeb7",
+    "9a6ae9445e570933daba288c09a02f5c79cb536f",
+    "7e0a076cc1e05d58d76e87906e842844e69576d2",
+    "e5da20bb3f8f37f042615950e17abc1c0d8858de",
+    "b1ef6480a1450d9add96ed65aabf48eec93096f0",
+    "88c40ebdfcd4e8086b2e587e195dd022c438f60f",
+    "0f9d1c886bb91174ab84c36d253625b995374d4b",
+    "0c7f74627b7f67fe60383df2cd818e65c4f2a2a0",
+    "b850ea7acf3b1dfbcc8b1e3e62e64e534252a093",
+    "03f4096b9d87a459f47f87e8dde791f3ff97f471",
+    "b710c44f89d82a9969c6cc0dc14f24128281be69"
   ]
 }
