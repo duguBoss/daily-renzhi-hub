@@ -83,7 +83,8 @@
       "https://80000hours.org/2026/11/our-cultural-values",
       "https://80000hours.org/podcast/episodes/hold-frontier-ai-companies-accountable",
       "https://80000hours.org/podcast/episodes/china-ai-race-chips-slowdown",
-      "https://80000hours.org/podcast/episodes/metr-anthropic-recursive-self-improvement-rsi"
+      "https://80000hours.org/podcast/episodes/metr-anthropic-recursive-self-improvement-rsi",
+      "https://80000hours.org/podcast/episodes/congress-ai-policy-after-midterms"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -419,7 +420,8 @@
       "https://seths.blog/2026/11/the-creep-fades",
       "https://seths.blog/2026/11/learning-from-rejection",
       "https://seths.blog/2026/11/ten-minutes-a-day",
-      "https://seths.blog/2026/11/shoppurple"
+      "https://seths.blog/2026/11/shoppurple",
+      "https://seths.blog/2026/11/have-your-ai-call-my-ai"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1153,7 +1155,14 @@
       "https://nautil.us/trail-cameras-show-coyotes-using-the-worlds-largest-wildlife-crossing-1286599",
       "https://nautil.us/you-may-be-able-to-get-43-more-minutes-of-work-done-if-you-change-your-desk-1286594",
       "https://nautil.us/the-shapes-and-colors-of-a-near-death-experience-1286591",
-      "https://nautil.us/was-einstein-seduced-by-a-russian-honeypot-operation-1286587"
+      "https://nautil.us/was-einstein-seduced-by-a-russian-honeypot-operation-1286587",
+      "https://nautil.us/giant-fruit-eating-bats-are-shrinking-1286637",
+      "https://nautil.us/a-chemical-fingerprint-in-ancient-rocks-suggests-plate-tectonics-began-2-5-billion-years-ago-1286624",
+      "https://nautil.us/the-worlds-largest-marine-turtle-makes-a-move-south-1286621",
+      "https://nautil.us/why-sleep-might-not-be-as-restorative-as-we-get-older-1286631",
+      "https://nautil.us/what-public-health-initiatives-looked-like-in-the-middle-ages-1286618",
+      "https://nautil.us/when-envy-is-a-virtue-1286615",
+      "https://nautil.us/some-antidepressants-may-work-better-than-others-long-term-1286607"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -2221,7 +2230,8 @@
       "https://www.astralcodexten.com/p/your-book-review-orality-and-literacy",
       "https://www.astralcodexten.com/p/open-thread-459",
       "https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap",
-      "https://www.astralcodexten.com/p/ai-company-employees-should-unionize"
+      "https://www.astralcodexten.com/p/ai-company-employees-should-unionize",
+      "https://www.astralcodexten.com/p/vote-in-the-2026-book-review-contest"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -5279,6 +5289,16 @@
     "0c7f74627b7f67fe60383df2cd818e65c4f2a2a0",
     "b850ea7acf3b1dfbcc8b1e3e62e64e534252a093",
     "03f4096b9d87a459f47f87e8dde791f3ff97f471",
-    "b710c44f89d82a9969c6cc0dc14f24128281be69"
+    "b710c44f89d82a9969c6cc0dc14f24128281be69",
+    "9f557ac757847abcd049a748b71a2489a8dadc8e",
+    "f8a7ca7fe7878521f5947a834126256100a85392",
+    "4d32fad03d8531d85a5329f2ad4b2b9640c7c5a5",
+    "1c40fbcc079b36e0af79a6f4525f27dc80259edb",
+    "05bd199f3ad21fa2178e8319aa5437153f8178cd",
+    "cc1c028c4d4fef07dfa93416b8e3d4b3d3a76e1d",
+    "a28978e1cc58a23f26601e7bb61a37a1937ac5e9",
+    "5fdc7f2e6a3f85417ae67d8fcabed9f2b0a3475b",
+    "92d8e14822a06b64fb9040259d366d41bfc58b7a",
+    "f742eddab8fe2798c70e7b335c42d246f028f158"
   ]
 }
