@@ -421,7 +421,8 @@
       "https://seths.blog/2026/11/learning-from-rejection",
       "https://seths.blog/2026/11/ten-minutes-a-day",
       "https://seths.blog/2026/11/shoppurple",
-      "https://seths.blog/2026/11/have-your-ai-call-my-ai"
+      "https://seths.blog/2026/11/have-your-ai-call-my-ai",
+      "https://seths.blog/2026/11/confusion-about-causation"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1162,7 +1163,9 @@
       "https://nautil.us/why-sleep-might-not-be-as-restorative-as-we-get-older-1286631",
       "https://nautil.us/what-public-health-initiatives-looked-like-in-the-middle-ages-1286618",
       "https://nautil.us/when-envy-is-a-virtue-1286615",
-      "https://nautil.us/some-antidepressants-may-work-better-than-others-long-term-1286607"
+      "https://nautil.us/some-antidepressants-may-work-better-than-others-long-term-1286607",
+      "https://nautil.us/a-dead-star-is-flashing-radio-waves-every-8-minutes-1286645",
+      "https://nautil.us/how-wealth-inequality-emerged-in-this-prehistoric-culture-1286642"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1571,7 +1574,12 @@
       "https://www.themarginalian.org/2026/11/09/carl-sagan-jonathan-cott-rolling-stone-interview",
       "https://www.themarginalian.org/2026/11/08/wendell-berry-loved-ones",
       "https://www.themarginalian.org/2026/11/10/neruda-time",
-      "https://www.themarginalian.org/2026/11/09/pando"
+      "https://www.themarginalian.org/2026/11/09/pando",
+      "https://www.themarginalian.org/2026/11/14/susan-orlean-orchid-thief",
+      "https://www.themarginalian.org/2026/11/13/jane-welsh-carlyle-love",
+      "https://www.themarginalian.org/2026/11/12/song-of-the-cedars",
+      "https://www.themarginalian.org/2026/11/12/wayfinding-m-r-oconnor",
+      "https://www.themarginalian.org/2026/11/11/diane-ackerman-the-planets"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -1670,7 +1678,8 @@
       "https://www.noemamag.com/turbulent-times-call-for-experimental-law",
       "https://www.noemamag.com/democrats-should-not-revert-to-the-status-quo-ante",
       "https://www.noemamag.com/building-the-new-equilibrium-economy",
-      "https://www.noemamag.com/in-praise-of-japans-failure-to-keep-up"
+      "https://www.noemamag.com/in-praise-of-japans-failure-to-keep-up",
+      "https://www.noemamag.com/serbias-experiment-combining-democracy-meritocracy"
     ],
     "https://dynomight.net/feed.xml": [
       "https://dynomight.net/chicken",
@@ -2422,7 +2431,8 @@
       "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110",
       "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111",
       "https://www.quantamagazine.org/a-new-era-for-the-dawn-of-life-20261112",
-      "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112"
+      "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112",
+      "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -5299,6 +5309,16 @@
     "a28978e1cc58a23f26601e7bb61a37a1937ac5e9",
     "5fdc7f2e6a3f85417ae67d8fcabed9f2b0a3475b",
     "92d8e14822a06b64fb9040259d366d41bfc58b7a",
-    "f742eddab8fe2798c70e7b335c42d246f028f158"
+    "f742eddab8fe2798c70e7b335c42d246f028f158",
+    "b3e0f19119a6215146ccfd215854014a6f6e9865",
+    "a8994b1b4f252fafae92598c00e2949813e049cd",
+    "cf1c0e29e0ce68a1878c7e23ede5c562d827bc5d",
+    "4b980dcadc5bea9070278ef572f021c16b809e39",
+    "12fc80a6e5953c28beb5f67d8194e1b301516f05",
+    "ac911f24f3853348256d9213989545d12bc56d93",
+    "c7a06d5826b6d64c8e8a5d65e5180469b2f87d82",
+    "67a33efdf6a3afe44635fb2bbb92a18ca6b68f2a",
+    "f88c0d437b10ce063c9093cf41155e493d7229f6",
+    "ccbb3524f27658104b986fb90928a20b6c467b0c"
   ]
 }
