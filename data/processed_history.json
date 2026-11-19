@@ -84,7 +84,9 @@
       "https://80000hours.org/podcast/episodes/hold-frontier-ai-companies-accountable",
       "https://80000hours.org/podcast/episodes/china-ai-race-chips-slowdown",
       "https://80000hours.org/podcast/episodes/metr-anthropic-recursive-self-improvement-rsi",
-      "https://80000hours.org/podcast/episodes/congress-ai-policy-after-midterms"
+      "https://80000hours.org/podcast/episodes/congress-ai-policy-after-midterms",
+      "https://80000hours.org/podcast/episodes/julian-gewirtz-china-us-ai-deal",
+      "https://80000hours.org/career-reviews/national-security"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -425,7 +427,8 @@
       "https://seths.blog/2026/11/confusion-about-causation",
       "https://seths.blog/2026/11/practical-empathy",
       "https://seths.blog/2026/11/selling-to-friends",
-      "https://seths.blog/2026/11/one-swell-foop-2"
+      "https://seths.blog/2026/11/one-swell-foop-2",
+      "https://seths.blog/2026/11/dancing-with-the-trophy-shortage"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -458,7 +461,8 @@
       "https://fs.blog/knowledge-project-podcast/ryan-serhant",
       "https://fs.blog/knowledge-project-podcast/steven-kotler",
       "https://fs.blog/knowledge-project-podcast/outliers-kc-irving",
-      "https://fs.blog/knowledge-project-podcast/jon-mcneill"
+      "https://fs.blog/knowledge-project-podcast/jon-mcneill",
+      "https://fs.blog/knowledge-project-podcast/bing-gordon"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -1185,7 +1189,13 @@
       "https://nautil.us/this-one-in-a-million-fish-has-a-rare-genetic-condition-that-turns-it-yellow-1286754",
       "https://nautil.us/what-goes-on-in-our-brains-when-we-see-an-ai-face-1286763",
       "https://nautil.us/prehistoric-humans-may-have-hunted-hippos-with-poisoned-spears-1286751",
-      "https://nautil.us/woodcocks-and-snipes-the-quintessential-odd-birds-1286746"
+      "https://nautil.us/woodcocks-and-snipes-the-quintessential-odd-birds-1286746",
+      "https://nautil.us/science-after-super-intelligence-1286807",
+      "https://nautil.us/the-everlasting-life-of-maxwells-demon-1286802",
+      "https://nautil.us/for-the-first-time-this-dazzling-san-francisco-snake-is-being-released-into-the-wild-1286828",
+      "https://nautil.us/can-gta-v-help-scientists-model-climate-change-in-l-a-1286788",
+      "https://nautil.us/homo-erectus-adopted-a-jungle-lifestyle-200000-years-ago-1286783",
+      "https://nautil.us/the-speech-patterns-of-psychoses-1286780"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -5379,6 +5389,16 @@
     "ad5dae56c1e2cd18bbdcac8b9d86d880a0226cd2",
     "dc885c4f4b078f6b4c91d394b50dbcf31d2f10ee",
     "02fe29149c45cbb0e9f4edbe24dbb358850757b4",
-    "c5879a47cebca33ccbac799927f4ff3b2ad56091"
+    "c5879a47cebca33ccbac799927f4ff3b2ad56091",
+    "2d486984aafc94ca011f9b4f533f275672b729df",
+    "2edc69289f6134d327c8533fe1a87b7a311ae584",
+    "999abfec0941a72461a6b8279c0a2604dc189ed7",
+    "eee4f6bfcbffa55ba70af34b2cc6a83cb3001a75",
+    "422a46304c9ef1ee85bfacfb05e79d894b79c2ac",
+    "da55696044162d8dc1939d69dad0de711b4965aa",
+    "e71aa25f81101e15dbea5b1bdee40e0c1ede598a",
+    "95330fce049b174067a0e804229191e3aaefcab6",
+    "4701803b6350d45c29c06397474943b6b0040e48",
+    "7fae53dba45681230da8909a82a754307a309d1d"
   ]
 }
