@@ -86,7 +86,8 @@
       "https://80000hours.org/podcast/episodes/metr-anthropic-recursive-self-improvement-rsi",
       "https://80000hours.org/podcast/episodes/congress-ai-policy-after-midterms",
       "https://80000hours.org/podcast/episodes/julian-gewirtz-china-us-ai-deal",
-      "https://80000hours.org/career-reviews/national-security"
+      "https://80000hours.org/career-reviews/national-security",
+      "https://80000hours.org/articles/earning-to-give"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -434,7 +435,9 @@
       "https://seths.blog/2026/11/earning-enrollment",
       "https://seths.blog/2026/11/emergent-properties",
       "https://seths.blog/2026/11/the-two-sided-power-of-subscription",
-      "https://seths.blog/2026/11/your-best-work-2"
+      "https://seths.blog/2026/11/your-best-work-2",
+      "https://seths.blog/2026/11/an-odd-competition",
+      "https://seths.blog/2026/11/different-rules-for-the-boss"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1223,7 +1226,14 @@
       "https://nautil.us/the-fire-inside-me-1286910",
       "https://nautil.us/is-the-privatization-of-space-sustainable-1286928",
       "https://nautil.us/new-species-of-flying-frog-discovered-in-indonesia-1286962",
-      "https://nautil.us/you-likely-have-genes-that-affect-how-well-your-medications-work-testing-for-them-could-improve-treatment-1286903"
+      "https://nautil.us/you-likely-have-genes-that-affect-how-well-your-medications-work-testing-for-them-could-improve-treatment-1286903",
+      "https://nautil.us/the-small-but-mighty-brains-of-bumblebees-1287067",
+      "https://nautil.us/this-clever-marketing-tactic-works-on-rats-too-1287070",
+      "https://nautil.us/how-heat-made-life-1287012",
+      "https://nautil.us/when-stars-collide-astronomers-have-spotted-a-first-of-its-kind-stellar-merger-1287081",
+      "https://nautil.us/earths-water-may-have-formed-in-this-fiery-furnace-1287019",
+      "https://nautil.us/even-tiny-bits-of-exercise-may-help-regulate-blood-sugar-1287062",
+      "https://nautil.us/no-pumbaa-needed-meerkats-are-great-solo-navigators-1286989"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -5459,6 +5469,16 @@
     "7b6ac36956aa348c7dcfa0adc7ba2bf9180a80ef",
     "1ebf303fb2d38f43d8bc32818c42585b92191afd",
     "7885aaf9cbde0f4cc0ab4ec9d75d8db6ed7b893c",
-    "b139c2255bb5cda22f97c4cf9979733fa5362fc4"
+    "b139c2255bb5cda22f97c4cf9979733fa5362fc4",
+    "daef15a87dbc0f48603891f6038dbaca78a40d72",
+    "bbe6b3bf1c126d04aabebc8d7d7efd21c7e76d39",
+    "6664aa633bde496a8cfc768dce664381eb931334",
+    "2552806a180db797c9ee6594cf2d51383241b9a7",
+    "a84cf81b6503d4065e08a8083e8a85ac2964569f",
+    "b309e85d4f8235aefed8920cefd4234a4b22fbee",
+    "ff1dc8baa66c7b49e4b107715db4c17b02c5facf",
+    "d6684215cd4a078445f2120d05fe7cc15138563c",
+    "d97c840a7bd78978c359c64ab1f3744d7f7b036a",
+    "64f9c9fd4212293a319126f83bdcbb9d8f27205f"
   ]
 }
