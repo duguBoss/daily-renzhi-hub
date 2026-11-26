@@ -87,7 +87,8 @@
       "https://80000hours.org/podcast/episodes/congress-ai-policy-after-midterms",
       "https://80000hours.org/podcast/episodes/julian-gewirtz-china-us-ai-deal",
       "https://80000hours.org/career-reviews/national-security",
-      "https://80000hours.org/articles/earning-to-give"
+      "https://80000hours.org/articles/earning-to-give",
+      "https://80000hours.org/podcast/episodes/paul-christiano-hinton-lectures"
     ],
     "https://blog.givewell.org/feed/": [
       "https://blog.givewell.org/2026/02/19/podcast-episode-24-testing-new-strategies-to-increase-vaccination-coverage",
@@ -437,7 +438,9 @@
       "https://seths.blog/2026/11/the-two-sided-power-of-subscription",
       "https://seths.blog/2026/11/your-best-work-2",
       "https://seths.blog/2026/11/an-odd-competition",
-      "https://seths.blog/2026/11/different-rules-for-the-boss"
+      "https://seths.blog/2026/11/different-rules-for-the-boss",
+      "https://seths.blog/2026/11/thats-on-me",
+      "https://seths.blog/2026/11/up-to-us"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -471,7 +474,8 @@
       "https://fs.blog/knowledge-project-podcast/steven-kotler",
       "https://fs.blog/knowledge-project-podcast/outliers-kc-irving",
       "https://fs.blog/knowledge-project-podcast/jon-mcneill",
-      "https://fs.blog/knowledge-project-podcast/bing-gordon"
+      "https://fs.blog/knowledge-project-podcast/bing-gordon",
+      "https://fs.blog/knowledge-project-podcast/outliers-david-ogilvy"
     ],
     "https://nautil.us/feed": [
       "https://nautil.us/baby-boomers-are-a-transition-generation-in-our-longevity-crisis-1278749",
@@ -1233,7 +1237,13 @@
       "https://nautil.us/when-stars-collide-astronomers-have-spotted-a-first-of-its-kind-stellar-merger-1287081",
       "https://nautil.us/earths-water-may-have-formed-in-this-fiery-furnace-1287019",
       "https://nautil.us/even-tiny-bits-of-exercise-may-help-regulate-blood-sugar-1287062",
-      "https://nautil.us/no-pumbaa-needed-meerkats-are-great-solo-navigators-1286989"
+      "https://nautil.us/no-pumbaa-needed-meerkats-are-great-solo-navigators-1286989",
+      "https://nautil.us/the-enormous-rodents-of-prehistoric-thailand-1287085",
+      "https://nautil.us/the-rise-of-the-fire-creatures-1287034",
+      "https://nautil.us/archaeologists-just-dug-up-an-unused-completely-pristine-6000-year-old-axe-head-1287102",
+      "https://nautil.us/the-scientist-who-wants-to-save-cranberries-1287118",
+      "https://nautil.us/can-personality-traits-predict-who-stays-single-1287078",
+      "https://nautil.us/this-newly-discovered-whale-species-had-a-lopsided-skull-1287074"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -5479,6 +5489,16 @@
     "ff1dc8baa66c7b49e4b107715db4c17b02c5facf",
     "d6684215cd4a078445f2120d05fe7cc15138563c",
     "d97c840a7bd78978c359c64ab1f3744d7f7b036a",
-    "64f9c9fd4212293a319126f83bdcbb9d8f27205f"
+    "64f9c9fd4212293a319126f83bdcbb9d8f27205f",
+    "b4ab9ece76415be24a3da5fd8f623a4a1c4a0e03",
+    "cdafd427b7b2819b22e874043a3f9d946ce77304",
+    "950f41babbddb2b0d78beb95263f638a424afec7",
+    "0cdff6a5532539983bbed823bf85a3e3196ce6e2",
+    "6dac0a288e7c102a779706fda8c7cdd2bc76a8e4",
+    "93b314de5c5d4403a8de1106b22c926852505ea5",
+    "36bd3939bc6dffd2b3e4a2e62422de5c1f83fc43",
+    "8b64dafdc2f457d73552a1c4ce0009f097293a2c",
+    "24457ba09c62ba89a81e65efe0f9ec29ca21eb12",
+    "6144cddb69e1b76a099a5b358e5cb811ec5f46c9"
   ]
 }
