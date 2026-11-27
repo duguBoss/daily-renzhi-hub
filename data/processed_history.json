@@ -440,7 +440,8 @@
       "https://seths.blog/2026/11/an-odd-competition",
       "https://seths.blog/2026/11/different-rules-for-the-boss",
       "https://seths.blog/2026/11/thats-on-me",
-      "https://seths.blog/2026/11/up-to-us"
+      "https://seths.blog/2026/11/up-to-us",
+      "https://seths.blog/2026/11/draft-your-own-team"
     ],
     "https://fs.blog/feed/": [
       "https://fs.blog/knowledge-project-podcast/outliers-jw-marriott",
@@ -1243,7 +1244,11 @@
       "https://nautil.us/archaeologists-just-dug-up-an-unused-completely-pristine-6000-year-old-axe-head-1287102",
       "https://nautil.us/the-scientist-who-wants-to-save-cranberries-1287118",
       "https://nautil.us/can-personality-traits-predict-who-stays-single-1287078",
-      "https://nautil.us/this-newly-discovered-whale-species-had-a-lopsided-skull-1287074"
+      "https://nautil.us/this-newly-discovered-whale-species-had-a-lopsided-skull-1287074",
+      "https://nautil.us/how-city-crows-and-country-crows-see-the-world-differently-1287089",
+      "https://nautil.us/check-out-this-newly-discovered-proto-amphibian-species-that-lived-309-million-years-ago-1287093",
+      "https://nautil.us/the-art-that-asks-how-did-we-let-this-happen-1287040",
+      "https://nautil.us/how-nuclear-bomb-testing-led-to-the-discovery-of-a-100-year-old-fish-1287009"
     ],
     "https://nav.al/rss": [
       "https://nav.al/in-the-arena",
@@ -1662,7 +1667,8 @@
       "https://www.themarginalian.org/2026/11/15/wendell-berry-sabbath",
       "https://www.themarginalian.org/2026/11/14/thich-nhat-hanh-fear-love",
       "https://www.themarginalian.org/2026/11/16/j-r-r-tolkien-on-fairy-stories",
-      "https://www.themarginalian.org/2026/11/15/atom-and-archetype-pauli-jung"
+      "https://www.themarginalian.org/2026/11/15/atom-and-archetype-pauli-jung",
+      "https://www.themarginalian.org/2026/11/26/nabokov-on-what-makes-a-good-reader"
     ],
     "https://www.noemamag.com/feed/": [
       "https://www.noemamag.com/after-the-ai-revolution",
@@ -2328,7 +2334,9 @@
       "https://www.astralcodexten.com/p/open-thread-460",
       "https://www.astralcodexten.com/p/varieties-of-discourseposting",
       "https://www.astralcodexten.com/p/the-ai-forecasting-agenda",
-      "https://www.astralcodexten.com/p/suggest-questions-for-the-2027-acxmetaculus"
+      "https://www.astralcodexten.com/p/suggest-questions-for-the-2027-acxmetaculus",
+      "https://www.astralcodexten.com/p/open-thread-461",
+      "https://www.astralcodexten.com/p/anima-bicameral"
     ],
     "https://www.scottaaronson.com/blog/?feed=rss2": [
       "https://scottaaronson.blog/?p=9615",
@@ -2522,7 +2530,10 @@
       "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112",
       "https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112",
       "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116",
-      "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118"
+      "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118",
+      "https://www.quantamagazine.org/novel-experiments-expand-the-hunt-for-ultralight-dark-matter-20261125",
+      "https://www.quantamagazine.org/the-incredible-elegant-dna-repair-system-makes-gene-editing-work-20261123",
+      "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120"
     ],
     "https://www.worksinprogress.news/feed": [
       "https://www.worksinprogress.news/p/sunscreen-for-the-planet-by-daniele",
@@ -5499,6 +5510,17 @@
     "36bd3939bc6dffd2b3e4a2e62422de5c1f83fc43",
     "8b64dafdc2f457d73552a1c4ce0009f097293a2c",
     "24457ba09c62ba89a81e65efe0f9ec29ca21eb12",
-    "6144cddb69e1b76a099a5b358e5cb811ec5f46c9"
+    "6144cddb69e1b76a099a5b358e5cb811ec5f46c9",
+    "1bc77252fc34d296a16d738dffbdee7c034a451c",
+    "4dd7c732ac31a9d8f99b274cbe2e53479beec737",
+    "312206a1c09b9a7866f19670908acbbe04be6371",
+    "2701a95837462dfb715fa388ff068ee578eb6a2c",
+    "6345943b247cca3ad76b34bdd59bbb0df6b97126",
+    "e8eacc6a99687856def6e7302356269aa0daf8f2",
+    "51bf34177971837ad789a2ac7e55838de0a5cf28",
+    "1c2274efbc6c42ed79d2c57ebc840cf170ac84cc",
+    "9ff373eb1ce10aaf71007018e0118b29b1bec5e7",
+    "0b6aea93bd7be7a84eebf7cca29ef779d033a933",
+    "53b050a675c29c01832b2f1382a74ddacc5f1c9d"
   ]
 }
